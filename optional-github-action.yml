@@ -1,0 +1,41 @@
+# Opt-in auto-build + deploy. To enable: grant the gh `workflow` scope, then
+#   mkdir -p .github/workflows && mv optional-github-action.yml .github/workflows/deploy.yml
+# and set Settings -> Pages -> Source = GitHub Actions.
+name: Build and deploy wiki
+on:
+  push: { branches: [main] }
+  workflow_dispatch:
+permissions: { contents: read, pages: write, id-token: write }
+concurrency: { group: pages, cancel-in-progress: true }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Validate agents_final.json
+        run: |
+          python - <<'PY'
+          import json
+          d = json.load(open('agents_final.json'))
+          assert isinstance(d, list) and d
+          bad = [m.get('name','?') for m in d if not all(k in m for k in ('name','category','domain'))]
+          assert not bad, f"records missing required fields: {bad[:10]}"
+          print(len(d), "records validated OK")
+          PY
+      - name: Build site
+        run: |
+          mkdir -p _site
+          python build_html.py agents_final.json _site/index.html
+          python build_md.py
+          cp autonomous_stem_agents_wiki.html autonomous_stem_agents_wiki.md agents_final.json _site/ 2>/dev/null || true
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.deployment.outputs.page_url }}" }
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

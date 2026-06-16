@@ -1,0 +1,46 @@
+name: "Add / fix an agent"
+description: "Dump an autonomous science agent / self-driving lab / benchmark to add (or a correction)."
+title: "[agent] <name>"
+labels: ["add-agent"]
+body:
+  - type: input
+    id: name
+    attributes: { label: System name }
+    validations: { required: true }
+  - type: dropdown
+    id: category
+    attributes:
+      label: Domain
+      options: [crossdomain, biology, chemistry, physics, benchmark]
+    validations: { required: true }
+  - type: input
+    id: domain
+    attributes: { label: Short area/domain, placeholder: "e.g. single-cell RNA-seq analysis" }
+  - type: dropdown
+    id: autonomy
+    attributes:
+      label: Autonomy level
+      options: ["A1 assistant", "A2 tool agent", "A3 workflow agent", "A4 in-silico scientist", "A5 lab/physical scientist", "B benchmark/harness"]
+  - type: dropdown
+    id: access
+    attributes:
+      label: Access
+      options: [open-source, open-data, platform, lab-gated, paper-only, list]
+  - type: input
+    id: inputs
+    attributes: { label: Inputs (what goes in) }
+  - type: input
+    id: outputs
+    attributes: { label: Outputs (what comes out) }
+  - type: input
+    id: paper
+    attributes: { label: Paper URL (must resolve) }
+  - type: input
+    id: repo
+    attributes: { label: Repo / platform URL }
+  - type: input
+    id: notes
+    attributes: { label: One-line description }
+  - type: markdown
+    attributes:
+      value: "An agent verifies the paper/repo resolve (and the paper isn't withdrawn) before adding to `agents_final.json`; the site rebuilds on merge."

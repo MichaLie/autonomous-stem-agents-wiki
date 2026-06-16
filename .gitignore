@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+_site/
+.DS_Store
+.claude/launch.json
+.claude/settings.local.json
+/index.html
+
+# local-only audit provenance
+agents_existing.json
+wf_result.json
+wf_verify_new.json
+wf_raw.txt
+_fresh_candidates.json
+_test.html
