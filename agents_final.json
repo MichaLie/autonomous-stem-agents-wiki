@@ -4799,19 +4799,27 @@
    {
     "label": "arXiv",
     "url": "https://arxiv.org/abs/2407.10362"
+   },
+   {
+    "label": "arXiv (LAB-Bench2)",
+    "url": "https://arxiv.org/abs/2604.09554"
    }
   ],
   "repo_links": [
    {
     "label": "Hugging Face",
     "url": "https://huggingface.co/datasets/futurehouse/lab-bench"
+   },
+   {
+    "label": "GitHub (labbench2)",
+    "url": "https://github.com/EdisonScientific/labbench2"
    }
   ],
   "access": "open-data",
   "inputs": "Practical biology-research questions (literature, figures, database navigation, sequences)",
   "outputs": "Multiple-choice accuracy across biology-research capability tasks",
   "autonomy": "B",
-  "notes": "FutureHouse benchmark of 2,400+ biology research questions; public HF subset.",
+  "notes": "FutureHouse benchmark of 2,400+ biology research questions (public HF subset); LAB-Bench2 (2026) expands to ~1,900 authentic, non-multiple-choice biology research tasks.",
   "new": false
  },
  {
@@ -6891,5 +6899,519 @@
    }
   ],
   "new": true
+ },
+ {
+  "name": "OmniScientist",
+  "category": "crossdomain",
+  "domain": "Full-cycle autonomous scientific research",
+  "access": "open-source",
+  "autonomy": "A3-A4",
+  "inputs": "Research topics, literature corpora, experimental data, hypotheses",
+  "outputs": "Literature reviews, hypotheses, experimental plans, manuscripts, peer-review feedback",
+  "notes": "OmniScientist encodes the full human research lifecycle into a co-evolving multi-agent ecosystem, introducing the OSP collaboration protocol and ScienceArena benchmark to coordinate and evaluate agents across data, literature, hypothesis, experiment, writing, and review stages.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2511.16931"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/tsinghua-fib-lab/OmniScientist"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "SafeScientist",
+  "category": "crossdomain",
+  "domain": "Safe autonomous AI scientist across scientific domains",
+  "access": "open-source",
+  "autonomy": "A3-A4",
+  "inputs": "Research task specifications, scientific hypotheses, tool-use requests",
+  "outputs": "Research outputs with safety monitoring reports, ethical review decisions, flagged high-risk actions",
+  "notes": "Introduces SciSafetyBench, a benchmark of 240 high-risk scientific tasks across 6 domains, and integrates four safety mechanisms (prompt, agent-collaboration, tool-use monitoring, and ethical reviewer) into the full AI research pipeline.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2505.23559"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/ulab-uiuc/SafeScientist"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "SCP (Science Context Protocol)",
+  "category": "crossdomain",
+  "domain": "Federated autonomous scientific agent infrastructure",
+  "access": "open-source",
+  "autonomy": "A3-A4",
+  "inputs": "Scientific resource descriptions, experiment requests, tool/model/dataset/instrument specifications",
+  "outputs": "Standardized API calls to scientific resources, experiment lifecycle management, federated agent coordination",
+  "notes": "SCP defines a universal open standard and federated Hub-and-Server architecture that enables autonomous scientific agents to discover, describe, and invoke heterogeneous scientific resources (tools, models, datasets, instruments) across a global web of participating servers.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2512.24189"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/InternScience/scp"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "SAGA (Scientific Autonomous Goal-evolving Agent)",
+  "category": "crossdomain",
+  "domain": "Autonomous multi-domain scientific optimization",
+  "access": "open-source",
+  "autonomy": "A4",
+  "inputs": "Scientific optimization task description, domain-specific data (molecular sequences, material properties, etc.)",
+  "outputs": "Evolved objective functions and optimized solutions (antibiotics, nanobodies, DNA sequences, materials, chemical compounds)",
+  "notes": "SAGA employs a bi-level loop where an outer LLM layer autonomously proposes and refines objective functions while an inner loop optimizes solutions under those objectives, demonstrated across five scientific domains.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2512.21782"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/btyu/SAGA"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "ASI-Evolve",
+  "category": "crossdomain",
+  "domain": "Autonomous AI-for-AI research and algorithm discovery",
+  "access": "open-source",
+  "autonomy": "A4",
+  "inputs": "Research objectives, existing codebases, experimental results, and a cognition base of prior knowledge",
+  "outputs": "Novel neural architectures, data curation pipelines, and RL algorithms that outperform human-designed baselines",
+  "notes": "ASI-Evolve implements a learn-design-experiment-analyze loop with a dedicated analyzer and cognition base, enabling autonomous discovery across neural architecture search, data curation, and reinforcement learning algorithm design.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2603.29640"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/GAIR-NLP/ASI-Evolve"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "CORAL",
+  "category": "crossdomain",
+  "domain": "Autonomous multi-agent open-ended problem solving",
+  "access": "open-source",
+  "autonomy": "A4",
+  "inputs": "Open-ended problem specifications, shared persistent memory, agent task queues",
+  "outputs": "Evolved solutions, collaborative reasoning traces, performance improvement metrics",
+  "notes": "CORAL replaces fixed heuristics with long-running agents that explore, reflect, and collaborate through shared persistent memory and asynchronous execution, achieving 3-10x improvement rates over evolutionary baselines across open-ended tasks.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2604.01658"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/Human-Agent-Society/CORAL"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "PaperOrchestra",
+  "category": "crossdomain",
+  "domain": "Autonomous scientific manuscript writing",
+  "access": "open-source",
+  "autonomy": "A3",
+  "inputs": "Pre-writing materials (idea summaries, experimental logs, results)",
+  "outputs": "Submission-ready LaTeX manuscripts with literature synthesis and generated figures",
+  "notes": "Evaluated on PaperWritingBench across 200 top-tier AI conference papers, providing a structured benchmark for automated scientific writing.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2604.05018"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/google-research/paper-orchestra"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "CASSIA",
+  "category": "biology",
+  "domain": "Automated single-cell RNA-seq cell-type annotation",
+  "access": "open-source",
+  "autonomy": "A3",
+  "inputs": "scRNA-seq marker gene lists per cluster",
+  "outputs": "Cell-type annotations with confidence scores, validation reports, and formatted annotation summaries",
+  "notes": "CASSIA coordinates five LLM agents for reference-free cell-type annotation of scRNA-seq data, producing interpretable outputs with quality scores and natural-language reports across diverse tissues and species.",
+  "paper_links": [
+   {
+    "label": "Nature",
+    "url": "https://www.nature.com/articles/s41467-025-67084-x"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/ElliotXie/CASSIA"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "MIRA",
+  "category": "biology",
+  "domain": "Autonomous clinical diagnosis and treatment planning",
+  "access": "paper-only",
+  "autonomy": "A3-A4",
+  "inputs": "Patient EHR data, clinical history, diagnostic test orders and results",
+  "outputs": "Differential diagnoses, ordered tests, treatment plans",
+  "notes": "Published in Nature, MIRA outperformed physicians in diagnostic accuracy operating autonomously within a sandboxed EHR environment.",
+  "paper_links": [
+   {
+    "label": "Nature",
+    "url": "https://www.nature.com/articles/s41586-026-10675-5"
+   }
+  ],
+  "repo_links": [],
+  "new": false
+ },
+ {
+  "name": "A-Lab GPSS",
+  "category": "chemistry",
+  "domain": "Autonomous solid-state inorganic materials synthesis",
+  "access": "open-source",
+  "autonomy": "A5",
+  "inputs": "Synthesis targets, experimental parameters, and prior campaign results fed to an LLM reasoning agent controlling a glovebox robotic platform",
+  "outputs": "Synthesized air-sensitive solid-state materials, characterization data, and iteratively updated synthesis plans",
+  "notes": "Demonstrated autonomous discovery of lithium halide spinel ionic conductors across 352 synthesis campaigns using a self-driving glovebox robotic laboratory with integrated LLM-based experimental planning.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2604.11957"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/CederGroupHub/alab_gpss_public"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "Rainbow",
+  "category": "chemistry",
+  "domain": "Autonomous metal halide perovskite quantum dot synthesis",
+  "access": "open-data",
+  "autonomy": "A5",
+  "inputs": "Synthesis parameters (precursor ratios, temperatures, reaction conditions) and real-time spectroscopic measurements from parallelized batch reactors",
+  "outputs": "Optimized perovskite quantum dot nanocrystals with target optical properties; ML-updated experimental protocols",
+  "notes": "Rainbow demonstrated closed-loop autonomous optimization of metal halide perovskite quantum dots across multiple robotic synthesis stations with real-time spectroscopic feedback, published in Nature Communications 2025.",
+  "paper_links": [
+   {
+    "label": "Nature",
+    "url": "https://www.nature.com/articles/s41467-025-63209-4"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "Zenodo",
+    "url": "https://doi.org/10.5281/zenodo.15866667"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "MATTERIX",
+  "category": "chemistry",
+  "domain": "Robotics-assisted chemistry laboratory automation simulation",
+  "access": "open-source",
+  "autonomy": "A3",
+  "inputs": "Robotic lab workflow specifications, material properties, reaction parameters",
+  "outputs": "Multiscale simulations of robotic manipulation, powder/liquid dynamics, heat transfer, and reaction kinetics",
+  "notes": "A multiscale GPU-accelerated digital twin framework enabling virtual development and validation of robotics-assisted chemistry workflows before physical deployment.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2601.13232"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/AccelerationConsortium/Matterix"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "MADA",
+  "category": "physics",
+  "domain": "Autonomous inertial confinement fusion capsule design",
+  "access": "lab-gated",
+  "autonomy": "A3-A4",
+  "inputs": "Fusion capsule design parameters, simulation code outputs (MARBL), ML surrogate model predictions",
+  "outputs": "Optimized ICF capsule designs, multiphysics simulation results, design recommendations",
+  "notes": "Developed at LLNL under NNSA Tri-Lab collaboration, MADA couples LLM reasoning with high-order multiphysics codes and ML surrogates on exascale supercomputers (El Capitan, Tuolumne) to autonomously explore and optimize inertial confinement fusion capsule designs.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2510.17830"
+   }
+  ],
+  "repo_links": [],
+  "new": false
+ },
+ {
+  "name": "AI CFD Scientist",
+  "category": "physics",
+  "domain": "Autonomous computational fluid dynamics discovery",
+  "access": "open-source",
+  "autonomy": "A4",
+  "inputs": "Scientific literature, CFD problem specifications, OpenFOAM source code",
+  "outputs": "Validated CFD simulation results, modified OpenFOAM source, autonomous manuscript",
+  "notes": "An end-to-end CFD research agent from RPI that chains literature-grounded ideation, hypothesis generation, OpenFOAM execution, vision-based physics verification, and autonomous manuscript writing in a single inspectable workflow.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2605.06607"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/csml-rpi/cfd-scientist"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "MetaChat",
+  "category": "physics",
+  "domain": "Autonomous photonics and metasurface design",
+  "access": "open-source",
+  "autonomy": "A3-A4",
+  "inputs": "Semantic natural-language design goals for photonic metasurfaces",
+  "outputs": "Optimized freeform metasurface layouts with simulated performance metrics",
+  "notes": "MetaChat uses a multi-agent Agentic Iterative Monologue paradigm with Maxwell surrogate solvers to autonomously design metalenses and beam deflectors at expert-level performance, demonstrated at Stanford on the Jon Fan lab's photonics platform.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2503.20479"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/jonfanlab/metachat"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "EXP-Bench",
+  "category": "benchmark",
+  "domain": "Autonomous AI research experimentation",
+  "access": "open-source",
+  "autonomy": "B",
+  "inputs": "Research question and incomplete starter code from AI papers",
+  "outputs": "Hypothesis, experiment design, implementation, execution results, and analysis",
+  "notes": "Covers 461 tasks derived from 51 top-tier AI papers, evaluating agents across the full experimental lifecycle from hypothesis formulation through result analysis.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2505.24785"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/Just-Curieous/Curie/tree/main/benchmark/exp_bench"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "MLR-Bench",
+  "category": "benchmark",
+  "domain": "Autonomous machine-learning research",
+  "access": "open-source",
+  "autonomy": "B",
+  "inputs": "ML research tasks drawn from NeurIPS/ICLR/ICML workshop papers; agent-generated ideas, proposals, experiment code, and paper drafts",
+  "outputs": "Automated evaluation scores across four research stages via MLR-Judge",
+  "notes": "A 201-task benchmark spanning four stages of the ML research lifecycle - idea generation, proposal formulation, experimentation, and paper writing - evaluated by an automated MLR-Judge grader.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2505.19955"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/chchenhui/mlrbench"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "AutoResearchBench",
+  "category": "benchmark",
+  "domain": "Scientific literature discovery and retrieval",
+  "access": "open-source",
+  "autonomy": "B",
+  "inputs": "arXiv paper corpus (3M+ papers), natural language research queries specifying target papers or criteria",
+  "outputs": "Benchmark scores for Deep Research (locating specific papers) and Wide Research (comprehensively gathering matching papers) tasks",
+  "notes": "A 1,000-instance benchmark spanning over 3 million arXiv papers that evaluates AI agents on two complementary scientific literature discovery modes: targeted retrieval of specific papers and comprehensive collection of papers matching given criteria.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2604.25256"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/CherYou/AutoResearchBench"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "MLS-Bench",
+  "category": "benchmark",
+  "domain": "Machine learning methods invention and generalization",
+  "access": "open-source",
+  "autonomy": "B",
+  "inputs": "ML task specifications across 12 domains, baseline implementations, and target components to improve",
+  "outputs": "Agent performance scores on 140 tasks measuring ability to invent generalizable and scalable ML methods",
+  "notes": "MLS-Bench evaluates AI systems across 140 tasks in 12 ML domains on whether they can invent genuinely new methods that generalize beyond the training context, rather than merely applying known techniques.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2605.08678"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/Imbernoulli/MLS-Bench"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "ABC-Bench",
+  "category": "benchmark",
+  "domain": "Agentic biosecurity capabilities evaluation",
+  "access": "paper-only",
+  "autonomy": "B",
+  "inputs": "LLM agent prompted with biosecurity-relevant tasks (liquid-handling robot code generation, DNA fragment design, synthesis screening evasion)",
+  "outputs": "Task completion scores validated against wet-lab experimental outcomes",
+  "notes": "ICML 2026 benchmark evaluating LLM agents on agentic biological capabilities relevant to biosecurity, covering robotic protocol generation, in vitro DNA assembly design, and synthesis screening evasion, with wet-lab validation.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2606.11150"
+   }
+  ],
+  "repo_links": [],
+  "new": false
+ },
+ {
+  "name": "ResearchCodeBench",
+  "category": "benchmark",
+  "domain": "Machine learning research implementation in code",
+  "access": "open-source",
+  "autonomy": "B",
+  "inputs": "ML research papers (2024-2025), LLM-generated code implementations",
+  "outputs": "Pass/fail scores on 212 executable coding challenges derived from novel research contributions",
+  "notes": "Benchmarks 30+ LLMs on implementing novel ML research contributions in executable code, with best models achieving under 40% accuracy across 212 challenges from top 2024-2025 papers.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2506.02314"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/PatrickHua/ResearchCodeBench"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "HypoBench",
+  "category": "benchmark",
+  "domain": "LLM-based hypothesis generation evaluation",
+  "access": "open-data",
+  "autonomy": "B",
+  "inputs": "LLM-generated hypotheses across 194 datasets spanning 7 real-world and 5 synthetic scientific tasks",
+  "outputs": "Scores for discovery rate, generalizability, and practical utility of hypothesis generation systems",
+  "notes": "Covers 194 datasets across 12 tasks to evaluate hypothesis generation systems on discovery rate, generalizability, and practical utility.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2504.11524"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://chicagohai.github.io/HypoBench/"
+   }
+  ],
+  "new": false
+ },
+ {
+  "name": "PostTrainBench",
+  "category": "benchmark",
+  "domain": "Autonomous LLM post-training (data curation, fine-tuning, RLHF)",
+  "access": "open-source",
+  "autonomy": "B",
+  "inputs": "Base LLM, compute budget (10 h on H100), target benchmark (e.g. AIME, HumanEval)",
+  "outputs": "Post-training pipeline performance scores on target benchmarks",
+  "notes": "Evaluates whether frontier AI agents can autonomously execute the full post-training workflow - data curation, fine-tuning, and RLHF - within a fixed compute budget and without predefined strategies.",
+  "paper_links": [
+   {
+    "label": "arXiv",
+    "url": "https://arxiv.org/abs/2603.08640"
+   }
+  ],
+  "repo_links": [
+   {
+    "label": "GitHub",
+    "url": "https://github.com/aisa-group/PostTrainBench"
+   }
+  ],
+  "new": false
  }
 ]

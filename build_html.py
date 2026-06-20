@@ -158,8 +158,8 @@ tr.lead .nm{color:var(--muted);font-weight:600}
 .b-mod{color:var(--muted);background:var(--chip);font-weight:600}
 .au{font-size:11px;padding:2px 8px;border-radius:6px;font-weight:700;color:#fff;white-space:nowrap}
 .au-A1{background:var(--a1)}.au-A2{background:var(--a2)}.au-A3{background:var(--a3)}.au-A4{background:var(--a4)}.au-A5{background:var(--a5)}.au-B{background:var(--bb)}
-td.io{max-width:340px}td.io .t{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted)}
-td.dom{max-width:200px}td.dom .t{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+td.io{max-width:420px}td.io .t{display:block;white-space:normal;overflow-wrap:anywhere;color:var(--muted)}
+td.dom{max-width:240px}td.dom .t{display:block;white-space:normal;overflow-wrap:anywhere}
 td.lnk a{font-size:14px;margin-right:5px}
 tr.detailrow td{background:var(--detail);padding:0 8px 14px 30px}
 .detail .kv{font-size:12.5px;margin:3px 0}.detail .kv b{color:var(--muted);font-weight:600}
