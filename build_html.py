@@ -206,7 +206,7 @@ body{background:linear-gradient(180deg,#f4f2f8 0,#fff 340px);font:13.5px/1.52 "S
 header.top{position:relative;align-items:center;gap:24px;padding:23px 25px 22px 28px;border:1px solid #e0dce9;border-left:4px solid #7868b8;border-radius:12px;background:rgba(255,255,255,.88);box-shadow:0 8px 28px rgba(58,45,91,.045)}
 header.top::before{content:"Autonomous research systems index";display:block;position:absolute;top:15px;left:28px;color:#6756a5;font-size:9.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
 .htext{padding-top:15px}h1{margin:0 0 7px;color:#26223a;font-size:25px;line-height:1.12;font-weight:650;letter-spacing:-.025em}
-.sub{max-width:920px;color:#666074;font-size:13px;line-height:1.58}.sub b{color:#474054;font-weight:650}
+.sub{max-width:920px;color:#666074;font-size:14px;line-height:1.58}.sub b{color:#474054;font-weight:650}
 .hright{gap:9px}.dedi{gap:10px}.elixir-logo svg{height:53px}.dedi-cap{color:#6f687b}.dedi-cap b{color:#342f43}
 .stats{gap:9px;margin:15px 0 4px}.stat{min-width:132px;padding:8px 13px;border-color:#e0dce9;border-radius:8px;box-shadow:0 3px 12px rgba(58,45,91,.025)}
 .stat b{color:#342f43;font-size:18px;font-variant-numeric:tabular-nums}.stat span{color:#6f687b}
@@ -217,12 +217,12 @@ header.top::before{content:"Autonomous research systems index";display:block;pos
 .chip{padding:4px 9px;border-color:#ded9e8;border-radius:7px;background:#f6f4f9;font-family:inherit;font-size:11.5px}.chip:hover{border-color:#bdb5d0;background:#f0edf5}.chip.on{border-color:#6756a5;background:#6756a5}.chip.tog.on{border-color:#176d48;background:#176d48}
 .countpill{margin-top:8px;color:#655f72;font-weight:600;font-variant-numeric:tabular-nums}
 details.qc{margin:11px 0 15px;border-color:#e0dce9;border-radius:8px;background:#fff}details.qc summary{color:#484157;font-weight:650}.qcbtn{border-color:#ded9e8;background:#f6f4f9;color:#5d4e9e}
-.tablewrap{border-top:1px solid #e0dce9;background:#fff}table.main{background:#fff;font-size:12.8px}
-table.main thead th{padding:9px 8px;border-bottom:1px solid #d7d2e1;background:#f6f4f9;color:#655f72;font-size:10px;font-weight:800;letter-spacing:.075em}
+.tablewrap{border-top:1px solid #e0dce9;background:#fff}table.main{background:#fff;font-size:14px}
+table.main thead th{padding:9px 8px;border-bottom:1px solid #d7d2e1;background:#f6f4f9;color:#655f72;font-size:10.5px;font-weight:800;letter-spacing:.075em}
 table.main tbody td{padding:9px 8px;border-bottom-color:#e9e6ee}tr.row:hover{background:#f6f4fa}.nm{color:#2d2938;font-weight:650}
 .badge,.au{font-size:10.5px;font-weight:650}.b-mod{color:#665f72;background:#f0eef4}.exp{color:#797184}.exp:hover{color:#6756a5}
 td.lnk a{filter:saturate(.65);opacity:.82}td.lnk a:hover{filter:none;opacity:1}tr.detailrow td{background:#f7f6fb}.detail .kv b{color:#655f72}
-.detail .links a{border-color:#ded9e8;border-radius:6px;background:#fff;color:#5d4e9e}.grouprow td{padding:16px 9px 6px;border-bottom-color:#ded9e8;background:#f0edf6;color:#5d4e84;font-size:10px;letter-spacing:.09em}
+.detail .kv{font-size:13.5px}.detail .links a{border-color:#ded9e8;border-radius:6px;background:#fff;color:#5d4e9e}.grouprow td{padding:16px 9px 6px;border-bottom-color:#ded9e8;background:#f0edf6;color:#5d4e84;font-size:10px;letter-spacing:.09em}
 footer{margin-top:26px;padding:17px 18px;border:1px solid #e0dce9;border-radius:9px;background:#faf9fc;color:#666074}.legend{color:#666074}.legend b{color:#40394e}
 @media(max-width:900px){body{background:#fff}.wrap{padding-top:12px}.controls{position:static;box-shadow:none}.tablewrap{border:1px solid #e0dce9;border-radius:8px}table.main thead th{position:static}header.top{align-items:flex-start}.hright{padding-top:4px}}
 @media(max-width:640px){.wrap{padding:12px 12px 64px}header.top{padding:21px 17px 18px 19px}header.top::before{top:13px;left:19px}h1{font-size:22px}.stat{min-width:calc(50% - 5px);flex:1}.controls{padding:10px}.chips .lbl{width:100%;min-width:100%;margin-top:3px}.chip{font-size:11px}}
