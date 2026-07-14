@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://michalie.github.io/autonomous-stem-agents-wiki/schema.json",
+  "title": "Autonomous Science Agents catalog",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "date_added",
+      "name",
+      "category",
+      "domain",
+      "paper_links",
+      "repo_links",
+      "access",
+      "inputs",
+      "outputs",
+      "autonomy",
+      "notes",
+      "verified",
+      "sources"
+    ],
+    "properties": {
+      "id": {"type": "string", "pattern": "^asa-[a-z0-9]+(?:-[a-z0-9]+)*$"},
+      "date_added": {"type": "string", "format": "date"},
+      "date_modified": {"type": "string", "format": "date"},
+      "aliases": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+      "name": {"type": "string", "minLength": 1},
+      "category": {"enum": ["crossdomain", "biology", "chemistry", "physics", "benchmark"]},
+      "domain": {"type": "string", "minLength": 1},
+      "paper_links": {"$ref": "#/$defs/links"},
+      "repo_links": {"$ref": "#/$defs/links"},
+      "access": {"enum": ["open-source", "source-available", "open-data", "platform", "lab-gated", "paper-only", "list"]},
+      "inputs": {"type": "string", "minLength": 1},
+      "outputs": {"type": "string", "minLength": 1},
+      "autonomy": {"type": "string", "pattern": "^(?:A[1-5](?:-A[1-5])?|B)$"},
+      "notes": {"type": "string", "minLength": 1},
+      "verified": {"type": "string", "format": "date"},
+      "sources": {"type": "array", "items": {"type": "string", "format": "uri"}, "uniqueItems": true},
+      "access_evidence": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["software_license", "commercial_use", "source_url"],
+        "properties": {
+          "software_license": {"type": "string", "minLength": 1},
+          "commercial_use": {"type": "boolean"},
+          "source_url": {"type": "string", "format": "uri", "pattern": "^https?://"}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "url"],
+        "properties": {
+          "label": {"type": "string", "minLength": 1},
+          "url": {"type": "string", "format": "uri", "pattern": "^https?://"}
+        }
+      }
+    }
+  }
+}

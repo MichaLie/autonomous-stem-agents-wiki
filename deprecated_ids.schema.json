@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://michalie.github.io/autonomous-stem-agents-wiki/deprecated_ids.schema.json",
+  "title": "Autonomous Science Agents stable-ID tombstones",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "removed", "reason", "replacement_id"],
+    "properties": {
+      "id": {"type": "string", "pattern": "^asa-[a-z0-9]+(?:-[a-z0-9]+)*$"},
+      "removed": {"type": "string", "format": "date"},
+      "reason": {"type": "string", "minLength": 8},
+      "replacement_id": {"type": ["string", "null"], "pattern": "^asa-[a-z0-9]+(?:-[a-z0-9]+)*$"}
+    }
+  }
+}

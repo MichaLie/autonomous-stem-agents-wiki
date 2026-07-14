@@ -2,7 +2,9 @@
 """Regenerate the clean markdown wiki from agents_final.json."""
 import json
 from collections import Counter
+from pathlib import Path
 M = json.load(open('agents_final.json'))
+resource_meta = json.load(open('resource_metadata.json'))
 
 CAT_TITLE = {
     'crossdomain': 'Cross-Domain Scientific Agents', 'biology': 'Biology and Medicine',
@@ -11,8 +13,8 @@ CAT_TITLE = {
     'benchmark': 'Benchmarks, Harnesses, and Infrastructure',
 }
 CAT_ORDER = ['crossdomain', 'biology', 'chemistry', 'physics', 'benchmark']
-ACC_RANK = {'open-source': 0, 'open-data': 1, 'platform': 2, 'lab-gated': 3, 'paper-only': 4, 'list': 5}
-ACC_LABEL = {'open-source': 'Open source', 'open-data': 'Open data', 'platform': 'Platform/API',
+ACC_RANK = {'open-source': 0, 'source-available': 1, 'open-data': 2, 'platform': 3, 'lab-gated': 4, 'paper-only': 5, 'list': 6}
+ACC_LABEL = {'open-source': 'Open source', 'source-available': 'Source available', 'open-data': 'Open data', 'platform': 'Platform/API',
              'lab-gated': 'Lab-gated', 'paper-only': 'Paper-only', 'list': 'List'}
 
 def links_md(rec):
@@ -22,7 +24,7 @@ def links_md(rec):
 
 def cell(s): return (s or '').replace('|', '\\|').replace('\n', ' ').strip()
 
-today = '2026-06-16'
+today = resource_meta['modified']
 o = []
 o.append('# Autonomous AI Researchers and Scientific Agents for STEM')
 o.append('')
@@ -54,6 +56,7 @@ o.append('')
 o.append('| Label | Meaning |')
 o.append('| --- | --- |')
 for lab, mng in [('Open source', 'Public code/package (may still need paid LLM/API keys).'),
+                 ('Source available', 'Public source with reuse restrictions; not OSI open source.'),
                  ('Open data', 'Weights/datasets/benchmark data public, not necessarily a full agent stack.'),
                  ('Platform/API', 'Hosted service, API, commercial, or enterprise account.'),
                  ('Lab-gated', 'Needs robotic lab, institutional infrastructure, or special hardware.'),
@@ -107,8 +110,12 @@ o.append('- Autonomous outputs (hypotheses, designs, code) are leads, not result
          'methods and domain experts before acting.')
 o.append('- Access tags reflect code/availability, not license terms or clinical/operational approval. Confirm '
          'licenses and intended-use restrictions before any real-world use.')
+o.append('- Catalog data, metadata, and original documentation are CC BY 4.0; maintenance/build code is MIT. External resources and logos retain their own terms.')
 o.append('')
 
-open('autonomous_stem_agents_wiki.md', 'w').write('\n'.join(o))
-print('Wrote autonomous_stem_agents_wiki.md —', len(M), 'systems,', sum(1 for r in M if r.get('new')), 'new')
+rendered = '\n'.join(o).rstrip() + '\n'
+Path('autonomous_stem_agents_wiki.md').write_text(rendered, encoding='utf-8')
+Path('docs').mkdir(exist_ok=True)
+Path('docs/autonomous_stem_agents_wiki.md').write_text(rendered, encoding='utf-8')
+print('Wrote autonomous_stem_agents_wiki.md —', len(M), 'systems')
 print('per domain:', dict(c))
