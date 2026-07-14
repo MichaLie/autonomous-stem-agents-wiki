@@ -3,7 +3,7 @@
   "profile": "autonomous-agents",
   "title": "Autonomous Science Agents - Researcher Index",
   "description": "A curated, filterable catalog of autonomous and agentic scientific systems, self-driving laboratories, and evaluation benchmarks across STEM.",
-  "resource_version": "2.0.0",
+  "resource_version": "2.0.1",
   "issued": "2026-06-16",
   "modified": "2026-07-14",
   "data_file": "agents_final.json",
@@ -11,7 +11,7 @@
   "repository": "https://github.com/MichaLie/autonomous-stem-agents-wiki",
   "baseline_commit": "d1cf43b24bbc745a4e5f6e5db48206aea83077f6",
   "baseline_commit_url": "https://github.com/MichaLie/autonomous-stem-agents-wiki/commit/d1cf43b24bbc745a4e5f6e5db48206aea83077f6",
-  "release_ref": "https://github.com/MichaLie/autonomous-stem-agents-wiki/releases/tag/v2.0.0",
+  "release_ref": "https://github.com/MichaLie/autonomous-stem-agents-wiki/releases/tag/v2.0.1",
   "legacy_snapshot_commit": "33af6dee17ab454a749d8e2b2e67e03bd21b5e41",
   "legacy_snapshot_date": "2026-06-16",
   "baseline_data_date": "2026-06-20",
@@ -50,5 +50,5 @@
     "STEM",
     "ELIXIR"
   ],
-  "evidence_statement": "Catalog version 2.0.0 modified 2026-07-14; all records carry explicit evidence-verification dates, and the release audit records remaining limitations without treating a rebuild as re-verification."
+  "evidence_statement": "Catalog version 2.0.1 modified 2026-07-14; all records carry explicit evidence-verification dates, and the release audit records remaining limitations without treating a rebuild as re-verification."
 }
