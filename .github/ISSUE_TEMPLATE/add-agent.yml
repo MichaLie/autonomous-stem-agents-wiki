@@ -1,5 +1,5 @@
 name: "Add / fix an agent"
-description: "Dump an autonomous science agent / self-driving lab / benchmark to add (or a correction)."
+description: "Suggest a scientific agent, self-driving laboratory or benchmark, or report a correction."
 title: "[agent] <name>"
 labels: ["add-agent"]
 body:
@@ -43,4 +43,4 @@ body:
     attributes: { label: One-line description }
   - type: markdown
     attributes:
-      value: "An agent verifies the paper/repo resolve (and the paper isn't withdrawn) before adding to `agents_final.json`; the site rebuilds on merge."
+      value: "Submissions are reviewed for paper identity, artifact ownership, access, licence and demonstrated autonomy before any catalog change. Inclusion is not automatic."

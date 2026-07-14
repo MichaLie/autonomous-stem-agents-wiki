@@ -1,0 +1,38 @@
+[
+  {
+    "id": "asa-futurehouse-edison-agents",
+    "removed": "2026-07-13",
+    "reason": "Redundant umbrella over retained specific systems",
+    "replacement_id": null
+  },
+  {
+    "id": "asa-kosmos-radiation-biology-evaluation",
+    "removed": "2026-07-13",
+    "reason": "Case-study audit, not a reusable agent or benchmark",
+    "replacement_id": null
+  },
+  {
+    "id": "asa-a-mobile-robotic-chemist",
+    "removed": "2026-07-13",
+    "reason": "Exact duplicate",
+    "replacement_id": "asa-mobile-robotic-chemist-liverpool-cooper"
+  },
+  {
+    "id": "asa-biomedtools",
+    "removed": "2026-07-13",
+    "reason": "Tool registry/infrastructure, not an autonomous research agent",
+    "replacement_id": null
+  },
+  {
+    "id": "asa-atlas",
+    "removed": "2026-07-13",
+    "reason": "Bayesian-optimization component, not an agent or benchmark",
+    "replacement_id": null
+  },
+  {
+    "id": "asa-gryffin",
+    "removed": "2026-07-13",
+    "reason": "Bayesian-optimization algorithm, not an agent or benchmark",
+    "replacement_id": null
+  }
+]

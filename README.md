@@ -1,59 +1,57 @@
-# Autonomous Science Agents — Researcher Index
+# Autonomous Science Agents
 
-A filterable, public index of AI systems that act as scientific agents across STEM — literature, hypothesis, experiment/simulation planning, code execution, lab automation, analysis, reporting — plus the benchmarks that evaluate them. For each system: what domain, what goes in/out, how accessible it is, and **how autonomous** (A1 assistant → A5 physical-lab scientist).
+A researcher-oriented index of AI systems that act across scientific workflows: literature, hypothesis generation, experiment or simulation planning, code execution, laboratory automation, analysis, and reporting. The index also includes benchmarks and evaluation harnesses.
 
-**Live site:** https://michalie.github.io/autonomous-stem-agents-wiki/
+**[Open the interactive index](https://michalie.github.io/autonomous-stem-agents-wiki/)**
 
-321 systems across 5 domains (cross-domain, biology/medicine, chemistry/materials, physics/astronomy/eng., benchmarks). Rows tagged **Paper-only** are leads from papers with no confirmed public code — verify before relying on any system.
+![Autonomous Science Agents index](assets/readme-preview.png)
 
----
+## What the index provides
 
-## How to update it
+- Search and filters across scientific domains, autonomy levels, access routes, and evidence status.
+- Concise descriptions of inputs, outputs, workflow roles, and current availability.
+- Direct links to papers, code, datasets, platforms, and official project pages.
+- Stable record identifiers, provenance, evidence dates, and machine-readable distributions.
 
-**`agents_final.json` is the single source of truth. Edit it, rebuild, push — the live site (served from `docs/`) updates.** Never hand-edit the `.html`/`.md` — they are generated.
+The displayed catalog is generated deterministically from [`agents_final.json`](agents_final.json). A **paper-only** label means that no currently runnable public implementation was confirmed during review; researchers should verify availability before relying on it.
 
-### Option A — let an agent do it (your default)
-Point Claude/Codex at this repo:
-- **Add one system:** "Add `<name>` to `agents_final.json` (category, access, autonomy, links, in/out) after verifying its paper+repo resolve, then `python3 build_html.py agents_final.json docs/index.html`, commit and push."
-- **Re-sweep the field:** re-run the discovery + adversarial-verification workflow, merge into `agents_final.json`, rebuild into `docs/`, commit, push.
+## Taxonomy
 
-### Option B — dump it in an Issue
-Open a new Issue with the **"Add / fix an agent"** template; you or an agent turns it into a JSON entry.
+Autonomy is described from **A1 assistant** through **A5 physical-laboratory scientist**, with **B** reserved for benchmarks and harnesses. Access is distinguished as open-source, open-data, platform/API, lab-gated, paper-only, or list resource. These labels support comparison; they are not claims of scientific validity or operational approval.
 
-### Option C — local
-```bash
-python3 build_html.py agents_final.json docs/index.html
-python3 build_md.py
-git commit -am "update agents" && git push
-```
+## Machine-readable access
 
-### Optional upgrade — browser-only editing
-To edit `agents_final.json` in GitHub's web editor and have the site rebuild itself, grant the workflow scope once and enable the bundled Action:
-```bash
-~/.local/bin/gh auth refresh -h github.com -s workflow
-mkdir -p .github/workflows && mv optional-github-action.yml .github/workflows/deploy.yml
-# then Settings → Pages → Source = GitHub Actions, and push.
-```
+- [Catalog JSON](https://michalie.github.io/autonomous-stem-agents-wiki/agents_final.json)
+- [JSON Schema](https://michalie.github.io/autonomous-stem-agents-wiki/schema.json)
+- [JSON-LD metadata](https://michalie.github.io/autonomous-stem-agents-wiki/metadata.jsonld)
+- [Human-readable Markdown](https://michalie.github.io/autonomous-stem-agents-wiki/autonomous_stem_agents_wiki.md)
 
----
+## Contribute
 
-## Taxonomies
+Suggest an agent, benchmark, or correction through the [structured issue form](https://github.com/MichaLie/autonomous-stem-agents-wiki/issues/new?template=add-agent.yml). Contributions should point to current primary or first-party sources; inclusion and autonomy classification are reviewed against the documented policy.
 
-**Autonomy:** A1 assistant · A2 tool agent · A3 workflow agent · A4 in-silico autonomous scientist · A5 lab/physical autonomous scientist · B benchmark/harness.
-**Access:** open-source · open-data · platform/API · lab-gated · paper-only · list.
+## Maintain or fork
 
-## What's in here
+This repository includes its own reproducible maintenance system:
 
-| File | Role |
-| --- | --- |
-| `agents_final.json` | **Source of truth** — the catalog data |
-| `build_html.py` | Generates the interactive HTML site |
-| `build_md.py` | Generates the Markdown version |
-| `merge_agents.py` | How the audit's existing + verified-new entries were combined (re-sweep reference) |
-| `docs/` | The published site (Pages serves `docs/index.html`) |
-| `optional-github-action.yml` | Opt-in auto-build Action (see upgrade above) |
-| `CLAUDE.md` | Operating guide for AI agents maintaining this repo |
+- [`MAINTENANCE.md`](MAINTENANCE.md) is the canonical update, validation, and release protocol.
+- [`AGENTS.md`](AGENTS.md) and [`CLAUDE.md`](CLAUDE.md) map coding agents to that protocol.
+- [`build.py`](build.py) creates synchronized public distributions.
+- [`validate_catalog.py`](validate_catalog.py) enforces schema, provenance, licence, and release checks.
+- [`.github/workflows/quality.yml`](.github/workflows/quality.yml) runs the deterministic quality gate on GitHub.
 
-## Caveats
+Forks should replace the resource identity, creator, publisher, licence, and provenance metadata with claims they are authorized to make.
 
-Access tags reflect code/availability, not license terms or operational/clinical approval. Autonomous outputs are leads, not results — validate with orthogonal methods and domain experts. A1–A5 physical-lab systems require institutional safety review before any real-world use.
+## Responsible use
+
+Autonomous outputs are leads, not validated scientific results. Use orthogonal validation and domain review; physical-laboratory operation requires the relevant institutional safety and governance processes.
+
+## Stewardship and licences
+
+Curated and published by **Michaela Liegertová** ([michaela.liegertova@img.cas.cz](mailto:michaela.liegertova@img.cas.cz)), affiliated with the [Institute of Molecular Genetics of the Czech Academy of Sciences](https://www.img.cas.cz/en/). Dedicated to the [ELIXIR-CZ](https://www.elixir-czech.cz/) community.
+
+IMG affiliation and the ELIXIR-CZ dedication provide context; they do not imply institutional publication authority or endorsement.
+
+Catalog data, metadata, and original documentation are licensed under [CC BY 4.0](LICENSE-CONTENT.md). Maintenance and build software are licensed under the [MIT License](LICENSE-CODE). Indexed papers, software, datasets, services, logos, and trademarks retain their own terms.
+
+See [`CHANGELOG.md`](CHANGELOG.md) for version history.
