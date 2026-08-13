@@ -1,0 +1,96 @@
+[
+ {
+  "name": "K-Dense scientific-agent-skills",
+  "verdict": "accept",
+  "reason": "Official K-Dense-AI org repo verified via GitHub page and authenticated gh api: created 2025-10-19, MIT license, 33,352 stars, not a fork/archived, homepage k-dense.ai. Widely-used agent skills library (158 skills, 100+ scientific database integrations) qualifies under the catalog's ToolUniverse (asa-tooluniverse, A2, crossdomain) and ChemMCP (asa-chemmcp, A2) precedent for agent-harness/tool-library artifacts; grep of agents_final.json confirmed both precedents present.",
+  "record": {
+   "name": "K-Dense scientific-agent-skills",
+   "category": "crossdomain",
+   "domain": "Scientific-agent skills library",
+   "paper_links": [
+    {"label": "GitHub", "url": "https://github.com/K-Dense-AI/scientific-agent-skills"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/K-Dense-AI/scientific-agent-skills"}
+   ],
+   "access": "open-source",
+   "inputs": "Agent tasks requiring scientific skills or database access",
+   "outputs": "Executable skill invocations and queries across 100+ scientific databases (biology, chemistry, medicine, drug discovery)",
+   "autonomy": "A2",
+   "notes": "MIT-licensed Agent Skills library from K-Dense Inc. (158 skills across bioinformatics, cheminformatics, clinical research, ML and more) compatible with Claude Code, Cursor, Codex and the open Agent Skills standard; a component library included under the ToolUniverse/ChemMCP precedent, not a standalone agent. 33k+ GitHub stars; repo claims use by 170,000+ scientists.",
+   "sources": [
+    "https://github.com/K-Dense-AI/scientific-agent-skills"
+   ],
+   "aliases": ["scientific-agent-skills", "K-Dense Scientific Agent Skills"]
+  },
+  "reconsider_when": null,
+  "fetched": [
+   "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "gh api repos/K-Dense-AI/scientific-agent-skills"
+  ]
+ },
+ {
+  "name": "Bunsen (Schrodinger)",
+  "verdict": "accept",
+  "reason": "Verified from Schrodinger's official product page: agentic AI co-scientist translating natural-language requests into multi-stage computational workflows across the Schrodinger stack (protein prep, Glide docking, FEP+, Desmond MD, ADMET, AutoDesigner), with autonomous pipeline chaining, job submission/monitoring and self-correction. Closed beta, single-tenant deployment on customer infrastructure; Bristol Myers Squibb named as strategic collaboration partner on the page. Computational-only (no physical loop). Note: the 2026-07-27 announcement date comes from the discovery lead's press-coverage fetch and could not be independently re-verified this session (search budget exhausted; the product page carries no date) - date treated as UNVERIFIED and omitted from the record.",
+  "record": {
+   "name": "Bunsen",
+   "category": "chemistry",
+   "domain": "Agentic co-scientist for molecular discovery (drug discovery, biologics, materials)",
+   "paper_links": [
+    {"label": "Product page", "url": "https://www.schrodinger.com/bunsen"}
+   ],
+   "repo_links": [],
+   "access": "platform",
+   "inputs": "Natural-language research requests; project structures and molecules",
+   "outputs": "Validated multi-stage computational workflows (protein prep, Glide docking, FEP+ free-energy calculations, Desmond MD, ADMET prediction, AutoDesigner molecule generation) with monitored jobs and results",
+   "autonomy": "A2-A3",
+   "notes": "Schrodinger's agentic co-scientist: converts natural-language instructions into computational pipelines on the Schrodinger platform, autonomously chains multi-stage workflows, submits/monitors jobs and self-corrects; human directs each request and reviews outputs. Closed beta as of 2026-08, deployed single-tenant on customer infrastructure; Bristol Myers Squibb announced as deployment partner.",
+   "sources": [
+    "https://www.schrodinger.com/bunsen"
+   ],
+   "aliases": ["Bunsen (Schrodinger)", "Schrodinger Bunsen"]
+  },
+  "reconsider_when": null,
+  "fetched": [
+   "https://www.schrodinger.com/bunsen"
+  ]
+ },
+ {
+  "name": "OmniQEC",
+  "verdict": "accept",
+  "reason": "arXiv abs page verified: 'OmniQEC: discovering practical quantum error-correcting codes by an AI scientist' (arXiv:2607.25865, v1 submitted 2026-07-28, Yan et al., not withdrawn). LLM-orchestrated dual-loop discovery system (fast code-level screening plus slow circuit-level validation) that found hardware-friendly QEC codes outperforming established baselines at fixed physical-qubit budgets - genuine multi-step in-silico scientific discovery. No code or data link on the abs page, so paper-only. Category physics (quantum computing); autonomy A3 (in-silico closed loop; simulation closure is not A5).",
+  "record": {
+   "name": "OmniQEC",
+   "category": "physics",
+   "domain": "Quantum error-correcting code discovery",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.25865"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "QEC code-family search spaces, hardware constraints and physical-qubit budgets; LLM backends",
+   "outputs": "Candidate quantum error-correcting codes with code-level screening metrics and circuit-level decoder validation",
+   "autonomy": "A3",
+   "notes": "AI-scientist system in which an LLM orchestrator coordinates a dual-loop workflow - fast screening on code-level metrics and slow circuit-level validation (syndrome extraction, decoder evaluation) - discovering hardware-friendly codes that outperform established baselines at given qubit budgets. No code released as of verification (2026-08-13); fully in-silico, human-launched runs.",
+   "sources": [
+    "https://arxiv.org/abs/2607.25865"
+   ],
+   "aliases": []
+  },
+  "reconsider_when": null,
+  "fetched": [
+   "https://arxiv.org/abs/2607.25865"
+  ]
+ },
+ {
+  "name": "Autonomous Research Agents: A Survey of AI Scientists and the Verification Gap",
+  "verdict": "reject",
+  "reason": "Confirmed survey, not a system or benchmark harness. arXiv abs page verified (arXiv:2608.05179, submitted 2026-06-29, Ding et al., not withdrawn): codes 35 autonomous-research-agent works across lifecycle/auditability dimensions and proposes a reporting checklist, but the page links no code repository, harness, dataset download, or project site - the 'coded corpus' and checklist have no released artifact. Pre-adjudicated reject confirmed: offers no released harness, so it fails the scope gate (the catalog is not a list of surveys).",
+  "record": null,
+  "reconsider_when": null,
+  "fetched": [
+   "https://arxiv.org/abs/2608.05179"
+  ]
+ }
+]

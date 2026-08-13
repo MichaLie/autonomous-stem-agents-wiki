@@ -1,0 +1,155 @@
+[
+ {
+  "name": "AgentEYE",
+  "verdict": "accept",
+  "reason": "Paper verified in Cell Reports Medicine (PubMed efetch, PMID 42556343, DOI 10.1016/j.xcrm.2026.102969, published 2026-08-05, not withdrawn). Official author code release verified: github.com/OpenMedAILab/AgentEYE (MIT) contains the study's revision protocol, benchmark metadata and figures, and CITATION.cff naming corresponding author Kai Jin (Zhejiang University) - not a third-party reconstruction. Clinical diagnostic agents are established in the catalog (PathFinder, MMedAgent, AgentMD precedents).",
+  "record": {
+   "name": "AgentEYE",
+   "category": "biology",
+   "domain": "Multimodal ophthalmic diagnosis (clinical decision support)",
+   "paper_links": [
+    {"label": "Cell Reports Medicine", "url": "https://doi.org/10.1016/j.xcrm.2026.102969"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/OpenMedAILab/AgentEYE"}
+   ],
+   "access": "open-source",
+   "inputs": "Ocular images (fundus photography, B-scan ultrasonography) plus diagnostic query",
+   "outputs": "Evidence-grounded, citation-auditable diagnostic reports synthesized from specialized imaging tools and guideline/web retrieval",
+   "autonomy": "A2",
+   "notes": "Auditable multimodal agent that routes ocular images to specialized fundus/B-scan tools and retrieves guideline/web evidence; blinded 200-case evaluation by three ophthalmologists showed improved correctness, completeness, safety, and citation grounding over LLM-only baselines. Positioned as a decision-support prototype with the clinician as final decision-maker; MIT code release is metadata-only (no raw images or model weights).",
+   "sources": [
+    "https://doi.org/10.1016/j.xcrm.2026.102969",
+    "https://pubmed.ncbi.nlm.nih.gov/42556343/",
+    "https://github.com/OpenMedAILab/AgentEYE"
+   ],
+   "aliases": []
+  },
+  "reconsider_when": null,
+  "fetched": [
+   "PubMed efetch via MCP (PMID 42556343)",
+   "https://doi.org/10.1016/j.xcrm.2026.102969 (redirect to linkinghub.elsevier.com observed; publisher fulltext page returned 403, so the in-paper code-availability statement itself was not readable - repo ownership established from repo contents + CITATION.cff instead)",
+   "https://api.github.com/repos/OpenMedAILab/AgentEYE",
+   "https://api.github.com/repos/OpenMedAILab/AgentEYE/readme",
+   "https://api.github.com/repos/OpenMedAILab/AgentEYE/license",
+   "https://raw.githubusercontent.com/OpenMedAILab/AgentEYE/main/CITATION.cff"
+  ]
+ },
+ {
+  "name": "PathFound",
+  "verdict": "reject",
+  "reason": "Paper verified (PubMed efetch, PMID 42442213, DOI 10.1016/j.media.2026.104200, Medical Image Analysis vol 113, not withdrawn), but the paper itself titles it 'an agentic multimodal model': a pathology foundation-model stack (visual FM + VLM + RL-trained reasoning) with a multi-turn evidence-seeking inference paradigm for whole-slide-image diagnosis. It is a trained diagnostic model, not a multi-step scientific agent system, and belongs to the pathology foundation-model catalog (per slice note). The catalog's existing WSI entry, PathFinder, is an orchestrated multi-agent system - a different class.",
+  "record": null,
+  "reconsider_when": null,
+  "fetched": [
+   "PubMed efetch via MCP (PMID 42442213)"
+  ]
+ },
+ {
+  "name": "OntoCodex",
+  "verdict": "reject",
+  "reason": "Paper verified (PubMed efetch + PMC full text, PMID 42552428, PMC13439055, DOI 10.1038/s44401-026-00117-9, npj Health Systems 2026-08-05, open access, not withdrawn). Scope adjudication per slice note: it is a semi-automated ontology-enrichment component (concept extraction, terminology mapping, OWL script generation for MCC-CDO) with a human feedback loop - structured knowledge-engineering on five showcase diseases, not multi-step scientific work and not a benchmark of such systems. Additionally, the PMC full text contains no code/data availability statement or repository link (grep for github/zenodo/repository/availability returned nothing), so no released artifact could be verified.",
+  "record": null,
+  "reconsider_when": null,
+  "fetched": [
+   "PubMed efetch via MCP (PMID 42552428)",
+   "PMC full text via MCP (PMC13439055)",
+   "https://doi.org/10.1038/s44401-026-00117-9 (redirect to nature.com/idp observed; PMC full text used instead)"
+  ]
+ },
+ {
+  "name": "Ensemble QSP",
+  "verdict": "accept",
+  "reason": "arXiv abs page fetched and verified: arXiv:2607.07666, 'A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling', Tewari & Kimko, v1 2026-07-08, v3 2026-07-16, q-bio.QM + cs.MA, no withdrawal notice. System name 'Ensemble QSP' confirmed in abstract. In scope: multi-agent long-horizon QSP/PBPK model building with autonomous PK-PD model selection is multi-step in-silico scientific work; paper-only is an allowed access class with catalog precedent (Google AI Co-Scientist, Medical AI Scientist). No code link on the arXiv page and GitHub search returned nothing.",
+  "record": {
+   "name": "Ensemble QSP",
+   "category": "biology",
+   "domain": "Quantitative systems pharmacology / PBPK-PD model building",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.07666"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Long-horizon QSP/PBPK modeling objective with pharmacokinetic-pharmacodynamic data and physics-based constraints",
+   "outputs": "Autonomously constructed and selected PK-PD/QSP models, recovered parameters, and bounded persistent project state across sessions",
+   "autonomy": "A3-A4",
+   "notes": "Five specialist worker agents operate under domain-expert principal-investigator agents; a three-layer hierarchical memory keeps mid-term project state bounded (median 301 tokens, max 4,050), enabling autonomous multi-session model building and PK-PD model selection with improved parameter recovery over single-agent baselines. No code release found (arXiv page lists none; GitHub search empty).",
+   "sources": [
+    "https://arxiv.org/abs/2607.07666"
+   ],
+   "aliases": [
+    "A hierarchical memory architecture overcomes context limits in long-horizon multi-agent computational modeling (paper title)"
+   ]
+  },
+  "reconsider_when": null,
+  "fetched": [
+   "https://arxiv.org/abs/2607.07666",
+   "https://api.github.com/search/repositories?q=ensemble+QSP (0 results)"
+  ]
+ },
+ {
+  "name": "Prompt-to-Paper",
+  "verdict": "accept",
+  "reason": "arXiv abs page fetched and verified: arXiv:2607.05456, 'Prompt-to-Paper: Agentic AI System for Bioinformatics', Kamran et al., v1 2026-07-05, cs.AI/cs.CL/q-bio.QM, no withdrawal notice. In scope: end-to-end research agent (RAG literature grounding over 60-100 papers, autonomous coding agent executing real computational-biology analyses, iterative quality-improvement loop, manuscript output) is multi-step scientific work. No code link on the arXiv page and GitHub search returned nothing, so paper-only.",
+  "record": {
+   "name": "Prompt-to-Paper",
+   "category": "biology",
+   "domain": "End-to-end bioinformatics research automation (prompt to manuscript)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.05456"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Research prompt/topic in bioinformatics",
+   "outputs": "Complete manuscript grounded in 60-100 retrieved papers, executed computational-biology analyses, and eight-dimensional automated quality scores with iterative improvement",
+   "autonomy": "A4",
+   "notes": "Multi-agent prompt-to-manuscript system combining deterministic RAG grounding, an autonomous coding agent that runs real analyses rather than synthesizing results, and an eight-dimensional scorer with hallucination penalties; five bioinformatics case studies averaged 7.0/10 from human reviewers at ~$0.31 per paper. Evaluation is largely self-defined; no code released.",
+   "sources": [
+    "https://arxiv.org/abs/2607.05456"
+   ],
+   "aliases": []
+  },
+  "reconsider_when": null,
+  "fetched": [
+   "https://arxiv.org/abs/2607.05456",
+   "https://api.github.com/search/repositories?q=prompt-to-paper+bioinformatics (0 results)"
+  ]
+ },
+ {
+  "name": "Gemma curation agent (v1.1)",
+  "verdict": "accept",
+  "reason": "Preprint verified via bioRxiv API (DOI 10.64898/2026.07.30.741874, v1 2026-08-02, Pavlidis lab UBC, not withdrawn/published elsewhere). It is a real released system, not just a paper method: JATS full text names the repos, and both were verified on GitHub under the authors' PavlidisLab org - gemma-curation-agents-v1.1 (Apache-2.0 LICENSE file confirmed; created 2026-07-30, 'frozen public-release snapshot, paper-pinned') and gemma-curation-benchmark-data (CC BY-NC 4.0). Boundary call: curation automation, but it is a multi-stage agentic workflow over 23,000+ genomics datasets with human-review checkpoints AND ships a 500-study benchmark plus evaluation framework, which the slice note treats as strengthening inclusion; catalog has analogous infrastructure agents (e.g., ClinAgent).",
+  "record": {
+   "name": "Gemma curation agent (v1.1)",
+   "category": "biology",
+   "domain": "Genomics dataset curation and experimental-design annotation (Gemma / GEO re-analysis resource)",
+   "paper_links": [
+    {"label": "bioRxiv", "url": "https://www.biorxiv.org/content/10.64898/2026.07.30.741874v1"}
+   ],
+   "repo_links": [
+    {"label": "GitHub (agents)", "url": "https://github.com/PavlidisLab/gemma-curation-agents-v1.1"},
+    {"label": "GitHub (benchmark data)", "url": "https://github.com/PavlidisLab/gemma-curation-benchmark-data"}
+   ],
+   "access": "open-source",
+   "inputs": "GEO study metadata, sample characteristics, and source publications for Gemma transcriptomic datasets (human, mouse, rat)",
+   "outputs": "Ontology-anchored sample- and experiment-level annotations proposed for curator review; 500-study benchmark set and evaluation framework",
+   "autonomy": "A3",
+   "notes": "LLM-supported agentic pipeline performing detailed curation at near-human-curator accuracy, ~1/20th cost and >100x speed for the 23,000+ dataset Gemma resource; disclosed human gates: annotations are proposals reviewed via a curator UI, with triage routing likely-error curations to human review. Code Apache-2.0, benchmark data CC BY-NC 4.0; full operation requires a Gemma 2.0 REST endpoint that is not public as of August 2026. Unrelated to Google's Gemma LLMs.",
+   "sources": [
+    "https://www.biorxiv.org/content/10.64898/2026.07.30.741874v1",
+    "https://github.com/PavlidisLab/gemma-curation-agents-v1.1",
+    "https://github.com/PavlidisLab/gemma-curation-benchmark-data"
+   ],
+   "aliases": [
+    "Gemma curation agents"
+   ]
+  },
+  "reconsider_when": null,
+  "fetched": [
+   "bioRxiv API via MCP (10.64898/2026.07.30.741874)",
+   "https://www.biorxiv.org/content/early/2026/08/02/2026.07.30.741874.source.xml (JATS full text, fetched via curl)",
+   "https://api.github.com/repos/PavlidisLab/gemma-curation-agents-v1.1 (+ /license)",
+   "https://api.github.com/repos/PavlidisLab/gemma-curation-benchmark-data (+ /license)"
+  ]
+ }
+]

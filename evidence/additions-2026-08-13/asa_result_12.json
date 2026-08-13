@@ -1,0 +1,165 @@
+[
+ {
+  "name": "Sakana Marlin",
+  "verdict": "hold",
+  "reason": "System is real and verified on the official vendor page (https://sakana.ai/marlin fetched this session): up to 8 hours of continuous autonomous hypothesis->exploration->verification research, explicit AB-MCTS (NeurIPS 2025) and AI Scientist (Nature) lineage, paid tiers with immediate access. But Sakana scopes it exclusively to business/strategy research: 'Virtual CSO', use cases 'strategic planning, market and competitor analysis, tech trend evaluations, and regulatory shifts', for 'corporations, organizations, sole proprietors', 'not intended for general consumer use'. Unlike the OpenAI Deep Research precedent (domain-general, science-usable), Marlin's own positioning places it on the business side of the index's multi-step-scientific-work boundary; the AI-Scientist lineage is technology provenance, not a science use case. Launch date 2026-06-15 remains press-derived and UNVERIFIED on sakana.ai (product page and homepage show no date; https://sakana.ai/news returns 404).",
+  "record": null,
+  "reconsider_when": "Sakana documents scientific-research use of Marlin (science-domain examples, scientific benchmark results, or a science-facing mode) on official pages, or the index maintainer explicitly extends the general-deep-research precedent to cover domain-scoped commercial business-research agents.",
+  "fetched": [
+   "https://sakana.ai/marlin",
+   "https://sakana.ai/",
+   "https://sakana.ai/news"
+  ]
+ },
+ {
+  "name": "OpenScience (Synthetic Sciences)",
+  "verdict": "accept",
+  "reason": "Official repo verified: synthetic-sciences/openscience, Apache-2.0 (GitHub API spdx Apache-2.0), created 2026-07-03T15:06:45Z, 3225 stars / 441 forks, pushed 2026-08-13 — healthy and actively developed. Not a fork. README confirms full autonomous research loop (literature -> hypothesis -> code -> experiments on real compute -> database queries -> write-up) with default research agent plus biology/physics/ml specialists and critique/literature-review sub-agents, 290+ skills, ~30 scientific-database integrations, model-agnostic. Independence from ai4s-research/open-science confirmed: different org (Synthetic Sciences, US, syntheticsciences.ai, org id 220546587), fully disjoint contributor sets (ishaan1124, aayambansal, KB-syntheticsciences vs noahbenjamin1994 et al.), different stack (TypeScript/Bun npm CLI + browser workspace vs Tauri desktop), fork:false on both sides.",
+  "record": {
+   "name": "OpenScience (Synthetic Sciences)",
+   "category": "crossdomain",
+   "domain": "Open-source autonomous research workbench (default agent + biology/physics/ML specialists)",
+   "paper_links": [],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/synthetic-sciences/openscience"}
+   ],
+   "access": "open-source",
+   "inputs": "Research goal plus user-supplied model/API keys (model-agnostic: Anthropic, OpenAI, Google, open-weight providers)",
+   "outputs": "Literature review, hypotheses, written and executed code, experiments on real compute, scientific-database queries, analyses, written-up results",
+   "autonomy": "A4",
+   "notes": "Apache-2.0 AI research workbench (npm @synsci/openscience; TypeScript/Bun server with browser workspace UI) that runs the full research loop from a stated goal, with critique and literature-review sub-agents, 290+ skills and ~30 scientific-database integrations (UniProt, PDB, ChEMBL, arXiv, Semantic Scholar); positioned as an open alternative to Claude Science; no default human checkpoints disclosed beyond the user-set goal. Created 2026-07-03, 3.2k stars; independent of the same-day ai4s-research/open-science (disjoint contributors, different stack, neither is a fork).",
+   "sources": [
+    "https://github.com/synthetic-sciences/openscience",
+    "https://api.github.com/repos/synthetic-sciences/openscience",
+    "https://api.github.com/orgs/synthetic-sciences"
+   ],
+   "aliases": ["OpenScience", "synsci/openscience"]
+  },
+  "fetched": [
+   "https://github.com/synthetic-sciences/openscience",
+   "https://api.github.com/repos/synthetic-sciences/openscience",
+   "https://api.github.com/repos/synthetic-sciences/openscience/contributors?per_page=15",
+   "https://api.github.com/orgs/synthetic-sciences"
+  ]
+ },
+ {
+  "name": "Open Science Desktop (ai4s-research)",
+  "verdict": "accept",
+  "reason": "Official repo verified: ai4s-research/open-science, created 2026-07-03T09:22:31Z, 1314 stars / 148 forks, pushed 2026-08-12 — healthy. Not a fork. License resolved: LICENSE file is standard MIT text ('Copyright (c) 2026 AI4S Workbench contributors') plus an appended note that bundled third-party skills (e.g. K-Dense scientific-agent-skills) carry their own licenses — this appended note is why GitHub's detector reports NOASSERTION; core project is MIT, so open-source. Independence from synthetic-sciences/openscience confirmed (disjoint contributors, different org, Tauri desktop vs TS/Bun CLI stack, fork:false; repo's own docs/open-science-desktop-vs-openscience.md states 'Both projects are independent and open source' with no shared code/authors). Zenodo concept DOI 10.5281/zenodo.21351225 resolves (HTTP 200 -> zenodo.org/records/21805331). Both same-day projects are genuinely distinct and healthy, so both are cataloged; residual caveat (in notes): maintainers are pseudonymous.",
+  "record": {
+   "name": "Open Science Desktop",
+   "category": "crossdomain",
+   "domain": "Local-first desktop autonomous research workbench",
+   "paper_links": [],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/ai4s-research/open-science"},
+    {"label": "Zenodo", "url": "https://doi.org/10.5281/zenodo.21351225"}
+   ],
+   "access": "open-source",
+   "inputs": "Research goal/topic, local files and data, model provider credentials (OAuth/API-key flows or custom OpenAI-compatible endpoints)",
+   "outputs": "Exploration documents and literature pre-surveys, 6-20 page literature-survey PDFs with 60+ citations, experiment design docs plus executable code and results with provenance, 8-14 page paper drafts with citations and figures",
+   "autonomy": "A3-A4",
+   "notes": "MIT-licensed Tauri 2 + React desktop app (macOS/Windows/Linux) with a bundled OpenCode sidecar runtime; stage skills (research-explorer, literature-survey, experiment-suite, paper-writer) each emit inspectable artifacts with append-only provenance logs (.openscience/provenance.jsonl), keeping the human in the loop between stages. GitHub license detection shows NOASSERTION only because the MIT LICENSE appends a third-party-skills licensing note. Created 2026-07-03, same day as synthetic-sciences/openscience but verified independent (disjoint contributors, different stack, neither a fork); maintainers are pseudonymous ('The Open Science Desktop Contributors').",
+   "sources": [
+    "https://github.com/ai4s-research/open-science",
+    "https://api.github.com/repos/ai4s-research/open-science",
+    "https://raw.githubusercontent.com/ai4s-research/open-science/master/LICENSE",
+    "https://github.com/ai4s-research/open-science/blob/master/docs/open-science-desktop-vs-openscience.md",
+    "https://doi.org/10.5281/zenodo.21351225"
+   ],
+   "aliases": ["ai4s-research/open-science", "AI4S Workbench"]
+  },
+  "fetched": [
+   "https://github.com/ai4s-research/open-science",
+   "https://api.github.com/repos/ai4s-research/open-science",
+   "https://api.github.com/repos/ai4s-research/open-science/contributors?per_page=15",
+   "https://api.github.com/orgs/ai4s-research",
+   "https://github.com/ai4s-research/open-science/blob/master/docs/open-science-desktop-vs-openscience.md",
+   "https://raw.githubusercontent.com/ai4s-research/open-science/master/LICENSE",
+   "https://doi.org/10.5281/zenodo.21351225"
+  ]
+ },
+ {
+  "name": "Mechanist",
+  "verdict": "accept",
+  "reason": "arXiv abs page fetched and matches: 'Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence', arXiv:2608.12036, v1 submitted 2026-08-12, not withdrawn, cs.AI/cs.CL/cs.HC/cs.LG/cs.MA, comments 'Work in progress'. Agentic system for autonomous discovery of mechanisms of AI intelligence: knowledge graph over ~13,000 interpretability papers plus a 43M-paper multidisciplinary database and 32 foundational analysis methods; autonomous hypothesis generation and validation. No code or project link on the abs page, so paper-only. Multi-step autonomous research in the science-of-AI domain fits the index scope.",
+  "record": {
+   "name": "Mechanist",
+   "category": "crossdomain",
+   "domain": "Autonomous discovery of mechanisms of AI intelligence (mechanistic interpretability / science of AI)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2608.12036"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Research questions about model behavior/mechanisms; knowledge graph of ~13k interpretability papers plus 43M papers across 26 fields; library of 32 foundational analysis methods",
+   "outputs": "Autonomously generated and validated mechanism hypotheses; discovered model behaviors, explanations of AI systems, and control interventions",
+   "autonomy": "A3-A4",
+   "notes": "Agentic system (Wang et al., 19 authors incl. Ningyu Zhang, Julian McAuley, Tat-Seng Chua, Huajun Chen) using AI as a scientific instrument for the science-of-AI. arXiv v1 2026-08-12, flagged 'Work in progress'; no code released — paper-only lead. Author affiliations UNVERIFIED (not shown on abs page).",
+   "sources": [
+    "https://arxiv.org/abs/2608.12036"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2608.12036"
+  ]
+ },
+ {
+  "name": "EviGraph",
+  "verdict": "accept",
+  "reason": "arXiv abs page fetched and matches: 'EviGraph: Evidence-Guided Autonomous Research Agents', arXiv:2608.04738, v1 2026-08-05 / v2 2026-08-06, not withdrawn, cs.AI, 23 pages 2 figures. Autonomous research framework representing the research process as a typed evidence graph (Problem, Gap, Hypothesis, Experiment, Finding, Claim), validating evidence chains and regenerating weak components before manuscript generation; reports +40.19% claim-support over strongest baseline and 87.73% experimental-data consistency. No code/project link on the abs page, so paper-only, matching the discovery note.",
+  "record": {
+   "name": "EviGraph",
+   "category": "crossdomain",
+   "domain": "Evidence-graph-validated autonomous research framework",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2608.04738"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Research problem/goal plus literature and experimental context",
+   "outputs": "Typed evidence graph (Problem, Gap, Hypothesis, Experiment, Finding, Claim) with validated evidence chains; executed experiments; manuscript drafts in which retained claims are grounded in validated chains",
+   "autonomy": "A3-A4",
+   "notes": "Framework (Ren et al.) targeting unsupported claims and cross-stage inconsistency in autonomous research systems: validates evidence chains across stages and regenerates weak portions before writing; reports 40.19% claim-support improvement over the strongest baseline and 87.73% experimental-data consistency. arXiv v1 2026-08-05 (v2 2026-08-06); no public code found — paper-only lead.",
+   "sources": [
+    "https://arxiv.org/abs/2608.04738"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2608.04738"
+  ]
+ },
+ {
+  "name": "ARIA (CoreWeave)",
+  "verdict": "accept",
+  "reason": "Primary official URLs established this session, replacing the unverified discovery lead: (1) https://wandb.ai/site/agent/ — official Weights & Biases product page titled 'CoreWeave ARIA - Weights & Biases' (W&B is a CoreWeave company; acquisition completion referenced on CoreWeave's blog index) — confirms ARIA = AI Research and Iteration Agent that analyzes thousands of runs and tens of thousands of metrics, forms hypotheses, designs experiments, launches runs through W&B Launch, evaluates results and recommends the next iteration, with the disclosed human gate 'Researchers stay in control by approving launches'; (2) https://www.coreweave.com/blog/the-ai-loop-launch-day-is-day-one (2026-08-11) — confirms public-preview status and the autonomous analyze->hypothesize->launch->evaluate loop. Scope fits the index's established ML-research-automation genre (AIDE, RD-Agent, AIRA-dojo, Deep Researcher Agent precedents). Launch date 2026-06-29 is press-derived and remains UNVERIFIED on primary pages, so it is excluded from the record.",
+  "record": {
+   "name": "ARIA (CoreWeave AI Research and Iteration Agent)",
+   "category": "crossdomain",
+   "domain": "Autonomous ML-experiment analysis and iteration inside Weights & Biases",
+   "paper_links": [],
+   "repo_links": [
+    {"label": "Product", "url": "https://wandb.ai/site/agent/"},
+    {"label": "CoreWeave blog", "url": "https://www.coreweave.com/blog/the-ai-loop-launch-day-is-day-one"}
+   ],
+   "access": "platform",
+   "inputs": "W&B experiment data (thousands of runs, tens of thousands of metrics, production traces); training/eval infrastructure reachable via W&B Launch",
+   "outputs": "Pattern and performance-driver analyses, persistent visualizations, hypotheses, launched experiments, evaluations against baselines, next-iteration recommendations, updated workspaces and drafted reports",
+   "autonomy": "A3",
+   "notes": "CoreWeave/Weights & Biases agent (public preview per CoreWeave blog, 2026-08-11) that closes the ML iteration loop — analyze runs, form hypotheses, design and launch experiments via W&B Launch, evaluate, recommend next move — with a disclosed human gate: researchers approve launches. Built with Weave; complements CoreWeave Mission Control.",
+   "sources": [
+    "https://wandb.ai/site/agent/",
+    "https://www.coreweave.com/blog/the-ai-loop-launch-day-is-day-one",
+    "https://www.coreweave.com/blog"
+   ],
+   "aliases": ["AI Research and Iteration Agent", "CoreWeave ARIA", "W&B ARIA"]
+  },
+  "fetched": [
+   "https://www.coreweave.com/blog",
+   "https://www.coreweave.com/blog/the-ai-loop-launch-day-is-day-one",
+   "https://wandb.ai/site/agent/"
+  ]
+ }
+]

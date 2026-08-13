@@ -1,0 +1,169 @@
+[
+ {
+  "name": "ShinkaEvolve",
+  "verdict": "accept",
+  "reason": "Paper verified (arXiv 2509.19349, v1 2025-09-17, not withdrawn). Official Sakana AI repo verified, Apache-2.0, links same arXiv ID, ICLR 2026 acceptance noted on repo. Scope adjudication per slice note: it is a domain-general LLM+evolutionary program-search discovery engine (circle packing SOTA, AIME math, competitive programming, MoE load balancing, Verilog circuit design, numerical solvers) - the open-source analog of the already-cataloged AlphaEvolve, so in-scope as a discovery engine; assigned to crossdomain rather than the discovery lane's 'physics'.",
+  "record": {
+   "name": "ShinkaEvolve",
+   "category": "crossdomain",
+   "domain": "General program/algorithm discovery: mathematical optimization (circle packing), math reasoning (AIME), competitive programming, LLM training (MoE load balancing), circuit design, numerical methods",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2509.19349"}
+   ],
+   "repo_links": [
+    {"label": "GitHub (Sakana AI)", "url": "https://github.com/SakanaAI/ShinkaEvolve"}
+   ],
+   "access": "open-source",
+   "inputs": "Task specification, initial program, and a fitness/evaluation program; runs locally or on Slurm clusters",
+   "outputs": "Evolved programs and solutions, solution archives with island-based knowledge transfer, run monitoring via WebUI",
+   "autonomy": "A3",
+   "notes": "Sakana AI's open-source (Apache-2.0) framework using an LLM ensemble as mutation operators over evolving program populations; reported a new state-of-the-art circle-packing solution in ~150 samples. Human gates: the user defines the problem and the evaluation function; the evolutionary loop then closes computationally (no physical loop). ICLR 2026 acceptance noted on the repo.",
+   "sources": [
+    "https://arxiv.org/abs/2509.19349",
+    "https://github.com/SakanaAI/ShinkaEvolve"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2509.19349",
+   "https://github.com/SakanaAI/ShinkaEvolve"
+  ]
+ },
+ {
+  "name": "Safe-SDL",
+  "verdict": "reject",
+  "reason": "Paper verified (arXiv 2602.15061, v1 2026-02-13, not withdrawn; 'Safe-SDL: Establishing Safety Boundaries and Control Mechanisms for AI-Driven Self-Driving Laboratories', Zhang et al.). Out of scope: it is a safety framework proposal (formal ODDs, control barrier functions, CRUTD transactional protocol) grounded in existing SDL implementations (UniLabOS, Osprey), with an evaluation that reuses the existing LabSafety Bench. It neither performs multi-step scientific work itself nor introduces a benchmark/harness of its own; no code link found. Component/method paper for SDL safety, not a system.",
+  "record": null,
+  "fetched": [
+   "https://arxiv.org/abs/2602.15061"
+  ]
+ },
+ {
+  "name": "Engineering.ai",
+  "verdict": "accept",
+  "reason": "Paper verified (arXiv 2511.00122, v1 2025-10-31, not withdrawn; Xu, Qi, Feng, Chu). In-scope: hierarchical multi-agent system executing end-to-end multi-step computational design (CAD -> mesh -> CFD/FEA/acoustics -> optimization) over FreeCAD/Gmsh/OpenFOAM/CalculiX, validated on 400+ UAV-wing parametric configurations. Full-text HTML checked: no code repository or platform URL exists in the paper, so access is paper-only.",
+  "record": {
+   "name": "Engineering.ai",
+   "category": "physics",
+   "domain": "Computational engineering design (aerodynamics, structural, acoustics; UAV wing design optimization)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2511.00122"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Natural-language engineering design specifications",
+   "outputs": "CAD geometries, meshes, CFD/structural/acoustic simulation results, optimized designs with file-mediated provenance",
+   "autonomy": "A3",
+   "notes": "Chief Engineer agent coordinates Aerodynamics/Structural/Acoustic/Optimization specialist agents over FreeCAD, Gmsh, OpenFOAM, and CalculiX; reports 100% success and zero mesh failures across 400+ parametric UAV-wing configurations. Human gates: problem formulation, constraint definition, and result interpretation remain human; the simulation workflow itself closes computationally (no physical loop). No public code or platform link in the paper.",
+   "sources": [
+    "https://arxiv.org/abs/2511.00122",
+    "https://arxiv.org/html/2511.00122v1"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2511.00122",
+   "https://arxiv.org/html/2511.00122v1"
+  ]
+ },
+ {
+  "name": "ArIA",
+  "verdict": "accept",
+  "reason": "Established from Crossref per slice instruction: Crossref bibliographic search returns 'Molecular Simulations Assisted by an Artificial Intelligence Agent (ArIA)', chemRxiv, DOI 10.26434/chemrxiv.15002344/v2 (v1 created 2026-04-24, v2 posted 2026-05-08), authors Chanmungkalakul, van der Ree, Giuntoli, Pollice (University of Groningen). Crossref resource URL matches the discovery URL exactly, so the URL was correct - chemRxiv simply blocks automated fetchers (403 on site and public API this session). Note: only the versioned DOIs (/v1, /v2) are Crossref-registered; the bare DOI 404s. In-scope: agent interprets user instructions, plans and executes ORCA quantum-chemistry simulations, generates visualizations and reports, and answers questions over results - multi-step computational chemistry work. Access set to paper-only: the abstract states 'We release our agentic AI fully open-source' but no repository URL was verifiable this session (Crossref metadata carries no repo link; GitHub search of the authors' verified accounts, incl. robpollice, and keyword search found no ArIA repo).",
+  "record": {
+   "name": "ArIA",
+   "category": "chemistry",
+   "domain": "Computational chemistry / molecular simulations (quantum chemistry via ORCA)",
+   "paper_links": [
+    {"label": "chemRxiv (v2)", "url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002344/v2"},
+    {"label": "DOI", "url": "https://doi.org/10.26434/chemrxiv.15002344/v2"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Natural-language user instructions describing a molecular-simulation problem",
+   "outputs": "Executed ORCA simulations, visualizations, generated reports, text-based Q&A over simulation results",
+   "autonomy": "A2",
+   "notes": "University of Groningen (Pollice group) agent built on open-source LLMs deployable on standard personal computers; interprets a prompt, runs ORCA simulations, and produces a report the user can query. Human gates: each task is human-initiated and human-interpreted; computational execution only. Abstract states a fully open-source release, but no repository URL could be verified this session (chemRxiv blocks automated access) - repo link UNVERIFIED, hence paper-only.",
+   "sources": [
+    "https://api.crossref.org/works?query.bibliographic=ArIA+agentic+molecular+simulations&filter=prefix:10.26434&rows=20&select=DOI,title,created,container-title",
+    "https://api.crossref.org/works/10.26434/chemrxiv.15002344/v2"
+   ],
+   "aliases": ["Molecular Simulations Assisted by an Artificial Intelligence Agent"]
+  },
+  "fetched": [
+   "https://api.crossref.org/works/10.26434/chemrxiv.15002344 (404 - bare DOI not registered)",
+   "https://api.crossref.org/works?query.bibliographic=ArIA+agentic+molecular+simulations&filter=prefix:10.26434&rows=20&select=DOI,title,created,container-title",
+   "https://api.crossref.org/works/10.26434/chemrxiv.15002344/v2",
+   "https://chemrxiv.org/engage/chemrxiv/public-api/v1/items/doi/10.26434/chemrxiv.15002344 (403)",
+   "api.github.com searches: ArIA+ORCA, aria+molecular+simulations, aria+in:name+chemistry, aria+agent+simulation, users/robpollice/repos (no ArIA repo found)"
+  ]
+ },
+ {
+  "name": "Agon",
+  "verdict": "accept",
+  "reason": "Paper verified (arXiv 2606.24177, v1 2026-06-23, not withdrawn; Sun et al.). In-scope: cross-domain autonomous research orchestrator running scientist-coder-auditor 'Prompt Economy' loops, 444 iterations across 10+ domains (incl. robotics VLA and computational biology case studies) with no human-written experimental code. Full-text HTML names the release repo github.com/AutoResearch-Factory/Agon; GitHub API confirms the repo exists (created 2026-06-18, pushed 2026-08-02, MIT license) and its description matches the paper - author-declared, so ownership stands. Access upgraded from the discovery note's 'no code link' to open-source.",
+  "record": {
+   "name": "Agon",
+   "category": "crossdomain",
+   "domain": "Omnidisciplinary autonomous research (case studies incl. robotics/VLA and computational biology; 10+ domains claimed)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2606.24177"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/AutoResearch-Factory/Agon"}
+   ],
+   "access": "open-source",
+   "inputs": "Small natural-language starting research topics; no human-written experimental code",
+   "outputs": "Generated experimental code, executed experiment iterations, research artifacts and reports with in-workflow validation",
+   "autonomy": "A3",
+   "notes": "LLM research orchestrator built on a 'Prompt Economy' (six principles incl. Zero-Code and Massive Parallelism) that ran 444 loop iterations across 10+ disciplines; validates what can be checked inside the workflow. Disclosed human gates: humans choose questions, judge evidence, and act as the final adversary who can block any artifact from advancing; computational closure only. Repo (MIT, implemented as a Claude Code plugin) is declared in the paper as the release location.",
+   "sources": [
+    "https://arxiv.org/abs/2606.24177",
+    "https://arxiv.org/html/2606.24177v1",
+    "https://api.github.com/repos/AutoResearch-Factory/Agon"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2606.24177",
+   "https://arxiv.org/html/2606.24177v1",
+   "api.github.com/repos/AutoResearch-Factory/Agon (via gh CLI)"
+  ]
+ },
+ {
+  "name": "SciAgentArena",
+  "verdict": "accept",
+  "reason": "Paper verified (arXiv 2606.12736, v1 2026-06-10, not withdrawn; 'Benchmarking AI Agents for Addressing Scientific Challenges Across Scales', Liu et al., 33 authors, Yale-led). Official project site sciagentarena.github.io fetched and live; it links the GitHub repo (HelloWorldLTY/SciAgentArena) and HF dataset (iLOVE2D/SciAgentArena), so both artifact links are author-endorsed. In-scope as a benchmark/harness: ~200 (198 per repo) stepwise-verified tasks across five biomedical domains, agent-agnostic environment, leaderboard, 16+ agent implementations evaluated. License check via GitHub API: repo has NO license file (license: null, /license endpoint 404 as of 2026-08-13) - public but unlicensed, therefore source-available, not open-source.",
+  "record": {
+   "name": "SciAgentArena",
+   "category": "benchmark",
+   "domain": "Biomedical multi-scale: drug discovery, single-cell omics, spatial omics, EHR modeling, clinical genetics",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2606.12736"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/HelloWorldLTY/SciAgentArena"},
+    {"label": "Project site", "url": "https://sciagentarena.github.io/"},
+    {"label": "HF dataset", "url": "https://huggingface.co/datasets/iLOVE2D/SciAgentArena"}
+   ],
+   "access": "source-available",
+   "inputs": "AI agent submissions (web-based submission interface); ~200 stepwise-verified tasks across seven benchmark families",
+   "outputs": "Standardized scores, stepwise verification results, community leaderboard",
+   "autonomy": "B",
+   "notes": "Living benchmark of ~200 tasks (198 per repo) with stepwise verification in an interactive agent-agnostic environment, spanning five biomedical domains from molecular to patient scale; ships 16 agent implementations (Biomni, ChemCrow, TxAgent, STELLA, ClaudeCode, Codex, etc.). Yale/Broad/Stanford-led (Tianyu Liu, Qingyu Chen, Hua Xu, Hongyu Zhao). Repo is public but carried no license file as of 2026-08-13, so it is not open-source; access should be upgraded if a license is added.",
+   "sources": [
+    "https://arxiv.org/abs/2606.12736",
+    "https://sciagentarena.github.io/",
+    "https://github.com/HelloWorldLTY/SciAgentArena",
+    "https://api.github.com/repos/HelloWorldLTY/SciAgentArena/license"
+   ],
+   "aliases": ["Benchmarking AI Agents for Addressing Scientific Challenges Across Scales"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2606.12736",
+   "https://sciagentarena.github.io/",
+   "https://github.com/HelloWorldLTY/SciAgentArena",
+   "api.github.com/repos/HelloWorldLTY/SciAgentArena + /license (via gh CLI; license null / 404)"
+  ]
+ }
+]

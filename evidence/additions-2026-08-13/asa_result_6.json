@@ -1,0 +1,176 @@
+[
+ {
+  "name": "PUDA",
+  "verdict": "accept",
+  "reason": "arXiv 2607.26464 (v1, 2026-07-29, NTU/BEARS Singapore, Hippalgaonkar group) resolves and matches: AI-native hardware harness for agentic SDLs. Paper itself lists source repositories github.com/PUDAP/puda and PUDAP/puda-docs (author-endorsed; PUDAP org, active, pushed 2026-07-27) plus docs.puda.co. Repo root has NO LICENSE file and GitHub API reports no license, so public-but-unlicensed -> source-available, not open-source. Paper is primarily architectural but states deployment across multiple AI4Science lab contexts (inorganic sample handling, materials synthesis, device measurement); human gates disclosed (researcher can inspect/approve/revise hardware actions; safety in drivers/validators/interlocks/human review).",
+  "record": {
+   "name": "PUDA",
+   "category": "chemistry",
+   "domain": "Self-driving laboratory hardware orchestration harness",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.26464"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/PUDAP/puda"},
+    {"label": "Docs", "url": "https://docs.puda.co/"}
+   ],
+   "access": "source-available",
+   "inputs": "Agent-issued CLI/JSON protocol commands and experiment campaign specifications",
+   "outputs": "Deterministic, atomic hardware executions with provenance-linked state, responses, and data records",
+   "autonomy": "A3-A4",
+   "notes": "AI-native hardware harness (not itself a science agent) for self-driving labs: agents observe/decide/act via a command-line runtime while hardware execution stays deterministic and auditable; deployed across sample-handling, synthesis, and device-measurement workflows. Researchers can inspect, approve, or revise hardware actions mid-campaign; repos are public but carry no license file.",
+   "sources": [
+    "https://arxiv.org/abs/2607.26464",
+    "https://arxiv.org/html/2607.26464v1",
+    "https://github.com/PUDAP/puda",
+    "https://docs.puda.co/"
+   ],
+   "aliases": ["Physical Unified Device Architecture"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.26464",
+   "https://arxiv.org/html/2607.26464v1",
+   "https://api.github.com/repos/PUDAP/puda",
+   "https://api.github.com/repos/PUDAP/puda/contents/"
+  ]
+ },
+ {
+  "name": "Neutral-atom QPU agentic workflow (Pasqal)",
+  "verdict": "accept",
+  "reason": "arXiv 2607.25834 (v1, 2026-07-28; authors Dalyac, Dauphin, Henriet, Jurczak - Pasqal) resolves and matches: agentic workflow automating paper/patent -> spec -> Pulser sequence -> emulation -> execution on two real Pasqal cloud QPUs (FC1 in Canada, SA1 in Saudi Arabia), overnight campaigns, three case studies (Z2 density-wave reproduction, frustrated triangular-lattice magnetism, patent graph-coloring via Rydberg independent-set peeling). Real quantum-hardware closure, not simulation-only. Disclosed human gates: mandatory emulation validation before any QPU run, researcher kept in decision loop, and two agent failures (wrong observable; plausible-but-wrong hardware diagnosis) caught only by domain-expert review. No system name; no code release for the workflow itself (Pulser is a pre-existing component) -> paper-only, catalogued under a descriptive name.",
+  "record": {
+   "name": "Pasqal neutral-atom QPU agentic workflow",
+   "category": "physics",
+   "domain": "Neutral-atom quantum hardware experimentation",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.25834"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Published paper or patent plus scientific objective; Pasqal cloud QPU access",
+   "outputs": "Structured experiment specifications, executable Pulser sequences, emulation checks, and QPU campaign results",
+   "autonomy": "A3-A4",
+   "notes": "Unnamed Pasqal agentic workflow that goes from published paper or patent to overnight campaigns on two real cloud neutral-atom QPUs (FC1, SA1) across three case studies in many-body physics and optimization. Disclosed gates: no protocol reaches the QPU without emulation validation, the researcher stays in the decision loop, and domain-expert review caught two agent failures; workflow code not released.",
+   "sources": [
+    "https://arxiv.org/abs/2607.25834",
+    "https://arxiv.org/html/2607.25834v1"
+   ],
+   "aliases": ["Lowering the implementation barrier of neutral-atom quantum computing with agentic workflows"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.25834",
+   "https://arxiv.org/html/2607.25834v1"
+  ]
+ },
+ {
+  "name": "Autonomous NV-center quantum sensing agent",
+  "verdict": "accept",
+  "reason": "arXiv 2607.25145 (v1, 2026-07-27; MIT - Isogawa, Okabe, Phadetsuwannukun, Li, Cappellaro) resolves and matches. Real physical closure confirmed from the paper: home-built confocal microscope, single NV centers in an Element Six diamond; agent autonomously selected an NV center, calibrated resonance, measured T2* via Ramsey, and added a CPMG check. Disclosed gates: agent has no direct driver access; a deterministic verifier checks every hardware request against ranges/safety rules; human advice given in one reanalysis case. Paper links first author's repo github.com/takuyaisogawa/nv-autonomous-experiments ('Public release of NV autonomous experiment artifacts and analysis code'); LICENSE is MIT for code with CC BY 4.0 for docs/data -> open-source. No official system name -> descriptive name. Also ships two offline reasoning benchmarks (Ramsey checkpoint, pODMR evaluation). No overlap with catalogued QCopilot (atom-cooling sensor design, different group).",
+  "record": {
+   "name": "Autonomous NV-center quantum sensing agent",
+   "category": "physics",
+   "domain": "NV-center quantum sensing experiments",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.25145"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/takuyaisogawa/nv-autonomous-experiments"}
+   ],
+   "access": "open-source",
+   "inputs": "Experiment goal, persistent project records, quantitative analysis tools, verified hardware-control requests",
+   "outputs": "Executed NV measurements (ODMR, Ramsey, CPMG), calibrations, T2* results, and analysis records",
+   "autonomy": "A4",
+   "notes": "MIT (Cappellaro group) LLM-agent workflow that autonomously ran a real NV-center experiment on a home-built confocal microscope - selecting an NV center, calibrating resonance, measuring T2* via Ramsey, and adding a CPMG check - plus two offline reasoning benchmarks. Disclosed gates: no direct instrument-driver access, a deterministic verifier enforces parameter ranges and safety rules on every hardware request, and one case study involved human advice during reanalysis; code MIT, docs/data CC BY 4.0.",
+   "sources": [
+    "https://arxiv.org/abs/2607.25145",
+    "https://arxiv.org/html/2607.25145v1",
+    "https://github.com/takuyaisogawa/nv-autonomous-experiments"
+   ],
+   "aliases": ["Agentic AI for Scientific Reasoning in Autonomous Quantum Sensing Experiments", "NV autonomous experiments"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.25145",
+   "https://arxiv.org/html/2607.25145v1",
+   "https://api.github.com/repos/takuyaisogawa/nv-autonomous-experiments",
+   "https://raw.githubusercontent.com/takuyaisogawa/nv-autonomous-experiments/main/LICENSE"
+  ]
+ },
+ {
+  "name": "LabRobFail",
+  "verdict": "hold",
+  "reason": "Paper verified: arXiv 2607.23704 (v1 2026-07-26, v2 2026-07-29, under review) matches the Sim/Data/Bench description. The arXiv comments field links github.com/Su-ISE-2001/SciRobo, which now redirects to Su-ISE-2001/LabRobFail (author-endorsed). However the repo has NO license (GitHub API: null; README defers to a LICENSE file 'if one exists'), and only the Isaac Sim anomaly-injection simulator scaffolding is visible - the 20k+ trajectory LabRobFail-Data and the LabRobFail-Bench evaluation harness are not evident in the repo, and the README does not even link the paper. Slice rule: benchmark needs released data/harness; release is currently partial, unlicensed, and unverifiable.",
+  "record": null,
+  "reconsider_when": "Su-ISE-2001/LabRobFail gains a license and actually released LabRobFail-Data (20k+ trajectories) and LabRobFail-Bench artifacts, or the paper is accepted with a complete artifact release. Then: category benchmark, autonomy B, access source-available or open-source depending on license.",
+  "fetched": [
+   "https://arxiv.org/abs/2607.23704",
+   "https://github.com/Su-ISE-2001/SciRobo",
+   "https://api.github.com/repos/Su-ISE-2001/SciRobo"
+  ]
+ },
+ {
+  "name": "Robotic chemistry laboratory agent stress test (unnamed)",
+  "verdict": "accept",
+  "reason": "arXiv 2607.23045 (v1, 2026-07-25) resolves and matches; full PDF (246 pp) extracted and read. Provenance confirmed: USTC Hefei (State Key Laboratory of Precision and Intelligent Chemistry; Jiang/Luo/Chen/Li groups), run on the 'robotic AI-Scientist platform of Chinese Academy of Sciences' - the suspected USTC lineage checks out. The artifact IS named in the paper: the skill library, scoring materials, and all code are archived in the 'LabBench repository' (github.com/pic-ai-robotic-chemistry/LabBench; org repo, created 2026-07-13, pushed 2026-07-25, exists, but NO license -> source-available). 45 workstations exposed as machine-readable skills, 48 harness-model configurations (Claude Code, Codex, Gemini CLI, Hermes Agent, Kilo Code, OpenClaw x 9 models), 4,608 trials; 3.3% of trials produced expert-assessed executable workflows (best configuration 28.1%). Executability was expert-assessed; a subset of open-ended closed-loop tasks was physically executed by the robotic lab over five feedback rounds. Benchmark/harness evaluating agent scientific agency -> category benchmark, autonomy B.",
+  "record": {
+   "name": "LabBench",
+   "category": "benchmark",
+   "domain": "Embodied chemistry-lab agent evaluation",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.23045"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/pic-ai-robotic-chemistry/LabBench"}
+   ],
+   "access": "source-available",
+   "inputs": "32 locked chemistry task prompts plus machine-readable skill contracts for 45 robotic workstations",
+   "outputs": "Agent-generated experimental workflows scored for expert-assessed physical executability, dispatch, and replanning",
+   "autonomy": "B",
+   "notes": "USTC/CAS stress test of LLM agents on a real 45-workstation robotic chemistry laboratory (robotic AI-Scientist platform): 4,608 trials across 48 harness-model configurations; only 3.3% of trials yielded expert-assessed executable workflows (best system 28.1%), with a physically executed closed-loop subset over five feedback rounds. Agents could not bypass laboratory identity, schema, state, or dispatch checks; skill library and scoring code are public in the LabBench repo, which carries no license file.",
+   "sources": [
+    "https://arxiv.org/abs/2607.23045",
+    "https://arxiv.org/pdf/2607.23045",
+    "https://github.com/pic-ai-robotic-chemistry/LabBench"
+   ],
+   "aliases": ["Robotic chemistry laboratory LLM-agent stress test", "Stress-testing large language model agents in a robotic chemistry laboratory"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.23045",
+   "https://arxiv.org/pdf/2607.23045",
+   "https://api.github.com/repos/pic-ai-robotic-chemistry/LabBench"
+  ]
+ },
+ {
+  "name": "AEcroscopyWave",
+  "verdict": "accept",
+  "reason": "arXiv 2607.22975 (v1, 2026-07-25) resolves and matches; full PDF fetched and text-extracted. All 11 authors at ORNL Center for Nanophase Materials Sciences (Liu, Vasudevan et al.). Overlap checked against agents_final.json: no existing AEcroscopy entry; TEM Agent (foundry-mcp TEAM 0.5) and AI X-ray Scientist (SSRL) are different lineages - no duplicate. AEcroscopyWave replaces the original AEcroscopy monolith with a distributed afm-server/afm-agent architecture plus a FastMCP tool server, LLM experiment planner, approval queue, and digital-twin validation; demonstrated by real test cases on scanning probe microscopes (Nanosurf DriveAFM, Cypher, Nanonis STM instances; BTO ferroelectric switching study). Human gates disclosed: agents can only run registered handlers, MCP-registry workflows, or human-approved custom scripts, which must also pass the digital twin. Availability statement releases only public user documentation (yongtaoliu.github.io/aecroscopy.pyae); the underlying first-author repo yongtaoliu/aecroscopy.pyae exists but is unlicensed, and the physical platform is an ORNL facility system -> lab-gated.",
+  "record": {
+   "name": "AEcroscopyWave",
+   "category": "physics",
+   "domain": "Scanning probe microscopy orchestration for agentic AI",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.22975"}
+   ],
+   "repo_links": [
+    {"label": "Documentation", "url": "https://yongtaoliu.github.io/aecroscopy.pyae/welcome_intro.html"},
+    {"label": "GitHub", "url": "https://github.com/yongtaoliu/aecroscopy.pyae"}
+   ],
+   "access": "lab-gated",
+   "inputs": "Human/agent experiment plans, MCP tool calls, registered workflows, and custom waveform scripts",
+   "outputs": "Executed scanning-probe experiments, job results posted via REST, and validated workflow records",
+   "autonomy": "A3-A4",
+   "notes": "ORNL CNMS successor to AEcroscopy: a distributed server-client platform with a FastMCP tool server that lets LLM agents plan and run real scanning-probe experiments (DriveAFM, Cypher, Nanonis STM backends), demonstrated on ferroelectric-switching test cases. Disclosed gates: agents may only execute registered handlers, registry workflows, or human-approved custom scripts, which must first pass a digital-twin validation; only user documentation is publicly released and the linked repo carries no license.",
+   "sources": [
+    "https://arxiv.org/abs/2607.22975",
+    "https://arxiv.org/pdf/2607.22975",
+    "https://yongtaoliu.github.io/aecroscopy.pyae/welcome_intro.html",
+    "https://github.com/yongtaoliu/aecroscopy.pyae"
+   ],
+   "aliases": ["AEcroscopy Wave"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.22975",
+   "https://arxiv.org/pdf/2607.22975",
+   "https://api.github.com/repos/yongtaoliu/aecroscopy.pyae"
+  ]
+ }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "LLM4MOF",
+    "verdict": "accept",
+    "reason": "arXiv 2606.29459 resolves (v1 2026-06-28, not withdrawn): 'Interpretable Inverse Design of Metal-Organic Frameworks with Large Language Model Agents' (Nam, Han, Kim; KAIST). Abstract names LLM4MOF: two-agent closed loop (hypothesis agent + constraint/selection agent) with simulation-based property evaluation, optimization within ~400 property evaluations. Multi-step computational-closure design loop, in scope. Distinct system from catalogued ChatMOF despite shared Jihan Kim group lineage. No code link on the abs page, so paper-only.",
+    "record": {
+      "name": "LLM4MOF",
+      "category": "chemistry",
+      "domain": "MOF inverse design (closed-loop LLM agents)",
+      "paper_links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2606.29459"}
+      ],
+      "repo_links": [],
+      "access": "paper-only",
+      "inputs": "Target MOF property/design task, MOF candidate space",
+      "outputs": "Interpretable design hypotheses and simulation-validated candidate MOFs",
+      "autonomy": "A2-A3",
+      "notes": "Two LLM agents iterate in a closed loop: one proposes interpretable hypotheses over metal nodes, linkers, pore geometry and functional chemistry; the other translates them into constraints selecting candidates for simulation testing, converging within ~400 property evaluations. From the Jihan Kim group (KAIST, also behind ChatMOF) but a distinct system; no code released as of verification.",
+      "sources": [
+        "https://arxiv.org/abs/2606.29459"
+      ],
+      "aliases": ["Interpretable Inverse Design of Metal-Organic Frameworks with Large Language Model Agents"]
+    },
+    "fetched": ["https://arxiv.org/abs/2606.29459"]
+  },
+  {
+    "name": "MetaDataGenAgent",
+    "verdict": "accept",
+    "reason": "arXiv 2606.22774 resolves (v1 2026-06-22, not withdrawn): 'Autonomous Generation of Metamaterial Databases Based on Multimodal Agents' (Qin et al., incl. Tie Jun Cui). Adjudicated as a system, not a fixed pipeline: coordinated specialized agents, iterative validation, feedback-driven model construction, EM-simulation validation of generated databases (beam deflection, holographic imaging). Same admitted genre as catalogued nanoMINER (literature-to-database, A2). No code link on the abs page, so paper-only.",
+    "record": {
+      "name": "MetaDataGenAgent",
+      "category": "physics",
+      "domain": "Metamaterials literature-to-database extraction",
+      "paper_links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2606.22774"}
+      ],
+      "repo_links": [],
+      "access": "paper-only",
+      "inputs": "Unstructured metamaterials literature (text plus figures)",
+      "outputs": "Executable, simulation-validated metamaterial structure-response databases",
+      "autonomy": "A2",
+      "notes": "Multimodal multi-agent framework establishing a literature-to-simulation pipeline via coordinated specialized agents with iterative, feedback-driven validation; outputs were validated by generating electromagnetic functions (beam deflection, holographic imaging). Data-extraction loop with simulation validation, not a physical experiment loop; no code released as of verification.",
+      "sources": [
+        "https://arxiv.org/abs/2606.22774"
+      ],
+      "aliases": ["Autonomous Generation of Metamaterial Databases Based on Multimodal Agents"]
+    },
+    "fetched": ["https://arxiv.org/abs/2606.22774"]
+  },
+  {
+    "name": "Vibe Calibration",
+    "verdict": "accept",
+    "reason": "arXiv 2606.22376 resolves (v1 2026-06-21, not withdrawn): 'Vibe Calibration: Autonomous Bring-up of a 112-Qubit Superconducting Quantum Processor by a Skill-Orchestrating Language Agent' (Xu et al.). Real physical loop closure verified from the abstract: autonomously calibrated 108/112 qubits of a real frequency-tunable transmon processor in 4.7 h (4-5x speedup), expert agreement on 14/16 validated qubits. Overlap check against catalogued k-agents (asa-k-agents-self-driving-labs-for-quantum-computing, Cao et al., arXiv 2412.07978): entirely different author team and paper; same problem space, distinct and larger-scale system. No code link on the abs page, so paper-only.",
+    "record": {
+      "name": "Vibe Calibration",
+      "category": "physics",
+      "domain": "Autonomous superconducting quantum processor calibration",
+      "paper_links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2606.22376"}
+      ],
+      "repo_links": [],
+      "access": "paper-only",
+      "inputs": "112-qubit superconducting processor, decision-tree Skills packaging parameterized measurement code",
+      "outputs": "Autonomous calibration of 108/112 qubits in 4.7 h with auditable Skill execution traces",
+      "autonomy": "A5",
+      "notes": "Skill-orchestrating LLM agent autonomously brought up a real 112-qubit frequency-tunable transmon processor (108/112 qubits in 4.7 h, 4-5x faster than manual; expert agreement on 14/16 validated qubits). Human gates disclosed: Skills were distilled from expert tacit knowledge via a three-phase human-in-the-loop process and the model was fine-tuned on validated trajectories before autonomous operation. Distinct team and system from k-agents (Cao et al.).",
+      "sources": [
+        "https://arxiv.org/abs/2606.22376"
+      ],
+      "aliases": ["Vibe Calibration: Autonomous Bring-up of a 112-Qubit Superconducting Quantum Processor by a Skill-Orchestrating Language Agent"]
+    },
+    "fetched": ["https://arxiv.org/abs/2606.22376"]
+  },
+  {
+    "name": "ASYS (Agentic Symbolic Search)",
+    "verdict": "accept",
+    "reason": "arXiv 2606.20467 resolves (v1 2026-06-18, not withdrawn): 'Agentic Symbolic Search: Characterizing PDEs Beyond Hand-crafted Expressions, Meshes, and Neural Networks' (Yu, Yang). Agent translates PDE theory, constraints, and accumulated search experience into testable differentiable symbolic programs refined by evolutionary search with gradient fitting; produced novel analytical approximations for unsolved problems across five PDE settings. Same admitted genre as catalogued LLM-SR/SR-Scientist; dedup confirmed distinct from PDE-Agents (FEM simulation system, different paper/authors), LLM-SR, and SR-Scientist. No code link on the abs page, so paper-only.",
+    "record": {
+      "name": "ASYS (Agentic Symbolic Search)",
+      "category": "physics",
+      "domain": "Symbolic characterization of PDE solutions",
+      "paper_links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2606.20467"}
+      ],
+      "repo_links": [],
+      "access": "paper-only",
+      "inputs": "PDE theory, problem constraints, accumulated search experience",
+      "outputs": "Testable differentiable symbolic programs; interpretable analytical characterizations, incl. novel approximations for unsolved problems",
+      "autonomy": "A2-A3",
+      "notes": "Prior-guided agentic framework in which an agent converts PDE theory and constraints into differentiable symbolic programs, refined by evolutionary search with gradient-based parameter fitting; recovered known analytical solutions and produced new interpretable representations across five problems (bounded dynamics, finite-time blow-up, free-boundary focusing). Computational discovery loop; no code released as of verification.",
+      "sources": [
+        "https://arxiv.org/abs/2606.20467"
+      ],
+      "aliases": ["ASYS", "Agentic Symbolic Search"]
+    },
+    "fetched": ["https://arxiv.org/abs/2606.20467"]
+  },
+  {
+    "name": "PhySciBench",
+    "verdict": "accept",
+    "reason": "arXiv 2606.18648 resolves (v1 2026-06-17, v2 2026-06-21, v3 2026-06-23, not withdrawn): 'Deep Research in Physical Sciences: A Multi-Agent Framework and Comprehensive Benchmark' (Jiang et al.). Benchmark of 200 expert-curated physics/chemistry questions across six task categories evaluating deep-research agents; paper also introduces the DelveAgent multi-agent framework (adaptive planning loop, dual-granularity memory, physics-grounded reflection). Official repo verified: github.com/yigengjiang/physci-deepresearch (owner = first author Yigeng Jiang, README matches paper title, links arXiv 2606.18648); evaluation code Apache-2.0, dataset on HuggingFace with separate DATA_LICENSE.md; DelveAgent code stated as 'released soon'.",
+    "record": {
+      "name": "PhySciBench",
+      "category": "benchmark",
+      "domain": "Deep-research agent benchmark for the physical sciences",
+      "paper_links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2606.18648"}
+      ],
+      "repo_links": [
+        {"label": "GitHub", "url": "https://github.com/yigengjiang/physci-deepresearch"}
+      ],
+      "access": "open-source",
+      "inputs": "200 expert-curated questions balanced between physics and chemistry across six research-workflow task categories",
+      "outputs": "Deep-research agent performance scores per task category",
+      "autonomy": "B",
+      "notes": "Benchmark for deep-research agents on real physical-science research workflows, introduced alongside DelveAgent, a modular multi-agent framework with an adaptive planning loop, dual-granularity memory, and hierarchical physics-grounded reflection. Evaluation code is Apache-2.0 with the dataset on HuggingFace (separate data license); DelveAgent framework code was announced but not yet released at verification (2026-08-13).",
+      "sources": [
+        "https://arxiv.org/abs/2606.18648",
+        "https://github.com/yigengjiang/physci-deepresearch"
+      ],
+      "aliases": ["DelveAgent", "Deep Research in Physical Sciences"]
+    },
+    "fetched": [
+      "https://arxiv.org/abs/2606.18648",
+      "https://github.com/yigengjiang/physci-deepresearch"
+    ]
+  },
+  {
+    "name": "AdsMind",
+    "verdict": "accept",
+    "reason": "arXiv 2606.19152 resolves (v1 2026-06-17, not withdrawn): 'AdsMind: A Physics-Grounded Multi-Agent System for Self-Correcting Discovery of Adsorption Configurations on Heterogeneous Catalyst Surfaces' (Zhang et al., incl. Philippe Schwaller). Closed-loop multi-agent framework with MLFF relaxation feedback for autonomous error correction of LLM-proposed configurations. Overlap check vs catalogued Adsorb-Agent (asa-adsorb-agent, Ock et al., arXiv 2410.16658, CMU lineage): no author overlap; AdsMind references Adsorb-Agent as a comparison, so different lineage competing in the same domain, not the same system. No code link on the abs page, so paper-only.",
+    "record": {
+      "name": "AdsMind",
+      "category": "chemistry",
+      "domain": "Catalyst adsorption configuration discovery",
+      "paper_links": [
+        {"label": "arXiv", "url": "https://arxiv.org/abs/2606.19152"}
+      ],
+      "repo_links": [],
+      "access": "paper-only",
+      "inputs": "Adsorbate and heterogeneous catalyst surface",
+      "outputs": "Self-corrected lowest-energy surface-adsorbate configurations via MLFF relaxation feedback",
+      "autonomy": "A3",
+      "notes": "AdsMind (Adsorption configuration discovery with Machine intelligence and relaxation feedback): closed-loop multi-agent framework where machine-learning force-field relaxation feedback lets LLM agents autonomously correct erroneous initial configuration guesses. Distinct lineage from the catalogued Adsorb-Agent (which it compares against); computational closure only; no code released as of verification.",
+      "sources": [
+        "https://arxiv.org/abs/2606.19152"
+      ],
+      "aliases": ["Adsorption configuration discovery with Machine intelligence and relaxation feedback"]
+    },
+    "fetched": ["https://arxiv.org/abs/2606.19152"]
+  }
+]

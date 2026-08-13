@@ -1,0 +1,191 @@
+[
+ {
+  "name": "SMEFT-Pheno-Agent",
+  "verdict": "accept",
+  "reason": "arXiv:2607.22331 (v1, 2026-07-24, hep-ph) verified and matches: a natural-language AI agent coordinating a twelve-phase SMEFT collider-phenomenology workflow. Full source released under MIT at the authors' own GitHub (NBAlexis = author Ji-Chong Yang; repo created 2026-07-21, before submission) with a Gitee mirror the GitHub repo itself designates as the latest version. Multi-step scientific workflow, computational closure only.",
+  "record": {
+   "name": "SMEFT-Pheno-Agent",
+   "category": "physics",
+   "domain": "High-energy physics / SMEFT collider phenomenology",
+   "paper_links": [
+    {"label": "arXiv:2607.22331", "url": "https://arxiv.org/abs/2607.22331"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/NBAlexis/SMEFT-Pheno-Agent"},
+    {"label": "Gitee (latest)", "url": "https://gitee.com/NBAlexis/automated-smeft-ml-pheno"}
+   ],
+   "access": "open-source",
+   "inputs": "Natural-language SMEFT analysis intent; nine interactively collected configuration parameters locked into run_config.json",
+   "outputs": "MadGraph5_aMC@NLO/Pythia/Delphes simulation samples, ML-based event selections, statistical constraints on Wilson coefficients, machine-readable phase manifests and prose drafts",
+   "autonomy": "A3",
+   "notes": "Twelve-phase Python workflow in which the agent proposes kinematic observables and ML algorithms while all numerics are delegated to validated domain tools; Phase 1 (configuration intake) is the only interactive stage and phases 2-12 then run unattended with physical parameters locked. Distributed as a portable skill under the Agent Skills open standard (MIT license; runtimes such as Codex or Claude Code listed as illustrative).",
+   "sources": [
+    "https://arxiv.org/abs/2607.22331",
+    "https://arxiv.org/html/2607.22331v1",
+    "https://github.com/NBAlexis/SMEFT-Pheno-Agent",
+    "https://gitee.com/NBAlexis/automated-smeft-ml-pheno"
+   ],
+   "aliases": ["automated-smeft-ml-pheno"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.22331",
+   "https://export.arxiv.org/api/query?id_list=2607.22331,2607.21533,2607.20346,2607.17100,2607.15001,2607.13930",
+   "https://arxiv.org/html/2607.22331v1",
+   "https://api.github.com/repos/NBAlexis/SMEFT-Pheno-Agent",
+   "https://gitee.com/NBAlexis/automated-smeft-ml-pheno"
+  ]
+ },
+ {
+  "name": "Lean-QuantumAlg-Bench / Lean-QIT-Bench",
+  "verdict": "accept",
+  "reason": "arXiv:2607.21533 (v1, 2026-07-23, quant-ph) verified: two Lean 4 theorem-completion benchmarks (36 and 40 tasks) with deterministic proof checking and pre-assigned difficulty weights, evaluating four frontier models in a common theorem-proving agent framework. Both benchmark repos are linked from the paper, predate submission (created 2026-06-30 and 2026-06-22), and are Apache-2.0. Clear benchmark scope (B).",
+  "record": {
+   "name": "Lean-QuantumAlg-Bench / Lean-QIT-Bench",
+   "category": "benchmark",
+   "domain": "Quantum algorithms and quantum information theory / formal theorem proving (Lean 4)",
+   "paper_links": [
+    {"label": "arXiv:2607.21533", "url": "https://arxiv.org/abs/2607.21533"}
+   ],
+   "repo_links": [
+    {"label": "Lean-QuantumAlg-Bench (GitHub)", "url": "https://github.com/QudeLeap/Lean-QuantumAlg-Bench"},
+    {"label": "Lean-QIT-Bench (GitHub)", "url": "https://github.com/QuAIR/Lean-QIT-Bench"}
+   ],
+   "access": "open-source",
+   "inputs": "Lean 4 theorem-completion tasks (sorry-target statements with paired TeX statements and optional hints) compiling in a fixed environment",
+   "outputs": "Machine-checked Lean proofs; difficulty-weighted scores from deterministic proof checking plus targeted semantic review; cost and completion-rate comparisons",
+   "autonomy": "B",
+   "notes": "36-task quantum-algorithm and 40-task quantum-information Lean 4 benchmarks with difficulty weights assigned before model execution; evaluates GPT-5.5, Kimi K3, DeepSeek V4-Pro and MiniMax M3 in a common agent framework, with library-augmented deduction (access to a verified domain library) improving all eight model-benchmark comparisons. Repos (Apache-2.0) are published mirrors of the reviewed public benchmark surface.",
+   "sources": [
+    "https://arxiv.org/abs/2607.21533",
+    "https://arxiv.org/html/2607.21533v1",
+    "https://github.com/QudeLeap/Lean-QuantumAlg-Bench",
+    "https://github.com/QuAIR/Lean-QIT-Bench"
+   ],
+   "aliases": ["Lean-QuantumAlg-Bench", "Lean-QIT-Bench"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.21533",
+   "https://export.arxiv.org/api/query?id_list=2607.22331,2607.21533,2607.20346,2607.17100,2607.15001,2607.13930",
+   "https://arxiv.org/html/2607.21533v1",
+   "https://api.github.com/repos/QudeLeap/Lean-QuantumAlg-Bench",
+   "https://api.github.com/repos/QuAIR/Lean-QIT-Bench",
+   "https://api.github.com/repos/QudeLeap/Lean-QuantumAlg-Bench/readme",
+   "https://api.github.com/repos/QuAIR/Lean-QIT-Bench/readme"
+  ]
+ },
+ {
+  "name": "IteraSim RAG",
+  "verdict": "accept",
+  "reason": "Adjudication of the crowded-niche flag: this is a system, not a component. Beyond retrieval, it splits generation across Architect/InputWriter/Reviewer agents, compiles custom solvers via wmake, launches the OpenFOAM simulation, parses solver logs, and runs a corrective loop bounded to ten cycles - full NL-request-to-executed-case closure, functionally the same class as Foam-Agent/MetaOpenFOAM already in the catalog. arXiv:2607.20346 (v1, 2026-07-22) verified. Caveats carried in the record: single-author paper with disclosed financial interest; the engine/orchestrator is commercial IP available only on request, and only the 28-case benchmark kit is open (MIT, verified LICENSE text).",
+  "record": {
+   "name": "IteraSim RAG",
+   "category": "physics",
+   "domain": "Computational fluid dynamics / OpenFOAM engineering simulation",
+   "paper_links": [
+    {"label": "arXiv:2607.20346", "url": "https://arxiv.org/abs/2607.20346"}
+   ],
+   "repo_links": [
+    {"label": "Benchmark and evaluation kit (GitHub, MIT)", "url": "https://github.com/iterasim/iterasim-rag-public"}
+   ],
+   "access": "lab-gated",
+   "inputs": "Natural-language OpenFOAM CFD case requests (zero-shot setup, parameter modification, troubleshooting)",
+   "outputs": "Complete mutually consistent OpenFOAM input decks (solver, discretisation, boundary-condition dictionaries); compiled and executed cases with log-driven Reviewer corrections",
+   "autonomy": "A3",
+   "notes": "Multi-stage RAG back-end (query expansion, Reciprocal Rank Fusion, MMR re-ranking, keyword router) feeding Architect/InputWriter/Reviewer agents over a canonical-knowledge layer; the Reviewer compiles, runs the simulation and iterates in a corrective loop bounded to ten cycles. The retrieval engine and orchestrator are commercial IP of IteraSim (single-author paper, disclosed financial interest) available for academic collaboration or licensing on request; only the 28-case benchmark, rubric and figure scripts are open (MIT, Zenodo-archived per paper).",
+   "sources": [
+    "https://arxiv.org/abs/2607.20346",
+    "https://arxiv.org/html/2607.20346v1",
+    "https://github.com/iterasim/iterasim-rag-public"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.20346",
+   "https://export.arxiv.org/api/query?id_list=2607.22331,2607.21533,2607.20346,2607.17100,2607.15001,2607.13930",
+   "https://arxiv.org/html/2607.20346v1",
+   "https://api.github.com/repos/iterasim/iterasim-rag-public",
+   "https://api.github.com/repos/iterasim/iterasim-rag-public/contents/LICENSE"
+  ]
+ },
+ {
+  "name": "Auto Research for Materials",
+  "verdict": "reject",
+  "reason": "Adjudication of the methodology flag: this is a methodology paper, not an indexable system. arXiv:2607.17100 (v1 2026-07-19, v2 2026-07-29; cs.MA/cs.AI/cs.SE) verified and not withdrawn, but the contribution is 'intervention-centered Auto Research' - a validation protocol (axis-wise search with frozen winners plus outer-holdout auditing) for judging auto-research decisions, demonstrated in a single materials-ML case study with DeepSeek-V4-Pro as the executing agent. No named released system, and no code, data, or repository URL anywhere in the v2 full text (checked). Fails scope (method paper / one-off case study) and has no verifiable artifact; would need a named, released system to reconsider.",
+  "record": null,
+  "fetched": [
+   "https://arxiv.org/abs/2607.17100",
+   "https://export.arxiv.org/api/query?id_list=2607.22331,2607.21533,2607.20346,2607.17100,2607.15001,2607.13930",
+   "https://arxiv.org/html/2607.17100v2"
+  ]
+ },
+ {
+  "name": "LQCDMaster",
+  "verdict": "accept",
+  "reason": "arXiv:2607.15001 (v1, 2026-07-16, hep-lat/cs.AI/hep-ph) verified: tool-augmented, skill-guided agent converting natural-language lattice-QCD tasks into executable PyQUDA workflows, reproducing expert implementations at machine precision in 63/70 benchmark tasks. Source, skills, Wick-contraction tool and benchmark released at the SJTU authors' org repo (linked from paper, created 2026-07-07). README declares MIT twice but the repo contains no standalone LICENSE file as of 2026-08-13 - noted as a caveat, classified open-source on the explicit README grant.",
+  "record": {
+   "name": "LQCDMaster",
+   "category": "physics",
+   "domain": "Lattice quantum chromodynamics / HPC scientific computing",
+   "paper_links": [
+    {"label": "arXiv:2607.15001", "url": "https://arxiv.org/abs/2607.15001"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/sjtu-sai-agents/LQCD_Master"}
+   ],
+   "access": "open-source",
+   "inputs": "Natural-language lattice-QCD research tasks",
+   "outputs": "Executable PyQUDA measurement scripts, Slurm job-submission artifacts, execution logs and numerical observables (two-point and three-point functions, Wilson loops)",
+   "autonomy": "A3",
+   "notes": "Planner-Executor agent pair with expert-annotated LQCD skills and a deterministic Wick-contraction tool (generate_einsum); a disclosed human checkpoint lets physicists review and refine the plan before execution, after which code generation, static analysis and auto-debugging proceed autonomously (GPT-5.4 primary backbone, DeepSeek-V4-Pro validation). Reproduces expert implementations at machine precision on 63 of 70 benchmark tasks; README declares MIT but the repo lacks a standalone LICENSE file as of 2026-08-13.",
+   "sources": [
+    "https://arxiv.org/abs/2607.15001",
+    "https://arxiv.org/html/2607.15001v1",
+    "https://github.com/sjtu-sai-agents/LQCD_Master"
+   ],
+   "aliases": ["LQCD Master", "LQCD_Master"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.15001",
+   "https://export.arxiv.org/api/query?id_list=2607.22331,2607.21533,2607.20346,2607.17100,2607.15001,2607.13930",
+   "https://arxiv.org/html/2607.15001v1",
+   "https://api.github.com/repos/sjtu-sai-agents/LQCD_Master",
+   "https://api.github.com/repos/sjtu-sai-agents/LQCD_Master/readme",
+   "https://api.github.com/repos/sjtu-sai-agents/LQCD_Master/contents"
+  ]
+ },
+ {
+  "name": "NNStar",
+  "verdict": "accept",
+  "reason": "arXiv:2607.13930 (v1, 2026-07-15, nucl-th/astro-ph.HE/physics.comp-ph) verified: end-to-end agent automating RMF model construction, EoS building, TOV integration and Bayesian scoring for nuclear matter and neutron stars, delivered as a portable skill for the open agent platform openclaw. The paper links its own companion repo (skill + 100-task harness + data). Access downgraded to source-available: the repo's LICENSE file is a literal 'TODO: choose and confirm a license' placeholder, so the public code is unlicensed and cannot be called open-source; the harness also ran against a private remote machine, so paths need adaptation to reproduce.",
+  "record": {
+   "name": "NNStar",
+   "category": "physics",
+   "domain": "Nuclear matter and neutron-star astrophysics / equation-of-state inference",
+   "paper_links": [
+    {"label": "arXiv:2607.13930", "url": "https://arxiv.org/abs/2607.13930"}
+   ],
+   "repo_links": [
+    {"label": "GitHub (skill + benchmark harness)", "url": "https://github.com/AaronMahn/NM-rmf-benchmark-scheme"}
+   ],
+   "access": "source-available",
+   "inputs": "RMF Lagrangian specifications with coupling parameters; natural-language task requests to the agent platform",
+   "outputs": "Saturation properties, beta-equilibrium equation of state with crust matching, TOV mass-radius-tidal-deformability predictions, Bayesian joint-analysis scores against nuclear and astrophysical constraints",
+   "autonomy": "A3",
+   "notes": "Delivered not as a standalone program but as a self-describing skill (rmf-toolkit plus symbolic and numerical physics engines) installed into the open LLM agent platform openclaw; the paper states the agent can read a model, fit its parameters and report all observables without human intervention (computational closure only). Companion repo bundles the skill and a 100-task with/without-skill benchmark harness, but its LICENSE file is an unresolved placeholder (unlicensed as of 2026-08-13) and the harness targeted a private remote machine.",
+   "sources": [
+    "https://arxiv.org/abs/2607.13930",
+    "https://arxiv.org/html/2607.13930v1",
+    "https://github.com/AaronMahn/NM-rmf-benchmark-scheme"
+   ],
+   "aliases": ["RMF Skill Benchmark (companion harness)"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.13930",
+   "https://export.arxiv.org/api/query?id_list=2607.22331,2607.21533,2607.20346,2607.17100,2607.15001,2607.13930",
+   "https://arxiv.org/html/2607.13930v1",
+   "https://api.github.com/repos/AaronMahn/NM-rmf-benchmark-scheme",
+   "https://api.github.com/repos/AaronMahn/NM-rmf-benchmark-scheme/readme",
+   "https://api.github.com/repos/AaronMahn/NM-rmf-benchmark-scheme/contents/LICENSE"
+  ]
+ }
+]

@@ -1,0 +1,168 @@
+[
+ {
+  "name": "LeWRON",
+  "verdict": "accept",
+  "reason": "Paper verified (arXiv 2606.19425, 'LeWRON: Agentic Analysis of Electroweak Phase Transitions', Isaac R. Wang, v1 2026-06-17, hep-ph, FERMILAB-PUB-26-0408-T, not withdrawn). Repo github.com/quarkquartet/LeWRON verified: MIT license, README self-identifies as the system and cites arXiv:2606.19425 as its companion paper (single-author project; repo is first-party). Multi-step physics analysis pipeline (Lagrangian -> effective potential -> thermal history -> nucleation -> GW spectra) with auditor agent; in scope.",
+  "record": {
+   "name": "LeWRON",
+   "category": "physics",
+   "domain": "Particle physics / cosmology - electroweak phase transition analysis",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2606.19425"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/quarkquartet/LeWRON"}
+   ],
+   "access": "open-source",
+   "inputs": "BSM Lagrangian or literature target-paper specification",
+   "outputs": "Model-specific Python code, finite-temperature effective potentials, mass matrices/counterterms, thermal histories, nucleation temperatures, gravitational-wave spectra, human-readable notes and plots",
+   "autonomy": "A3",
+   "notes": "Agentic pipeline (Fermilab, single-author) that automates the full electroweak-phase-transition analysis from an input Lagrangian, pairing a temperature-0 coding model with a reasoning/auditor model and an Explorer module for scans and plots. Human checkpoints after each major stage (user inspects artifacts, corrects assumptions) are built in; MIT-licensed code.",
+   "sources": [
+    "https://arxiv.org/abs/2606.19425",
+    "https://arxiv.org/html/2606.19425v1",
+    "https://github.com/quarkquartet/LeWRON"
+   ],
+   "aliases": ["Learning ElectroWeak phase tRansitiON"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2606.19425",
+   "https://arxiv.org/html/2606.19425v1",
+   "https://github.com/quarkquartet/LeWRON"
+  ]
+ },
+ {
+  "name": "PhyNex",
+  "verdict": "accept",
+  "reason": "Paper verified (arXiv 2606.14266, 'Large Language Model Based Agent for Automated Discovery in Computational Physics', Hang Lin, Chongwen Liu, Gang Yan, v1 2026-06-12, physics.comp-ph, not withdrawn); abstract names PhyNex and matches the candidate (dielectric spectra, Max-Cut circuits, Dicke quantum-battery protocols). No code/repo link found on the abs page, so access is paper-only. Autonomous LLM-guided search loop over scorable scientific tasks with computational closure; in scope.",
+  "record": {
+   "name": "PhyNex",
+   "category": "physics",
+   "domain": "Computational physics discovery (materials spectra, combinatorial optimization circuits, quantum control)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2606.14266"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Scorable computational-physics task plus domain-specific computational tools",
+   "outputs": "Iteratively improved solutions and scores: dielectric-spectra predictions for semiconductors, probabilistic Max-Cut circuit designs, quantum-battery charging protocols",
+   "autonomy": "A3-A4",
+   "notes": "Autonomous agent coupling LLM-guided search with domain computational tools to explore solution spaces of scorable tasks; reported gains of 3.8% spectral similarity, 15.0% Max-Cut performance, and 5.9% ergotropy across its three physics case studies. No public implementation was found during review (paper-only).",
+   "sources": [
+    "https://arxiv.org/abs/2606.14266"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2606.14266"
+  ]
+ },
+ {
+  "name": "UniLabOS",
+  "verdict": "accept",
+  "reason": "Paper verified (arXiv 2512.21766, 'UniLabOS: An AI-Native Operating System for Autonomous Laboratories', Gao et al. incl. Linfeng Zhang, v1 2025-12-25, cs.CE, not withdrawn). Physical closure verified from full text: four real hardware deployments (liquid-handling workstation; organic synthesis platform yielding 5.3 g NMR-confirmed product; three-site distributed electrolyte foundry; alkaline-electrolysis closed loop that autonomously switched operating mode on a TDS spike). Official repo github.com/deepmodeling/Uni-Lab-OS verified: cites the paper, GPL-3.0 core with DP Technology proprietary device drivers, 171 stars, docs site. First-party (deepmodeling / DP Technology ecosystem matches author affiliations).",
+  "record": {
+   "name": "UniLabOS",
+   "category": "chemistry",
+   "domain": "Autonomous-laboratory orchestration OS (liquid handling, organic synthesis, electrolyte production, closed-loop electrochemistry)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2512.21766"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/deepmodeling/Uni-Lab-OS"},
+    {"label": "Docs", "url": "https://deepmodeling.github.io/Uni-Lab-OS/"}
+   ],
+   "access": "open-source",
+   "inputs": "Experiment goals/protocols and heterogeneous instrument configurations (typed device abstractions; HTTP/RS485/TCP integration)",
+   "outputs": "Orchestrated physical experiment execution with transactional safeguards, synthesized products and characterization data, real-time monitoring and autonomous mode switching, audit trails",
+   "autonomy": "A4-A5",
+   "notes": "AI-native lab operating system from the DP Technology / deepmodeling ecosystem, demonstrated on four real-world hardware settings including an organic synthesis run (5.3 g product, 1H NMR-confirmed) and a computation-intensive closed loop that autonomously switched electrolysis mode on a sensor trigger. Humans stay in the loop for goals, approvals, and governance (disclosed gate); core framework is GPL-3.0 while device drivers under unilabos/devices/ carry a DP Technology proprietary license.",
+   "sources": [
+    "https://arxiv.org/abs/2512.21766",
+    "https://arxiv.org/html/2512.21766v1",
+    "https://github.com/deepmodeling/Uni-Lab-OS"
+   ],
+   "aliases": ["Uni-Lab-OS"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2512.21766",
+   "https://arxiv.org/html/2512.21766v1",
+   "https://github.com/deepmodeling/Uni-Lab-OS"
+  ]
+ },
+ {
+  "name": "AGAPI-Agents",
+  "verdict": "accept",
+  "reason": "Paper verified (arXiv 2512.11935, 'AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org', Lee et al. incl. Kamal Choudhary, v1 2025-12-12, v2 2026-07-07, cs.AI + cond-mat.mtrl-sci, not withdrawn; abs page itself lists github.com/atomgptlab/agapi and AtomGPT.org). Repo verified first-party: atomgptlab org (AtomGPTLab @ JHU, JARVIS lineage), Apache-2.0, links atomgpt.org throughout and cites the paper. atomgpt.org responds live (JS app; only the splash header was verifiable via static fetch). Agent platform for multi-step materials-design work, comparable to cataloged ToolUniverse; in scope.",
+  "record": {
+   "name": "AGAPI-Agents",
+   "category": "chemistry",
+   "domain": "Materials design and characterization (materials databases, force fields, tight-binding band structures, XRD, protein structure)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2512.11935"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/atomgptlab/agapi"},
+    {"label": "Platform", "url": "https://atomgpt.org"}
+   ],
+   "access": "open-source",
+   "inputs": "Natural-language or Python materials-design queries routed to agent tools",
+   "outputs": "Tool-augmented materials predictions, analyses, and explorations (property prediction, band structures, diffraction, structure retrieval)",
+   "autonomy": "A2",
+   "notes": "Open-access agentic platform (AtomGPTLab, JARVIS lineage; Apache-2.0) integrating eight open-source LLMs with 18 REST endpoints, 28 agent tools, and 50 web apps on AtomGPT.org; the paper characterizes when tool access improves prediction accuracy, finding tool-augmented agents strongly outperform tool-free LLMs on unfamiliar materials properties. Also usable as a hosted platform at atomgpt.org.",
+   "sources": [
+    "https://arxiv.org/abs/2512.11935",
+    "https://github.com/atomgptlab/agapi",
+    "https://atomgpt.org"
+   ],
+   "aliases": ["AGAPI"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2512.11935",
+   "https://github.com/atomgptlab/agapi",
+   "https://atomgpt.org"
+  ]
+ },
+ {
+  "name": "ChatBattery",
+  "verdict": "accept",
+  "reason": "Paper verified (arXiv 2507.16110, 'Expert-Guided LLM Reasoning for Battery Discovery: From AI-Driven Hypothesis to Synthesis and Characterization', Liu et al. incl. Yoshua Bengio, v1 2025-07-21, cs.AI/cs.LG, not withdrawn). Physical closure verified from full text: three predicted cathodes (NMC-SiMg, NMC-SiCa, NMC-MgB) were synthesized and characterized, beating NMC811 by 28.8/25.2/18.5% capacity — but synthesis/characterization was performed by human experimentalists, and a Human agent is an explicit framework component (prompt design and wet-lab verification), so not A5. Repo github.com/chao1224/ChatBattery verified first-party (owner chao1224 identified in README as first author Shengchao Liu; paper's code-availability statement names this exact URL), MIT license.",
+  "record": {
+   "name": "ChatBattery",
+   "category": "chemistry",
+   "domain": "Battery cathode materials discovery (Li-ion)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2507.16110"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/chao1224/ChatBattery"}
+   ],
+   "access": "open-source",
+   "inputs": "Starting cathode material formula (e.g., NMC811) as text",
+   "outputs": "Novel cathode candidate formulas, DFT-validated structures, and wet-lab synthesized/characterized materials with measured electrochemical performance",
+   "autonomy": "A3-A4",
+   "notes": "Seven-agent framework (LLM, Search, Decision, Retrieval, Rank, Domain, and an explicit Human agent) that steers LLM reasoning with domain knowledge for cathode design; its three predicted materials were synthesized and characterized, exceeding NMC811 capacity by 28.8/25.2/18.5%. Disclosed human gates: expert judgment at problem conceptualization and human experimentalists performing the wet-lab synthesis and verification. MIT-licensed code.",
+   "sources": [
+    "https://arxiv.org/abs/2507.16110",
+    "https://arxiv.org/html/2507.16110v1",
+    "https://github.com/chao1224/ChatBattery"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2507.16110",
+   "https://arxiv.org/html/2507.16110v1",
+   "https://github.com/chao1224/ChatBattery"
+  ]
+ },
+ {
+  "name": "ChemBot",
+  "verdict": "reject",
+  "reason": "Paper verified and system name confirmed (arXiv 2604.15671, 'Long-Term Memory for VLA-based Agents in Open-World Task Execution', Huang et al., Nanjing University + LimX Dynamics, v1 2026-04-17, v2 2026-08-03, cs.RO; the paper does name ChemBot and Skill-VLA, with real UR3 collaborative-robot runs). Rejected on scope: the contribution is a long-term-memory mechanism for VLA-based embodied agents, and ChemBot executes human-specified basic chemistry protocols (11-step precipitation, 7-step heat/dissolution, 6-step neutralization — teaching-lab-style manipulations) rather than planning or performing multi-step scientific work; no experiment design or discovery loop, and no code release. This is an embodied-execution method paper with chemistry as the demo domain, not an autonomous science agent.",
+  "record": null,
+  "fetched": [
+   "https://arxiv.org/abs/2604.15671",
+   "https://arxiv.org/html/2604.15671v2"
+  ]
+ }
+]
