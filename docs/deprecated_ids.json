@@ -34,5 +34,11 @@
     "removed": "2026-07-13",
     "reason": "Bayesian-optimization algorithm, not an agent or benchmark",
     "replacement_id": null
+  },
+  {
+    "id": "asa-fars",
+    "removed": "2026-08-13",
+    "reason": "Availability: the record's only official source (analemma.ai and its subdomains) has refused connections since the last live capture on 2026-06-23 and no live official replacement was found; the archived snapshot http://web.archive.org/web/20260623231233/https://analemma.ai/ documents the system historically. Reversible if an official live source reappears.",
+    "replacement_id": null
   }
 ]
