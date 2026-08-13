@@ -1,0 +1,190 @@
+[
+  {
+    "name": "EcoXAI",
+    "verdict": "accept",
+    "reason": "bioRxiv preprint verified via bioRxiv API (10.64898/2026.07.08.737358, v1 2026-07-13, v2 2026-07-23, not withdrawn, no journal DOI yet); official repo github.com/EpistasisLab/EcoXAI verified live with Apache-2.0 licence (GitHub API), owner org = Moore/Epistasis lab matching corresponding author Jason H. Moore (Cedars-Sinai). Scope: autonomous multi-agent system that runs data normalisation, exploration, hypothesis generation and parallel evaluation cycles; confirmed open-source.",
+    "record": {
+      "name": "EcoXAI",
+      "category": "biology",
+      "domain": "knowledge-graph-grounded biomedical analysis and drug repurposing",
+      "paper_links": [
+        {
+          "label": "bioRxiv preprint (v1 2026-07-13, v2 2026-07-23)",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737358v1"
+        }
+      ],
+      "repo_links": [
+        {
+          "label": "GitHub (EpistasisLab/EcoXAI)",
+          "url": "https://github.com/EpistasisLab/EcoXAI"
+        }
+      ],
+      "access": "open-source",
+      "inputs": "Biomedical datasets plus biomedical knowledge graphs and a user-set research goal/budget",
+      "outputs": "Executed analysis pipelines, generated hypotheses with predictive-model evidence, and tracked experiments/reports in a monitoring GUI",
+      "autonomy": "A4",
+      "notes": "Modular containerised multi-agent system: specialised bioinformatics agents run in isolated Docker containers, autonomously generate and execute analysis code, and an orchestrator dispatches hypotheses to parallel evaluation agents, repeating until budget or cycle limits are hit. In the Alzheimer's drug-repurposing case study it evaluated 103 drug candidates and identified 79 exceeding a randomised baseline, including maraviroc, whose hypothesis was subsequently supported by published literature rather than by experiment; disclosed human gates are the user-configured budget/cycle limits and GUI monitoring. Licence Apache-2.0.",
+      "sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.07.08.737358v1",
+        "https://api.biorxiv.org/details/biorxiv/10.64898/2026.07.08.737358",
+        "https://github.com/EpistasisLab/EcoXAI"
+      ],
+      "aliases": []
+    },
+    "fetched": [
+      "https://www.biorxiv.org/content/10.64898/2026.07.08.737358v1 (via bioRxiv MCP get_preprint, DOI 10.64898/2026.07.08.737358)",
+      "https://api.biorxiv.org/details/biorxiv/10.64898/2026.07.08.737358",
+      "https://github.com/EpistasisLab/EcoXAI",
+      "https://api.github.com/repos/EpistasisLab/EcoXAI (gh api: licence Apache-2.0, pushed_at 2026-07-24, not archived/fork)"
+    ]
+  },
+  {
+    "name": "IOBRpy",
+    "verdict": "hold",
+    "reason": "Everything checks out factually - bioRxiv 10.64898/2026.07.17.739055 (v1, 2026-07-22, corresponding author Dongqiang Zeng) verified via bioRxiv API; official repo github.com/IOBR/IOBRpy verified live, MIT licence (GitHub API), README cites the same bioRxiv DOI and docs site iobr.github.io/IOBRpy is the repo homepage, so ownership is author-endorsed. Held on SCOPE, not on evidence: the artifact is a bulk RNA-seq / TME Python CLI pipeline (fastp, Salmon/STAR, signature scoring, deconvolution, SpecHLA, TRUST4), and its 'dual-agent layer' is an agent-harness directory of prompt/command assets - agent-harness/iobrpy_cli/iobrpy/agent_assets/{claude-code-command, claude-code-memory, codex-plugin-iobrpy, iobrpy-fastpath/SKILL.md} - that drives the CLI from inside third-party coding agents (Claude Code, Codex). There is no standalone agent runtime, so it sits closer to an agent-ready toolkit/skill pack than to an autonomous science agent; admitting it would open the index to every pipeline that ships a Claude Code skill.",
+    "record": null,
+    "reconsider_when": "The index decides to admit agent harnesses / skill packs that wrap existing pipelines (in which case IOBRpy is an A2-A3 biology entry, MIT, open-source), or IOBRpy ships its own agent runtime rather than command assets for external coding agents.",
+    "fetched": [
+      "https://www.biorxiv.org/content/10.64898/2026.07.17.739055v1 (via bioRxiv MCP get_preprint, DOI 10.64898/2026.07.17.739055)",
+      "https://iobr.github.io/IOBRpy/",
+      "https://github.com/IOBR/IOBRpy",
+      "https://api.github.com/repos/IOBR/IOBRpy (gh api: licence MIT, homepage iobr.github.io/IOBRpy, pushed_at 2026-08-03)",
+      "https://api.github.com/repos/IOBR/IOBRpy/git/trees/main?recursive=1 (agent-harness asset paths)"
+    ]
+  },
+  {
+    "name": "ChatGEM",
+    "verdict": "accept",
+    "reason": "bioRxiv preprint verified via bioRxiv API (10.64898/2026.07.20.739662, v1 2026-07-21, PNNL, not withdrawn). Fetched the JATS full text: DATA AVAILABILITY names https://code.emsl.pnl.gov/opal-chatgem/opal-chatgem for the ChatGEM/RAG codebase, ecGEMs and iBAQ code - that host does not resolve publicly (DNS ENOTFOUND), so ChatGEM's own code is lab-gated; the underlying ADEPT framework is officially released at github.com/pnnl/adept-agentic (verified, BSD-2-Clause text under a DOE/Battelle disclaimer, hence GitHub reports NOASSERTION). In scope: multi-agent platform that generates and executes COBRApy simulation code and reports results. A3, not A5 - closure is computational; the succinate-chassis prediction was matched against separate wet-lab strain data, not against an agent-run experiment.",
+    "record": {
+      "name": "ChatGEM",
+      "category": "biology",
+      "domain": "genome-scale metabolic model simulation and microbial strain design",
+      "paper_links": [
+        {
+          "label": "bioRxiv preprint (v1 2026-07-21)",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739662v1"
+        }
+      ],
+      "repo_links": [
+        {
+          "label": "ADEPT multi-agent framework (PNNL, underlying platform)",
+          "url": "https://github.com/pnnl/adept-agentic"
+        }
+      ],
+      "access": "lab-gated",
+      "inputs": "Natural-language requests in a chat interface, plus GEM/ecGEM model files and omics data (proteomics, metabolomics)",
+      "outputs": "Generated and executed COBRApy code with simulation results (FBA, knockouts, OptKnock strain design, ecOptMDFPathway) and natural-language interpretation",
+      "autonomy": "A3",
+      "notes": "Built on PNNL's ADEPT multi-agent framework, using a Streamlit chat client and a RAG store seeded with 52 human-curated Python scripts; RAG-grounded code generation raised the mean Overall Performance Score from 2.63 to 4.20 across three benchmark tasks. ChatGEM's own codebase, eight ecGEMs and iBAQ code are listed on an internal EMSL GitLab (code.emsl.pnl.gov) whose host does not resolve publicly, while ADEPT itself is openly licensed (BSD-2-Clause text with DOE/Battelle disclaimer). Disclosed human gates: user-issued queries, human-curated RAG corpus, and a benchmarked 'ChatGEM coding with manual inspection' mode alongside 'ChatGEM coding alone'; the P. putida KT2440 succinate-overproduction prediction was compared against separately performed experimental work.",
+      "sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.07.20.739662v1",
+        "https://www.biorxiv.org/content/early/2026/07/21/2026.07.20.739662.source.xml",
+        "https://github.com/pnnl/adept-agentic"
+      ],
+      "aliases": []
+    },
+    "fetched": [
+      "https://www.biorxiv.org/content/10.64898/2026.07.20.739662v1 (via bioRxiv MCP get_preprint, DOI 10.64898/2026.07.20.739662)",
+      "https://www.biorxiv.org/content/early/2026/07/21/2026.07.20.739662.source.xml (JATS full text, DATA AVAILABILITY section)",
+      "https://github.com/pnnl/adept-agentic",
+      "https://api.github.com/repos/pnnl/adept-agentic (gh api + LICENSE blob: BSD 2-Clause text, Battelle/DOE disclaimer)",
+      "https://code.emsl.pnl.gov/opal-chatgem/opal-chatgem (attempted, DNS ENOTFOUND - not publicly resolvable)"
+    ]
+  },
+  {
+    "name": "MechAInistic",
+    "verdict": "accept",
+    "reason": "Both records verified this session: arXiv 2607.18249 (title/authors match, submitted 2026-05-08, v1 only, q-bio.QM + cs.AI, 23 pages, no withdrawal, no code link) and bioRxiv 10.64898/2026.05.11.723319 with four versions (v1 2026-05-13, v2 2026-05-14, v3 2026-07-14, v4 2026-07-22). Fetched the v4 JATS full text: the AVAILABILITY section gives only the web interface https://mechainistic.dtih.org/ - no repository anywhere in the text - so access is platform, not open-source. In scope: Architect-Reviewer multi-agent system that executes COBRApy analyses and nominates drug hypotheses. DATE CAVEAT for the parent: first posting is 2026-05-08 (arXiv) / 2026-05-13 (bioRxiv); only v3/v4 fall in July, so apply the index window yourself.",
+    "record": {
+      "name": "MechAInistic",
+      "category": "biology",
+      "domain": "constraint-based metabolic model reasoning and drug-target hypothesis generation",
+      "paper_links": [
+        {
+          "label": "arXiv:2607.18249 (v1, submitted 2026-05-08)",
+          "url": "https://arxiv.org/abs/2607.18249"
+        },
+        {
+          "label": "bioRxiv preprint (v1 2026-05-13, v4 2026-07-22)",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.05.11.723319v4"
+        }
+      ],
+      "repo_links": [],
+      "access": "platform",
+      "inputs": "A natural-language biological question plus paired healthy/disease constraint-based metabolic models (JSON) uploaded through the web interface",
+      "outputs": "Executable model-grounded workflows (pathway comparison, perturbation, drug-target exploration), model-derived evidence, cited literature, and a structured report with nominated drug hypotheses",
+      "autonomy": "A3",
+      "notes": "A planning Architect agent is supervised by an independently configured Reviewer agent that scores plans and intermediate results against pre-specified rubrics and triggers re-planning or re-execution below threshold, giving an auditable chain from question to COBRApy-derived evidence; users may point the system at their own LLM endpoint and API key. The paper's only availability statement is the hosted web interface at https://mechainistic.dtih.org/ (reachable this session, serves a React app; sign-in requirements not determined) - no source repository is provided. Case studies nominated Devimistat/CPI-613 (rheumatoid arthritis naive B cells) and ivosidenib with vorasidenib as alternative (multiple sclerosis CD4+ Th17); the authors state the platform does not replace expert modelling or experimental validation, and one intermediate error (ICDHy gene identifier) is disclosed in the text.",
+      "sources": [
+        "https://arxiv.org/abs/2607.18249",
+        "https://www.biorxiv.org/content/10.64898/2026.05.11.723319v4",
+        "https://api.biorxiv.org/details/biorxiv/10.64898/2026.05.11.723319",
+        "https://mechainistic.dtih.org/"
+      ],
+      "aliases": []
+    },
+    "fetched": [
+      "https://arxiv.org/abs/2607.18249",
+      "http://export.arxiv.org/api/query?id_list=2607.18249 (published 2026-05-08T16:24:41Z, v1, no comment field)",
+      "https://www.biorxiv.org/content/10.64898/2026.05.11.723319v1 (via bioRxiv MCP get_preprint)",
+      "https://api.biorxiv.org/details/biorxiv/10.64898/2026.05.11.723319 (v1-v4 listing)",
+      "https://www.biorxiv.org/content/early/2026/07/22/2026.05.11.723319.source.xml (v4 JATS, AVAILABILITY section)",
+      "https://mechainistic.dtih.org/ (HTTP 200, redirects to mechainistic.gecko-great.ts.net, title 'MechAInistic - Metabolic Model Analysis')"
+    ]
+  },
+  {
+    "name": "SCTA (Single-Cell Target Agent)",
+    "verdict": "accept",
+    "reason": "arXiv 2607.23821 verified (v1, submitted 2026-07-26, cs.LG + q-bio.GN, BioKDD 2026 workshop, 10 pages, no withdrawal). The arXiv HTML full text states in section 3.2 'The full implementation is available at https://github.com/silviachen46/SCTA', so the repo is author-endorsed; repo verified live (agent_v5.py, main.py, utils_agent.py, baseline/, evaluation scripts) but the GitHub licence API returns 404 and the repo has no LICENSE file - public-but-unlicensed, therefore source-available, NOT open-source. In scope: autonomous multi-agent pipeline over scRNA-seq (preprocessing, population selection, differential expression, target prioritisation). Small workshop paper, so the record should stay modest.",
+    "record": {
+      "name": "SCTA",
+      "category": "biology",
+      "domain": "single-cell RNA-seq therapeutic target-gene discovery",
+      "paper_links": [
+        {
+          "label": "arXiv:2607.23821 (v1, 2026-07-26; BioKDD 2026 workshop)",
+          "url": "https://arxiv.org/abs/2607.23821"
+        }
+      ],
+      "repo_links": [
+        {
+          "label": "GitHub (silviachen46/SCTA)",
+          "url": "https://github.com/silviachen46/SCTA"
+        }
+      ],
+      "access": "source-available",
+      "inputs": "Public scRNA-seq datasets (AnnData) plus a disease-focused target-discovery objective",
+      "outputs": "An executed preprocessing/annotation/differential-expression pipeline with prioritised, evidence-constrained target-gene hypotheses",
+      "autonomy": "A3",
+      "notes": "Decomposes target discovery into specialised agents aligned with single-cell pipeline decision points, each restricted to a disjoint predefined tool set with no ability to define new tools; a Reviewer agent is triggered only on execution errors and performs bounded repair under retry limits without changing the biological objective. Stability is assessed by repeated autonomous runs on public GEO datasets, including a hereditary chronic pancreatitis case study. The repository is public but carries no licence file, so the code is source-available rather than open-source, and its last commits predate the preprint (February 2026).",
+      "sources": [
+        "https://arxiv.org/abs/2607.23821",
+        "https://arxiv.org/html/2607.23821v1",
+        "https://github.com/silviachen46/SCTA"
+      ],
+      "aliases": [
+        "Single-Cell Target Agent"
+      ]
+    },
+    "fetched": [
+      "https://arxiv.org/abs/2607.23821",
+      "http://export.arxiv.org/api/query?id_list=2607.23821 (published 2026-07-26T19:59:48Z, v1)",
+      "https://arxiv.org/html/2607.23821v1 (code URL confirmed in section 3.2)",
+      "https://github.com/silviachen46/SCTA",
+      "https://api.github.com/repos/silviachen46/SCTA (gh api: licence null; /license endpoint 404; last commit 2026-02-05; contents listing shows no LICENSE file)"
+    ]
+  },
+  {
+    "name": "TCellAlign",
+    "verdict": "hold",
+    "reason": "Paper verified (arXiv 2607.24093, v1 2026-07-27, v2 2026-08-05, q-bio.QM + cs.DB, no withdrawal, no code link on the abstract page and no availability statement found in the v2 HTML full text). Held on scope plus missing artifact: TCellAlign is a nomenclature-guided label-harmonisation and curation workflow (literature retrieval, information extraction, ontology-guided alignment, evidence-based adjudication) plus a manually validated benchmark of 44 curated studies / >7M cells - it does not generate hypotheses, run experiments or execute analysis code, and the fetched text shows human domain experts are central (experts annotated the evaluation papers and four independent experts validated the extraction outputs). Its benchmark evaluates label-alignment quality, not autonomous science agents, so it does not fit the benchmark category either. No official repository or dataset release located, so there is nothing to index beyond the preprint.",
+    "record": null,
+    "reconsider_when": "The index broadens to literature-curation / data-harmonisation agents, or the authors release the benchmark dataset and code under an official, author-endorsed repository - at which point it would be a biology entry, A3, open-data or source-available depending on the licence.",
+    "fetched": [
+      "https://arxiv.org/abs/2607.24093",
+      "http://export.arxiv.org/api/query?id_list=2607.24093 (published 2026-07-27T07:29:24Z, updated 2026-08-05T07:27:33Z, v2)",
+      "https://arxiv.org/html/2607.24093v2 (no code/data availability statement found)"
+    ]
+  }
+]

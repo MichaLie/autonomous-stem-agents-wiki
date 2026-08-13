@@ -1,0 +1,185 @@
+[
+ {
+  "name": "Quantum Circuit Vision",
+  "verdict": "accept",
+  "reason": "arXiv:2607.10057 (v1, 2026-07-11) resolves, not withdrawn; title matches ('Quantum Circuit Vision: Cost-Aware Evaluation of Visual AI Agents for Quantum Code Generation', Liu/Zhang/Zhang, AWS + Duke Kunshan). QCV-Dataset verified on Hugging Face (QuantBlockchain/qcv-dataset, MIT, quantum circuit images paired with Braket/Qiskit code) and is author-endorsed via the paper's own load_dataset snippet. GitHub eval-code URLs are hidden for anonymous review in v1, so access is open-data, not open-source. Scope: narrow verified code-generation benchmark, but the index already catalogs comparably narrow scientific code-gen benchmarks (SciCode, CelloAI Benchmarks, ResearchCodeBench), so it clears the bar as category=benchmark, autonomy B.",
+  "record": {
+   "name": "Quantum Circuit Vision (QCV)",
+   "category": "benchmark",
+   "domain": "Quantum programming from circuit diagrams (multimodal)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.10057"}
+   ],
+   "repo_links": [
+    {"label": "Hugging Face dataset", "url": "https://huggingface.co/datasets/QuantBlockchain/qcv-dataset"}
+   ],
+   "access": "open-data",
+   "inputs": "Quantum circuit diagrams (132 circuits, 13 categories, 1-10 qubits, 5 modalities)",
+   "outputs": "Executable Amazon Braket code verified by unitary fidelity; accuracy and cost metrics per model",
+   "autonomy": "B",
+   "notes": "Cost-aware benchmark testing whether multimodal models can read circuit diagrams and emit verified Braket code; finds circuit depth, not qubit count, predicts failure. QCV-Dataset (MIT) released on Hugging Face; evaluation-code GitHub URLs are anonymized in the v1 preprint, so only the dataset is publicly verifiable.",
+   "sources": [
+    "https://arxiv.org/abs/2607.10057",
+    "https://arxiv.org/html/2607.10057v1",
+    "https://huggingface.co/datasets/QuantBlockchain/qcv-dataset"
+   ],
+   "aliases": ["QCV", "QCV-Dataset"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.10057",
+   "https://arxiv.org/html/2607.10057v1",
+   "https://huggingface.co/datasets/QuantBlockchain/qcv-dataset"
+  ]
+ },
+ {
+  "name": "Onnes",
+  "verdict": "accept",
+  "reason": "arXiv:2607.05805 (v1, 2026-07-07) resolves, not withdrawn; title matches ('Onnes: A Physics-Grounded Multi-Agent LLM Simulator for Cryogenic Fault Diagnosis in Quantum Computing Infrastructure'). Repo github.com/Onnes-Research/onnes verified: exists, MIT license, description and contents (onnesim digital-twin package, 5-role LLM agent panel, evaluation scripts, released run logs) match the paper; the repo URL is given in the arXiv listing itself, so it is author-endorsed. Boundary adjudication (flagged 'system or infrastructure?'): in scope — the index already catalogs quantum-lab infrastructure-operations agents (k-agents A5, Accelerator Assistant A3-A5), and Onnes is the simulation-gated counterpart: a released digital-twin testbed driving a live multi-agent diagnosis loop, validated on real BlueFors logs. Not A5: closure is simulated/log-replayed, no physical actuation.",
+  "record": {
+   "name": "Onnes",
+   "category": "physics",
+   "domain": "Quantum-computing cryogenic infrastructure operations (dilution-refrigerator fault diagnosis)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.05805"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/Onnes-Research/onnes"}
+   ],
+   "access": "open-source",
+   "inputs": "Simulated dilution-refrigerator telemetry (physics forward model + noise fingerprints learned from real BlueFors logs); six fault classes",
+   "outputs": "Fault detection and classification with diagnosis rationale; agent-vs-supervised-ML comparison metrics and released run logs",
+   "autonomy": "A3",
+   "notes": "Digital-twin simulator driving a live 5-role multi-agent LLM operations layer; few-shot demonstrations plus self-consistency voting lift classification accuracy from 0.685 to 0.990, with 100% recall on physics faults at a 6.4% false-alarm rate on real hardware logs. Closure is simulated/log-replayed (no physical actuation of the fridge); code, data, and run logs released under MIT.",
+   "sources": [
+    "https://arxiv.org/abs/2607.05805",
+    "https://github.com/Onnes-Research/onnes"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.05805",
+   "https://github.com/Onnes-Research/onnes"
+  ]
+ },
+ {
+  "name": "PhysMiner",
+  "verdict": "accept",
+  "reason": "arXiv:2607.04009 (v1, 2026-07-04) resolves, not withdrawn; title matches ('PhysMiner: An Agentic AI Framework for Discovering Turbulence Physics', Chen/Gao/He, Iowa State aerospace). Paper's availability statement points to github.com/iDesign-Lab/PhysMiner; repo verified: exists, MIT license, and its citation block references this exact paper (arXiv 2607.04009), so ownership is confirmed both directions. Scope: clear multi-step discovery system (discovery agent + validation agent + evolving knowledge library over triple-decomposition CFD analysis), computational closure -> A3, category physics.",
+  "record": {
+   "name": "PhysMiner",
+   "category": "physics",
+   "domain": "Turbulence / fluid-mechanics discovery from CFD data",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.04009"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/iDesign-Lab/PhysMiner"}
+   ],
+   "access": "open-source",
+   "inputs": "CFD flow fields (e.g., OpenFOAM results) plus literature corpus for the knowledge base",
+   "outputs": "Triple-decomposition statistics, visualizations, vortex-line extractions, identified flow mechanisms, and subgrid-scale modeling recommendations with validation reports",
+   "autonomy": "A3",
+   "notes": "Agentic framework pairing a physics-discovery agent with a validation agent over triple decomposition of the velocity gradient tensor; demonstrated on periodic hill flow with improved Reynolds-stress predictions. Source code and the Triple Decomposition Library released under MIT, with a community contribution mechanism for new flow cases.",
+   "sources": [
+    "https://arxiv.org/abs/2607.04009",
+    "https://arxiv.org/html/2607.04009v1",
+    "https://github.com/iDesign-Lab/PhysMiner"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.04009",
+   "https://arxiv.org/html/2607.04009v1",
+   "https://github.com/iDesign-Lab/PhysMiner"
+  ]
+ },
+ {
+  "name": "ORBIT-Q",
+  "verdict": "accept",
+  "reason": "arXiv:2607.03105 (v1, 2026-07-03) resolves, not withdrawn; title matches ('ORBIT-Q: Dual-axis benchmarking of autonomous agents in scientific quantum programming', Zhang/Chen, CAS Institute of Physics + GSCAEP). Paper's code-availability statement names github.com/sxzgroup/ORBIT-Q; repo verified: exists, Apache-2.0, cites arXiv:2607.03105, contains the 12 containerized tasks, verifiers, and agent harness configs described. Clear in-scope agent benchmark (research-level multi-step quantum workflows, multi-tier verification), distinct from cataloged QMB100/QMP-Bench.",
+  "record": {
+   "name": "ORBIT-Q",
+   "category": "benchmark",
+   "domain": "Scientific quantum programming (autonomous coding agents)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2607.03105"}
+   ],
+   "repo_links": [
+    {"label": "GitHub", "url": "https://github.com/sxzgroup/ORBIT-Q"}
+   ],
+   "access": "open-source",
+   "inputs": "12 containerized research-level quantum-workflow tasks across four frameworks (TensorCircuit-NG, PennyLane, MindQuantum, TorchQuantum)",
+   "outputs": "Dual-axis agent-framework co-performance scores via a multi-tier verification pipeline (functional correctness, runtime execution, policy checks, LLM audits, expert review)",
+   "autonomy": "B",
+   "notes": "Harbor-based benchmark varying framework at fixed agent and agent at fixed framework; TensorCircuit-NG scored best among frameworks and Codex+GPT-5.5 among agents, with a substantial gap to expert human implementations remaining. Final verification tier is human expert review. Tasks, verifiers, and evaluation code released under Apache-2.0.",
+   "sources": [
+    "https://arxiv.org/abs/2607.03105",
+    "https://arxiv.org/html/2607.03105v1",
+    "https://github.com/sxzgroup/ORBIT-Q"
+   ],
+   "aliases": ["Open Research Benchmark for Integrated Tasks in Quantum Computing"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.03105",
+   "https://arxiv.org/html/2607.03105v1",
+   "https://github.com/sxzgroup/ORBIT-Q"
+  ]
+ },
+ {
+  "name": "Embodied CAD",
+  "verdict": "accept",
+  "reason": "arXiv:2606.31252 (v1, 2026-06-30) resolves, not withdrawn; title matches ('Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling', Nanjing University). Boundary adjudication (flagged 'in scope if a real system'): it is a real implemented system, not a proposal — FreeCAD-backend execution loop, quantitative evaluation on multi-step mechanical/industrial/mold assembly tasks (100% execution rate with the strong planner; SFT/GRPO-trained weak-planner policies at 93.1% exact accuracy). Index precedent for engineering-design agents under physics exists (CADDesigner, LLM Mechanical Designer). No repository or data links anywhere in the paper -> paper-only. Solver-grounded computational closure -> A3.",
+  "record": {
+   "name": "Embodied CAD",
+   "category": "physics",
+   "domain": "Engineering design / parametric B-Rep CAD assembly modeling",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2606.31252"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Natural-language design specifications plus structured parameters",
+   "outputs": "Executed parametric B-Rep assemblies in a FreeCAD backend, with iterative repair/refinement from solver diagnostics",
+   "autonomy": "A3",
+   "notes": "Closed-loop LLM agent that iteratively selects skills from a hierarchical L0-L4 library, resolves typed geometric operations, executes in a CAD kernel, and repairs from solver feedback; evaluated on bearing, press-machine, cooling-tower, manifold, and mold-core assembly tasks. No public repo confirmed (none referenced in the v1 preprint).",
+   "sources": [
+    "https://arxiv.org/abs/2606.31252",
+    "https://arxiv.org/html/2606.31252v1"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2606.31252",
+   "https://arxiv.org/html/2606.31252v1"
+  ]
+ },
+ {
+  "name": "NQS-Agent",
+  "verdict": "accept",
+  "reason": "arXiv:2606.30464 (v1, 2026-06-29) resolves, not withdrawn; title matches ('NQS-Agent: Health-Aware Agentic Hyperparameter Optimization for Neural-Network Quantum States', Renmin University of China). Boundary adjudication (flagged 'campaign management vs optimization library'): in scope as campaign management — LangGraph-orchestrated agents monitor energy trajectories of running VMC calculations, detect destructive events, stop/modify/resume from checkpoints, and rank candidates, i.e., an autonomous perceive-decide-act loop over a scientific simulation campaign, analogous to cataloged DREAMS and AutoSurrogate (both A3). Access correction: the worklist's 'open-source' claim is not yet true — the paper's code-availability section says github.com/QTMEC-RUC/NQS-Agents 'will be made publicly available on GitHub upon publication' and the URL returned 404 on 2026-08-13, so access is paper-only for now.",
+  "record": {
+   "name": "NQS-Agent",
+   "category": "physics",
+   "domain": "Quantum many-body simulation (neural-network quantum states / VMC campaign management)",
+   "paper_links": [
+    {"label": "arXiv", "url": "https://arxiv.org/abs/2606.30464"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Running NQS/VMC optimization campaigns: energy trajectories, checkpoints, hyperparameter candidates",
+   "outputs": "Intervention decisions (stop/modify/resume from safe checkpoints), adjusted learning-rate schedules, anomaly-aware candidate rankings",
+   "autonomy": "A3",
+   "notes": "LangGraph-based agentic campaign manager for NQS hyperparameter optimization, demonstrated on a Heisenberg model where it outperformed baselines and surfaced competitive alternative architectures. Code repository (github.com/QTMEC-RUC/NQS-Agents) is promised 'upon publication' but was not public as of 2026-08-13 (404), so access is paper-only pending release.",
+   "sources": [
+    "https://arxiv.org/abs/2606.30464",
+    "https://arxiv.org/html/2606.30464v1"
+   ],
+   "aliases": ["NQS-Agents"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2606.30464",
+   "https://arxiv.org/html/2606.30464v1",
+   "https://github.com/QTMEC-RUC/NQS-Agents (404)"
+  ]
+ }
+]

@@ -1,0 +1,85 @@
+{
+  "record_id": "asa-fars",
+  "checked_on": "2026-08-13",
+  "verdict": "unclear",
+  "verdict_short": "Web platform dead (no live official source for the record), but the organization is demonstrably not defunct: its Discord server is live with members online today and its LinkedIn page is up. No successor domain, no shutdown or relocation announcement found. X account state unverifiable from this environment.",
+  "last_alive": "2026-06-23 (Wayback capture 20260623231233 of https://analemma.ai/, HTTP 200; site fully operational in that snapshot)",
+  "evidence": [
+    {
+      "url": "https://analemma.ai/blog/introducing-fars/",
+      "what_it_shows": "FETCH FAILED today: connect ECONNREFUSED 8.218.121.104:443. DNS resolves but server refuses connections. The record's only listed source is dead."
+    },
+    {
+      "url": "https://fars-live.analemma.ai/ (and /blog/introducing-fars/)",
+      "what_it_shows": "FETCH FAILED today: same ECONNREFUSED 8.218.121.104:443. Search-indexed FARS subdomain is equally dead."
+    },
+    {
+      "url": "https://lemma.analemma.ai/",
+      "what_it_shows": "FETCH FAILED today: same ECONNREFUSED. This was the 'Enter Lemma' user-facing product ('All-in-one AI research workspace') linked from the archived homepage. Entire domain incl. all subdomains points to one dead IP."
+    },
+    {
+      "url": "dig analemma.ai / fars-live.analemma.ai / lemma.analemma.ai + whois 8.218.121.104",
+      "what_it_shows": "All three resolve to 8.218.121.104 = Alibaba Cloud (Singapore) Private Limited. DNS intact, host down or firewalled - looks like an abandoned/stopped cloud server, not a domain lapse."
+    },
+    {
+      "url": "https://archive.org/wayback/available?url=analemma.ai",
+      "what_it_shows": "Latest Wayback snapshot is 20260623231233, HTTP 200. Site died between 2026-06-23 and 2026-08-13. Earlier captures (CDX): 2026-02-27, 03-01, 03-02, 03-10, 03-11, 03-12, 03-29, 06-23, all 200."
+    },
+    {
+      "url": "http://web.archive.org/web/20260623231233/https://analemma.ai/",
+      "what_it_shows": "Archived homepage at last capture: 'Analemma', product 'Lemma - All-in-one AI research workspace', 'The First Deployment of FARS - Live Autonomous Research Production', blog 'Introducing FARS' dated Feb 11, 2026, footer '(c) 2026 Analemma Intelligence'. Confirms the record's company name and FARS identity; no shutdown or relocation notice present at last capture."
+    },
+    {
+      "url": "https://github.com/analemmaai",
+      "what_it_shows": "LIVE today. Org 'Analemma AI', contact@analemma.ai, location China, 24 followers - but ZERO public repositories and no public members. Official shell exists; hosts no FARS content. (An indexed X post said FARS GitHub repos were temporarily restricted during the livestream; today none are public at all.)"
+    },
+    {
+      "url": "https://gitlab.com/fars-analemma",
+      "what_it_shows": "LIVE today. Profile 'FARS - Fully Automated Research System', self-declared website analemma.ai/fars/, email fars@analemma.ai, X @AnalemmaAI, member since 2026-02-15 - but NO projects. Self-asserted branding; official status plausible but not provable, and empty either way."
+    },
+    {
+      "url": "https://www.linkedin.com/company/analemmaai",
+      "what_it_shows": "LIVE today (public view fetched). 'Analemma AI', website analemma.ai, 11-50 employees (7 on LinkedIn). Posts document FARS launch, 100 papers in 228+ hrs, livestream ended 2026-03-03, reviewer recruitment (~4 months ago = most recent post, ~April 2026). Dormant since; still points to the dead domain; no relocation/shutdown notice."
+    },
+    {
+      "url": "https://discord.com/api/v10/invites/dJnjRYNV8x",
+      "what_it_shows": "LIVE today (invite taken from archived analemma.ai footer, verified via public Discord API): guild 'Analemma', description 'Accelerate scientific discovery and application at scale.', 627 members, 36 online at check time, inviter username 'analemma_ai'. The community still exists and has people online - the org is not gone."
+    },
+    {
+      "url": "http://export.arxiv.org/api/query?search_query=all:%22Analemma%20Intelligence%22",
+      "what_it_shows": "0 results. No arXiv artifact from the team under the company name."
+    },
+    {
+      "url": "https://x.com/AnalemmaAI (and publish.x.com oEmbed for statuses 2029517097467068771, 2021772394558632322)",
+      "what_it_shows": "UNVERIFIED - all direct fetches returned HTTP 402 (X blocks unauthenticated retrieval). Search-index snippets show the account with posts through ~March 2026 incl. 'Update on the End of the FARS Live Deployment' (concluded 2026-03-03, 'all papers and code generated during the deployment remain accessible') and a promise of a user-facing product (= Lemma). Whether the account is still up TODAY could not be confirmed from this environment."
+    },
+    {
+      "url": "https://www.sgpbusiness.com/company/Analemma-Intelligence-Pte-Limited",
+      "what_it_shows": "UNVERIFIED - fetch returned 403. Search snippets from two Singapore registry aggregators (sgpbusiness.com, companies.sg) describe ANALEMMA INTELLIGENCE PTE. LIMITED, UEN 202543632R, incorporated 2025-09-30, JTC LaunchPad @ one-north, software development, status 'live'. Consistent with the dead server sitting in Alibaba Cloud Singapore, but not confirmed against ACRA directly."
+    },
+    {
+      "url": "https://github.com/open-fars/openfars and https://github.com/weank1984/OpenFARS",
+      "what_it_shows": "Third-party open-source reconstructions 'inspired by Analemma's system' (from search index, not fetched). NOT acceptable as record source per catalog rules; listed for completeness only."
+    }
+  ],
+  "searched": [
+    "WebSearch (NOT executed - session WebSearch budget exhausted, 200/200): \"Analemma Intelligence\" | \"FARS\" \"Analemma\" autonomous research system | \"analemma.ai\"",
+    "DuckDuckGo HTML: \"Analemma Intelligence\"",
+    "DuckDuckGo HTML: \"FARS\" \"Analemma\"",
+    "DuckDuckGo HTML: \"analemma.ai\"",
+    "DuckDuckGo HTML: \"Analemma\" AI FARS shutdown OR acquired OR discontinued OR offline (0 results)",
+    "DuckDuckGo HTML: site:x.com \"AnalemmaAI\"",
+    "DuckDuckGo HTML: \"Analemma AI\" launch",
+    "arXiv API: all:\"Analemma Intelligence\" (0 results)",
+    "Wayback CDX (curl): analemma.ai domain-wide capture list; availability API for root",
+    "Discord public invite API: dJnjRYNV8x"
+  ],
+  "notes": [
+    "Verdict rationale: 'defunct' would be factually wrong (Discord live with 36 users online today; LinkedIn page live), but 'relocated' would overstate - no live official location hosts the FARS content (papers, code, deployment archive, blog), and nothing announces a move. The web platform outage began somewhere in the 7-week window 2026-06-23 to 2026-08-13 and could in principle be a transient/abandoned-server state; DNS still points at the Alibaba Cloud IP.",
+    "What is missing to resolve to defunct-vs-relocated: (1) current state of x.com/AnalemmaAI - the most likely place for an outage/relocation notice - unfetchable from here (HTTP 402; an authenticated X session or the user's browser would answer this in one look); (2) any statement inside the Discord server (invite is valid but reading content requires joining); (3) ACRA registry status of the Singapore entity (aggregator pages blocked).",
+    "Catalog action implied: the record's source URL is dead and no compliant replacement exists. Per catalog rules the archived snapshot (web.archive.org/web/20260623231233/https://analemma.ai/) documents history but is not a live official source. Best available official-but-not-platform links if the catalog wants a 'see also': linkedin.com/company/analemmaai (fetched, live) and discord.gg/dJnjRYNV8x (verified valid via API).",
+    "Identity traps: analemma-ai.com is an UNRELATED company (industrial-AI consultancy) - do not substitute it. The record text says 'four agents (Ideation, Planning, Experiment, Writing)' - the archived homepage and indexed posts confirm FARS and the 100-papers livestream (ended 2026-03-03) but the four agent names were not independently verified in any fetched page.",
+    "Not checked: YouTube channel UCKflge4tCzo2tjOA7poY4lQ content (behind a Google consent interstitial - not clicked through per policy); X timeline directly; ACRA directly; cbinsights.com/company/analemma-ai profile (third-party anyway).",
+    "Environment caveats: session WebSearch budget was exhausted before this task ran - all discovery went through DuckDuckGo HTML fetches, which are shallower than a real search index; web.archive.org intermittently rate-limited (503/429) but the decisive availability + snapshot fetches succeeded."
+  ]
+}

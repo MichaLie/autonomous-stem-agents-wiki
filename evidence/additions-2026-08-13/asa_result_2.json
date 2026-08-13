@@ -1,0 +1,253 @@
+[
+ {
+  "name": "GraphRareBench",
+  "verdict": "accept",
+  "reason": "arXiv:2607.24878 verified live via arXiv API (v1, submitted 2026-07-27, q-bio.QM + cs.AI + cs.LG, authors Guiling Guo et al., not withdrawn); the abstract itself states 'Code and data are available at https://github.com/GUI0609/GraphRareBench', so the repo is author-declared, not a third-party reconstruction. GitHub API confirms the repo is live, non-fork, MIT-licensed, created 2026-07-05, last push 2026-07-31, and the tree contains the full frozen release (dataset/cases/graphrarebench_cases.jsonl 22 MB, sidecars/evidence_bundle.jsonl 38 MB, graph_path_alignment.jsonl 16 MB) plus src/graphrarebench/{metrics,validate,agent_audit,cli}.py and prompt/ templates. Mirror dataset huggingface.co/datasets/gcc009/GraphRarebench verified live and MIT-tagged. Scope: benchmark/harness that evaluates tool-using agents (with agent-audit and tool-trace utilities) alongside supervised rankers on a biomedical reasoning task, so it qualifies under the benchmark clause. No name collision in agents_final.json.",
+  "record": {
+   "name": "GraphRareBench",
+   "category": "benchmark",
+   "domain": "Phenotype-driven rare-disease diagnosis benchmark with graph-defined confounders and evidence auditing",
+   "paper_links": [
+    {
+     "label": "arXiv:2607.24878 (v1, 2026-07-27)",
+     "url": "https://arxiv.org/abs/2607.24878"
+    }
+   ],
+   "repo_links": [
+    {
+     "label": "GitHub (GUI0609/GraphRareBench, MIT)",
+     "url": "https://github.com/GUI0609/GraphRareBench"
+    },
+    {
+     "label": "Hugging Face dataset mirror (gcc009/GraphRarebench)",
+     "url": "https://huggingface.co/datasets/gcc009/GraphRarebench"
+    }
+   ],
+   "access": "open-source",
+   "inputs": "Per-case coarsened HPO phenotype query with a fixed full and hard candidate disease pool, graph-defined hard confounders and source-linked evidence bundles",
+   "outputs": "Ranked disease predictions scored by MRR/Hit@k, case-averaged target-over-confounder accuracy, bootstrap and paired-bootstrap intervals, plus tool-trace and evidence-coverage audits",
+   "autonomy": "B",
+   "notes": "Frozen release of 2,365 ontology-derived cases (1,892 train / 236 dev / 237 gene-component-disjoint test) and 18,093 target-confounder pairs, shipped with loader, validator, evaluator, bootstrap and agent-audit utilities and benchmark/audit prompt templates under MIT. Reported baselines mix supervised rankers on a shared 21-feature interface (MRR 0.640-0.740) with tool-using agents instantiated on Agents-A1 (MRR 0.746) and DeepSeek-V4-Flash (0.718), whose paired MRR difference was not significant while target-evidence coverage differed by 0.561.",
+   "sources": [
+    "https://arxiv.org/abs/2607.24878",
+    "https://export.arxiv.org/api/query?id_list=2607.24878",
+    "https://api.github.com/repos/GUI0609/GraphRareBench",
+    "https://raw.githubusercontent.com/GUI0609/GraphRareBench/main/README.md",
+    "https://huggingface.co/api/datasets/gcc009/GraphRarebench"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://export.arxiv.org/api/query?id_list=2607.24878 (title, authors, v1 2026-07-27, abstract with repo URL)",
+   "https://api.github.com/repos/GUI0609/GraphRareBench (MIT, created 2026-07-05, pushed 2026-07-31, not a fork)",
+   "https://api.github.com/repos/GUI0609/GraphRareBench/git/trees/main?recursive=1 (dataset + src/graphrarebench/agent_audit.py etc.)",
+   "https://raw.githubusercontent.com/GUI0609/GraphRareBench/main/README.md",
+   "https://huggingface.co/api/datasets/gcc009/GraphRarebench (public, license:mit tag)"
+  ]
+ },
+ {
+  "name": "scBench-Long",
+  "verdict": "accept",
+  "reason": "The worklist premise ('NO released code/data anywhere') does NOT hold and was checked directly. arXiv:2606.26563 verified via arXiv API and HTML (v1, 2026-06-25, q-bio.GN + cs.AI, not withdrawn); the HTML front matter gives the affiliation the abstract page omits: all five authors are LatchBio, San Francisco, correspondence kenny@latch.bio. GitHub repo latchbio/scbench-long is live, non-fork, Apache-2.0, created 2026-06-22 (three days before the arXiv posting), containing evals/manifest.json plus four eval directories with eval.json + vocabulary.json and 121 files of agent trajectories across anthropic/claude-opus-4-8, openai/gpt-5.5, gemini-3.5-flash, fireworks/glm-5p2 and xai/grok-4.3. Ownership is the authors' own company org (api.github.com/orgs/latchbio -> LatchBio, https://latch.bio, contact@latch.bio), and the eval IDs match the paper's study systems (melanoma sort-gate CD8, cross-species epithelial communication, senescence, TME context), so this is an official release rather than a reconstruction. IMPORTANT CAVEAT: the paper never cites the repo, and the repo README describes itself as a 'public subset' - 4 of the 21 evaluations, with no grading/harness code - so this is a partial data release, classified open-data rather than open-source. No name collision in agents_final.json (neither scBench nor scBench-Long is catalogued).",
+  "record": {
+   "name": "scBench-Long",
+   "category": "benchmark",
+   "domain": "Long-horizon single-cell biology agent benchmark (recovering published conclusions from raw data)",
+   "paper_links": [
+    {
+     "label": "arXiv:2606.26563 (v1, 2026-06-25)",
+     "url": "https://arxiv.org/abs/2606.26563"
+    }
+   ],
+   "repo_links": [
+    {
+     "label": "GitHub (latchbio/scbench-long, Apache-2.0, public subset of 4 evals + trajectories)",
+     "url": "https://github.com/latchbio/scbench-long"
+    }
+   ],
+   "access": "open-data",
+   "inputs": "Per-eval task specification with a compact scientific question and raw or near-raw single-cell data (paired scRNA/TCR, RNA+ATAC, single-nucleus RNA-seq, immune repertoires, ortholog maps, ligand-receptor resources), with no prescribed method",
+   "outputs": "Structured claims graded deterministically against controlled answer vocabularies, plus rubric-based trajectory diagnostics and per-run cost/turn metadata",
+   "autonomy": "B",
+   "notes": "21 evaluations across melanoma tumour-reactive CD8 T cells, CD8 RNA+ATAC regulatory inference, human-monkey chimera development, KRAS-driven lung tumour aging and lethal COVID-19 lung pathology; across 1,068 completed trajectories the strongest model-harness pair (Claude Opus 4.8 with Claude Code) passed 16/63 runs (25.4%, Wilson 95% CI 16.3-37.3), followed by Gemini 3.5 Flash with PI at 14/63. The public GitHub release from the authors' company org covers only 4 of the 21 evals (eval.json + vocabulary.json) plus example trajectories under Apache-2.0; the grading harness and the remaining evals are not released, and the paper itself contains no availability statement.",
+   "sources": [
+    "https://arxiv.org/abs/2606.26563",
+    "https://export.arxiv.org/api/query?id_list=2606.26563",
+    "https://arxiv.org/html/2606.26563v1",
+    "https://github.com/latchbio/scbench-long",
+    "https://api.github.com/orgs/latchbio"
+   ],
+   "aliases": [
+    "SCBench-Long"
+   ]
+  },
+  "fetched": [
+   "https://export.arxiv.org/api/query?id_list=2606.26563 (v1 2026-06-25, authors Diks, Yang, Banerjee, Proctor, Workman)",
+   "https://arxiv.org/html/2606.26563v1 (affiliation 'LatchBio, San Francisco, CA, USA', correspondence kenny@latch.bio; no code-availability statement and no GitHub URL in the text)",
+   "https://api.github.com/repos/latchbio/scbench-long (Apache-2.0, created 2026-06-22, pushed 2026-06-25, not a fork)",
+   "https://api.github.com/repos/latchbio/scbench-long/git/trees/main?recursive=1 (4 evals, 121 entries incl. trajectories)",
+   "https://raw.githubusercontent.com/latchbio/scbench-long/main/README.md ('This public subset contains four evals...')",
+   "https://raw.githubusercontent.com/latchbio/scbench-long/main/evals/manifest.json",
+   "https://api.github.com/orgs/latchbio (LatchBio, blog https://latch.bio, contact@latch.bio)",
+   "https://api.github.com/search/repositories?q=scBench-Long"
+  ]
+ },
+ {
+  "name": "ProtoPilot",
+  "verdict": "accept",
+  "reason": "arXiv:2606.31763 verified via arXiv API and full HTML (v1 2026-06-30, v2 2026-07-02, cs.AI, not withdrawn). HTML front matter gives affiliations absent from the abstract page: 1 Shanghai Artificial Intelligence Laboratory, 2 Genoria AI (Shenzhen), corresponding jiangyankai@pjlab.org.cn, wangxiaosong@pjlab.org.cn, bailei@pjlab.org.cn, yangmeng@genoria.ai. I scanned every URL in the v2 HTML: there is no code, data or project link of any kind, and no availability section, so ARTIFACT = none and access is paper-only (legitimate per the rules). GitHub search for 'ProtoPilot' returns only unrelated third-party projects (product-prototyping tools, hackathon repos) - none author-linked, so nothing was attached. Scope: multi-step wet-lab automation agent (intent -> protocol -> SOP -> instrument code -> physical execution -> feedback-guided revision), well inside the lane and comparable to the catalogued AutoLabs entry.",
+  "record": {
+   "name": "ProtoPilot",
+   "category": "biology",
+   "domain": "Wet-lab protocol generation, instrument-code synthesis and robotic execution for synthetic and molecular biology",
+   "paper_links": [
+    {
+     "label": "arXiv:2606.31763 (v1 2026-06-30, v2 2026-07-02)",
+     "url": "https://arxiv.org/abs/2606.31763"
+    }
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Natural-language experimental objective plus laboratory context (available reagents, consumables, instruments) supplied through multi-turn clarification",
+   "outputs": "Validated protocol and SOP layers, SDK-compliant instrument code for MGI AlphaTool, Hamilton STAR, Opentrons OT-2 and Tecan EVO, executed workflows with experimental readouts, and feedback-revised protocol versions",
+   "autonomy": "A4-A5",
+   "notes": "Self-evolving multi-agent system with an Orchestrator maintaining workflow state over a five-layer representation (intent, protocol, manual SOP, device SOP, instrument code), rubric-based validators and a runtime-updated skill library; benchmark of 294 tasks from 98 gold-standard protocols gives Top@3 expert preference 90.2%, overall protocol-to-code gate pass 96.6% and Opentrons pass 88.2% vs 32.4% for OpenTrons-AI. Physical closure is real but partial and human-gated: the paper discloses human-in-the-loop checkpoints at which the Orchestrator asks the user to confirm material availability, instrument capability and adjustments, and wet-lab work (96-well inoculation, dilution series, colony PCR, plasmid construction, mutagenesis, PCA assembly with Sanger confirmation) involved off-deck human steps; the paper does not state that the agent triggers instrument runs itself, though it did revise the PCA protocol after wet-lab failures and obtain sequence-confirmed assemblies in the subsequent round.",
+   "sources": [
+    "https://arxiv.org/abs/2606.31763",
+    "https://export.arxiv.org/api/query?id_list=2606.31763",
+    "https://arxiv.org/html/2606.31763v2"
+   ],
+   "aliases": [
+    "A Self-Evolving Agentic System for Automated Generation and Execution of Biological Protocols"
+   ]
+  },
+  "fetched": [
+   "https://export.arxiv.org/api/query?id_list=2606.31763 (v2 2026-07-02, 14 authors incl. Xiaosong Wang, Lei Bai)",
+   "https://arxiv.org/abs/2606.31763 (not withdrawn)",
+   "https://arxiv.org/html/2606.31763v2 (full text: affiliations, human-in-the-loop checkpoints, four robotic platforms, wet-lab validation; exhaustive URL scan found no repository link)",
+   "https://api.github.com/search/repositories?q=ProtoPilot (13 unrelated repos, none author-linked)"
+  ]
+ },
+ {
+  "name": "PepCraft / AMPGAN v3",
+  "verdict": "accept",
+  "reason": "arXiv:2606.17127 verified via arXiv API and HTML (v1, 2026-06-15, q-bio.QM + cs.AI + cs.LG, comment 'Presented at the GenBio Workshop, ICML 2026', not withdrawn; authors University of Vermont + Purdue, correspondence jianing-li@purdue.edu). Repo ownership is explicit and official: the abstract states 'Code: https://github.com/marszzibros/AMPGANv3' and the repo README says 'This repository contains the official code implementation for the paper' with contact jay-hwasung.jung@uvm.edu (first author Jay Hwasung Jung). The agent layer really is released - pepcraft/ contains Initialization.py, agents/{generating,filtering,verifying}_agent.json, Planner and Executor prompt sets, state classes and tools/{Generating/AMPGAN_v3.py, Filtering/*, Verifying/Verify_DBAASP.py, Verify_SwissProt.py}. GitHub API reports NO licence file, so this is public-but-unlicensed code: classified source-available, not open-source. Catalogued under the agent layer (PepCraft) with AMPGAN v3 as alias, per the discovery note.",
+  "record": {
+   "name": "PepCraft",
+   "category": "biology",
+   "domain": "Antimicrobial peptide design, filtering and database verification (non-canonical chemistry)",
+   "paper_links": [
+    {
+     "label": "arXiv:2606.17127 (v1, 2026-06-15; GenBio Workshop, ICML 2026)",
+     "url": "https://arxiv.org/abs/2606.17127"
+    }
+   ],
+   "repo_links": [
+    {
+     "label": "GitHub (marszzibros/AMPGANv3, official, no licence file)",
+     "url": "https://github.com/marszzibros/AMPGANv3"
+    }
+   ],
+   "access": "source-available",
+   "inputs": "Peptide design objective (target activity class, allowed chemistry including D-amino acids and N/C-terminus modifications) issued to the Planning Agent",
+   "outputs": "Generated peptide sequences, physicochemical and structural filter verdicts, DBAASP/SwissProt novelty checks, and a ranked prioritisation report with executor trajectories",
+   "autonomy": "A3",
+   "notes": "Planning Agent orchestrates specialised executors for generation (AMPGAN v3, a two-discriminator conditional GAN covering D-amino acids and terminal modifications), physicochemical/structural filtering and database verification; the released repo carries the agent prompts, agent specs and tool implementations but no licence. Wet-lab closure is human-run and retrospective: five AMPGAN v3 candidates were synthesised and assayed by the authors (two active against Gram-positive strains, best MIC 8 ug/mL against B. subtilis), and PepCraft's prioritisation was compared with those existing outcomes - the paper explicitly calls prospective evaluation of its selection ability future work.",
+   "sources": [
+    "https://arxiv.org/abs/2606.17127",
+    "https://export.arxiv.org/api/query?id_list=2606.17127",
+    "https://arxiv.org/html/2606.17127v1",
+    "https://github.com/marszzibros/AMPGANv3",
+    "https://api.github.com/repos/marszzibros/AMPGANv3"
+   ],
+   "aliases": [
+    "AMPGAN v3",
+    "PepCraft / AMPGAN v3"
+   ]
+  },
+  "fetched": [
+   "https://export.arxiv.org/api/query?id_list=2606.17127 (v1 2026-06-15, ICML 2026 GenBio Workshop comment, abstract carries the repo URL)",
+   "https://arxiv.org/html/2606.17127v1 (affiliations UVM/Purdue, in vitro protocol, MIC table, PepCraft appendix with agent prompts)",
+   "https://api.github.com/repos/marszzibros/AMPGANv3 (license: null, created 2025-11-24, pushed 2026-07-10, not a fork)",
+   "https://raw.githubusercontent.com/marszzibros/AMPGANv3/main/README.md ('official code implementation', first-author contact)",
+   "https://api.github.com/repos/marszzibros/AMPGANv3/git/trees/main?recursive=1 (pepcraft/agents, prompts, states, tools)"
+  ]
+ },
+ {
+  "name": "DeepBD",
+  "verdict": "accept",
+  "reason": "arXiv:2606.24779 verified via arXiv API and full HTML (v1, 2026-06-23, q-bio.GN + cs.AI, not withdrawn; all authors College of Computer Science and Technology, Zhejiang University). Exhaustive URL scan of the v2-less HTML found no repository, project page or availability statement - the only external links are CDC/NICHD/WHO fact sheets and an OpenReview citation - and the text states the in-house fetal/infant cohort 'is not publicly releasable because it contains sensitive fetal, infant, genomic and hospital-derived clinical information', so access is paper-only. In scope as a multi-step agentic workflow (case structuring -> evidence engine -> specialist modules -> agentic review), consistent with the catalogued clinical precedents AgentMD (A2-A3) and ClinicalAgent (A3). No name collision in agents_final.json.",
+  "record": {
+   "name": "DeepBD",
+   "category": "biology",
+   "domain": "Variant prioritisation and diagnostic interpretation for genetic birth defects",
+   "paper_links": [
+    {
+     "label": "arXiv:2606.24779 (v1, 2026-06-23)",
+     "url": "https://arxiv.org/abs/2606.24779"
+    }
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Patient case with candidate variants from exome/genome sequencing plus phenotype descriptions (free text mapped to HPO terms) and heterogeneous evidence sources (population genetics, variant-effect predictors, gene-disease validity, ClinVar/HGMD, pathway and structure context)",
+   "outputs": "Ranked patient-specific candidate variants with provenance-preserving evidence records and a diagnosis-oriented synthesis for clinician review",
+   "autonomy": "A3",
+   "notes": "Four-part workflow - LLM-assisted case structuring, a pretrained evidence engine (graph attention over phenotype-conditioned biological context fused with rule and variant-effect evidence), specialist evidence modules, and a grounded agentic review layer doing curation, constrained reranking, provenance audit and synthesis; the central ranking substrate is supervised rather than LLM-driven. Developed on an in-house cohort of 18,622 fetal and infant cases with Recall@1/3/5/10 of 0.658/0.882/0.912/0.929 on an internal held-out solved-case benchmark against Exomiser, DeepRare and prompted LLM reranking. Retrospective and single-institution by the authors' own account; diagnostic synthesis is described as requiring separate expert evaluation, and no code or data are released.",
+   "sources": [
+    "https://arxiv.org/abs/2606.24779",
+    "https://export.arxiv.org/api/query?id_list=2606.24779",
+    "https://arxiv.org/html/2606.24779v1"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://export.arxiv.org/api/query?id_list=2606.24779 (v1 2026-06-23, 10 authors)",
+   "https://arxiv.org/html/2606.24779v1 (Zhejiang University affiliations; no availability section, no repository URL; cohort not publicly releasable)"
+  ]
+ },
+ {
+  "name": "RESCUE (Rare Disease Detection and Escalation Support via a Learning Health System)",
+  "verdict": "accept",
+  "reason": "Record verified three ways this session: Crossref for DOI 10.64898/2026.06.24.26356357 (openRxiv/medRxiv, posted 2026-07-01, accepted 2026-08-07, CC BY 4.0, funder award R01HG120566), the medRxiv API via the bioRxiv MCP (corresponding author Cong Liu, Boston Children's Hospital; Harvard Medical School), and NCBI eutils esummary for PMID 42428098 (PMC13345393, DOI matches, last author Chung WK). Not withdrawn; v2 is live on medRxiv. ARTIFACT CHECK, which is the substantive finding: the v2 Data Availability section names 'https://github.com/stormliucong/RESCUE-Agent' as the source code, and that repository returns 404 (both api.github.com and the HTML page) as of 2026-08-13; the other cited repo, stormliucong/RESCUE-n8n, IS live and owned by the corresponding author (GitHub user 'Cong Liu', company 'Boston Children's Hospital') but contains an unrelated patient/PCP/genetic-counsellor chat system - its n8n_local/workflows holds Front_Desk, Education, Schedule, Triage, Admin and Diagnostic agents, none of the paper's Ontology/Modeling/Screening/Review agents - and carries no licence. So no usable artifact: access = paper-only. In scope as a multi-step agentic pipeline (ontology mapping -> PU model building -> population screening -> evidence review) alongside catalogued clinical precedents. No name collision in agents_final.json.",
+  "record": {
+   "name": "RESCUE",
+   "category": "biology",
+   "domain": "Proactive rare-disease patient screening and genomic-testing escalation across an institutional EHR",
+   "paper_links": [
+    {
+     "label": "medRxiv preprint (v1 2026-07-01, v2 2026-08-07)",
+     "url": "https://www.medrxiv.org/content/10.64898/2026.06.24.26356357v2"
+    },
+    {
+     "label": "PubMed (PMID 42428098) / PMC13345393",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42428098/"
+    }
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Institutional EHR data (diagnosis and test codes, clinical notes) for the full patient population, plus a target rare-disease definition",
+   "outputs": "A four-tier genetic-evidence taxonomy over EHR codes, a trained PU XGBoost case/control classifier, a population-wide ranked candidate list, and per-candidate chart-review judgements on genomic-testing appropriateness",
+   "autonomy": "A3",
+   "notes": "Four specialised LLM agents - Ontology (code taxonomy), Modeling (positive-unlabelled XGBoost classifier), Screening (population-wide application) and Review (samples clinical notes to judge medical necessity and feasibility) - run as an end-to-end workflow on data from a pediatric hospital: holdout AUC 0.808 (n=12,591), 175,842 of nearly 500,000 patients met screening inclusion, and flagged candidates were 7.4-fold more likely to receive subsequent genomic assessment. Human gates are disclosed and load-bearing: blinded manual chart review by a study author established the 80% precision figure, and the workflow escalates candidates for clinician decision rather than ordering tests. The v2 Data Availability statement points at github.com/stormliucong/RESCUE-Agent, which did not exist when checked on 2026-08-13.",
+   "sources": [
+    "https://www.medrxiv.org/content/10.64898/2026.06.24.26356357v2.full",
+    "https://api.crossref.org/works/10.64898/2026.06.24.26356357",
+    "https://pubmed.ncbi.nlm.nih.gov/42428098/",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13345393/"
+   ],
+   "aliases": [
+    "Rare Disease Detection and Escalation Support via a Learning Health System"
+   ]
+  },
+  "fetched": [
+   "https://api.crossref.org/works/10.64898/2026.06.24.26356357 (medRxiv/openRxiv, posted 2026-07-01, accepted 2026-08-07, CC BY 4.0)",
+   "medRxiv API via bioRxiv MCP get_preprint (DOI 10.64898/2026.06.24.26356357, corresponding author Cong Liu, Boston Children's Hospital; Harvard Medical School; published_doi NA)",
+   "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42428098 (PMID 42428098, PMC13345393, 2026-08-07)",
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13345393/ (abstract, version 2)",
+   "https://www.medrxiv.org/content/10.64898/2026.06.24.26356357v2.full (affiliations; Data Availability naming github.com/stormliucong/RESCUE-Agent; agent descriptions)",
+   "https://api.github.com/repos/stormliucong/RESCUE-Agent (404 Not Found) and https://github.com/stormliucong/RESCUE-Agent (HTTP 404)",
+   "https://api.github.com/repos/stormliucong/RESCUE-n8n (live, no licence) + git tree (unrelated Front_Desk/Education/Schedule/Triage agent workflows)",
+   "https://api.github.com/users/stormliucong (Cong Liu, Boston Children's Hospital)"
+  ]
+ }
+]

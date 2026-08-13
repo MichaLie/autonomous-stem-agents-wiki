@@ -1,0 +1,179 @@
+[
+ {
+  "name": "Omics Data Discovery Agents",
+  "verdict": "accept",
+  "reason": "arXiv 2603.10161 resolves (v1 2026-03-10, v3 2026-07-22), matches the described system, not withdrawn; PubMed indexing confirmed via NCBI eutils (PMID 42539124, PMC13419620, source ArXiv). Paper's availability statement names github.com/xomicsdatascience/odda, which resolves, is GPL-3.0 licensed, and its description/README match the framework (AI agents + MCP servers parsing articles, downloading omics data, running quantification pipelines). Ownership chain is paper-to-repo (author-declared in the paper); the repo page itself showed no paper backlink in the fetched content.",
+  "record": {
+   "name": "Omics Data Discovery Agents",
+   "category": "biology",
+   "domain": "multi-omics data reuse: retrieval, reanalysis, and synthesis of published proteomics and RNA-seq datasets",
+   "paper_links": [
+    {"label": "arXiv 2603.10161", "url": "https://arxiv.org/abs/2603.10161"},
+    {"label": "PubMed PMID 42539124", "url": "https://pubmed.ncbi.nlm.nih.gov/42539124/"}
+   ],
+   "repo_links": [
+    {"label": "GitHub (xomicsdatascience/odda, GPL-3.0)", "url": "https://github.com/xomicsdatascience/odda"}
+   ],
+   "access": "open-source",
+   "inputs": "Published articles (PMC Open Access) and public omics repositories (PRIDE, MassIVE, iProX, GEO/SRA); containerized quantification tools (DIA-NN, MaxQuant) exposed via MCP servers",
+   "outputs": "Retrieved datasets with extracted metadata, reanalysis quantifications, and cross-study syntheses",
+   "autonomy": "A2",
+   "notes": "LLM-agent framework (Hutton & Meyer, Cedars-Sinai) that autonomously locates, retrieves, and reanalyzes published omics data; five end-to-end reanalyses reproduced author-deposited abundances (per-sample r = 0.85-0.997; differential-expression Spearman 0.88-0.91). Computational only - no physical experiment loop; humans pose the research questions.",
+   "sources": [
+    "https://arxiv.org/abs/2603.10161",
+    "https://arxiv.org/html/2603.10161v3",
+    "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42539124&retmode=json",
+    "https://github.com/xomicsdatascience/odda"
+   ],
+   "aliases": ["ODDA"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2603.10161",
+   "https://arxiv.org/html/2603.10161v3",
+   "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=42539124&retmode=json",
+   "https://github.com/xomicsdatascience/odda"
+  ]
+ },
+ {
+  "name": "Claude Science",
+  "verdict": "accept",
+  "reason": "Official product page at claude.com/product/claude-science fetched this session and confirms the system as described: Anthropic agentic research workbench in beta for Mac (Apple Silicon/Intel) and Linux, with persistent Python/R kernels, HPC/SSH job management, 60+ scientific database connectors, domain presets (genomics, single-cell, proteomics, structural biology, cheminformatics), native scientific renderers, and a background reviewer flagging incorrect citations/untraceable numbers. Anthropic.com corroborates officialness (Claude Science appears in the anthropic.com footer products list). Launch date remains UNVERIFIED: the product page carries no date, anthropic.com/news lists no Claude Science post, and anthropic.com/news/claude-science returns 404 - the press-reported 2026-06-30 date is therefore OMITTED from the record per instructions. Category set to crossdomain (presets span biology and cheminformatics; general Python/R/HPC workbench), overriding the worklist's 'biology'. Conflict-of-interest note applies (catalog coordinator is Claude); record contains nothing beyond fetched-page statements.",
+  "record": {
+   "name": "Claude Science",
+   "category": "crossdomain",
+   "domain": "general scientific analysis workbench with life-science and cheminformatics presets (genomics, single-cell, proteomics, structural biology, cheminformatics)",
+   "paper_links": [],
+   "repo_links": [],
+   "access": "platform",
+   "inputs": "Natural-language research direction; user data and code in managed Python/R kernels with persistent state; 60+ scientific database connectors; HPC/cluster jobs over SSH",
+   "outputs": "Executed analyses, figures via plain-language iteration, database query results, and reproducible artifacts with full code and environment history; background-reviewer flags on citations, numbers, and figure-code mismatches",
+   "autonomy": "A2",
+   "notes": "Anthropic research application in beta (free desktop download for Mac Apple Silicon/Intel and Linux; enterprise via contact sales) that runs multi-step analyses under researcher direction, with an automatic background reviewer as a disclosed verification layer. Launch date UNVERIFIED: no date on the official product page and no anthropic.com/news announcement found as of 2026-08-13; press-reported 2026-06-30 not confirmed from a primary page and omitted.",
+   "sources": [
+    "https://claude.com/product/claude-science",
+    "https://www.anthropic.com/news"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://claude.com/product/claude-science",
+   "https://www.anthropic.com/news",
+   "https://www.anthropic.com/news/claude-science (404)"
+  ]
+ },
+ {
+  "name": "GeneKnow",
+  "verdict": "accept",
+  "reason": "Preprint verified via bioRxiv API: DOI 10.64898/2026.05.28.728511, v1 2026-06-01 'GeneKnow: AI-powered literature synthesis for gene-context analysis', v2 2026-07-23 retitled 'GeneKnow: An auditable AI framework for source-grounded biological evidence synthesis' (Zhang & Zang, University of Virginia); abstract matches the candidate, not withdrawn, not journal-published (published_doi NA). No code, repo, or web-platform link appears in the API metadata/abstract, and biorxiv.org full-text pages returned 403 this session, so artifact availability is UNVERIFIED and access is classified paper-only. In scope as an autonomous multi-step literature/evidence-synthesis agent with systematic benchmarking; no experiments or data analysis - autonomy set at the bottom of the scale.",
+  "record": {
+   "name": "GeneKnow",
+   "category": "biology",
+   "domain": "source-grounded literature evidence synthesis for gene function in defined cell types, diseases, and perturbations",
+   "paper_links": [
+    {"label": "bioRxiv 10.64898/2026.05.28.728511", "url": "https://www.biorxiv.org/content/10.64898/2026.05.28.728511v1"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Gene-context questions; retrieved literature (multi-paper discovery and single-paper inspection)",
+   "outputs": "Source-grounded evidence syntheses with claim-to-passage provenance links and deterministic bibliography construction",
+   "autonomy": "A1",
+   "notes": "Auditable framework separating deterministic evidence-critical operations (retrieval, passage selection, provenance tracking, bibliography) from generative steps constrained to semantic analysis; benchmarked above general-purpose and scientific AI systems on claim support and citation fidelity. Literature synthesis only - no data analysis or experiment execution; code/platform availability UNVERIFIED (no link in fetched metadata; full text unreachable this session).",
+   "sources": [
+    "https://api.biorxiv.org/details/biorxiv/10.64898/2026.05.28.728511",
+    "https://www.biorxiv.org/content/10.64898/2026.05.28.728511v1"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "mcp biorxiv get_preprint 10.64898/2026.05.28.728511 (v1 metadata + abstract)",
+   "https://api.biorxiv.org/details/biorxiv/10.64898/2026.05.28.728511 (v1+v2 version history)",
+   "https://www.biorxiv.org/content/10.64898/2026.05.28.728511v2 (403, full text not reachable)"
+  ]
+ },
+ {
+  "name": "VERITAS",
+  "verdict": "accept",
+  "reason": "arXiv 2604.12144 resolves ('VERITAS: A Multi-Agent Co-Scientist for Verifiable Image-Derived Hypothesis Testing', Stoffl, Wiestler, Paetzold; v1 2026-04-13, v2 2026-07-01), matches the candidate, not withdrawn. Repo github.com/LucZot/veritas exists, is Apache-2.0, links the arXiv paper, and the arXiv submission references the repo - ownership chain confirmed in both directions. Pre-window v1 but a genuine miss with a released artifact.",
+  "record": {
+   "name": "VERITAS",
+   "category": "biology",
+   "domain": "biomedical imaging hypothesis testing (cardiac MRI and brain glioma MRI cohorts)",
+   "paper_links": [
+    {"label": "arXiv 2604.12144", "url": "https://arxiv.org/abs/2604.12144"}
+   ],
+   "repo_links": [
+    {"label": "GitHub (LucZot/veritas, Apache-2.0)", "url": "https://github.com/LucZot/veritas"}
+   ],
+   "access": "open-source",
+   "inputs": "Natural-language hypotheses and medical imaging cohorts; segmentation via a medical imaging model; sandboxed statistical analysis",
+   "outputs": "Auditable evidence trail with verdicts classified as Supported, Refuted, Underpowered, or Invalid by a deterministic Evidence Classification Operator",
+   "autonomy": "A3",
+   "notes": "Multi-agent co-scientist that autonomously tests image-derived hypotheses end-to-end (coordinated role-specialized agents, sandboxed statistics, deterministic verdict scoring rather than post-hoc LLM grading); 81.4% verdict accuracy with frontier models and 71.2% with open-weight models on a 64-hypothesis benchmark. Computational loop over existing imaging data - no physical experimentation.",
+   "sources": [
+    "https://arxiv.org/abs/2604.12144",
+    "https://github.com/LucZot/veritas"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2604.12144",
+   "https://github.com/LucZot/veritas"
+  ]
+ },
+ {
+  "name": "NatureBench / NatureGym",
+  "verdict": "accept",
+  "reason": "arXiv 2606.24530 resolves ('NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers?', Wang et al.; v1 2026-06-23, v2 2026-07-06), matches the candidate, not withdrawn, and links the repo. github.com/FrontisAI/NatureBench exists, MIT-licensed, links the arXiv paper back, and is actively maintained (updates through 2026-08-07, leaderboard submission guidelines). Belongs in category benchmark, not biology: 90 tasks span 6 scientific domains cross-discipline, and the artifact is an evaluation harness (NatureGym) plus benchmark, not an agent.",
+  "record": {
+   "name": "NatureBench",
+   "category": "benchmark",
+   "domain": "cross-discipline scientific machine-learning tasks distilled from Nature-family publications (90 tasks, 6 domains)",
+   "paper_links": [
+    {"label": "arXiv 2606.24530", "url": "https://arxiv.org/abs/2606.24530"}
+   ],
+   "repo_links": [
+    {"label": "GitHub (FrontisAI/NatureBench, MIT)", "url": "https://github.com/FrontisAI/NatureBench"}
+   ],
+   "access": "open-source",
+   "inputs": "AI coding agents evaluated in standardized per-task containerized environments constructed automatically from source papers by the NatureGym pipeline",
+   "outputs": "Task success and beyond-reproduction metrics (whether agents surpass published SOTA), with a public leaderboard",
+   "autonomy": "B",
+   "notes": "Benchmark testing whether coding agents can move beyond reproducing to beating the published SOTA of Nature-family papers; the strongest agent surpassed SOTA on 17.8% of tasks, with failures driven mainly by incorrect methodology selection. NatureGym is the automated environment-construction pipeline shipped in the same repo.",
+   "sources": [
+    "https://arxiv.org/abs/2606.24530",
+    "https://github.com/FrontisAI/NatureBench"
+   ],
+   "aliases": ["NatureGym"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2606.24530",
+   "https://github.com/FrontisAI/NatureBench"
+  ]
+ },
+ {
+  "name": "PACE-SIMS",
+  "verdict": "accept",
+  "reason": "arXiv 2608.12277 resolves ('PACE-SIMS: Checkpoint-Gated Autonomous SIMS Characterization with AI-Agent Quality Control', Ievlev, Hare, Li, Kalinin; v1 2026-08-12), matches the candidate, not withdrawn. Real physical instrument loop (ToF-SIMS) with disclosed human gates: researcher sets objectives and approves the plan, agent executes acquisition autonomously with checkpoint-gated QC - A4, not A5. No code/repo link on the abs page, so access is paper-only.",
+  "record": {
+   "name": "PACE-SIMS",
+   "category": "chemistry",
+   "domain": "autonomous materials characterization by time-of-flight secondary ion mass spectrometry (ToF-SIMS)",
+   "paper_links": [
+    {"label": "arXiv 2608.12277", "url": "https://arxiv.org/abs/2608.12277"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Researcher-specified scientific questions and quality requirements; physical ToF-SIMS instrument",
+   "outputs": "Autonomously acquired SIMS measurements with checkpoint quality assessments, corrective decisions, and measurement-science insights",
+   "autonomy": "A4",
+   "notes": "Human-AI collaborative workflow in which the researcher sets objectives and approves the AI-generated plan before the agent autonomously executes acquisition on the instrument with checkpoint-gated quality control; validated on 18O-enriched WOx films. No code repository disclosed on the arXiv page.",
+   "sources": [
+    "https://arxiv.org/abs/2608.12277"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2608.12277"
+  ]
+ }
+]

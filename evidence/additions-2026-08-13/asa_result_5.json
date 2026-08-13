@@ -1,0 +1,194 @@
+[
+ {
+  "name": "ChemWorld",
+  "verdict": "accept",
+  "reason": "arXiv 2608.10792 (v1, 2026-08-11, not withdrawn) matches: programmable chemical worlds separating agent-facing interface from evaluator-controlled hidden laws, with exact replay and audit trails; 15 registered reference tasks (reaction optimization, crystallization, purification, electrochemistry, continuous flow). Official MIT-licensed repo linked from the paper itself (github.com/sunyrain/ChemWorld-Public, created 2026-08-11, README matches paper title and scope). Harness/environment for evaluating chemistry agents - in scope as benchmark/harness. AutoLabs appears only as a citation; no platform relationship.",
+  "record": {
+   "name": "ChemWorld",
+   "category": "benchmark",
+   "domain": "chemistry (simulated wet-lab environments for agent evaluation)",
+   "paper_links": [
+    {"label": "arXiv:2608.10792 - ChemWorld: Programmable Chemical Worlds for Controlled and Replayable Agent Experimentation", "url": "https://arxiv.org/abs/2608.10792"}
+   ],
+   "repo_links": [
+    {"label": "GitHub (sunyrain/ChemWorld-Public, MIT)", "url": "https://github.com/sunyrain/ChemWorld-Public"},
+    {"label": "Documentation", "url": "https://sunyrain.github.io/ChemWorld-Public/"}
+   ],
+   "access": "open-source",
+   "inputs": "Agent-issued typed chemical operations against a compiled world (public task contract): reactions, separations, distillations, instrument use, resource spends",
+   "outputs": "Public observations (pH, UV-Vis, HPLC, GC, assays), evaluator-side full state trajectories, exactly replayable audit-trailed episodes",
+   "autonomy": "B",
+   "notes": "Programmable simulation environments ('worlds') for chemistry agents in which evaluator-controlled hidden chemical laws can be varied one at a time while the agent-facing task stays fixed; supports deterministic replay and fail-closed compilation/preflight/commit gates. Simulation closure only - no physical instruments; researchers author world compositions and frozen protocols before agent runs.",
+   "sources": [
+    "https://arxiv.org/abs/2608.10792",
+    "https://arxiv.org/html/2608.10792v1",
+    "https://api.github.com/repos/sunyrain/ChemWorld-Public"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2608.10792",
+   "https://arxiv.org/html/2608.10792v1",
+   "https://api.github.com/repos/sunyrain/ChemWorld-Public (via gh api)",
+   "https://api.github.com/repos/sunyrain/ChemWorld-Public/readme (via gh api)"
+  ]
+ },
+ {
+  "name": "Multi-agent qLDPC code discovery",
+  "verdict": "accept",
+  "reason": "arXiv 2608.08996 (v1, 2026-08-10, not withdrawn; Qian & Li, 'Multi-agent discovery of practical quantum LDPC codes') matches: researcher-council/curator/worker agents, persistent scientific memory (lessons/anti-lessons), long-horizon evolution of executable code-family programs via MAP-Elites with a deterministic evaluator; discovered concrete codes ([[288,16,18]] w7, [[288,18,18]] w9, [[234,28,18]] w10). Unnamed-but-concrete system - descriptive-name precedent explicitly applies to this case. Code and data 'will be made publicly available upon publication' - no repo yet, so paper-only.",
+  "record": {
+   "name": "Multi-agent qLDPC code discovery",
+   "category": "physics",
+   "domain": "quantum error correction (quantum LDPC code design)",
+   "paper_links": [
+    {"label": "arXiv:2608.08996 - Multi-agent discovery of practical quantum LDPC codes", "url": "https://arxiv.org/abs/2608.08996"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Design constraints for finite-length qLDPC codes (rate, distance, stabilizer weight, practicality constraints); persistent memory of lessons and candidate lineage",
+   "outputs": "Executable code-family generator programs, discovered qLDPC code instances (e.g. [[288,16,18]] weight-7, [[288,18,18]] weight-9, [[234,28,18]] weight-10), BP-OSD-verified logical failure rates",
+   "autonomy": "A4",
+   "notes": "Closed-loop computational discovery: a three-member researcher council and curator (Claude Opus 4.8 in Claude Code) synthesize hypotheses into tasks, a worker (Sonnet 5) evolves executable code-family programs against a deterministic construction/evaluation pipeline with MAP-Elites archiving and persistent lessons/anti-lessons memory. Fully computational closure (not A5); no explicit in-loop human gates disclosed; construction/search/evaluation code promised publicly upon publication.",
+   "sources": [
+    "https://arxiv.org/abs/2608.08996",
+    "https://arxiv.org/html/2608.08996v1"
+   ],
+   "aliases": ["Multi-agent discovery of practical quantum LDPC codes"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2608.08996",
+   "https://arxiv.org/html/2608.08996v1"
+  ]
+ },
+ {
+  "name": "OPERA",
+  "verdict": "accept",
+  "reason": "arXiv 2608.05990 (v1, 2026-08-06, not withdrawn) matches: operator-residual framework for LLM-agent optical experiments across three tasks (beam shaping with SLM, structured-light 3D reconstruction, interferometry). Closure claim verified from the paper's own text: decision loops ran in digital twins; 'Protocols were frozen before transfer, and hardware residuals were not returned to the agent' - so the physical loop is NOT agent-closed (not A5); three physical instruments served as open-loop validation. Official MIT repo (github.com/ningxu1995/OPERA, first author Ning Xu) plus Zenodo archive 10.5281/zenodo.21504254 (MIT, published 2026-07-23), both matching the paper.",
+  "record": {
+   "name": "OPERA",
+   "category": "physics",
+   "domain": "optics / autonomous optical experimentation",
+   "paper_links": [
+    {"label": "arXiv:2608.05990 - OPERA: Operator-residual feedback for reliable autonomous optical experiments with language-model agents", "url": "https://arxiv.org/abs/2608.05990"}
+   ],
+   "repo_links": [
+    {"label": "GitHub (ningxu1995/OPERA, MIT)", "url": "https://github.com/ningxu1995/OPERA"},
+    {"label": "Zenodo archive (10.5281/zenodo.21504254)", "url": "https://doi.org/10.5281/zenodo.21504254"}
+   ],
+   "access": "open-source",
+   "inputs": "Optical experiment tasks in digital twins; library of optical operators (executable changes to measurement, control, reconstruction) and physically interpretable residuals",
+   "outputs": "Selected/combined/generated operator protocols, residual-based evaluations against withheld references, frozen protocols executed on three physical optical instruments (SLM beam shaping, structured-light 3D reconstruction, interferometry)",
+   "autonomy": "A4",
+   "notes": "LLM agent closes an iterative operator-selection loop in digital twins using physics-grounded residuals instead of hackable scores (score-only feedback produced non-physical score gains in 23.6-39.0% of decisions vs 0.9-1.9% with residuals). Not a physical closed loop: protocols were frozen before transfer to the three optical instruments and hardware residuals were not returned to the agent, so physical execution is open-loop validation.",
+   "sources": [
+    "https://arxiv.org/abs/2608.05990",
+    "https://arxiv.org/html/2608.05990v1",
+    "https://zenodo.org/api/records/21504254",
+    "https://api.github.com/repos/ningxu1995/OPERA"
+   ],
+   "aliases": ["Operator-residual feedback for reliable autonomous optical experiments"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2608.05990",
+   "https://arxiv.org/html/2608.05990v1",
+   "https://zenodo.org/api/records/21504254",
+   "https://api.github.com/repos/ningxu1995/OPERA (via gh api)"
+  ]
+ },
+ {
+  "name": "CRAFTS",
+  "verdict": "accept",
+  "reason": "arXiv 2608.01369 (v1, 2026-08-02, not withdrawn) matches: seven bounded roles with deterministic IDAES/Pyomo gates, NL request + PFD evidence to executable equation-oriented process model; LoRA fine-tuning of three schema-critical roles (Qwen3-VL-8B, Qwen2.5-Coder-7B); OpenIDAES-450 dataset; 91.5% contract completion on the 82-case held-out split. Repo linked from the paper (github.com/Galigeigei-Z/CRAFTS-Multi-agent-for-Equation-oriented-PSE, MIT, README matches paper and links back to arXiv:2608.01369) - author-endorsed, open-source. Multi-step engineering-model construction workflow, distinct from earlier cataloged process-simulation agents.",
+  "record": {
+   "name": "CRAFTS",
+   "category": "chemistry",
+   "domain": "chemical process engineering (equation-oriented process simulation)",
+   "paper_links": [
+    {"label": "arXiv:2608.01369 - CRAFTS: Collaborative Role-Adaptive Fine-Tuning of LLM Agents for Chemical Process Simulation", "url": "https://arxiv.org/abs/2608.01369"}
+   ],
+   "repo_links": [
+    {"label": "GitHub (Galigeigei-Z/CRAFTS-Multi-agent-for-Equation-oriented-PSE, MIT)", "url": "https://github.com/Galigeigei-Z/CRAFTS-Multi-agent-for-Equation-oriented-PSE"}
+   ],
+   "access": "open-source",
+   "inputs": "Natural-language process request, process flowsheet diagram (PFD) evidence, curated chemical-engineering knowledge",
+   "outputs": "Typed intermediate artifacts (VisualGraphIR, TopologyIR, SpecIR, BuildPlan, SolveReport), executable solved IDAES/Pyomo process models, eligible optimization results",
+   "autonomy": "A3",
+   "notes": "Seven role-bounded LLM agents (LangChain/LangGraph; three schema-critical roles LoRA-fine-tuned on Qwen3-VL-8B and Qwen2.5-Coder-7B, remaining roles untuned Qwen) build executable chemical process models with deterministic engineering gates between stages and bounded allowlisted repair; invalid trajectories fail closed. Computational closure with no human in the execution loop; introduces the OpenIDAES-450 dataset (450 IDAES cases, frozen 82-case held-out split).",
+   "sources": [
+    "https://arxiv.org/abs/2608.01369",
+    "https://arxiv.org/html/2608.01369v1",
+    "https://api.github.com/repos/Galigeigei-Z/CRAFTS-Multi-agent-for-Equation-oriented-PSE"
+   ],
+   "aliases": ["Collaborative Role-Adaptive Fine-Tuning of LLM Agents for Chemical Process Simulation"]
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2608.01369",
+   "https://arxiv.org/html/2608.01369v1",
+   "https://api.github.com/repos/Galigeigei-Z/CRAFTS-Multi-agent-for-Equation-oriented-PSE (via gh api)",
+   "https://api.github.com/repos/Galigeigei-Z/CRAFTS-Multi-agent-for-Equation-oriented-PSE/readme (via gh api)"
+  ]
+ },
+ {
+  "name": "MDArena",
+  "verdict": "accept",
+  "reason": "arXiv 2608.02642 (v1, 2026-07-31, not withdrawn; Oxford Biochemistry group, Biggin lab) matches: 50 containerized tasks from active biomolecular simulation projects (29 systems, 14 protocols), evaluating Codex/OpenCode configurations; best Strict-Pass@1 24/50. Official repo owned by author Wei-Tse Hsu (github.com/weitse-hsu/MDArena), MIT LICENSE file verified in-repo (GitHub license detection shows NOASSERTION but the LICENSE file is standard MIT, copyright 2026 Wei-Tse Hsu), README links back to arXiv:2608.02642 and the v0.1 release used for reported results. Benchmark of multi-step computational MD work - in scope. Flag for dedup against the bio lane output as the worklist notes.",
+  "record": {
+   "name": "MDArena",
+   "category": "benchmark",
+   "domain": "molecular dynamics / biomolecular simulation workflows",
+   "paper_links": [
+    {"label": "arXiv:2608.02642 - MDArena: Evaluating Coding Agents on Realistic Molecular Dynamics Workflows", "url": "https://arxiv.org/abs/2608.02642"}
+   ],
+   "repo_links": [
+    {"label": "GitHub (weitse-hsu/MDArena, MIT; results from v0.1 release)", "url": "https://github.com/weitse-hsu/MDArena"}
+   ],
+   "access": "open-source",
+   "inputs": "50 containerized tasks (input structures/trajectories, written instructions, Docker specs) spanning 29 molecular systems and 14 research protocols; driven via the Harbor CLI",
+   "outputs": "Automated verifier scores: binary Strict-Pass@1, deterministic correctness reward, LLM-as-judge process reward per task",
+   "autonomy": "B",
+   "notes": "Benchmark of coding agents on realistic multi-step MD workflows (system prep, parameterization, trajectory analysis, umbrella sampling, free-energy protocols; GROMACS/AMBER/OpenMM/PLUMED etc.) drawn from active research projects. Best evaluated configuration (Codex GPT-5.5 extra-high) reaches 24/50 Strict-Pass@1; membrane-protein prep and alchemical free-energy setup remain essentially unsolved.",
+   "sources": [
+    "https://arxiv.org/abs/2608.02642",
+    "https://arxiv.org/html/2608.02642v1",
+    "https://api.github.com/repos/weitse-hsu/MDArena"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2608.02642",
+   "https://arxiv.org/html/2608.02642v1",
+   "https://api.github.com/repos/weitse-hsu/MDArena (via gh api)",
+   "https://api.github.com/repos/weitse-hsu/MDArena/contents/LICENSE (via gh api)",
+   "https://api.github.com/repos/weitse-hsu/MDArena/readme (via gh api)"
+  ]
+ },
+ {
+  "name": "CLVisc Agent",
+  "verdict": "accept",
+  "reason": "arXiv 2607.27822 (v1, 2026-07-30, not withdrawn; Wang, Pang, Pu, Wang) matches: LLM agent (kimi-cli platform) uses a meta-skill to explore the CLVisc (3+1)D viscous hydrodynamics source code, build a specialized skill, then autonomously design parameter scans, run GPU simulations, analyze event-by-event observables, and produce publication-ready figures (eta/s(T) study; O+O at 5.36 TeV with four ab initio O-16 structures). Computational closure as expected - not A5. No code/skill repository is linked in the paper, so access is paper-only despite the underlying CLVisc code existing separately.",
+  "record": {
+   "name": "CLVisc Agent",
+   "category": "physics",
+   "domain": "heavy-ion physics (relativistic viscous hydrodynamics of quark-gluon plasma)",
+   "paper_links": [
+    {"label": "arXiv:2607.27822 - CLVisc Agent for autonomous relativistic hydrodynamics studies", "url": "https://arxiv.org/abs/2607.27822"}
+   ],
+   "repo_links": [],
+   "access": "paper-only",
+   "inputs": "Natural-language physics study goals; CLVisc (3+1)D viscous hydrodynamics source code checkout accessed via a meta-skill (file, script, and command-line access through kimi-cli)",
+   "outputs": "Agent-authored specialized CLVisc skill, parameter-scan designs, executed GPU simulation ensembles, event-by-event observable analyses, publication-ready comparative figures",
+   "autonomy": "A3",
+   "notes": "kimi-cli-based LLM agent whose meta-skill inspects scientific source code and writes its own specialized tool skill, then runs end-to-end quark-gluon plasma simulation campaigns (temperature-dependent shear viscosity; nuclear-structure effects in O+O at sqrt(s_NN)=5.36 TeV). Disclosed human gates: user confirmation is required in the skill-generation loop (unconfirmed results trigger regeneration) and physical interpretations require expert verification; closure is computational (HPC), not physical.",
+   "sources": [
+    "https://arxiv.org/abs/2607.27822",
+    "https://arxiv.org/html/2607.27822v1"
+   ],
+   "aliases": []
+  },
+  "fetched": [
+   "https://arxiv.org/abs/2607.27822",
+   "https://arxiv.org/html/2607.27822v1"
+  ]
+ }
+]
