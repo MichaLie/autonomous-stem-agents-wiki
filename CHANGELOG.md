@@ -2,6 +2,13 @@
 
 All notable public changes to this resource are documented here.
 
+## 2.1.1 — 2026-08-14
+
+- Added a visible version-and-date badge to the index header, generated from
+  `resource_metadata.json`, so the most recent published update is legible at
+  a glance and refreshes automatically with every release.
+- No catalog records, autonomy or access labels, or data distributions changed.
+
 ## 2.1.0 — 2026-08-13
 
 - Added 67 verified records from three independent discovery lanes — cross-domain systems and benchmarks, biology and medicine, and chemistry, materials, physics and engineering — each candidate individually checked against primary sources before acceptance.
