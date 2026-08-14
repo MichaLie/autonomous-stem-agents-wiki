@@ -207,6 +207,7 @@ header.top{position:relative;align-items:center;gap:24px;padding:23px 25px 22px 
 header.top::before{content:"Autonomous research systems index";display:block;position:absolute;top:15px;left:28px;color:#6756a5;font-size:9.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
 .htext{padding-top:15px}h1{margin:0 0 7px;color:#26223a;font-size:25px;line-height:1.12;font-weight:650;letter-spacing:-.025em}
 .sub{max-width:920px;color:#666074;font-size:14px;line-height:1.58}.sub b{color:#474054;font-weight:650}
+.vbadge{display:inline-block;margin:1px 0 7px;padding:2.5px 11px;border:1px solid #ddd9e6;border-radius:999px;background:#f4f2f8;font-size:11.5px;font-weight:650;letter-spacing:.045em;color:#666074;white-space:nowrap}.vbadge b{color:#6d28d9;font-weight:700}
 .hright{gap:9px}.dedi{gap:10px}.elixir-logo svg{height:53px}.dedi-cap{color:#6f687b}.dedi-cap b{color:#342f43}
 .stats{gap:9px;margin:15px 0 4px}.stat{min-width:132px;padding:8px 13px;border-color:#e0dce9;border-radius:8px;box-shadow:0 3px 12px rgba(58,45,91,.025)}
 .stat b{color:#342f43;font-size:18px;font-variant-numeric:tabular-nums}.stat span{color:#6f687b}
@@ -229,6 +230,7 @@ footer{margin-top:26px;padding:17px 18px;border:1px solid #e0dce9;border-radius:
 </style></head><body><div class="wrap">
 <header class="top"><div class="htext">
 <h1>Autonomous Science Agents — Researcher Index</h1>
+<div class="vbadge" title="Version and date of the most recent published catalog update"><b>v__CATVERSION__</b> · updated __CATMODIFIED__</div>
 <div class="sub">A filterable index of AI systems that act as scientific agents: literature, hypothesis, experiment planning, code/simulation execution, lab automation, analysis, and reporting across STEM.
 Answer fast: <b>what domain?</b> · <b>in → out?</b> · <b>accessible today?</b> · <b>how autonomous?</b>
 __EVIDENCE_STATEMENT__ Access tags are best-effort — <b>verify before relying on any system</b>. Rows tagged <b>Paper-only</b> are leads from papers with no confirmed public code. Click a row for detail.</div>
@@ -338,7 +340,7 @@ except FileNotFoundError:
     _elixir_svg = ''
 
 repl = {
-    '__TODAY__': today, '__TOTAL__': str(total), '__NOPEN__': str(n_open), '__NLAB__': str(n_lab),
+    '__TODAY__': today,'__CATVERSION__':str(resource_meta['resource_version']),'__CATMODIFIED__':str(resource_meta['modified']), '__TOTAL__': str(total), '__NOPEN__': str(n_open), '__NLAB__': str(n_lab),
     '__NBENCH__': str(n_bench), '__NCATS__': str(n_cats), '__QUICK__': quick_rows,
     '__DATA__': json.dumps(norm, ensure_ascii=False), '__CATLABELS__': json.dumps(CAT_LABELS),
     '__CATORDER__': json.dumps(CAT_ORDER), '__ACCLABELS__': json.dumps(ACCESS_LABELS),

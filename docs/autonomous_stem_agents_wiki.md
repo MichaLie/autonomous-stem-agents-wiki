@@ -1,6 +1,6 @@
 # Autonomous AI Researchers and Scientific Agents for STEM
 
-Last full sweep: 2026-08-13  ·  438 systems across 5 domains.
+Last full sweep: 2026-08-14  ·  438 systems across 5 domains.
 
 A catalog of AI systems that act as scientific agents: literature search, hypothesis generation, experiment/simulation planning, code execution, lab automation, data analysis, and reporting across STEM. Practical triage for researchers: what exists, what it is for, whether it is accessible, what goes in, what comes out, and how autonomous it is. An interactive filterable version is in `autonomous_stem_agents_wiki.html` (open in any browser, works offline).
 
