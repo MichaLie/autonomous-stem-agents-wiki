@@ -1,0 +1,24 @@
+{
+  "review_date": "2026-09-11",
+  "unique_urls": 819,
+  "occurrences": 1644,
+  "outcomes": {
+    "reachable": 789,
+    "restricted": 30
+  },
+  "method": "Full catalog GET audit, 16 workers, per-host concurrency <= 2, timeout 20 seconds. Audit began before Periodic Labs moved to HOLD; its three retired-row occurrences were removed from the public current-catalog view. Unfiltered audit preserved in ignored local cache. Every final canonical URL remains covered. Final root review replaced the Modelica generic-license citation with DATA_LICENSE.md; the newly added URL was separately fetched and the occurrence inventory regenerated exactly.",
+  "restricted_hosts": {
+    "www.science.org": 3,
+    "pubs.acs.org": 3,
+    "pubmed.ncbi.nlm.nih.gov": 3,
+    "academic.oup.com": 3,
+    "chemrxiv.org": 3,
+    "www.pnas.org": 1,
+    "www.biorxiv.org": 7,
+    "www.cell.com": 1,
+    "www.tandfonline.com": 1,
+    "pubs.rsc.org": 3,
+    "advanced.onlinelibrary.wiley.com": 1,
+    "www.medrxiv.org": 1
+  }
+}

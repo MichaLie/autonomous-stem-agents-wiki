@@ -1,0 +1,4042 @@
+{
+  "query": "all:agent AND (all:scientific OR all:biology OR all:biomedical OR all:chemistry OR all:physics OR all:materials OR all:research) AND submittedDate:[202608130000 TO 202609112359]",
+  "url": "https://export.arxiv.org/api/query?search_query=all%3Aagent+AND+%28all%3Ascientific+OR+all%3Abiology+OR+all%3Abiomedical+OR+all%3Achemistry+OR+all%3Aphysics+OR+all%3Amaterials+OR+all%3Aresearch%29+AND+submittedDate%3A%5B202608130000+TO+202609112359%5D&start=0&max_results=500&sortBy=submittedDate&sortOrder=descending",
+  "retrieved": "2026-09-11",
+  "access_level": "metadata-and-abstract",
+  "total": "671",
+  "entries": [
+    {
+      "id": "http://arxiv.org/abs/2609.11911v1",
+      "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+      "published": "2026-09-10T17:56:41Z",
+      "updated": "2026-09-10T17:56:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11871v1",
+      "title": "Learning Agent-based Model Predictive Control for Holistic Vehicle Performance",
+      "published": "2026-09-10T17:43:16Z",
+      "updated": "2026-09-10T17:43:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11852v1",
+      "title": "BlueSTAR: Tiered Agentic Architecture for Autonomous Cyber Defense",
+      "published": "2026-09-10T17:36:18Z",
+      "updated": "2026-09-10T17:36:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11737v1",
+      "title": "ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI",
+      "published": "2026-09-10T15:52:35Z",
+      "updated": "2026-09-10T15:52:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11728v1",
+      "title": "Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
+      "published": "2026-09-10T15:43:34Z",
+      "updated": "2026-09-10T15:43:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11636v1",
+      "title": "MAPLE: Memory-Augmented Planning with Language and Evolution",
+      "published": "2026-09-10T14:44:50Z",
+      "updated": "2026-09-10T14:44:50Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11596v1",
+      "title": "From Intent to Execution Grant: An Execution-Boundary Conformance Profile for High-Risk AI Actions",
+      "published": "2026-09-10T14:21:45Z",
+      "updated": "2026-09-10T14:21:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11501v1",
+      "title": "Antimony for broadband nanophotonics across the ultraviolet, visible and infrared",
+      "published": "2026-09-10T13:09:05Z",
+      "updated": "2026-09-10T13:09:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11493v1",
+      "title": "From Document Silos to Process Intelligence: A Multi-Layer Knowledge Graph for CMC Process Development",
+      "published": "2026-09-10T12:59:04Z",
+      "updated": "2026-09-10T12:59:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11478v1",
+      "title": "CARLAverse: A Highly Modular, Distributed, and Multimodal Framework for Human-in-the-Loop Simulation",
+      "published": "2026-09-10T12:44:18Z",
+      "updated": "2026-09-10T12:44:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11428v1",
+      "title": "Wavering Oracles: Selective Updating and Correlated Failures in LLMs and Their Implications for Scientific Workflows",
+      "published": "2026-09-10T12:00:56Z",
+      "updated": "2026-09-10T12:00:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11390v1",
+      "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
+      "published": "2026-09-10T11:25:59Z",
+      "updated": "2026-09-10T11:25:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11382v1",
+      "title": "SwarmNxt: Open-source Software-Hardware Platform for Fast and Agile Aerial Swarms",
+      "published": "2026-09-10T11:17:20Z",
+      "updated": "2026-09-10T11:17:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11381v1",
+      "title": "Agent-Integrated Software: Interaction Contracts and Continuous Assurance",
+      "published": "2026-09-10T11:17:19Z",
+      "updated": "2026-09-10T11:17:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11318v1",
+      "title": "Mr.LHDR: A Benchmark for Multimodal Real-World Long-Horizon Deep Research Agents",
+      "published": "2026-09-10T09:47:44Z",
+      "updated": "2026-09-10T09:47:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11308v1",
+      "title": "2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation",
+      "published": "2026-09-10T09:35:56Z",
+      "updated": "2026-09-10T09:35:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11244v1",
+      "title": "OmniHallu: Unified Hallucination Detection for Cross-Modal Comprehension and Generation in Multimodal Large Language Models",
+      "published": "2026-09-10T08:41:12Z",
+      "updated": "2026-09-10T08:41:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11243v1",
+      "title": "Sci-MMR: Benchmarking Multi-Step Evidence-Grounded Scientific Reasoning in Multimodal Agents",
+      "published": "2026-09-10T08:41:07Z",
+      "updated": "2026-09-10T08:41:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11225v1",
+      "title": "Harness Robotic OS: A Unified Embodied-Agent Runtime for Closed-Loop Quadruped Inspection",
+      "published": "2026-09-10T08:25:46Z",
+      "updated": "2026-09-10T08:25:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11189v1",
+      "title": "Vector Balancing via Directional Total Variation",
+      "published": "2026-09-10T07:54:44Z",
+      "updated": "2026-09-10T07:54:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11187v1",
+      "title": "Physics of Information Geometry - Part II: Small-Step Active Inference on the Probability Simplex",
+      "published": "2026-09-10T07:54:23Z",
+      "updated": "2026-09-10T07:54:23Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11147v1",
+      "title": "Autonomous Chemical Mechanistic Discovery through Agentic Reasoning and Validation",
+      "published": "2026-09-10T06:49:24Z",
+      "updated": "2026-09-10T06:49:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11117v1",
+      "title": "Overview of the NLPCC 2026 Shared Task 11: Agent-Based Experiment Reproduction from Scientific Papers",
+      "published": "2026-09-10T05:50:24Z",
+      "updated": "2026-09-10T05:50:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11115v1",
+      "title": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+      "published": "2026-09-10T05:47:22Z",
+      "updated": "2026-09-10T05:47:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11101v1",
+      "title": "ProMediConv: Benchmarking Proactive Conversational Agents in Legal Dispute Mediation",
+      "published": "2026-09-10T05:26:40Z",
+      "updated": "2026-09-10T05:26:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11042v1",
+      "title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+      "published": "2026-09-10T03:42:01Z",
+      "updated": "2026-09-10T03:42:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11030v1",
+      "title": "The Agent Incident Registry: Toward Preventing Repeated AI Agent Failures",
+      "published": "2026-09-10T03:20:46Z",
+      "updated": "2026-09-10T03:20:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.11018v1",
+      "title": "Defining AI Agents: A Compendium of Criteria, Metrics, and Benchmarks",
+      "published": "2026-09-10T02:50:29Z",
+      "updated": "2026-09-10T02:50:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10939v1",
+      "title": "Evaluating Scaffolding-Oriented Multi-Agent Large Language Model System for Clinical Interview Training",
+      "published": "2026-09-10T00:56:03Z",
+      "updated": "2026-09-10T00:56:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10922v1",
+      "title": "Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System",
+      "published": "2026-09-10T00:09:18Z",
+      "updated": "2026-09-10T00:09:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10895v1",
+      "title": "ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs",
+      "published": "2026-09-09T22:56:21Z",
+      "updated": "2026-09-09T22:56:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10873v1",
+      "title": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
+      "published": "2026-09-09T22:25:16Z",
+      "updated": "2026-09-09T22:25:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10817v1",
+      "title": "Tapes Together Strong: The Co-evolution of Computation and Cooperation",
+      "published": "2026-09-09T20:38:56Z",
+      "updated": "2026-09-09T20:38:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10776v1",
+      "title": "A Bellman Optimality Equation for Plasticity",
+      "published": "2026-09-09T19:23:56Z",
+      "updated": "2026-09-09T19:23:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10714v1",
+      "title": "From Semantic to Token Communication: The Next Paradigm for Large-Model-Driven 6G Intelligent Connectivity",
+      "published": "2026-09-09T18:11:38Z",
+      "updated": "2026-09-09T18:11:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10539v1",
+      "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+      "published": "2026-09-09T17:59:04Z",
+      "updated": "2026-09-09T17:59:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10522v1",
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "published": "2026-09-09T17:53:38Z",
+      "updated": "2026-09-09T17:53:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10509v1",
+      "title": "Avatar: Toward Autonomous End-to-End Orchestration of Scientific Workflows using LLMs",
+      "published": "2026-09-09T17:45:36Z",
+      "updated": "2026-09-09T17:45:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10400v1",
+      "title": "A traffic management system for large and heterogeneous vehicles in narrow industrial environments",
+      "published": "2026-09-09T16:20:51Z",
+      "updated": "2026-09-09T16:20:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10337v1",
+      "title": "The effects of surfactant solubility on inertial Marangoni flow: theory and numerics",
+      "published": "2026-09-09T15:34:50Z",
+      "updated": "2026-09-09T15:34:50Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10277v1",
+      "title": "How neighbourhood ideology shapes misinformation belief in densely tied social networks",
+      "published": "2026-09-09T14:58:41Z",
+      "updated": "2026-09-09T14:58:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10135v1",
+      "title": "Agent-Based ML-LLM Fusion with Self-Optimizing Prompts for Plateau Weather Alerts",
+      "published": "2026-09-09T13:15:46Z",
+      "updated": "2026-09-09T13:15:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10121v2",
+      "title": "ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks",
+      "published": "2026-09-09T13:00:00Z",
+      "updated": "2026-09-10T11:47:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10092v1",
+      "title": "RAP: Research Attention Prediction Reveals Target-Conditioned Evidence Acquisition Biases",
+      "published": "2026-09-09T12:15:14Z",
+      "updated": "2026-09-09T12:15:14Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10066v1",
+      "title": "Execution-Time Opacity Logic: A Logic for Ensuring ET-Opacity in Timed Systems",
+      "published": "2026-09-09T11:42:11Z",
+      "updated": "2026-09-09T11:42:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.10065v1",
+      "title": "Cost-Aware Vision--Language Model Arbitration for Fabric Structure Recognition A Deployable Multi-Agent System",
+      "published": "2026-09-09T11:40:10Z",
+      "updated": "2026-09-09T11:40:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09878v1",
+      "title": "Purchase Advice and Observable Buyer Responses in Real AI Conversations",
+      "published": "2026-09-09T08:31:30Z",
+      "updated": "2026-09-09T08:31:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09852v1",
+      "title": "$S^3$-Bench: Evaluating Speech Interaction Models as Scientific Voice Assistants",
+      "published": "2026-09-09T08:06:28Z",
+      "updated": "2026-09-09T08:06:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09821v1",
+      "title": "InstantMimic: A High Performance System for Learning Physics-based Skills in Seconds",
+      "published": "2026-09-09T07:23:51Z",
+      "updated": "2026-09-09T07:23:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09789v1",
+      "title": "Pairit: A Platform for Live Experiments on Human-AI Collaboration",
+      "published": "2026-09-09T06:41:50Z",
+      "updated": "2026-09-09T06:41:50Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09756v1",
+      "title": "Closed-loop $α$-Potential Stochastic Differential Games via a BSDE Approach",
+      "published": "2026-09-09T05:58:22Z",
+      "updated": "2026-09-09T05:58:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09582v1",
+      "title": "ECDSA.Fail: Open Autoresearch for Optimizing Elliptic-Curve Point Addition in Shor's Algorithm",
+      "published": "2026-09-09T01:05:06Z",
+      "updated": "2026-09-09T01:05:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09519v1",
+      "title": "HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects",
+      "published": "2026-09-08T23:02:07Z",
+      "updated": "2026-09-08T23:02:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09418v1",
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "published": "2026-09-08T20:17:48Z",
+      "updated": "2026-09-08T20:17:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09410v1",
+      "title": "Benchmarking Hybrid Deep Research Across Database Querying and Web Search",
+      "published": "2026-09-08T20:05:09Z",
+      "updated": "2026-09-08T20:05:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09384v1",
+      "title": "Networked Admissibility-Preserving Control for Directed Safe Coordination",
+      "published": "2026-09-08T19:38:20Z",
+      "updated": "2026-09-08T19:38:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09379v2",
+      "title": "Agentic Web Accessibility Auditing: A Criterion-Specific Framework for Translating WCAG Requirements into Assessments",
+      "published": "2026-09-08T19:27:12Z",
+      "updated": "2026-09-10T03:47:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09374v1",
+      "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+      "published": "2026-09-08T19:15:36Z",
+      "updated": "2026-09-08T19:15:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09348v1",
+      "title": "Smart Adaptive Computing Across the Continuum: LLMs in IoT-Edge-Cloud Resource Management",
+      "published": "2026-09-08T18:37:13Z",
+      "updated": "2026-09-08T18:37:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09344v1",
+      "title": "Academia x Industry: The Role of Fundamentals for Silicon in an AI Native Era",
+      "published": "2026-09-08T18:28:52Z",
+      "updated": "2026-09-08T18:28:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09333v1",
+      "title": "Where Does the Human End? Creative Agency with Generative AI across Five Years of Chinese Digital Painting",
+      "published": "2026-09-08T18:18:38Z",
+      "updated": "2026-09-08T18:18:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09156v1",
+      "title": "ReCite: Agentic Reasoning for Faithful Citation",
+      "published": "2026-09-08T17:59:50Z",
+      "updated": "2026-09-08T17:59:50Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09113v1",
+      "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+      "published": "2026-09-08T17:45:09Z",
+      "updated": "2026-09-08T17:45:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09087v1",
+      "title": "PrivEscalate: Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation",
+      "published": "2026-09-08T17:34:02Z",
+      "updated": "2026-09-08T17:34:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09059v1",
+      "title": "PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games",
+      "published": "2026-09-08T17:15:39Z",
+      "updated": "2026-09-08T17:15:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09056v1",
+      "title": "Time-Varying Data as Sheaves: an Invitation to Narratives",
+      "published": "2026-09-08T17:12:24Z",
+      "updated": "2026-09-08T17:12:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09048v1",
+      "title": "The Audit Decides the Verdict: Instrument Effects Rival Demographic Bias in LLM Decision Audits",
+      "published": "2026-09-08T17:08:53Z",
+      "updated": "2026-09-08T17:08:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08977v2",
+      "title": "Omni Interaction Agent Technical Report",
+      "published": "2026-09-08T16:22:23Z",
+      "updated": "2026-09-09T09:47:31Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08965v1",
+      "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
+      "published": "2026-09-08T16:19:06Z",
+      "updated": "2026-09-08T16:19:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08920v1",
+      "title": "Remotely Detectable Keyed Communication through Motion",
+      "published": "2026-09-08T15:49:10Z",
+      "updated": "2026-09-08T15:49:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08802v1",
+      "title": "Graph-Based Safe Reinforcement Learning for Multi-Agent Systems with Time-Varying Topology",
+      "published": "2026-09-08T14:30:06Z",
+      "updated": "2026-09-08T14:30:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08796v2",
+      "title": "Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling",
+      "published": "2026-09-08T14:25:11Z",
+      "updated": "2026-09-09T12:40:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08727v1",
+      "title": "Adaptive AI for Pulse-Level Quantum Control",
+      "published": "2026-09-08T13:25:37Z",
+      "updated": "2026-09-08T13:25:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08566v1",
+      "title": "BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents",
+      "published": "2026-09-08T10:56:17Z",
+      "updated": "2026-09-08T10:56:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08503v1",
+      "title": "TSBench: A physics-grounded benchmark for evaluating LLM understanding of chemical reaction mechanisms",
+      "published": "2026-09-08T09:44:37Z",
+      "updated": "2026-09-08T09:44:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08444v1",
+      "title": "Safe Task Planning with Long-Term Graph Memory for Embodied Agents",
+      "published": "2026-09-08T08:49:50Z",
+      "updated": "2026-09-08T08:49:50Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08426v1",
+      "title": "Toward Fully Autonomous 6G Networks: AI-driven Operational Efficiency and Optimization",
+      "published": "2026-09-08T08:33:29Z",
+      "updated": "2026-09-08T08:33:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08399v1",
+      "title": "MLIP Detective: Active Failure Mode Discovery Beyond Benchmark Scores for Machine-Learning Interatomic Potentials",
+      "published": "2026-09-08T08:07:33Z",
+      "updated": "2026-09-08T08:07:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08368v1",
+      "title": "Miles v0.1: Production-Level Post-Training",
+      "published": "2026-09-08T07:35:47Z",
+      "updated": "2026-09-08T07:35:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08366v1",
+      "title": "Reachability-Certified Subteam Decomposition for Locally Interacting Multi-Agent MDPs",
+      "published": "2026-09-08T07:35:00Z",
+      "updated": "2026-09-08T07:35:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08342v1",
+      "title": "VeriScene: Reconstructing Crime Scenes from Legal Evidence via World-Model Agent",
+      "published": "2026-09-08T07:14:44Z",
+      "updated": "2026-09-08T07:14:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08275v1",
+      "title": "Beyond Coherence: Benchmarking Professional Editing-Technique Execution in Multi-Shot Audio-Video Generation",
+      "published": "2026-09-08T05:35:58Z",
+      "updated": "2026-09-08T05:35:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08248v1",
+      "title": "Agentic ML Exploration (A-MLE) for Ads Ranking",
+      "published": "2026-09-08T04:48:03Z",
+      "updated": "2026-09-08T04:48:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08196v1",
+      "title": "Qiushi Engine on AstaBench E2E-Bench-Hard",
+      "published": "2026-09-08T03:30:59Z",
+      "updated": "2026-09-08T03:30:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08162v1",
+      "title": "WorldAgen: Unified State-Action Prediction with Test-Time World Model Training",
+      "published": "2026-09-08T02:46:13Z",
+      "updated": "2026-09-08T02:46:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.08155v1",
+      "title": "SciFigure2Code: An AI-Reconstructed Benchmark for Scientific Figure-to-Code",
+      "published": "2026-09-08T02:39:02Z",
+      "updated": "2026-09-08T02:39:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07973v1",
+      "title": "Substrate-induced crystallisation in polymers: Exceptional impact of prefreezing versus heterogeneous nucleation on kinetics and morphology",
+      "published": "2026-09-07T20:51:24Z",
+      "updated": "2026-09-07T20:51:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07920v2",
+      "title": "Humans Introduce, Models Elaborate: Asymmetric Narrative Agency in Human-LLM Co-Writing",
+      "published": "2026-09-07T19:34:06Z",
+      "updated": "2026-09-09T11:48:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07826v1",
+      "title": "SolutionsX: supergravity theories/solutions as code, with an agentic workflow for machine-verifiable physics",
+      "published": "2026-09-07T18:00:01Z",
+      "updated": "2026-09-07T18:00:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07784v1",
+      "title": "xDailyBench: Benchmarking LLMs on Professional Consultation for Real-Life Problems",
+      "published": "2026-09-07T17:30:58Z",
+      "updated": "2026-09-07T17:30:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07715v1",
+      "title": "An emancipatory vision for designing (generative) AI for learner flourishing",
+      "published": "2026-09-07T16:28:20Z",
+      "updated": "2026-09-07T16:28:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07713v1",
+      "title": "The Emerging AI Paper-Review Arms Race: Adversarial Co-Evolution in Scholarly Publishing",
+      "published": "2026-09-07T16:25:54Z",
+      "updated": "2026-09-07T16:25:54Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07689v1",
+      "title": "Emergent Charging Coordination in Electric Delivery Fleets",
+      "published": "2026-09-07T16:09:13Z",
+      "updated": "2026-09-07T16:09:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07655v1",
+      "title": "Online Surrogate Repair: Decoupling High-Fidelity Feedback from Search Length in Closed-Loop Discovery",
+      "published": "2026-09-07T15:42:45Z",
+      "updated": "2026-09-07T15:42:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07629v1",
+      "title": "Open Tabular Insight Extraction: Where Do We Stand, and Where Should We Go?",
+      "published": "2026-09-07T15:27:58Z",
+      "updated": "2026-09-07T15:27:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07611v1",
+      "title": "AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era",
+      "published": "2026-09-07T15:19:13Z",
+      "updated": "2026-09-07T15:19:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07598v1",
+      "title": "Mapping the Emerging Social Science of Large Language Models",
+      "published": "2026-09-07T15:08:15Z",
+      "updated": "2026-09-07T15:08:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07542v1",
+      "title": "\"We Permit the Use of AI, but [...]\": The Landscape of AI Policies in Popular Open Source Projects",
+      "published": "2026-09-07T14:25:25Z",
+      "updated": "2026-09-07T14:25:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07532v1",
+      "title": "PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling",
+      "published": "2026-09-07T14:11:57Z",
+      "updated": "2026-09-07T14:11:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07508v1",
+      "title": "Homeostasis Revisited and Reformulated Through Hidden Markov Model Control",
+      "published": "2026-09-07T13:54:02Z",
+      "updated": "2026-09-07T13:54:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07445v1",
+      "title": "SMaRT-Tug: Structured Multi-Agent Reinforcement Learning for Physics-Based Tugboat-Barge Collaborative Manipulation",
+      "published": "2026-09-07T12:51:37Z",
+      "updated": "2026-09-07T12:51:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07397v1",
+      "title": "Riemannian Optimization for Multi-Player Quantum Games on Product Unitary Manifolds",
+      "published": "2026-09-07T12:10:00Z",
+      "updated": "2026-09-07T12:10:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07328v1",
+      "title": "PV-WM: A Heterogeneous Micro-Macro World Model for Articulated Pedestrian-Vehicle Co-Rollout",
+      "published": "2026-09-07T10:45:26Z",
+      "updated": "2026-09-07T10:45:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09226v1",
+      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "published": "2026-09-07T09:44:12Z",
+      "updated": "2026-09-07T09:44:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07174v1",
+      "title": "PhysMAS: Physics-Grounded Multi-Agent Synthesis of Compositional 4D Gaussians",
+      "published": "2026-09-07T08:07:05Z",
+      "updated": "2026-09-07T08:07:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07094v1",
+      "title": "CASCADE: A Spatio-Temporal-Causal Reasoning Representation and Dataset for Driving",
+      "published": "2026-09-07T06:32:55Z",
+      "updated": "2026-09-07T06:32:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07051v1",
+      "title": "TrojanWorld: Backdooring World-Model Agents via Imagination Steering",
+      "published": "2026-09-07T05:14:10Z",
+      "updated": "2026-09-07T05:14:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07000v1",
+      "title": "An Improved Lower Bound for the Complex Grothendieck Constant",
+      "published": "2026-09-07T03:46:43Z",
+      "updated": "2026-09-07T03:46:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06976v1",
+      "title": "HealthLoopQA: A Context-Aware Question Answering Benchmark for Interpreting Wearable Monitoring Data in Diabetes Care",
+      "published": "2026-09-07T03:11:34Z",
+      "updated": "2026-09-07T03:11:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06969v2",
+      "title": "Networked Embodied Communication: From Collective Distinguishability to Communication Reliability",
+      "published": "2026-09-07T03:07:46Z",
+      "updated": "2026-09-09T03:07:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06887v1",
+      "title": "Human-agent discovery of reconfigurable in-plane ferroelectric superdomain control",
+      "published": "2026-09-07T00:20:54Z",
+      "updated": "2026-09-07T00:20:54Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09219v1",
+      "title": "Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents",
+      "published": "2026-09-07T00:16:28Z",
+      "updated": "2026-09-07T00:16:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09218v1",
+      "title": "The Double Measurement Confound in Agent Benchmarks: De-Scaffolding, Ground-Truth Scoring, and Reliability Beyond the Mean",
+      "published": "2026-09-06T21:23:11Z",
+      "updated": "2026-09-06T21:23:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06703v1",
+      "title": "DianShi-RxnDB: A Large-Scale, Fine-Grained Organic Reaction Data Platform Built via a Fully Automated Pipeline for Researchers and AI Agents",
+      "published": "2026-09-06T16:20:43Z",
+      "updated": "2026-09-06T16:20:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06694v1",
+      "title": "ForgeStencil: Automating Per-Case Stencil Specialization from Kernels to 100+ Real Applications",
+      "published": "2026-09-06T16:09:33Z",
+      "updated": "2026-09-06T16:09:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06654v1",
+      "title": "A Computational Implementation of a Goal-Directed Theory of Affect",
+      "published": "2026-09-06T15:08:47Z",
+      "updated": "2026-09-06T15:08:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06629v1",
+      "title": "Physico-Geospatial Grounded Scene Interpretation for Mobile Robotics",
+      "published": "2026-09-06T14:24:43Z",
+      "updated": "2026-09-06T14:24:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06586v2",
+      "title": "Certifying cooperation: a novel approach to cooperative multi-agent task generation",
+      "published": "2026-09-06T13:08:51Z",
+      "updated": "2026-09-10T08:58:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06366v1",
+      "title": "AutoKD: Autonomous Knowledge Discovery",
+      "published": "2026-09-06T03:48:29Z",
+      "updated": "2026-09-06T03:48:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06351v1",
+      "title": "A Theory of Information Architecture for Networked Decisions: Freshness, Locality, and Coordination",
+      "published": "2026-09-06T03:04:31Z",
+      "updated": "2026-09-06T03:04:31Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06326v1",
+      "title": "Rethinking Safety for Generalist Robots",
+      "published": "2026-09-06T01:23:02Z",
+      "updated": "2026-09-06T01:23:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06277v1",
+      "title": "Optimal Transport in Economics",
+      "published": "2026-09-05T22:11:15Z",
+      "updated": "2026-09-05T22:11:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06250v1",
+      "title": "It is Not Yet Another Tool: Creating and Deploying an Agentic AI Companion in a Security Operations Center",
+      "published": "2026-09-05T20:29:42Z",
+      "updated": "2026-09-05T20:29:42Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06192v1",
+      "title": "SCIRIGOR:Evaluating Open-Ended Scientific Analysis Beyond Final Scores",
+      "published": "2026-09-05T17:29:15Z",
+      "updated": "2026-09-05T17:29:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06174v1",
+      "title": "Exploiting LLM Agents for Trustworthy AutoResearch in Wireless Communications",
+      "published": "2026-09-05T16:30:06Z",
+      "updated": "2026-09-05T16:30:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06140v1",
+      "title": "Counter-Swarm Doctrine: Containing Coordinated Agent Intrusions",
+      "published": "2026-09-05T15:25:45Z",
+      "updated": "2026-09-05T15:25:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06128v1",
+      "title": "Substrate-Portable Execution for Production LLM Workflows",
+      "published": "2026-09-05T14:52:35Z",
+      "updated": "2026-09-05T14:52:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06126v1",
+      "title": "CWF: A Collaborative Writing Framework for Personalized and Reliable Popular Science Writing",
+      "published": "2026-09-05T14:51:22Z",
+      "updated": "2026-09-05T14:51:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06117v1",
+      "title": "STQA: A Benchmark for Stock-Focused Tabular Question Answering over Historical and Forecasted Data",
+      "published": "2026-09-05T14:32:40Z",
+      "updated": "2026-09-05T14:32:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.06091v1",
+      "title": "VietProfs: A Public Directory of the Vietnamese Academic and Research Diaspora",
+      "published": "2026-09-05T13:33:39Z",
+      "updated": "2026-09-05T13:33:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09203v1",
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "published": "2026-09-05T12:16:47Z",
+      "updated": "2026-09-05T12:16:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05975v1",
+      "title": "Intent Drift at SME Scale: Deployment Practice, Not Model Capability, Determines Agentic Compliance",
+      "published": "2026-09-05T08:26:09Z",
+      "updated": "2026-09-05T08:26:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05938v1",
+      "title": "SurveyAgent-HKA: A multi-agent framework for scientific survey generation with LLMs and human knowledge augmentation",
+      "published": "2026-09-05T07:03:47Z",
+      "updated": "2026-09-05T07:03:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05931v1",
+      "title": "Distinct Radiobiological Responses to BNCT in SAS Oral Squamous Cell Carcinoma and MCF-7 Breast Cancer Cells",
+      "published": "2026-09-05T06:40:12Z",
+      "updated": "2026-09-05T06:40:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05927v2",
+      "title": "GIF: Agentic Generation of Interactive and Functional Object Compositions for Robot Learning",
+      "published": "2026-09-05T06:36:20Z",
+      "updated": "2026-09-10T05:59:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05920v1",
+      "title": "Versioned Transitive Dependency-Closure Binding and Operation-Time Effect Governance for Agent Skills: ClosureBound",
+      "published": "2026-09-05T06:27:52Z",
+      "updated": "2026-09-05T06:27:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05905v1",
+      "title": "From Narrative to Auditable Forecasts: A Structured Scaffold for Agentic Forecasting",
+      "published": "2026-09-05T05:58:39Z",
+      "updated": "2026-09-05T05:58:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05818v1",
+      "title": "Agentic BAIM-LLM Evaluation (ABLE): Benchmarking LLM Use of Protein Design Tools",
+      "published": "2026-09-05T02:28:21Z",
+      "updated": "2026-09-05T02:28:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05763v1",
+      "title": "AgentHomeID - Agent-based modelling of building stock transformation: A multi-scale framework for policy assessment and infrastructure planning",
+      "published": "2026-09-04T22:55:20Z",
+      "updated": "2026-09-04T22:55:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05667v1",
+      "title": "The Impact of GenAI on the Future of Requirements Engineering",
+      "published": "2026-09-04T19:01:09Z",
+      "updated": "2026-09-04T19:01:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05651v1",
+      "title": "From agent-based dynamics to a kinetic theory of jellyfish swarms",
+      "published": "2026-09-04T18:32:56Z",
+      "updated": "2026-09-04T18:32:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05643v1",
+      "title": "The convergent laboratory: when AI reasoning, autonomous experiments, high performance and quantum computing reshape chemistry",
+      "published": "2026-09-04T18:25:07Z",
+      "updated": "2026-09-04T18:25:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05594v1",
+      "title": "SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution",
+      "published": "2026-09-04T17:45:52Z",
+      "updated": "2026-09-04T17:45:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05591v1",
+      "title": "WolfSociety: Understanding Collective Risk from Harmful-Agent Scaling in Financial Agent Societies",
+      "published": "2026-09-04T17:36:31Z",
+      "updated": "2026-09-04T17:36:31Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05342v1",
+      "title": "Mitigating Disease Spread by Design in Refugee and IDP Camps",
+      "published": "2026-09-04T16:45:24Z",
+      "updated": "2026-09-04T16:45:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05314v1",
+      "title": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+      "published": "2026-09-04T16:08:05Z",
+      "updated": "2026-09-04T16:08:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05269v1",
+      "title": "CONTINUITY: Security-Context Contracts for Composable LLM Agent Controls",
+      "published": "2026-09-04T15:26:35Z",
+      "updated": "2026-09-04T15:26:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05258v2",
+      "title": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
+      "published": "2026-09-04T15:19:38Z",
+      "updated": "2026-09-08T05:46:50Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05079v2",
+      "title": "TruthInsightBench: An Evidence-Grounded Benchmark for Automated Evaluation of Open-Ended Scientific Discovery Agents",
+      "published": "2026-09-04T12:37:20Z",
+      "updated": "2026-09-08T03:39:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04999v1",
+      "title": "BIT.UA at BioASQ 14B: Modular Retrieval with pg_textsearch and Qdrant, and Agent-Based Answer Generation",
+      "published": "2026-09-04T11:10:07Z",
+      "updated": "2026-09-04T11:10:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04983v1",
+      "title": "MIVAIS: A Study Environment for Multi-Agent Mixed-Initiative Visual Analytics Applications",
+      "published": "2026-09-04T10:40:14Z",
+      "updated": "2026-09-04T10:40:14Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04917v1",
+      "title": "Artificial Intelligence in Equity and Crypto Markets: Progress, Profitability Evidence, and the Limits of Automated Investing",
+      "published": "2026-09-04T09:19:51Z",
+      "updated": "2026-09-04T09:19:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04913v1",
+      "title": "ARIA - An Agentic Framework for Autonomous Testing of Infotainment Systems",
+      "published": "2026-09-04T09:18:01Z",
+      "updated": "2026-09-04T09:18:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04894v1",
+      "title": "From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments",
+      "published": "2026-09-04T08:52:28Z",
+      "updated": "2026-09-04T08:52:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04871v1",
+      "title": "AutoLR: Automating the Path from Research to Launch Review in Industrial Recommender Systems",
+      "published": "2026-09-04T08:30:36Z",
+      "updated": "2026-09-04T08:30:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04852v1",
+      "title": "KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU",
+      "published": "2026-09-04T08:09:59Z",
+      "updated": "2026-09-04T08:09:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04742v1",
+      "title": "FUSION: a skill-based research agent for publicly obtainable nuclear-physics codes",
+      "published": "2026-09-04T05:21:12Z",
+      "updated": "2026-09-04T05:21:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04711v1",
+      "title": "Building a research-software catalog with a coding agent: from hackathon prototype to public deployment",
+      "published": "2026-09-04T04:31:51Z",
+      "updated": "2026-09-04T04:31:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04699v1",
+      "title": "Model Retirement Creates Reproducibility Risk in Biomedical AI Publications",
+      "published": "2026-09-04T04:00:54Z",
+      "updated": "2026-09-04T04:00:54Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04681v1",
+      "title": "Beyond Code Generation: Reliability, Verification, and Cost Economics in the Agentic Software Development Lifecycle",
+      "published": "2026-09-04T03:16:30Z",
+      "updated": "2026-09-04T03:16:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04679v1",
+      "title": "Beyond Prompt-to-App: Accountable Translation in Teacher-Facing Agentic Authoring",
+      "published": "2026-09-04T03:14:57Z",
+      "updated": "2026-09-04T03:14:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04674v1",
+      "title": "QMClaw: A Scalable General-purpose Framework for Quantum Measurement and Control",
+      "published": "2026-09-04T03:07:25Z",
+      "updated": "2026-09-04T03:07:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04629v1",
+      "title": "SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents",
+      "published": "2026-09-04T02:03:52Z",
+      "updated": "2026-09-04T02:03:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04564v1",
+      "title": "La Agente Óptima: Towards Agentic Self-Driving Laboratories",
+      "published": "2026-09-03T23:37:48Z",
+      "updated": "2026-09-03T23:37:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04533v1",
+      "title": "Repeat-After-Me: Black-Box Adaptive Visual Prompt Injection",
+      "published": "2026-09-03T22:44:45Z",
+      "updated": "2026-09-03T22:44:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05566v1",
+      "title": "Spread of Chronic Wasting Disease under Stochastic Environmental Conditions and its Control using Deep Reinforcement Learning",
+      "published": "2026-09-03T22:25:30Z",
+      "updated": "2026-09-03T22:25:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04170v1",
+      "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+      "published": "2026-09-03T17:54:09Z",
+      "updated": "2026-09-03T17:54:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04135v1",
+      "title": "The Natural Language Interaction Protocol and Standard for AI Agents",
+      "published": "2026-09-03T17:30:17Z",
+      "updated": "2026-09-03T17:30:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04075v1",
+      "title": "PatchBench: Evaluating AI Agents for Vulnerability Patching",
+      "published": "2026-09-03T16:44:22Z",
+      "updated": "2026-09-03T16:44:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04058v1",
+      "title": "AI-Assisted Design of a Post-Quantum Cryptographic Accelerator: A Deployed-Silicon Case Study",
+      "published": "2026-09-03T16:34:50Z",
+      "updated": "2026-09-03T16:34:50Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04015v1",
+      "title": "Hierarchical automation of scanning probe microscopy through agentic orchestration and algorithmic control",
+      "published": "2026-09-03T15:54:24Z",
+      "updated": "2026-09-03T15:54:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03960v1",
+      "title": "FiMI Banking: A Sovereign Model for Indian Retail Banking",
+      "published": "2026-09-03T14:56:59Z",
+      "updated": "2026-09-03T14:56:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03941v1",
+      "title": "Headroom-Drift Replay: A Primitive for Principled Replay Control in GRPO",
+      "published": "2026-09-03T14:45:47Z",
+      "updated": "2026-09-03T14:45:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03917v1",
+      "title": "From Misconceptions to Evidence: What Science Teachers Make Visible When Co-Designing Agentic Learning Apps",
+      "published": "2026-09-03T14:33:30Z",
+      "updated": "2026-09-03T14:33:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03883v1",
+      "title": "Inferring Affective Consciousness in an Artificial Agent: A Case Study",
+      "published": "2026-09-03T14:07:57Z",
+      "updated": "2026-09-03T14:07:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04290v1",
+      "title": "Evidence Integration in Large Language Models",
+      "published": "2026-09-03T11:57:20Z",
+      "updated": "2026-09-03T11:57:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03718v1",
+      "title": "What Do CAE Simulation Agents Really Need Beyond a Generic Harness?",
+      "published": "2026-09-03T11:53:17Z",
+      "updated": "2026-09-03T11:53:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03632v2",
+      "title": "Dynamic probabilistic decision networks",
+      "published": "2026-09-03T10:25:18Z",
+      "updated": "2026-09-07T14:29:42Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03621v1",
+      "title": "A computable representation of the physical laboratory enables verifiable workflows",
+      "published": "2026-09-03T10:05:51Z",
+      "updated": "2026-09-03T10:05:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03596v1",
+      "title": "ReRoom: Blending Virtual and Physical Contexts for In Situ Room Planning in Mixed Reality",
+      "published": "2026-09-03T09:46:32Z",
+      "updated": "2026-09-03T09:46:32Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03416v2",
+      "title": "Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection",
+      "published": "2026-09-03T06:24:33Z",
+      "updated": "2026-09-07T06:33:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03338v1",
+      "title": "SciLENS: RL-Driven Autonomous Agents for Scientific Localized Evidence Navigation and Synthesis",
+      "published": "2026-09-03T03:54:43Z",
+      "updated": "2026-09-03T03:54:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03335v1",
+      "title": "Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs",
+      "published": "2026-09-03T03:48:39Z",
+      "updated": "2026-09-03T03:48:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03308v1",
+      "title": "Risk and Anomaly Identification for Distribution Network Optimal Operation Based on Reinforcement Learning and Uncertainty Quantification",
+      "published": "2026-09-03T02:58:21Z",
+      "updated": "2026-09-03T02:58:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.04278v1",
+      "title": "Towards AI-Driven Nanomedicine Discovery: A Benchmark and Multimodal Learning Framework for Nano Self-Assembly Prediction",
+      "published": "2026-09-03T01:49:06Z",
+      "updated": "2026-09-03T01:49:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03212v1",
+      "title": "Coarse-Graining Agent-Based Models of Bacterial Infections",
+      "published": "2026-09-02T23:02:04Z",
+      "updated": "2026-09-02T23:02:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03192v1",
+      "title": "Where Reliability Lives: Experimental Localisation of Behavioural Properties in an Agent System",
+      "published": "2026-09-02T22:21:02Z",
+      "updated": "2026-09-02T22:21:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03153v1",
+      "title": "VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement",
+      "published": "2026-09-02T20:36:45Z",
+      "updated": "2026-09-02T20:36:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03145v1",
+      "title": "Skywing: A Platform for Decentralized Mathematical Computing in Unreliable Environments",
+      "published": "2026-09-02T20:28:08Z",
+      "updated": "2026-09-02T20:28:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03141v1",
+      "title": "What Happens When the Model Eats the Stack? Rethinking the Research Agenda for Data Agents to Withstand the Bitter Lesson",
+      "published": "2026-09-02T20:25:15Z",
+      "updated": "2026-09-02T20:25:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03130v1",
+      "title": "Beyond Dose in Boron Neutron Capture Therapy: Cellular $^{10}$B-Capture Statistics and Microdosimetric Context in Effect Prediction",
+      "published": "2026-09-02T20:14:04Z",
+      "updated": "2026-09-02T20:14:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.03105v2",
+      "title": "FOXDEN: FAIR Services for AI-Ready Scientific Datasets",
+      "published": "2026-09-02T19:37:27Z",
+      "updated": "2026-09-04T14:13:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02749v1",
+      "title": "Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills",
+      "published": "2026-09-02T15:49:41Z",
+      "updated": "2026-09-02T15:49:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02729v1",
+      "title": "BuildOcc: A Large Language Model Occupant Agent Platform for Building Energy Research",
+      "published": "2026-09-02T15:40:33Z",
+      "updated": "2026-09-02T15:40:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02648v1",
+      "title": "Can diffuse X-rays be important in driving photoionisation in molecular clouds?",
+      "published": "2026-09-02T14:22:33Z",
+      "updated": "2026-09-02T14:22:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02647v1",
+      "title": "PrimSynth: An Agentic Approach to Discover, Validate, and Synthesize Exploit Primitives for Linux Kernel Vulnerabilities",
+      "published": "2026-09-02T14:21:02Z",
+      "updated": "2026-09-02T14:21:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02620v1",
+      "title": "Collective creativity in hybrid societies",
+      "published": "2026-09-02T13:59:08Z",
+      "updated": "2026-09-02T13:59:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02984v1",
+      "title": "From Euclidean to Graph-Structured Data: A Survey of Collaborative Learning",
+      "published": "2026-09-02T13:49:46Z",
+      "updated": "2026-09-02T13:49:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02364v2",
+      "title": "Towards a Foundational Ontology for Identifying and Resolving Contradictions in Dialogue-based Human-Robot Interactions",
+      "published": "2026-09-02T09:35:02Z",
+      "updated": "2026-09-03T10:34:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02272v1",
+      "title": "PaperCompiler: Faithful Paper-to-Code Generation via Repository-Level Specification Compilation",
+      "published": "2026-09-02T08:21:03Z",
+      "updated": "2026-09-02T08:21:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02253v1",
+      "title": "APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering",
+      "published": "2026-09-02T08:00:41Z",
+      "updated": "2026-09-02T08:00:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02231v1",
+      "title": "PhoenixNest-Video: Evidence-Grounded Multimodal Agent Framework for Automated Video Interview Assessment",
+      "published": "2026-09-02T07:40:43Z",
+      "updated": "2026-09-02T07:40:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02208v1",
+      "title": "Agentic Settlement Protocol: An Application Profile for Refundable, Delayed-Fulfilment Agent Commerce on Stablecoin Rails",
+      "published": "2026-09-02T07:21:25Z",
+      "updated": "2026-09-02T07:21:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02154v1",
+      "title": "WiP: Characterizing and Defending Against Mobile-Agent-Driven MFA Automation",
+      "published": "2026-09-02T06:06:43Z",
+      "updated": "2026-09-02T06:06:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02127v1",
+      "title": "Stored Is Not Supported: Typed Provenance and Assertion Guardrails for Persistent AI Agents",
+      "published": "2026-09-02T05:35:33Z",
+      "updated": "2026-09-02T05:35:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02067v1",
+      "title": "ToolGate: An Executable Acceptance Pipeline for Tool-Dependent Scientific Benchmark Construction",
+      "published": "2026-09-02T03:49:37Z",
+      "updated": "2026-09-02T03:49:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.02056v1",
+      "title": "HyGRAIL: Cost-Aware and Evidence-Grounded Scientific Hypothesis Discovery over Knowledge Graphs",
+      "published": "2026-09-02T03:34:21Z",
+      "updated": "2026-09-02T03:34:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01971v1",
+      "title": "NS-Copilot: An LLM-Driven Agent System for Autonomous Neuroscience Analysis",
+      "published": "2026-09-02T00:57:05Z",
+      "updated": "2026-09-02T00:57:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01918v1",
+      "title": "Grounded, Compute-Efficient LLM Policy Agents for Energy-Poverty Equity in Physically-Constrained Peer-to-Peer Energy Markets",
+      "published": "2026-09-01T22:37:34Z",
+      "updated": "2026-09-01T22:37:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01877v1",
+      "title": "Will there be a 7G?",
+      "published": "2026-09-01T21:20:51Z",
+      "updated": "2026-09-01T21:20:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01870v1",
+      "title": "ArcticSwarm: Deferring Early Consensus in Long-Horizon Multi-Agent Research",
+      "published": "2026-09-01T21:08:40Z",
+      "updated": "2026-09-01T21:08:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01777v1",
+      "title": "TREMORS: An Agentic Assistant for Multi-Datacenter Seismic Data Acquisition",
+      "published": "2026-09-01T18:45:47Z",
+      "updated": "2026-09-01T18:45:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01526v1",
+      "title": "EvoSCM: Scientific Belief Revision Through Causal Model Evolution and Experimentation",
+      "published": "2026-09-01T16:55:56Z",
+      "updated": "2026-09-01T16:55:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01437v1",
+      "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
+      "published": "2026-09-01T15:45:33Z",
+      "updated": "2026-09-01T15:45:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01434v1",
+      "title": "Score-Based Generative Data Assimilation for Integrating Aggregated Surveillance Data into Agent-Based Models in Epidemic Tracking",
+      "published": "2026-09-01T15:43:20Z",
+      "updated": "2026-09-01T15:43:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01409v1",
+      "title": "EdiTikZ: Scientific Figure Editing from Revision Trajectories",
+      "published": "2026-09-01T15:29:52Z",
+      "updated": "2026-09-01T15:29:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01394v1",
+      "title": "Autonomous robotic bridging using distributed swarm control without inter-agent communication",
+      "published": "2026-09-01T15:21:12Z",
+      "updated": "2026-09-01T15:21:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01294v1",
+      "title": "Explore Before Committing: Hypothesis-Guided Search for Deep Research Agents",
+      "published": "2026-09-01T14:27:37Z",
+      "updated": "2026-09-01T14:27:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01289v1",
+      "title": "Agentic Multimodal Models for Environmental Hyperspectral Unmixing",
+      "published": "2026-09-01T14:24:35Z",
+      "updated": "2026-09-01T14:24:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01281v1",
+      "title": "EmbodiedSkills: A Unified Framework for Orchestrating, Training, and Deploying VLA Agents",
+      "published": "2026-09-01T14:14:47Z",
+      "updated": "2026-09-01T14:14:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01271v1",
+      "title": "What Does an Agentic Software Engineering Benchmark Measure? Profiling Task Demands and Agent Behaviour Beyond What Category Labels Reveal",
+      "published": "2026-09-01T14:04:15Z",
+      "updated": "2026-09-01T14:04:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01236v1",
+      "title": "Continuous Autonomous Refactoring: A Research Roadmap for AI-Driven Code Quality Maintenance",
+      "published": "2026-09-01T13:35:29Z",
+      "updated": "2026-09-01T13:35:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01209v1",
+      "title": "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening",
+      "published": "2026-09-01T13:14:52Z",
+      "updated": "2026-09-01T13:14:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01167v1",
+      "title": "Classic AI Scaffolding for LLM Social Agents",
+      "published": "2026-09-01T12:44:58Z",
+      "updated": "2026-09-01T12:44:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01095v1",
+      "title": "Reliable LLM-Generated Programs for High-Energy Physics Experiments through Graph-Grounded Software Knowledge",
+      "published": "2026-09-01T11:35:02Z",
+      "updated": "2026-09-01T11:35:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01058v1",
+      "title": "ARISE-RL: Agentic Rubric-Grounded Iterative Self-Evolution with Reinforcement Learning",
+      "published": "2026-09-01T10:54:13Z",
+      "updated": "2026-09-01T10:54:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01006v1",
+      "title": "Figures as Programs: Recursive Generation of Editable Scientific Figures",
+      "published": "2026-09-01T09:53:47Z",
+      "updated": "2026-09-01T09:53:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00940v1",
+      "title": "A Dataset for Modeling Iterative Problem-Solving",
+      "published": "2026-09-01T09:00:55Z",
+      "updated": "2026-09-01T09:00:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00935v1",
+      "title": "DualStake: Dual-Path Confidence Calibration in Deep Research Agents",
+      "published": "2026-09-01T08:56:01Z",
+      "updated": "2026-09-01T08:56:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00845v1",
+      "title": "Towards Generalizable Visually Grounded Exploration of Household Devices",
+      "published": "2026-09-01T07:42:45Z",
+      "updated": "2026-09-01T07:42:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00814v1",
+      "title": "RingMoClaw: An Experience-Inspired Multi-Agent Framework for Self-Evolving Research in Remote Sensing",
+      "published": "2026-09-01T07:13:50Z",
+      "updated": "2026-09-01T07:13:50Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00802v1",
+      "title": "TEIDAN: A Multilingual Multiparty Dialogue Corpus",
+      "published": "2026-09-01T06:59:09Z",
+      "updated": "2026-09-01T06:59:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00795v1",
+      "title": "Agentic programs: an emerging form of scientific software in computational materials science",
+      "published": "2026-09-01T06:45:03Z",
+      "updated": "2026-09-01T06:45:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00731v1",
+      "title": "Agentic Empirical Asset Pricing: Methodological Foundations",
+      "published": "2026-09-01T05:09:10Z",
+      "updated": "2026-09-01T05:09:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00683v1",
+      "title": "Creative Generation via Multi-Agent Debate: Does Debate Suppress Diversity?",
+      "published": "2026-09-01T04:00:42Z",
+      "updated": "2026-09-01T04:00:42Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00654v1",
+      "title": "SciTrue: Reliable Scientific Claim Validation with Frontier and Open Language Models at the NTCIR SciClaimEval Task",
+      "published": "2026-09-01T03:30:45Z",
+      "updated": "2026-09-01T03:30:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00585v1",
+      "title": "Real-Time Neuromorphic Spectrum Intelligence Simulator",
+      "published": "2026-09-01T02:27:12Z",
+      "updated": "2026-09-01T02:27:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00453v1",
+      "title": "mimeo: Compiling Public Expert Corpora into Agent Skills and Testing What Transfers",
+      "published": "2026-08-31T22:46:48Z",
+      "updated": "2026-08-31T22:46:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00377v1",
+      "title": "FoldingAgent: Inferring Parametric Origami Procedures from Demonstration Videos",
+      "published": "2026-08-31T21:09:22Z",
+      "updated": "2026-08-31T21:09:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00365v1",
+      "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
+      "published": "2026-08-31T20:58:47Z",
+      "updated": "2026-08-31T20:58:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00327v1",
+      "title": "Modeling of Mobility and Energy Policies in an Agent-Based Framework: Case Studies for Chicago Region in 2050",
+      "published": "2026-08-31T20:23:29Z",
+      "updated": "2026-08-31T20:23:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01660v1",
+      "title": "How Fast Do Agents Rot? An Empirical Study of Long-Horizon Degradation in LLM Agents for Production Decision-Making",
+      "published": "2026-08-31T19:11:47Z",
+      "updated": "2026-08-31T19:11:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00252v1",
+      "title": "Spec-Driven Development for Agentic Software Engineering: Harnessing Human-Agent Teamwork",
+      "published": "2026-08-31T18:52:53Z",
+      "updated": "2026-08-31T18:52:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.01659v1",
+      "title": "Beyond Textual Chain-of-Thought: A Survey on Action-Grounded Reasoning in Autonomous Driving",
+      "published": "2026-08-31T18:16:11Z",
+      "updated": "2026-08-31T18:16:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00161v1",
+      "title": "IMPACT: Attention Is the Interaction Map for Scalable Interaction-Aware World Model Training",
+      "published": "2026-08-31T18:00:36Z",
+      "updated": "2026-08-31T18:00:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.31161v1",
+      "title": "Agentic research is oxymoronic",
+      "published": "2026-08-31T17:57:43Z",
+      "updated": "2026-08-31T17:57:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00107v1",
+      "title": "Reining in an Agentic Harness for High Energy Physics",
+      "published": "2026-08-31T17:55:33Z",
+      "updated": "2026-08-31T17:55:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00106v1",
+      "title": "Deploying and Evaluating a Smart-Agriculture Agentic Engine for Full-Season Soybean Farm Operations",
+      "published": "2026-08-31T17:53:17Z",
+      "updated": "2026-08-31T17:53:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.31111v1",
+      "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
+      "published": "2026-08-31T17:14:59Z",
+      "updated": "2026-08-31T17:14:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.31076v1",
+      "title": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
+      "published": "2026-08-31T16:48:51Z",
+      "updated": "2026-08-31T16:48:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.31025v1",
+      "title": "Analytic Dynamics: Learning Physics-Grounded Representation for Fast Intrinsic Dynamics Inference from Monocular Videos",
+      "published": "2026-08-31T16:08:04Z",
+      "updated": "2026-08-31T16:08:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.31022v1",
+      "title": "MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents",
+      "published": "2026-08-31T16:05:39Z",
+      "updated": "2026-08-31T16:05:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.31009v1",
+      "title": "Language-Informed Flow Matching for Trend-Guided Structure-Based 3D Molecular Generation",
+      "published": "2026-08-31T15:57:09Z",
+      "updated": "2026-08-31T15:57:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30952v1",
+      "title": "One Policy Is Enough: Single-Agent Reinforcement Learning Outperforms Tree Search for Chemistry Tool Learning",
+      "published": "2026-08-31T15:22:19Z",
+      "updated": "2026-08-31T15:22:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30948v1",
+      "title": "Detecting AI Impostors: How Do Middle Schoolers Identify LLM Agents in a Live Collaborative Setting?",
+      "published": "2026-08-31T15:18:01Z",
+      "updated": "2026-08-31T15:18:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30897v1",
+      "title": "CAER: Causal Action Effect Reweighting for World Model Training",
+      "published": "2026-08-31T14:49:56Z",
+      "updated": "2026-08-31T14:49:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30730v1",
+      "title": "E-Commerce Bench: Evaluating LLM Agents on Long-Horizon Autonomous Business Operation",
+      "published": "2026-08-31T13:03:57Z",
+      "updated": "2026-08-31T13:03:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30724v1",
+      "title": "BAITBENCH: Measuring Agent Reward Hacking with Optional Shortcuts Planted in ML Tasks",
+      "published": "2026-08-31T12:59:33Z",
+      "updated": "2026-08-31T12:59:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30721v1",
+      "title": "Eigenvalue Asymptotics in High-Contrast Media",
+      "published": "2026-08-31T12:58:19Z",
+      "updated": "2026-08-31T12:58:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30709v1",
+      "title": "RailSyn: Diagnosis-Guided Image Generation for Traceable Data Completion in Railway Foreign Object Detection",
+      "published": "2026-08-31T12:47:28Z",
+      "updated": "2026-08-31T12:47:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30701v1",
+      "title": "A Phased Workflow for Operating LLM-Based Coding Agents",
+      "published": "2026-08-31T12:39:26Z",
+      "updated": "2026-08-31T12:39:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05514v1",
+      "title": "The Failure Happens Before the Drift: The Social Dynamics of Values in LLM Agent Societies",
+      "published": "2026-08-31T09:30:05Z",
+      "updated": "2026-08-31T09:30:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30428v1",
+      "title": "Lies We Can See: Joint Verbal and Non-Verbal Deception by VLM Agents in Embodied Social Interactions",
+      "published": "2026-08-31T08:24:29Z",
+      "updated": "2026-08-31T08:24:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00077v1",
+      "title": "Beneath the Diff: Diagnosing and Mitigating Algorithmic Mode Collapse in Code-Level Autonomous Research Loops",
+      "published": "2026-08-31T08:11:19Z",
+      "updated": "2026-08-31T08:11:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30396v1",
+      "title": "Scaffolding Foundation Models into Physical-World Agents Pushes the Frontier of Long-Horizon Navigation",
+      "published": "2026-08-31T07:50:16Z",
+      "updated": "2026-08-31T07:50:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30391v1",
+      "title": "Using Grounded Theory for Agent Behavior Analysis at Scale",
+      "published": "2026-08-31T07:47:45Z",
+      "updated": "2026-08-31T07:47:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30268v1",
+      "title": "FABO: Agent-Guided Discovery of Joint Breakpoint Optimization for Timing-Driven Routing Trees",
+      "published": "2026-08-31T05:24:09Z",
+      "updated": "2026-08-31T05:24:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30241v1",
+      "title": "PaperBanana-Interact: Scientific Diagram Refinement with Multi-Turn Human Feedback",
+      "published": "2026-08-31T04:52:32Z",
+      "updated": "2026-08-31T04:52:32Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30206v1",
+      "title": "Agentic Quantum Deep Reinforcement Learning for RAN Slicing",
+      "published": "2026-08-31T03:39:04Z",
+      "updated": "2026-08-31T03:39:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05510v1",
+      "title": "Memory as Infrastructure: Reliability Engineering for Persistent Agent Memory in Months-Long LLM-Assisted Development",
+      "published": "2026-08-31T03:28:35Z",
+      "updated": "2026-08-31T03:28:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30165v1",
+      "title": "Science sandboxes measure the scientific capability of AI agents",
+      "published": "2026-08-31T02:33:38Z",
+      "updated": "2026-08-31T02:33:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30047v1",
+      "title": "Can LLM Agents Discover? Evaluating Creativity on ML Engineering Tasks",
+      "published": "2026-08-30T21:21:08Z",
+      "updated": "2026-08-30T21:21:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.30038v1",
+      "title": "ActReal: System-Level Mobile Agents Challenge Mobile Automation Detection",
+      "published": "2026-08-30T20:55:21Z",
+      "updated": "2026-08-30T20:55:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00070v1",
+      "title": "AutoXRD: Autonomous LLM Agents and Comprehensive Evaluation for Powder Diffraction Analysis",
+      "published": "2026-08-30T18:05:21Z",
+      "updated": "2026-08-30T18:05:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29926v1",
+      "title": "Emergence of Strategic Equilibria from Transverse Field Ising Hamiltonian Dynamics",
+      "published": "2026-08-30T17:41:19Z",
+      "updated": "2026-08-30T17:41:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00065v2",
+      "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+      "published": "2026-08-30T15:40:35Z",
+      "updated": "2026-09-02T21:50:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29696v1",
+      "title": "Ideation Arena: Evaluating LLM Generated Research Ideas with Battle-style Human Expert Assessment",
+      "published": "2026-08-30T10:10:10Z",
+      "updated": "2026-08-30T10:10:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29685v1",
+      "title": "Last Step Matters: Early Uncertainty Cannot Predict Failure in Long-Horizon Agents",
+      "published": "2026-08-30T09:43:08Z",
+      "updated": "2026-08-30T09:43:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29665v1",
+      "title": "Evaluating a 4B open-weights local LLM for agentic DFT workflows: a literature reproducibility audit",
+      "published": "2026-08-30T08:59:05Z",
+      "updated": "2026-08-30T08:59:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29612v1",
+      "title": "LLMs Interpret, Embeddings Organize, Graphs Emerge: Agent-Driven Compilation of Scientific Knowledge",
+      "published": "2026-08-30T07:05:49Z",
+      "updated": "2026-08-30T07:05:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29596v1",
+      "title": "Towards a Systems Foundation for Agentic Skills: Architecture, Lifecycle, and Security",
+      "published": "2026-08-30T06:36:42Z",
+      "updated": "2026-08-30T06:36:42Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29581v1",
+      "title": "Bridging Agent Semantics with Spot Capacity: An Elastic and Recoverable Service Model",
+      "published": "2026-08-30T05:58:53Z",
+      "updated": "2026-08-30T05:58:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00046v2",
+      "title": "RAPIDMap: Rapid Multi-Agent Pipeline for Interpretable Disaster Mapping from Satellite and Street-view Imagery",
+      "published": "2026-08-30T04:20:59Z",
+      "updated": "2026-09-02T03:10:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29537v1",
+      "title": "AGM: Achievement-Grounded Memory for Closed-Loop Agents with Frozen VLA Policies",
+      "published": "2026-08-30T03:50:49Z",
+      "updated": "2026-08-30T03:50:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29526v1",
+      "title": "Ontology-Guided Multi-Agent Extraction of Evaluation Objects from Academic Review Texts: Evidence from Chinese Library and Information Science",
+      "published": "2026-08-30T03:09:47Z",
+      "updated": "2026-08-30T03:09:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29481v1",
+      "title": "SIC-Agents: Benchmarking and Building an Adaptive Simulator for Pediatric Serious Illness Communication Training",
+      "published": "2026-08-30T00:19:44Z",
+      "updated": "2026-08-30T00:19:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29309v1",
+      "title": "Evaluating LLM-based AI agents integrated with materials synthesis tools: the case of atomic layer deposition",
+      "published": "2026-08-29T14:51:17Z",
+      "updated": "2026-08-29T14:51:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29305v1",
+      "title": "Learning Simple Test-Time Environments for LLM Web Agents",
+      "published": "2026-08-29T14:45:09Z",
+      "updated": "2026-08-29T14:45:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29270v3",
+      "title": "SHADOWBENCH: Toward Reliable Automatic Evaluation of Semantic Alignment in Autoformalization",
+      "published": "2026-08-29T13:49:20Z",
+      "updated": "2026-09-05T15:27:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29204v1",
+      "title": "AgentLogs: A Dataset for Opening the Black Box of GitHub's Cloud Agent",
+      "published": "2026-08-29T11:38:19Z",
+      "updated": "2026-08-29T11:38:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29174v1",
+      "title": "Sustained Heterogeneity: an emergent collective mechanism in LLM-driven traffic",
+      "published": "2026-08-29T09:52:00Z",
+      "updated": "2026-08-29T09:52:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29133v1",
+      "title": "AI Historian: Helping historians organize and verify person-centred temporal clues from dispersed historical narratives",
+      "published": "2026-08-29T08:23:04Z",
+      "updated": "2026-08-29T08:23:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29096v1",
+      "title": "Development of an Autonomous AI Coding Agent using Monte Carlo Tree Search (MCTS) and Gemini LLM Frameworks",
+      "published": "2026-08-29T07:03:55Z",
+      "updated": "2026-08-29T07:03:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.29023v1",
+      "title": "Teaching Robot Policies to Humans Using Erroneous Examples",
+      "published": "2026-08-29T03:33:23Z",
+      "updated": "2026-08-29T03:33:23Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28990v1",
+      "title": "Agentic AI uncovers conserved cross-tissue protein co-abundance programs inaccessible to single-dataset analysis",
+      "published": "2026-08-29T01:55:04Z",
+      "updated": "2026-08-29T01:55:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28944v1",
+      "title": "Oculi: A Conversational Agentic Platform for Automated Credit Risk Analysis",
+      "published": "2026-08-28T23:29:01Z",
+      "updated": "2026-08-28T23:29:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28919v1",
+      "title": "Emergent Behavior and Uncertainty in IoT-Enhanced Business Processes: Challenges and Future Directions",
+      "published": "2026-08-28T22:34:16Z",
+      "updated": "2026-08-28T22:34:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05504v1",
+      "title": "A Complex Structure on $S^2\\times S^4$",
+      "published": "2026-08-28T22:02:02Z",
+      "updated": "2026-08-28T22:02:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28877v2",
+      "title": "HALO: A Physics-Aware LLM Agent Framework for Nanophotonic Design",
+      "published": "2026-08-28T21:28:28Z",
+      "updated": "2026-09-07T22:48:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28866v1",
+      "title": "Scrutiny and Conservatism",
+      "published": "2026-08-28T21:06:17Z",
+      "updated": "2026-08-28T21:06:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28814v1",
+      "title": "FigMirror: Ground It, Code It, Plot It",
+      "published": "2026-08-28T19:26:24Z",
+      "updated": "2026-08-28T19:26:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00032v1",
+      "title": "EULER: Exploring Underused Links with Evidence-Checked Return for Multi-Agent Mathematical Discovery",
+      "published": "2026-08-28T17:36:00Z",
+      "updated": "2026-08-28T17:36:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28532v1",
+      "title": "xTRUCE: A Provably Safe Arbiter for Multi-xApp Conflict Mitigation in Agentic O-RAN",
+      "published": "2026-08-28T17:08:53Z",
+      "updated": "2026-08-28T17:08:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28490v1",
+      "title": "LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment",
+      "published": "2026-08-28T16:19:01Z",
+      "updated": "2026-08-28T16:19:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28439v1",
+      "title": "Fidelity Is Not Enough: Dispatch-Level Instrumentation for Agentic Datasheet Extraction",
+      "published": "2026-08-28T15:25:12Z",
+      "updated": "2026-08-28T15:25:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28345v1",
+      "title": "AGENT-O: A Semantic Agent Card Framework for Interoperable and Governed Healthcare AI Agents",
+      "published": "2026-08-28T13:59:03Z",
+      "updated": "2026-08-28T13:59:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28244v1",
+      "title": "HEPLocalAgent 1.0: Running Collider Simulations from Plain-Language Requests on Your Own Computer",
+      "published": "2026-08-28T12:01:24Z",
+      "updated": "2026-08-28T12:01:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28182v1",
+      "title": "Benchmarking large language model agent societies against human behavioural distributions",
+      "published": "2026-08-28T10:50:32Z",
+      "updated": "2026-08-28T10:50:32Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28122v1",
+      "title": "Agentic Artifact Creation: Systems, Evaluation, Principles, and Opportunities",
+      "published": "2026-08-28T09:35:14Z",
+      "updated": "2026-08-28T09:35:14Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28046v1",
+      "title": "Emergent aggregation from collective foraging",
+      "published": "2026-08-28T08:08:39Z",
+      "updated": "2026-08-28T08:08:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28001v1",
+      "title": "FocusGen: Expanding Visual Design Exploration with a Simulated Focus Group of Persona Agents",
+      "published": "2026-08-28T07:12:25Z",
+      "updated": "2026-08-28T07:12:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27999v1",
+      "title": "PhenoIntel: A Lifecycle-Aligned Multi-Agent Web Application for Verified, Accessible Plant Phenotype Analysis",
+      "published": "2026-08-28T07:06:50Z",
+      "updated": "2026-08-28T07:06:50Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27998v1",
+      "title": "Automated Analysis Framework for Multilingual Climate-Health Literature Based on Multi-Agent Large Language Model",
+      "published": "2026-08-28T07:06:36Z",
+      "updated": "2026-08-28T07:06:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27997v1",
+      "title": "A-PAIR: A Benchmark and Identity-Consistent Grounding Framework for Air-Ground Cross-View Referring Person Detection",
+      "published": "2026-08-28T07:05:43Z",
+      "updated": "2026-08-28T07:05:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27992v1",
+      "title": "GOD: Govern, Observe, and Direct - A Real-Time Control Room for Agent Societies",
+      "published": "2026-08-28T06:59:28Z",
+      "updated": "2026-08-28T06:59:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27973v1",
+      "title": "Toward Secure Communications for a UAV Swarm with Movable Antennas in SAGIN: CKM-Enabled Multi-Agent Reinforcement Learning Framework",
+      "published": "2026-08-28T06:38:35Z",
+      "updated": "2026-08-28T06:38:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27912v2",
+      "title": "ITER: Interaction-Aware Retrieval for Agentic Search",
+      "published": "2026-08-28T04:36:02Z",
+      "updated": "2026-09-10T01:01:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27869v1",
+      "title": "See, Hypothesize, Validate: Multimodal Agentic Framework for Discovering Governing PDEs",
+      "published": "2026-08-28T03:20:33Z",
+      "updated": "2026-08-28T03:20:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27845v1",
+      "title": "Reinforcement-learning control of turbulence transition in the modified Hasegawa-Wakatani system",
+      "published": "2026-08-28T02:25:52Z",
+      "updated": "2026-08-28T02:25:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27843v1",
+      "title": "Synthetic Linguistic Agency: How an Embodied Mortal Agent Learns Linguistic Affordances through Consequential Social Experience",
+      "published": "2026-08-28T02:23:35Z",
+      "updated": "2026-08-28T02:23:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27790v1",
+      "title": "Credo: Reusable Declarative Primitives for Agentic Workflows",
+      "published": "2026-08-28T00:06:36Z",
+      "updated": "2026-08-28T00:06:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27716v1",
+      "title": "PCFBench: A Diagnostic Benchmark for Product Carbon Footprint Estimation",
+      "published": "2026-08-27T21:08:49Z",
+      "updated": "2026-08-27T21:08:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27675v1",
+      "title": "Agents for Everyone: A Workshop Framework for Building Agentic AI Capabilities in a Distributed Curation Community",
+      "published": "2026-08-27T20:05:49Z",
+      "updated": "2026-08-27T20:05:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.05496v2",
+      "title": "Orchestra: Corroboration-Based Regulatory Candidate Discovery via Composed Bioinformatics MCP Agents",
+      "published": "2026-08-27T19:23:12Z",
+      "updated": "2026-09-10T14:55:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27456v1",
+      "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+      "published": "2026-08-27T17:59:33Z",
+      "updated": "2026-08-27T17:59:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27549v1",
+      "title": "Code as Worlds: Agentic Discovery of Executable World Representations for Physical Reasoning",
+      "published": "2026-08-27T17:57:25Z",
+      "updated": "2026-08-27T17:57:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27406v1",
+      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+      "published": "2026-08-27T17:35:10Z",
+      "updated": "2026-08-27T17:35:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00028v1",
+      "title": "UI-Venus-2 Technical Report",
+      "published": "2026-08-27T17:15:33Z",
+      "updated": "2026-08-27T17:15:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27371v1",
+      "title": "Embodied Scene Rearrangement Planning",
+      "published": "2026-08-27T17:08:40Z",
+      "updated": "2026-08-27T17:08:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27184v1",
+      "title": "LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration",
+      "published": "2026-08-27T14:29:35Z",
+      "updated": "2026-08-27T14:29:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27182v1",
+      "title": "TraceBench: Controlled Evaluation of LLM Agents for Time-Series Root-Cause Attribution",
+      "published": "2026-08-27T14:29:13Z",
+      "updated": "2026-08-27T14:29:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27147v1",
+      "title": "Thomson: Continual Learning of Frontier Models for SovereignAI",
+      "published": "2026-08-27T13:59:36Z",
+      "updated": "2026-08-27T13:59:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27009v1",
+      "title": "The Guard That Cried Wolf: How Scary Words Make Agent Guardrails Refuse Legitimate Actions",
+      "published": "2026-08-27T11:55:22Z",
+      "updated": "2026-08-27T11:55:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26990v1",
+      "title": "DSA: Evidence-Aware LLM-Agent Orchestration for Multi-Market Stock Research",
+      "published": "2026-08-27T11:37:13Z",
+      "updated": "2026-08-27T11:37:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26947v1",
+      "title": "4DSynth: Controllable Procedural World Synthesis for Dynamic Embodied Simulation",
+      "published": "2026-08-27T10:49:20Z",
+      "updated": "2026-08-27T10:49:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26886v1",
+      "title": "Quantum Interconnects Part I: Strategic Quantum Network Formation",
+      "published": "2026-08-27T09:43:47Z",
+      "updated": "2026-08-27T09:43:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26882v1",
+      "title": "PLCBench: Can Autonomous LLM Agents Turn PLC Access into Sustained Physical Impact?",
+      "published": "2026-08-27T09:40:11Z",
+      "updated": "2026-08-27T09:40:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26807v1",
+      "title": "Behavior2Trip: Towards Personalized Travel Planning via User Behavior Trajectory",
+      "published": "2026-08-27T08:47:31Z",
+      "updated": "2026-08-27T08:47:31Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26753v1",
+      "title": "Beyond Execution: Auditing Experimental Fidelity in LLM-Driven Scientific Research",
+      "published": "2026-08-27T07:49:29Z",
+      "updated": "2026-08-27T07:49:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26747v2",
+      "title": "AgentFold: Closed-Loop Agentic Search for Protein Folding Model Design",
+      "published": "2026-08-27T07:38:16Z",
+      "updated": "2026-08-28T08:35:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26701v1",
+      "title": "Accelerating Scientific Research with Gemini in the Real-World",
+      "published": "2026-08-27T06:58:13Z",
+      "updated": "2026-08-27T06:58:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26626v1",
+      "title": "Risks and Controls for Multi-Agent Systems: an analytical framework for deployment of AI agents across organisational boundaries",
+      "published": "2026-08-27T05:28:06Z",
+      "updated": "2026-08-27T05:28:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27505v2",
+      "title": "A Survey on Rubric-Guided Reinforcement Learning for Language Models",
+      "published": "2026-08-27T05:21:07Z",
+      "updated": "2026-08-31T06:06:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26616v1",
+      "title": "Influence of twist direction and large deformation on soft material torsional contact",
+      "published": "2026-08-27T04:59:03Z",
+      "updated": "2026-08-27T04:59:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26557v1",
+      "title": "DeepRepro: State-Aware Subplanning for Paper-to-Code Reproduction in Evolving Repositories",
+      "published": "2026-08-27T02:54:30Z",
+      "updated": "2026-08-27T02:54:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26442v1",
+      "title": "Don't Overthink, Don't Underthink: Toward Adaptive Reasoning in Agentic AI",
+      "published": "2026-08-26T22:45:36Z",
+      "updated": "2026-08-26T22:45:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09180v1",
+      "title": "OASIS: A Rubric-Based Multimodal Assessment Platform Using Large Language Models",
+      "published": "2026-08-26T21:40:05Z",
+      "updated": "2026-08-26T21:40:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26291v1",
+      "title": "Assessing mentalization in humans and large language models",
+      "published": "2026-08-26T18:16:12Z",
+      "updated": "2026-08-26T18:16:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26093v1",
+      "title": "Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher's Role",
+      "published": "2026-08-26T17:56:00Z",
+      "updated": "2026-08-26T17:56:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26238v1",
+      "title": "Procedura: Agentic 3D Modeling with Procedural Control",
+      "published": "2026-08-26T17:54:39Z",
+      "updated": "2026-08-26T17:54:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26081v1",
+      "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+      "published": "2026-08-26T17:45:34Z",
+      "updated": "2026-08-26T17:45:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26016v1",
+      "title": "Bayesian Optimization for Self-Driving Materials Laboratories: From Algorithms to Physics-Informed Workflows",
+      "published": "2026-08-26T16:59:49Z",
+      "updated": "2026-08-26T16:59:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25955v1",
+      "title": "Praxist: From Experimental Artifacts to Solution Lineages",
+      "published": "2026-08-26T16:13:05Z",
+      "updated": "2026-08-26T16:13:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25952v2",
+      "title": "Spatial-Knowledge-Graph-Grounded LLM Agents for Neighborhood Livability Evaluation",
+      "published": "2026-08-26T16:05:57Z",
+      "updated": "2026-08-29T14:12:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25928v1",
+      "title": "AI Agentic Selective Laser Sintering Process Optimization",
+      "published": "2026-08-26T15:39:41Z",
+      "updated": "2026-08-26T15:39:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25920v2",
+      "title": "Repair or Resample? Rethinking Failure Debugging in LLM Multi-Agent Systems",
+      "published": "2026-08-26T15:33:47Z",
+      "updated": "2026-08-29T11:11:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.00024v1",
+      "title": "Exact Minimum Field Partition for One-Step Prediction in a Finite Five-Agent ABCW Model",
+      "published": "2026-08-26T15:23:12Z",
+      "updated": "2026-08-26T15:23:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25779v2",
+      "title": "The rise and evolution of a referential code in populations of bee-like agents",
+      "published": "2026-08-26T13:25:35Z",
+      "updated": "2026-08-31T08:04:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25770v1",
+      "title": "HypoForge: A Self-Improving Multi-Agent Framework for Automated Hypothesis Generation and Testing via Scientific Skill Learning",
+      "published": "2026-08-26T13:14:23Z",
+      "updated": "2026-08-26T13:14:23Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26221v1",
+      "title": "Prompt Sensitivity of Generative Agents: Evidence from an Epidemic Model",
+      "published": "2026-08-26T12:42:36Z",
+      "updated": "2026-08-26T12:42:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25690v1",
+      "title": "Trust-Aware Sequential Decision Making and Rollout Planning for Resilient Multi-Robot Systems",
+      "published": "2026-08-26T12:09:08Z",
+      "updated": "2026-08-26T12:09:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25559v1",
+      "title": "AdaVDR: Adaptive Tool Use and Reflection for Video Deep Research",
+      "published": "2026-08-26T09:07:51Z",
+      "updated": "2026-08-26T09:07:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25553v3",
+      "title": "When Stale Constraints Go Unchecked: Budgeted Verification Failures in Inherited Agent Memory",
+      "published": "2026-08-26T09:04:21Z",
+      "updated": "2026-08-28T16:13:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25531v2",
+      "title": "ClueWeaver: Reward-Guided Dual-Agent Evidence Reasoning for Compact LLMs on Literary Long Narratives",
+      "published": "2026-08-26T08:39:09Z",
+      "updated": "2026-08-27T09:47:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25518v1",
+      "title": "Agentic Game Development as a Verifiable Trajectory Data Engine for Scaling World Models",
+      "published": "2026-08-26T08:28:39Z",
+      "updated": "2026-08-26T08:28:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25492v1",
+      "title": "Battery Recycling: Mechanistic Modelling of LiCoO$_2$ Leaching with Coupled Diffusion-Reaction Kinetics and Film Passivation",
+      "published": "2026-08-26T08:06:09Z",
+      "updated": "2026-08-26T08:06:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25444v1",
+      "title": "Continuous Computational Social Choice: A Case Study in Bribery",
+      "published": "2026-08-26T06:57:00Z",
+      "updated": "2026-08-26T06:57:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25395v2",
+      "title": "A Taxonomy of Construction Task Activities for Robot Workers",
+      "published": "2026-08-26T05:42:54Z",
+      "updated": "2026-09-02T21:48:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25348v1",
+      "title": "Point-in-Time Audit Before Alpha: Public-Archive Availability and a Negative Matched-Budget Study on BTC Perpetual Futures",
+      "published": "2026-08-26T04:07:03Z",
+      "updated": "2026-08-26T04:07:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25286v1",
+      "title": "BixBench3: Benchmarking AI agents on research-study-scale computational biology tasks",
+      "published": "2026-08-26T01:45:55Z",
+      "updated": "2026-08-26T01:45:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25281v1",
+      "title": "Schrödinger Bridges over Kinetic Swarming Models",
+      "published": "2026-08-26T01:34:36Z",
+      "updated": "2026-08-26T01:34:36Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25246v1",
+      "title": "ShuttleArena: Interpretable Self-Play in Physics-Based Badminton",
+      "published": "2026-08-26T00:07:04Z",
+      "updated": "2026-08-26T00:07:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25215v1",
+      "title": "Federation Is Nearly Free, Reasoning Is Not: Tradeoffs for AI Co-Scientists in Protein Characterization Workflows",
+      "published": "2026-08-25T23:11:14Z",
+      "updated": "2026-08-25T23:11:14Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25193v1",
+      "title": "Simulating Cognitive Smart Freight Corridors with Agent-Based Models and Reinforcement Learning",
+      "published": "2026-08-25T22:17:33Z",
+      "updated": "2026-08-25T22:17:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28677v1",
+      "title": "Cognitively-Grounded On-Device Runtime Learning for Ground Robots in Unknown Physical Environments",
+      "published": "2026-08-25T22:12:19Z",
+      "updated": "2026-08-25T22:12:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25181v1",
+      "title": "Simultaneous inference of environmental and interaction forces in collective dynamics",
+      "published": "2026-08-25T21:55:12Z",
+      "updated": "2026-08-25T21:55:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25152v1",
+      "title": "Belief Cascades Drive Persuasion in LLM Agent Networks",
+      "published": "2026-08-25T21:01:19Z",
+      "updated": "2026-08-25T21:01:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25091v1",
+      "title": "Auto-Policy, not Auto-Skill: Compiled Agent Skills for the Physical World",
+      "published": "2026-08-25T19:40:50Z",
+      "updated": "2026-08-25T19:40:50Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.25067v1",
+      "title": "SimVerity: When Does Simulated Agent Success Survive Physical Deployment?",
+      "published": "2026-08-25T19:00:49Z",
+      "updated": "2026-08-25T19:00:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24817v1",
+      "title": "A Co-Simulation Platform Coupling Land Use, Transportation, and Building Energy: Development and Case Study",
+      "published": "2026-08-25T16:58:32Z",
+      "updated": "2026-08-25T16:58:32Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24809v1",
+      "title": "Structurally-bounded Agentic Graph Exploration for Evidence-Grounded Scholarly DeepSearch",
+      "published": "2026-08-25T16:51:26Z",
+      "updated": "2026-08-25T16:51:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24979v2",
+      "title": "FrontierChallenge: Evaluating Scientific Workflow Completion",
+      "published": "2026-08-25T16:50:58Z",
+      "updated": "2026-09-09T16:38:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26198v1",
+      "title": "Agentic AI for operating scientific instruments for nanoscale characterization",
+      "published": "2026-08-25T14:55:40Z",
+      "updated": "2026-08-25T14:55:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24554v1",
+      "title": "Why fragmented parliaments stop passing legislation: Opposition discipline and representation across four democratic institutions",
+      "published": "2026-08-25T13:39:11Z",
+      "updated": "2026-08-25T13:39:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24509v1",
+      "title": "PeakBench: Benchmarking Resource-Aware Tool Invocation in LLM Agents",
+      "published": "2026-08-25T12:56:08Z",
+      "updated": "2026-08-25T12:56:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24306v1",
+      "title": "Who is the Agent to Blame? Localizing Faithfulness and Citation Mistakes in Agentic Deep Research",
+      "published": "2026-08-25T09:34:18Z",
+      "updated": "2026-08-25T09:34:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24291v1",
+      "title": "ReproAgent: Contract-Guided Paper-to-Code Reproduction",
+      "published": "2026-08-25T09:19:00Z",
+      "updated": "2026-08-25T09:19:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24269v1",
+      "title": "Towards LLM-Enhanced Android Taint Analysis",
+      "published": "2026-08-25T08:57:13Z",
+      "updated": "2026-08-25T08:57:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24252v1",
+      "title": "SA-Bench: Evaluating Semantic Alignment in LLM-Based Paper Reproduction",
+      "published": "2026-08-25T08:48:48Z",
+      "updated": "2026-08-25T08:48:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24215v1",
+      "title": "Agentopia on a Consumer GPU: A Reduced-Scale Long-Horizon Port with an 8B Model",
+      "published": "2026-08-25T08:21:58Z",
+      "updated": "2026-08-25T08:21:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24214v1",
+      "title": "MetaRAG: Belief-Action Aligned Policy Optimization for Agentic RAG",
+      "published": "2026-08-25T08:20:29Z",
+      "updated": "2026-08-25T08:20:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24204v1",
+      "title": "WiCi: Wireless GPU Computing Infrastructure",
+      "published": "2026-08-25T08:14:44Z",
+      "updated": "2026-08-25T08:14:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24086v1",
+      "title": "EMRB: A Multi-Level Benchmark for Evaluating LLM Reasoning over Raw Electromagnetic Signals",
+      "published": "2026-08-25T05:33:24Z",
+      "updated": "2026-08-25T05:33:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24069v1",
+      "title": "Poisoning Agentic Alpha: Adversarial Vulnerabilities Across Roles and Architectures in Multi-Agent Trading Systems",
+      "published": "2026-08-25T05:07:37Z",
+      "updated": "2026-08-25T05:07:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24053v1",
+      "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
+      "published": "2026-08-25T04:23:03Z",
+      "updated": "2026-08-25T04:23:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24039v1",
+      "title": "Design-to-Plan: A Large Language Model-Based Multi-Agent Framework for Manufacturing Process Planning from 3D CAD Models and 2D Engineering Drawings",
+      "published": "2026-08-25T03:57:38Z",
+      "updated": "2026-08-25T03:57:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24037v1",
+      "title": "Curved Inference II: Sleeper Agent Geometry - Extending Interpretability Beyond Probes",
+      "published": "2026-08-25T03:51:20Z",
+      "updated": "2026-08-25T03:51:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23956v1",
+      "title": "Recursive Agentic Reasoning",
+      "published": "2026-08-25T01:34:08Z",
+      "updated": "2026-08-25T01:34:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23839v1",
+      "title": "Resilience Matters for Embodied Agents System: New Metrics, Systematic Evaluation, and Optimization",
+      "published": "2026-08-24T21:26:11Z",
+      "updated": "2026-08-24T21:26:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23811v1",
+      "title": "Generating Biomedical Fact-Checking Reports with RL-Enhanced Agentic Search",
+      "published": "2026-08-24T20:25:38Z",
+      "updated": "2026-08-24T20:25:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23691v1",
+      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+      "published": "2026-08-24T18:00:03Z",
+      "updated": "2026-08-24T18:00:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23688v1",
+      "title": "Agentic Active Learning Meets Visual Embeddings: Finding Anomalies among 370 000 Variable Stars from ASAS-SN",
+      "published": "2026-08-24T18:00:03Z",
+      "updated": "2026-08-24T18:00:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23669v1",
+      "title": "Single-shot online sequence classification with unbounded quantum memory advantage",
+      "published": "2026-08-24T17:54:39Z",
+      "updated": "2026-08-24T17:54:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23525v1",
+      "title": "EarthVerse: Benchmarking Scientific Agents Across Dynamic Earth Systems and Natural Hazards",
+      "published": "2026-08-24T17:29:16Z",
+      "updated": "2026-08-24T17:29:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23501v1",
+      "title": "An Interactive Agent for Requirement-Driven Candidate Sourcing",
+      "published": "2026-08-24T17:04:16Z",
+      "updated": "2026-08-24T17:04:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23440v3",
+      "title": "Temporal Property-driven Design Space Exploration with Reinforcement Learning for Cyber-Physical Systems",
+      "published": "2026-08-24T16:13:00Z",
+      "updated": "2026-08-30T08:39:14Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23417v1",
+      "title": "SkillAlchemy: Open-World Agent Skill Creation",
+      "published": "2026-08-24T15:58:57Z",
+      "updated": "2026-08-24T15:58:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23402v1",
+      "title": "EXPLAIN Yourself! Finding Query Planner Stalls Across DBMSes",
+      "published": "2026-08-24T15:48:37Z",
+      "updated": "2026-08-24T15:48:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23329v2",
+      "title": "Thinking Beyond Videos: Unifying Video Reasoning and Deep Research for Open-World Video Agents",
+      "published": "2026-08-24T14:42:23Z",
+      "updated": "2026-08-25T13:58:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23283v2",
+      "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
+      "published": "2026-08-24T14:07:24Z",
+      "updated": "2026-08-25T15:06:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23268v1",
+      "title": "Dual-Grained Agent Memory and Shapley Context Attribution for Multimodal Agentic Learner",
+      "published": "2026-08-24T13:56:01Z",
+      "updated": "2026-08-24T13:56:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23181v3",
+      "title": "CyberFactory: Scaling Cyber Security Capabilities with Instances from the Wild",
+      "published": "2026-08-24T12:30:10Z",
+      "updated": "2026-09-01T12:45:54Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23179v1",
+      "title": "NetConfArena: An Executable Benchmark for LLM Agents in Closed-Loop Network Configuration",
+      "published": "2026-08-24T12:26:37Z",
+      "updated": "2026-08-24T12:26:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23145v1",
+      "title": "First Demonstration of Multi-Agent LLM System for Million-Scale Optical Link Management in Global Production AIDCs",
+      "published": "2026-08-24T11:50:19Z",
+      "updated": "2026-08-24T11:50:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23653v1",
+      "title": "Beyond Executable Models: The Pufibara Agent Harness and the Modelica Agent Workflow Benchmark for Physical System Modeling",
+      "published": "2026-08-24T11:50:07Z",
+      "updated": "2026-08-24T11:50:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23104v2",
+      "title": "Molecular LLM Agents: From Architectural Design to Scientific Autonomy",
+      "published": "2026-08-24T11:09:25Z",
+      "updated": "2026-08-25T05:05:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23078v1",
+      "title": "AgentWeave: Routing Before Reasoning for Efficient Function Calling in Tool-Rich Language Models",
+      "published": "2026-08-24T10:38:08Z",
+      "updated": "2026-08-24T10:38:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23060v2",
+      "title": "Atomic Common-Day Invoice Clearing under Causal Daily Scheduling: Path-Enabled and Bounded-Cycle Policies",
+      "published": "2026-08-24T10:03:55Z",
+      "updated": "2026-08-25T09:27:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23045v2",
+      "title": "From Inertia to Objectivity: Improving Deep Research Agents with Noise Isolation",
+      "published": "2026-08-24T09:50:24Z",
+      "updated": "2026-08-27T02:49:14Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22971v1",
+      "title": "ParallelWorld: Test-Time Scaling for Embodied Reasoning",
+      "published": "2026-08-24T08:32:37Z",
+      "updated": "2026-08-24T08:32:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22884v1",
+      "title": "Predicting the scale limits of social mechanisms in agent societies",
+      "published": "2026-08-24T07:14:12Z",
+      "updated": "2026-08-24T07:14:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22751v1",
+      "title": "Risk-Aware Reranking for Agentic Tool Retrieval",
+      "published": "2026-08-24T03:20:54Z",
+      "updated": "2026-08-24T03:20:54Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22729v1",
+      "title": "Spiking Neural Networks for Continuous Control: Neuromorphic Reinforcement Learning in Conventional Computing",
+      "published": "2026-08-24T02:34:22Z",
+      "updated": "2026-08-24T02:34:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22713v1",
+      "title": "A Source-Grounded Framework for Constructing and Evaluating Progressive Multimodal Diagnostic Dialogues from Clinical Case Reports",
+      "published": "2026-08-24T02:04:39Z",
+      "updated": "2026-08-24T02:04:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22672v1",
+      "title": "A-CPES: A Reference Framework for Agentic AI in Cyber-Physical Energy Systems",
+      "published": "2026-08-24T00:17:37Z",
+      "updated": "2026-08-24T00:17:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22657v1",
+      "title": "Physical Agentic AI: An Architecture for Orchestrating a Robot Crew with LLMs",
+      "published": "2026-08-23T23:35:31Z",
+      "updated": "2026-08-23T23:35:31Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22637v1",
+      "title": "OmniCAD: A Large-Scale Benchmark for 3D Spatial Reasoning in Robotics Assemblies",
+      "published": "2026-08-23T22:42:28Z",
+      "updated": "2026-08-23T22:42:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22629v1",
+      "title": "Enhancing Sim2Real Transfer for Torque-Controlled Robots through Real2Sim Dynamics Estimation and Reinforcement Learning",
+      "published": "2026-08-23T22:25:33Z",
+      "updated": "2026-08-23T22:25:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22618v1",
+      "title": "KMGen: A Skill-based Approach for Synthetic Individual Patient Data Generation",
+      "published": "2026-08-23T21:43:01Z",
+      "updated": "2026-08-23T21:43:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22606v1",
+      "title": "Adversarial Agents on Topology Optimization: Understanding the Fragility and Robustness of Deep Learning-based and Physics-Based Design Models under Adversarial Perturbation",
+      "published": "2026-08-23T21:23:32Z",
+      "updated": "2026-08-23T21:23:32Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.24934v2",
+      "title": "Fusing Perceptual Vision Experts with Multimodal Large Language Models for Explainable Plant Disease Diagnosis: From Benchmark Imagery to Real-World Robotic Field Validation",
+      "published": "2026-08-23T17:20:20Z",
+      "updated": "2026-09-05T18:51:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22512v1",
+      "title": "HANSARD: A Reference Architecture for Forensic Readiness, Runtime Witnessing, and Graded Attribution in Autonomous Multi-Agent AI Systems",
+      "published": "2026-08-23T17:18:22Z",
+      "updated": "2026-08-23T17:18:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22472v1",
+      "title": "Small Reasoning Models are Instruction Followers in Function Calling",
+      "published": "2026-08-23T15:51:26Z",
+      "updated": "2026-08-23T15:51:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23631v1",
+      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+      "published": "2026-08-23T13:20:35Z",
+      "updated": "2026-08-23T13:20:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22400v2",
+      "title": "Diagnosing and narrowing the simulation-to-real gap in powder X-ray diffraction with a wet-dry agentic loop",
+      "published": "2026-08-23T13:02:04Z",
+      "updated": "2026-09-06T13:39:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.26190v1",
+      "title": "Predicting Consequences and Reinforcing Navigation Policies with Latent World Models",
+      "published": "2026-08-23T11:58:42Z",
+      "updated": "2026-08-23T11:58:42Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22356v1",
+      "title": "Addressing the Selection Problem in Explainable AI",
+      "published": "2026-08-23T10:42:03Z",
+      "updated": "2026-08-23T10:42:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22242v1",
+      "title": "Unfolding the Interdisciplinary Complexities of Climate Science: Fuxi-Climate Foundational Model",
+      "published": "2026-08-23T06:43:42Z",
+      "updated": "2026-08-23T06:43:42Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22167v1",
+      "title": "MCP-Universe RL: A Framework for Training MCP Tool-Use Agents via Reinforcement Learning",
+      "published": "2026-08-23T01:49:04Z",
+      "updated": "2026-08-23T01:49:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22160v2",
+      "title": "AUDITA: certified auditing and causal attribution of adverse outcomes in autonomous multi-agent systems",
+      "published": "2026-08-23T01:22:09Z",
+      "updated": "2026-08-29T00:04:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22151v1",
+      "title": "Towards Actionable Visualization: Ten Years Later, What Generative AI Changes and What It Cannot",
+      "published": "2026-08-23T00:40:51Z",
+      "updated": "2026-08-23T00:40:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22133v2",
+      "title": "A Metric with Positive Sectional Curvature on $S^2\\times S^3$",
+      "published": "2026-08-22T23:11:03Z",
+      "updated": "2026-08-26T03:20:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22132v1",
+      "title": "SSE-Bio: A Structured Self-Evolving Agent with Agentic Retrieval Policy for Multi-Hop Biomedical Reasoning",
+      "published": "2026-08-22T23:08:56Z",
+      "updated": "2026-08-22T23:08:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22092v1",
+      "title": "Counterfactual Quotient Models: Learning What Actions Change, Not What the World Does",
+      "published": "2026-08-22T19:55:57Z",
+      "updated": "2026-08-22T19:55:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23622v1",
+      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+      "published": "2026-08-22T18:54:52Z",
+      "updated": "2026-08-22T18:54:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22077v1",
+      "title": "Spine-Branch Coordination for Multi-agent Computer Use",
+      "published": "2026-08-22T18:48:37Z",
+      "updated": "2026-08-22T18:48:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22055v2",
+      "title": "GenCoord: Skill-Path Commitments under Private Information",
+      "published": "2026-08-22T17:41:25Z",
+      "updated": "2026-08-25T07:29:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22045v1",
+      "title": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
+      "published": "2026-08-22T17:16:29Z",
+      "updated": "2026-08-22T17:16:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.22035v1",
+      "title": "Ludi${}_{\\scriptscriptstyle 0.1}$: An Agentic System for Socially Intelligent Robots",
+      "published": "2026-08-22T16:38:59Z",
+      "updated": "2026-08-22T16:38:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21986v1",
+      "title": "AI Grinding for Fun and Cryptanalysis",
+      "published": "2026-08-22T14:37:46Z",
+      "updated": "2026-08-22T14:37:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21976v1",
+      "title": "Closed-loop AI achieves certifiable engineering design",
+      "published": "2026-08-22T14:24:58Z",
+      "updated": "2026-08-22T14:24:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21884v2",
+      "title": "Loop Engineering: Building Blocks, Adoption, and Impact",
+      "published": "2026-08-22T09:52:23Z",
+      "updated": "2026-08-26T21:30:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21864v1",
+      "title": "BioMed-Agent-RL: A Meta Learning, All You Need for Biomedical Applications",
+      "published": "2026-08-22T09:16:54Z",
+      "updated": "2026-08-22T09:16:54Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21690v1",
+      "title": "Context as an Environment: Programmatic Context Management for Long-Horizon Agents",
+      "published": "2026-08-21T23:39:19Z",
+      "updated": "2026-08-21T23:39:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21601v2",
+      "title": "K-Bench: measuring model performance on real scientific agent requests",
+      "published": "2026-08-21T20:06:08Z",
+      "updated": "2026-09-02T18:04:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21356v2",
+      "title": "AI with Authority, from Application to Silicon",
+      "published": "2026-08-21T17:59:16Z",
+      "updated": "2026-08-25T22:53:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21326v1",
+      "title": "Invisible Agents, Uninformed Patients: Towards Responsible Deployment Of Autonomous AI Diagnostic Agents In Sub-Saharan Africa",
+      "published": "2026-08-21T17:34:19Z",
+      "updated": "2026-08-21T17:34:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.23610v1",
+      "title": "From Traceability to Justifiability: Accountability Structures in Agentic Software Engineering",
+      "published": "2026-08-21T16:45:00Z",
+      "updated": "2026-08-21T16:45:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21249v1",
+      "title": "Benchmarking Patent Drafting from Inventor-Style Disclosures",
+      "published": "2026-08-21T16:00:52Z",
+      "updated": "2026-08-21T16:00:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21177v1",
+      "title": "From Search Agents to Dissemination Interfaces: Understanding Human Trust in Health Information from Conversational Search",
+      "published": "2026-08-21T14:46:53Z",
+      "updated": "2026-08-21T14:46:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21107v1",
+      "title": "Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured Survey and Research Agenda",
+      "published": "2026-08-21T13:54:38Z",
+      "updated": "2026-08-21T13:54:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21095v1",
+      "title": "Trustworthy RAG: An Evaluation Agent for Detecting Misinformation and Knowledge Poisoning in Generative AI Systems",
+      "published": "2026-08-21T13:42:41Z",
+      "updated": "2026-08-21T13:42:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21075v1",
+      "title": "AudioWorldSim: Realistic Binaural Audio Datasets For World Models",
+      "published": "2026-08-21T13:17:06Z",
+      "updated": "2026-08-21T13:17:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21057v2",
+      "title": "Designing a Robust LLM-Based Evaluation System for Agentic AI in Drug Discovery Through Human Alignment",
+      "published": "2026-08-21T12:58:24Z",
+      "updated": "2026-09-09T18:16:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21031v1",
+      "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
+      "published": "2026-08-21T12:28:58Z",
+      "updated": "2026-08-21T12:28:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20983v2",
+      "title": "Beyond Truth Discovery: A Two-Stage Framework to Assess the Severity of False Claim during Disasters",
+      "published": "2026-08-21T11:09:51Z",
+      "updated": "2026-08-30T17:53:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20940v1",
+      "title": "The Logic of Machine Self-Preservation",
+      "published": "2026-08-21T10:03:18Z",
+      "updated": "2026-08-21T10:03:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20786v1",
+      "title": "Structure for Reading, Prose for Writing: Asymmetric Structural Conditioning in Multi-Agent Document Authoring",
+      "published": "2026-08-21T06:57:46Z",
+      "updated": "2026-08-21T06:57:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20777v1",
+      "title": "Tree-of-Concerns: Hierarchical Multi-Agent Debate for Unstated-Limitation Extraction in Scientific Critique",
+      "published": "2026-08-21T06:41:57Z",
+      "updated": "2026-08-21T06:41:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20704v1",
+      "title": "Message Order Selects Opposite Collective Opinions on Laplacian-Cospectral Networks",
+      "published": "2026-08-21T03:19:19Z",
+      "updated": "2026-08-21T03:19:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20688v1",
+      "title": "VortexChat: An agentic framework for autonomous multi-objective integrated photonic design",
+      "published": "2026-08-21T02:50:44Z",
+      "updated": "2026-08-21T02:50:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20686v1",
+      "title": "CDRL: Certification-Driven Reinforcement Learning for Neutrino Flavor Model Discovery",
+      "published": "2026-08-21T02:49:34Z",
+      "updated": "2026-08-21T02:49:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20634v1",
+      "title": "AgentMercury: Your Agent Can Synthesize Verifiable Environments for Business Scenarios at scale",
+      "published": "2026-08-21T00:15:45Z",
+      "updated": "2026-08-21T00:15:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20571v1",
+      "title": "AutoMOOSE: Use Case and Logical Views of Agentic Phase-Field Simulation Software",
+      "published": "2026-08-20T21:10:47Z",
+      "updated": "2026-08-20T21:10:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20519v1",
+      "title": "An integrated diffusion-weighted imaging processing and interpretation platform for MR-guided radiotherapy",
+      "published": "2026-08-20T19:33:08Z",
+      "updated": "2026-08-20T19:33:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20488v2",
+      "title": "Metag: A dataset to build agentic meta-reviewing capabilities",
+      "published": "2026-08-20T18:19:03Z",
+      "updated": "2026-08-24T21:53:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20485v1",
+      "title": "Terminal Agents: A Survey of AI Agents in Command-Line Environments",
+      "published": "2026-08-20T18:16:44Z",
+      "updated": "2026-08-20T18:16:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20320v1",
+      "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+      "published": "2026-08-20T17:57:42Z",
+      "updated": "2026-08-20T17:57:42Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20318v1",
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "published": "2026-08-20T17:56:59Z",
+      "updated": "2026-08-20T17:56:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20253v1",
+      "title": "GENIE: Generative Neural Inference for Epidemics",
+      "published": "2026-08-20T16:48:10Z",
+      "updated": "2026-08-20T16:48:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20251v1",
+      "title": "Video2DoorTraversal: Push Door Traversal via Simulated Door Twins",
+      "published": "2026-08-20T16:46:57Z",
+      "updated": "2026-08-20T16:46:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20231v1",
+      "title": "Growth Without Us: Machine Consumers, Corporate Circularity, and the Decoupling of GDP from Humanity after AGI",
+      "published": "2026-08-20T16:26:24Z",
+      "updated": "2026-08-20T16:26:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20139v2",
+      "title": "Reinforcement Learning to Harness Approximation Errors for Long-Time Quantum Simulation",
+      "published": "2026-08-20T15:02:17Z",
+      "updated": "2026-08-21T16:27:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20041v1",
+      "title": "A three-dimensional typology of agency for advanced AI systems",
+      "published": "2026-08-20T13:46:33Z",
+      "updated": "2026-08-20T13:46:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20016v1",
+      "title": "Emergence of cooperation: A reputation-modulated reinforcement learning",
+      "published": "2026-08-20T13:27:41Z",
+      "updated": "2026-08-20T13:27:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20438v1",
+      "title": "Peer-Voted LLM-Agent Stress Tests Find Feed-Induced Lexical Convergence but No Reliable Matched-Exposure Advantage for Distributed Sources",
+      "published": "2026-08-20T12:01:19Z",
+      "updated": "2026-08-20T12:01:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19902v1",
+      "title": "Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis",
+      "published": "2026-08-20T11:13:27Z",
+      "updated": "2026-08-20T11:13:27Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19823v1",
+      "title": "Simultaneous 3D co-registered perfusion and oxygenation with ULM, photoacoustic imaging, and a planar matrix array",
+      "published": "2026-08-20T09:21:13Z",
+      "updated": "2026-08-20T09:21:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27476v1",
+      "title": "Class-Based Heuristic Selection for Solving the Flying Block Puzzle",
+      "published": "2026-08-20T09:18:21Z",
+      "updated": "2026-08-20T09:18:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19799v2",
+      "title": "SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?",
+      "published": "2026-08-20T08:53:15Z",
+      "updated": "2026-09-01T15:45:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19794v1",
+      "title": "Towards general embodied intelligence: integrating large language models, knowledge bases, and reasoning capabilities to build the next generation of AI agents",
+      "published": "2026-08-20T08:45:51Z",
+      "updated": "2026-08-20T08:45:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19779v1",
+      "title": "An Irreducible Quantum Advantage in Aligning World Models with Reality",
+      "published": "2026-08-20T08:23:48Z",
+      "updated": "2026-08-20T08:23:48Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19703v1",
+      "title": "Loreley: Repository-Scale Program Evolution with Quality-Diversity Search",
+      "published": "2026-08-20T07:04:24Z",
+      "updated": "2026-08-20T07:04:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19699v1",
+      "title": "An Evidence-Grounded Multi-Agent System for High-Level Bio-Robot Design",
+      "published": "2026-08-20T06:44:08Z",
+      "updated": "2026-08-20T06:44:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20434v1",
+      "title": "An LLM agent for end-to-end computational materials discovery",
+      "published": "2026-08-20T06:23:09Z",
+      "updated": "2026-08-20T06:23:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19653v1",
+      "title": "DeltaML-Bench: Evaluating Machine Learning Agents on Real-World Research Repositories",
+      "published": "2026-08-20T05:42:39Z",
+      "updated": "2026-08-20T05:42:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19625v2",
+      "title": "Scientific Data Skills: Enabling Agent-Ready Scientific Data Services at Scale",
+      "published": "2026-08-20T04:25:59Z",
+      "updated": "2026-09-07T03:17:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20432v1",
+      "title": "ProofJudge: Tool-Grounded LLM Evaluation of Formal Proof Quality in Mathlib",
+      "published": "2026-08-20T02:39:40Z",
+      "updated": "2026-08-20T02:39:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19545v1",
+      "title": "Two-sided receptivity to conversational AI agents in online dating: Bilingual survey data from Fledge.Love",
+      "published": "2026-08-20T01:25:03Z",
+      "updated": "2026-08-20T01:25:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19511v1",
+      "title": "Symposium: Trust via Auditable Records for Communities of AI Scientist Agents",
+      "published": "2026-08-20T00:08:40Z",
+      "updated": "2026-08-20T00:08:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19487v1",
+      "title": "Accelerated Genetic Programming Hyper-Heuristics for Simulation-Based Scheduling via Agentic AI",
+      "published": "2026-08-19T22:48:46Z",
+      "updated": "2026-08-19T22:48:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.27475v1",
+      "title": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
+      "published": "2026-08-19T17:53:30Z",
+      "updated": "2026-08-19T17:53:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19116v1",
+      "title": "JANUS: A Multi-modal Foundation Neural Sampler for Disordered Materials",
+      "published": "2026-08-19T17:11:03Z",
+      "updated": "2026-08-19T17:11:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19103v1",
+      "title": "Quantum circuit optimization using deep reinforcement learning: Applications across multiple gate sets",
+      "published": "2026-08-19T16:54:17Z",
+      "updated": "2026-08-19T16:54:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19047v1",
+      "title": "Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery",
+      "published": "2026-08-19T15:40:21Z",
+      "updated": "2026-08-19T15:40:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19025v1",
+      "title": "Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models",
+      "published": "2026-08-19T15:20:11Z",
+      "updated": "2026-08-19T15:20:11Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.19009v2",
+      "title": "Grading the Graders: Verification Autonomy Levels (L0-L5) for LLM Reasoning",
+      "published": "2026-08-19T15:10:00Z",
+      "updated": "2026-08-20T07:56:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21444v1",
+      "title": "Agentic AI for Safety-critical Multi-drone Systems: Challenges and Opportunities",
+      "published": "2026-08-19T11:53:02Z",
+      "updated": "2026-08-19T11:53:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18734v2",
+      "title": "CL4D: Contrastive Language-4D Pretraining for Vision-Language Reasoning in Dynamic Scenes",
+      "published": "2026-08-19T09:37:15Z",
+      "updated": "2026-08-30T13:21:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18681v1",
+      "title": "Learning What to Fail On: Failure-Mode Contextual Bandits for Adversarial Data Curation",
+      "published": "2026-08-19T08:31:15Z",
+      "updated": "2026-08-19T08:31:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18638v1",
+      "title": "Report on The 1st Workshop on Human-Centered Proactive and Personalized Agents for Interactive Information Access at CHIIR 2026",
+      "published": "2026-08-19T07:35:21Z",
+      "updated": "2026-08-19T07:35:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18613v1",
+      "title": "CTIFoundry: An Agent-Native Corpus Scaffold for Cyber Threat Intelligence",
+      "published": "2026-08-19T07:00:29Z",
+      "updated": "2026-08-19T07:00:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18587v2",
+      "title": "High-Altitude Platforms Beyond Connectivity: A Survey of Integrated Sensing, Storage, Communication, Computing, and Intelligence",
+      "published": "2026-08-19T06:29:02Z",
+      "updated": "2026-08-21T08:14:27Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18547v1",
+      "title": "Measuring Proof Burden in Public Bounty Listings: A RentAHuman Case Study",
+      "published": "2026-08-19T05:08:21Z",
+      "updated": "2026-08-19T05:08:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18543v1",
+      "title": "Bridging Search and CRM: Productionizing AI Product Research Agents for Customer Re-Engagement",
+      "published": "2026-08-19T05:01:37Z",
+      "updated": "2026-08-19T05:01:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20421v1",
+      "title": "Six misconceptions about large language models: A minimal model and diagnostic taxonomy",
+      "published": "2026-08-19T04:59:30Z",
+      "updated": "2026-08-19T04:59:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18508v1",
+      "title": "Science Done on a Machine by a Machine: AI Agents in Computational Chemistry",
+      "published": "2026-08-19T03:55:13Z",
+      "updated": "2026-08-19T03:55:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20420v1",
+      "title": "Categorical AI phenomenology: A first-person approach",
+      "published": "2026-08-19T03:45:47Z",
+      "updated": "2026-08-19T03:45:47Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18450v1",
+      "title": "Adaptive Multi-Agent Feature Selection for Personalized Fall Risk Prevention",
+      "published": "2026-08-19T02:25:01Z",
+      "updated": "2026-08-19T02:25:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18312v1",
+      "title": "Artifact-centered Claim-aware Observability for Autonomous Scientific Agents",
+      "published": "2026-08-18T20:47:24Z",
+      "updated": "2026-08-18T20:47:24Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18279v2",
+      "title": "A Comprehensive Review of Large Language Models for Nanophotonics: From Surrogate Modeling to Autonomous Design",
+      "published": "2026-08-18T19:57:16Z",
+      "updated": "2026-08-29T02:01:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18272v1",
+      "title": "SeisEvo: Evolution of Seismic Data Reconstruction Algorithms by Agents",
+      "published": "2026-08-18T19:45:09Z",
+      "updated": "2026-08-18T19:45:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18072v1",
+      "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
+      "published": "2026-08-18T17:57:08Z",
+      "updated": "2026-08-18T17:57:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18034v1",
+      "title": "Deep Academic Survey: Stateful Agentic Closed-Loop Paradigm for Academic Survey Automation",
+      "published": "2026-08-18T17:29:00Z",
+      "updated": "2026-08-18T17:29:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17970v1",
+      "title": "Quo Vadis? Scientific Discovery in the Age of Artificial Intelligence",
+      "published": "2026-08-18T16:21:44Z",
+      "updated": "2026-08-18T16:21:44Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17906v2",
+      "title": "AutoResearch: Insight In, Hallucination Out",
+      "published": "2026-08-18T15:38:26Z",
+      "updated": "2026-08-23T11:37:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17800v1",
+      "title": "StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows",
+      "published": "2026-08-18T14:01:32Z",
+      "updated": "2026-08-18T14:01:32Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17774v1",
+      "title": "Edge-Native Embodied Intelligence for Action-Aware Wireless Edge Networks",
+      "published": "2026-08-18T13:39:12Z",
+      "updated": "2026-08-18T13:39:12Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17739v1",
+      "title": "Offline Multi-Agent Reinforcement Learning with a Physics-Informed World Model for Cooperative Mixed Traffic Control",
+      "published": "2026-08-18T13:03:51Z",
+      "updated": "2026-08-18T13:03:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17659v1",
+      "title": "MobileWorldSafety: Benchmarking GUI Agent Safety Against Environmental Injection Attacks in Android Apps",
+      "published": "2026-08-18T11:33:22Z",
+      "updated": "2026-08-18T11:33:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17614v1",
+      "title": "Adaptive Incentive Design in Dynamic Principal-Agent Problem via Kernelized Bandits",
+      "published": "2026-08-18T10:27:05Z",
+      "updated": "2026-08-18T10:27:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17605v1",
+      "title": "Multi-turn Conversational AI from Text to Multimodal Interaction: Data, Models, Evaluation, and Open Challenges",
+      "published": "2026-08-18T10:14:21Z",
+      "updated": "2026-08-18T10:14:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17596v2",
+      "title": "tinyDSM: A Framework for Skill Modeling and Development for Resource-Constrained Millirobots",
+      "published": "2026-08-18T10:03:56Z",
+      "updated": "2026-09-09T14:20:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17584v2",
+      "title": "HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction",
+      "published": "2026-08-18T09:49:16Z",
+      "updated": "2026-08-20T04:11:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17582v1",
+      "title": "Automating Variational Quantum Sensing through Reinforcement-Learned Circuit Structures",
+      "published": "2026-08-18T09:47:37Z",
+      "updated": "2026-08-18T09:47:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17550v1",
+      "title": "Code as Representation: A Compilable Parsing Paradigm for Academic Documents",
+      "published": "2026-08-18T09:10:43Z",
+      "updated": "2026-08-18T09:10:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.21441v1",
+      "title": "Constructing Predictive Surgical Path for AI-based Capsulorhexis Skill Transfer",
+      "published": "2026-08-18T08:55:14Z",
+      "updated": "2026-08-18T08:55:14Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17528v1",
+      "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+      "published": "2026-08-18T08:50:13Z",
+      "updated": "2026-08-18T08:50:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17524v1",
+      "title": "Evaluating RL Explainability Methods by How Much They Help Fix Bugs in Agents",
+      "published": "2026-08-18T08:46:26Z",
+      "updated": "2026-08-18T08:46:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17512v2",
+      "title": "Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation",
+      "published": "2026-08-18T08:37:08Z",
+      "updated": "2026-08-27T10:33:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17504v1",
+      "title": "Agentic Porting, Construction and Initial Verification and Validation of Libraries within the Open Source Unified TRAnsient Multi-Phase Advanced Reactor simulation Kit (Outram Park) Part I: Thermal Hydraulics",
+      "published": "2026-08-18T08:30:02Z",
+      "updated": "2026-08-18T08:30:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17501v1",
+      "title": "SGHA: Evidence-Grounded Research Problem Discovery with Local Language Models",
+      "published": "2026-08-18T08:27:39Z",
+      "updated": "2026-08-18T08:27:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.18184v1",
+      "title": "Human-Centric Intelligence in the Era of Foundation Models: A Survey",
+      "published": "2026-08-18T08:12:40Z",
+      "updated": "2026-08-18T08:12:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17472v1",
+      "title": "Mutual Recognition in the Philosophy of Physics: QBism, Phenomenology, Hegel",
+      "published": "2026-08-18T07:57:40Z",
+      "updated": "2026-08-18T07:57:40Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17433v1",
+      "title": "Task-Aware Harness Provisioning for LLM Agents in Mission-Critical Infrastructure Operations",
+      "published": "2026-08-18T07:03:13Z",
+      "updated": "2026-08-18T07:03:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17275v1",
+      "title": "When Agents Act on Web3: An Attack-Surface Survey of MCP, Skills, and Tool Calling",
+      "published": "2026-08-18T02:04:58Z",
+      "updated": "2026-08-18T02:04:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17271v1",
+      "title": "ASI-Bench: At the Dawn of Artificial Superintelligence",
+      "published": "2026-08-18T01:59:00Z",
+      "updated": "2026-08-18T01:59:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17209v1",
+      "title": "Teach and Grow: An Agent-Centered Architecture for General Robot Learning",
+      "published": "2026-08-17T23:45:21Z",
+      "updated": "2026-08-17T23:45:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17195v1",
+      "title": "Graphectory Viewer: A Tool for Process-Centric Analysis of Agentic Software Trajectories",
+      "published": "2026-08-17T23:17:04Z",
+      "updated": "2026-08-17T23:17:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17188v1",
+      "title": "Token Optimization and Context Window Management in Multi-Agent AI Workflows",
+      "published": "2026-08-17T22:56:50Z",
+      "updated": "2026-08-17T22:56:50Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17159v1",
+      "title": "A Multi-Surface Consistency Audit of Software Citation Metadata",
+      "published": "2026-08-17T21:52:02Z",
+      "updated": "2026-08-17T21:52:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17129v1",
+      "title": "PROBE: Manipulation-Grounded Visual Question Answering with VLM Agents",
+      "published": "2026-08-17T21:03:31Z",
+      "updated": "2026-08-17T21:03:31Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17099v1",
+      "title": "Appearing Legitimate is Not Enough: Interrogating Synthetic Agents in Representational Processes through a Participatory Design Lens",
+      "published": "2026-08-17T20:14:34Z",
+      "updated": "2026-08-17T20:14:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17075v1",
+      "title": "Foundation Agents Meet Agentic Deep Research: Evidence-Grounded Clinical Code Forecasting",
+      "published": "2026-08-17T19:24:57Z",
+      "updated": "2026-08-17T19:24:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.17009v2",
+      "title": "PowderLine: a programmatic powder diffraction analysis application",
+      "published": "2026-08-17T18:05:05Z",
+      "updated": "2026-08-19T15:53:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16876v1",
+      "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+      "published": "2026-08-17T17:55:26Z",
+      "updated": "2026-08-17T17:55:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16859v2",
+      "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+      "published": "2026-08-17T17:43:24Z",
+      "updated": "2026-09-01T17:49:17Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16843v1",
+      "title": "Security of Foundation-Model-Powered Embodied Agents: Attack Surfaces, Attacks, Defenses, and Evaluation",
+      "published": "2026-08-17T17:28:49Z",
+      "updated": "2026-08-17T17:28:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16813v1",
+      "title": "Quipu: A Governed Bitemporal Knowledge Graph Store",
+      "published": "2026-08-17T17:04:29Z",
+      "updated": "2026-08-17T17:04:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16806v3",
+      "title": "Breaking Planner Integrity Boundary: Enviroment State-Text Injection Attack on LLM-Driven Embodied Agents",
+      "published": "2026-08-17T17:02:07Z",
+      "updated": "2026-09-08T09:14:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16801v1",
+      "title": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
+      "published": "2026-08-17T16:57:38Z",
+      "updated": "2026-08-17T16:57:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16747v1",
+      "title": "Would this change your answer? Evaluating Explanations of LLM Behavior In The Wild with Counterfactual Experiments",
+      "published": "2026-08-17T15:57:06Z",
+      "updated": "2026-08-17T15:57:06Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16733v1",
+      "title": "GoalEvolve: From Handcrafted Algorithm Priors to Goal-Driven Evolution of Physical Design Algorithms",
+      "published": "2026-08-17T15:45:33Z",
+      "updated": "2026-08-17T15:45:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16721v1",
+      "title": "GenRouter: Unified Workflow Routing for Agentic Image Generation",
+      "published": "2026-08-17T15:36:45Z",
+      "updated": "2026-08-17T15:36:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16651v1",
+      "title": "Orbit-Planner: Towards Latent World Models for On-Orbit Obstacle Avoidance of Satellite Agents",
+      "published": "2026-08-17T14:49:07Z",
+      "updated": "2026-08-17T14:49:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16645v3",
+      "title": "Reconstruction: A Blind Benchmark for Recovering Research Ideas from Pre-Publication Bibliographies",
+      "published": "2026-08-17T14:44:30Z",
+      "updated": "2026-08-24T20:33:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16637v1",
+      "title": "PDDLCoder: Agentic PDDL Generation for LLM-Assisted Symbolic Planning",
+      "published": "2026-08-17T14:34:56Z",
+      "updated": "2026-08-17T14:34:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16590v1",
+      "title": "Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+      "published": "2026-08-17T13:49:43Z",
+      "updated": "2026-08-17T13:49:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16578v2",
+      "title": "Physics of Agents: Statistical Mechanics Predicts Collective Behavior of AI Agents",
+      "published": "2026-08-17T13:41:24Z",
+      "updated": "2026-09-09T01:05:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16422v1",
+      "title": "Proving the Utility of Large Language Models in Cybersecurity Simulations: A Comprehensive Examination",
+      "published": "2026-08-17T11:22:20Z",
+      "updated": "2026-08-17T11:22:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16411v1",
+      "title": "Towards Risk-free AI Agent Deployment",
+      "published": "2026-08-17T11:07:07Z",
+      "updated": "2026-08-17T11:07:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16402v1",
+      "title": "A Policy Algebra for Trust-Preserving Agentic AI Execution",
+      "published": "2026-08-17T10:59:15Z",
+      "updated": "2026-08-17T10:59:15Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16393v2",
+      "title": "Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection",
+      "published": "2026-08-17T10:43:07Z",
+      "updated": "2026-08-18T07:33:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16386v2",
+      "title": "Mint-Agent: Introducing Finance-Native Agentic Foundation Models",
+      "published": "2026-08-17T10:38:54Z",
+      "updated": "2026-08-21T04:43:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16381v1",
+      "title": "AstronOS: A Unified Execution Model and Runtime for Long-Horizon Agentic Systems",
+      "published": "2026-08-17T10:33:28Z",
+      "updated": "2026-08-17T10:33:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16333v1",
+      "title": "Step-Level On-Policy Distillation: Interpolating Between On-Policy Distillation and Supervised Fine-Tuning",
+      "published": "2026-08-17T09:37:39Z",
+      "updated": "2026-08-17T09:37:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16211v1",
+      "title": "BaT: Towards Self-Evolving Medical Research Agent with Stage Rubrics",
+      "published": "2026-08-17T07:44:57Z",
+      "updated": "2026-08-17T07:44:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16207v2",
+      "title": "Competing at Every Price Point with Agentic Evolution over a Menu of LLMs",
+      "published": "2026-08-17T07:40:06Z",
+      "updated": "2026-09-08T05:50:27Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16195v1",
+      "title": "RoboStriker: Latent-Space Strategic Games for Autonomous Humanoid Boxing",
+      "published": "2026-08-17T07:19:09Z",
+      "updated": "2026-08-17T07:19:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16185v2",
+      "title": "LENS: In-Context Search via Latent Evidence Exploration over Dynamic Raw Documents",
+      "published": "2026-08-17T07:04:25Z",
+      "updated": "2026-08-18T06:51:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16177v2",
+      "title": "Measuring Obedience to Authority Across Large Language Models with the Milgram Paradigm",
+      "published": "2026-08-17T06:48:53Z",
+      "updated": "2026-08-18T03:54:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16048v1",
+      "title": "zenDot: An LLM-integrated quantum TCAD platform for semiconductor quantum-device design and optimization automation",
+      "published": "2026-08-17T03:21:02Z",
+      "updated": "2026-08-17T03:21:02Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16045v1",
+      "title": "Walk Before You Run: The Importance of Data Exploration for Data Analysis Agents",
+      "published": "2026-08-17T03:19:59Z",
+      "updated": "2026-08-17T03:19:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16024v1",
+      "title": "Moving Horizon Estimation for Underwater Target Tracking Based on Time-Difference-of-Arrival Measurements",
+      "published": "2026-08-17T02:31:18Z",
+      "updated": "2026-08-17T02:31:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15948v1",
+      "title": "Evidence-Carrying Validation for Knowledge Graphs",
+      "published": "2026-08-16T22:10:33Z",
+      "updated": "2026-08-16T22:10:33Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15900v1",
+      "title": "Crystal-structure design by agentic AI in a language of motifs",
+      "published": "2026-08-16T19:29:30Z",
+      "updated": "2026-08-16T19:29:30Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15776v1",
+      "title": "ALKEMIE Agent: an autonomous platform for computational materials design",
+      "published": "2026-08-16T14:54:00Z",
+      "updated": "2026-08-16T14:54:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15754v1",
+      "title": "Designing Quantum Error Correcting Codes to fit decoders via Reinforcement Learning",
+      "published": "2026-08-16T14:14:03Z",
+      "updated": "2026-08-16T14:14:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15706v1",
+      "title": "A memory-based three-state model of competing technology adoption: substitution regimes, multi-homing, and churn",
+      "published": "2026-08-16T12:16:58Z",
+      "updated": "2026-08-16T12:16:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15678v1",
+      "title": "Where Accountability Lives: Mapping Human Responsibility to Workflow Artifacts in Agentic Software Development",
+      "published": "2026-08-16T11:11:04Z",
+      "updated": "2026-08-16T11:11:04Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15549v1",
+      "title": "MistyPilot: Enabling Social-Robot Control through Multi-Agent LLM Skill Orchestration",
+      "published": "2026-08-16T05:45:16Z",
+      "updated": "2026-08-16T05:45:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15515v1",
+      "title": "Weak-Type Bounds for Convolution on the Boolean Hypercube",
+      "published": "2026-08-16T03:52:55Z",
+      "updated": "2026-08-16T03:52:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.16951v1",
+      "title": "The Little Scientist: LLM Agent-Driven Discovery via the Scientific Method",
+      "published": "2026-08-16T01:32:45Z",
+      "updated": "2026-08-16T01:32:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15424v1",
+      "title": "ETHOS: Towards a Modular Ethics Framework for Clinical Multi-Agent Systems",
+      "published": "2026-08-15T21:56:23Z",
+      "updated": "2026-08-15T21:56:23Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15405v1",
+      "title": "Afterlife Delegation Protocol: Speculative Design of Self-Sovereign Agents that Outlive Their Principals",
+      "published": "2026-08-15T20:22:53Z",
+      "updated": "2026-08-15T20:22:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15403v1",
+      "title": "Agent Inheritance Protocol: Speculating on Feralized Agents After Principals Die",
+      "published": "2026-08-15T20:17:21Z",
+      "updated": "2026-08-15T20:17:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15391v1",
+      "title": "TwinGridShield: Consequence-Aware Runtime Authorization for LLM Grid-Agent Actions",
+      "published": "2026-08-15T19:44:59Z",
+      "updated": "2026-08-15T19:44:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20413v1",
+      "title": "BioFirewall: A genome-writing-native governance layer for design-stage biosecurity screening of agentic AI",
+      "published": "2026-08-15T17:14:49Z",
+      "updated": "2026-08-15T17:14:49Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.20412v1",
+      "title": "PEN-STACK: A non-fabricating tool layer for language-model agents in genome writing",
+      "published": "2026-08-15T17:09:09Z",
+      "updated": "2026-08-15T17:09:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15304v1",
+      "title": "Understanding Cognition-Induced Risks in Agentic AI Systems",
+      "published": "2026-08-15T16:16:29Z",
+      "updated": "2026-08-15T16:16:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15265v2",
+      "title": "VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?",
+      "published": "2026-08-15T14:53:38Z",
+      "updated": "2026-08-19T08:15:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15193v1",
+      "title": "Valhalla: A Layered Knowledge-State and Service-Governance Framework for Long-Term Scientific Knowledge Work",
+      "published": "2026-08-15T12:21:41Z",
+      "updated": "2026-08-15T12:21:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15191v1",
+      "title": "When Deep Research Agents Stagnate: Enhancing Reasoning with Retrieval-Aware Agent Control",
+      "published": "2026-08-15T12:14:38Z",
+      "updated": "2026-08-15T12:14:38Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15181v1",
+      "title": "Insurance as AI Risk Infrastructure: A Generative-Agent Simulation of AI Adoption",
+      "published": "2026-08-15T11:45:51Z",
+      "updated": "2026-08-15T11:45:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15108v1",
+      "title": "Beyond Direct Access: Resource Hijacking in LLM Agents",
+      "published": "2026-08-15T08:16:59Z",
+      "updated": "2026-08-15T08:16:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15082v1",
+      "title": "Beyond Thresholds: A Quality-Aware Decision Intelligence Framework for Cold Chain IoT Systems",
+      "published": "2026-08-15T06:59:08Z",
+      "updated": "2026-08-15T06:59:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15073v1",
+      "title": "BOCoDe: Engineering-Centered Benchmarking for Bayesian Optimization",
+      "published": "2026-08-15T06:47:28Z",
+      "updated": "2026-08-15T06:47:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15052v2",
+      "title": "Andy: A Mathematical Agent for Rigorous Proof and Autonomous Research",
+      "published": "2026-08-15T05:47:56Z",
+      "updated": "2026-08-20T15:44:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15043v1",
+      "title": "SCOPE: Score-Isolated Agentic Optimization for Video World Models",
+      "published": "2026-08-15T05:08:28Z",
+      "updated": "2026-08-15T05:08:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15032v1",
+      "title": "Handoff-H1: An Orchestrated Vision-Agent System for Material Quantity Takeoff from Construction Blueprints",
+      "published": "2026-08-15T04:34:51Z",
+      "updated": "2026-08-15T04:34:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.15010v1",
+      "title": "Shear effects in active models of normal and cancer cells",
+      "published": "2026-08-15T03:42:07Z",
+      "updated": "2026-08-15T03:42:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14956v1",
+      "title": "LLM-based Framework for Generating and Verifying Parallel DEVS Statecharts",
+      "published": "2026-08-15T01:08:39Z",
+      "updated": "2026-08-15T01:08:39Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14927v1",
+      "title": "LLMs Can Predict Failure Risk, But Struggle to Predict Which Collaboration Protocol Pays Off: Cost-Aware Protocol Routing Across Reasoning Tasks",
+      "published": "2026-08-14T22:35:37Z",
+      "updated": "2026-08-14T22:35:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14905v3",
+      "title": "How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks",
+      "published": "2026-08-14T21:39:38Z",
+      "updated": "2026-08-25T00:21:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14893v1",
+      "title": "Weaker Coherence, Weaker Reciprocity: Comparing the Semantic and Social Organization of Moltbook and Reddit",
+      "published": "2026-08-14T21:01:00Z",
+      "updated": "2026-08-14T21:01:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14877v1",
+      "title": "Deep Reinforcement Learning for 6G AI-RAN: A Comprehensive Survey",
+      "published": "2026-08-14T20:36:27Z",
+      "updated": "2026-08-14T20:36:27Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14869v1",
+      "title": "RaivenTracks: Branching Provenance for Conversational Visualization Workflows",
+      "published": "2026-08-14T20:15:55Z",
+      "updated": "2026-08-14T20:15:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14846v1",
+      "title": "MultiStructRNA: a Python package for multi-algorithm RNA secondary structure prediction, ensemble analysis, and visualization",
+      "published": "2026-08-14T19:38:08Z",
+      "updated": "2026-08-14T19:38:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14822v1",
+      "title": "Imagining Recovery: Inference-Time Counterfactual Realignment for Vision-Language-Action Models",
+      "published": "2026-08-14T18:49:46Z",
+      "updated": "2026-08-14T18:49:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14815v1",
+      "title": "AI Agents and the Future of VIS",
+      "published": "2026-08-14T18:41:08Z",
+      "updated": "2026-08-14T18:41:08Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14528v1",
+      "title": "Handover of In-Context Learning State Across Session Boundaries",
+      "published": "2026-08-14T17:47:13Z",
+      "updated": "2026-08-14T17:47:13Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14527v1",
+      "title": "Validating LLM-Modernized Scientific Software Through Differential Fault Injection",
+      "published": "2026-08-14T17:45:55Z",
+      "updated": "2026-08-14T17:45:55Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14522v1",
+      "title": "Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers",
+      "published": "2026-08-14T17:43:16Z",
+      "updated": "2026-08-14T17:43:16Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14498v1",
+      "title": "Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training",
+      "published": "2026-08-14T17:13:34Z",
+      "updated": "2026-08-14T17:13:34Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14462v1",
+      "title": "THRIVE: Therapeutic Humanoid Robot In Virtual Environment",
+      "published": "2026-08-14T16:42:58Z",
+      "updated": "2026-08-14T16:42:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14441v1",
+      "title": "PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments",
+      "published": "2026-08-14T16:25:43Z",
+      "updated": "2026-08-14T16:25:43Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14407v1",
+      "title": "The Past and Future of AI Scientists",
+      "published": "2026-08-14T15:50:35Z",
+      "updated": "2026-08-14T15:50:35Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14398v1",
+      "title": "Absorbing phase transition in a queueing model of coupled adaptive agents",
+      "published": "2026-08-14T15:38:31Z",
+      "updated": "2026-08-14T15:38:31Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14375v1",
+      "title": "Wrong but Useful: Trajectory Value Beyond Answer Correctness in Multi-Agent Messages",
+      "published": "2026-08-14T15:16:57Z",
+      "updated": "2026-08-14T15:16:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14354v2",
+      "title": "ScienceFlow: A long-horizon agent for ML research, scientific discovery and beyond",
+      "published": "2026-08-14T14:54:01Z",
+      "updated": "2026-08-23T15:49:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14306v1",
+      "title": "Sensor-Driven Mission Synthesis for UAV/UGV Swarms: A TB-CSPN Coordination Architecture with Hardware-Enforced Safety",
+      "published": "2026-08-14T13:44:10Z",
+      "updated": "2026-08-14T13:44:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14270v1",
+      "title": "TimeSage-EV: A Live Benchmark for Agentic Time Series Analysis in Evolving Environments",
+      "published": "2026-08-14T12:53:21Z",
+      "updated": "2026-08-14T12:53:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14228v1",
+      "title": "AutoSchema: Live Schema Grounding for Agentic Text-to-Sparql over Heterogeneous Knowledge Graphs",
+      "published": "2026-08-14T12:02:53Z",
+      "updated": "2026-08-14T12:02:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14134v1",
+      "title": "Photonic Quantum Computing vs. Classical Solvers in Constrained Factor Portfolio Optimization",
+      "published": "2026-08-14T09:40:58Z",
+      "updated": "2026-08-14T09:40:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14132v1",
+      "title": "Act2Intention: A Benchmark For Developing Active Mobile Agents Through Inferring User Intention from GUI Actions",
+      "published": "2026-08-14T09:36:59Z",
+      "updated": "2026-08-14T09:36:59Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14122v1",
+      "title": "Reinforcement Learning-Based Production Scheduling in an Industry-Based Coating Scenario Using the Digital Model Playground",
+      "published": "2026-08-14T09:28:20Z",
+      "updated": "2026-08-14T09:28:20Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14114v1",
+      "title": "Learning to Run Power Networks: Effective AlphaZero-inspired Topological Control",
+      "published": "2026-08-14T09:16:10Z",
+      "updated": "2026-08-14T09:16:10Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14093v1",
+      "title": "AppLooper: An Agentic Application Engineering Loop for Accountable Release with Virtual-User Feedback",
+      "published": "2026-08-14T08:55:58Z",
+      "updated": "2026-08-14T08:55:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14055v1",
+      "title": "HERMES: a multi-agent framework for structured knowledge extraction from ultra-long documents in geoscience",
+      "published": "2026-08-14T07:59:58Z",
+      "updated": "2026-08-14T07:59:58Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13958v1",
+      "title": "Implementing Computational Law in Wolfram Language for the Governance of Artificial Intelligence",
+      "published": "2026-08-14T04:58:01Z",
+      "updated": "2026-08-14T04:58:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13940v2",
+      "title": "AI Research Preference Models",
+      "published": "2026-08-14T04:20:37Z",
+      "updated": "2026-08-25T21:13:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13900v1",
+      "title": "Agentic Transaction: Towards ACID-Compliant Agent Systems",
+      "published": "2026-08-14T03:13:54Z",
+      "updated": "2026-08-14T03:13:54Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13884v1",
+      "title": "Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysis of 33,228 Pull Requests from vLLM and SGLang with Implications for Biomedical AI Agents and Bioinformatics Pipeline Developmen",
+      "published": "2026-08-14T02:22:28Z",
+      "updated": "2026-08-14T02:22:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13883v1",
+      "title": "MemoryLake on MemoryArena: A Matched Study of Agent Memory Backends",
+      "published": "2026-08-14T02:19:26Z",
+      "updated": "2026-08-14T02:19:26Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13867v1",
+      "title": "Engineering Reliable Coding Agents: Evaluating and Operating the System Around the Model",
+      "published": "2026-08-14T01:34:25Z",
+      "updated": "2026-08-14T01:34:25Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.14747v1",
+      "title": "WANDR: A Benchmark for Wide and Deep Research",
+      "published": "2026-08-14T00:18:53Z",
+      "updated": "2026-08-14T00:18:53Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13807v1",
+      "title": "Label-Free Deep-Tissue Peripheral Nerve Detection with a Handheld Multimodal OCT Probe and NerveDetNet",
+      "published": "2026-08-13T22:34:46Z",
+      "updated": "2026-08-13T22:34:46Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13708v1",
+      "title": "TeachMateGPT: A Multi-Agent Knowledge-Grounded Framework for Pedagogical Assessment Generation from Science Curriculum Materials",
+      "published": "2026-08-13T19:06:37Z",
+      "updated": "2026-08-13T19:06:37Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13706v3",
+      "title": "CLAIR-Fin: An Adversarial Multi-Agent Framework for Claim-Level Verification and Adaptive Debate in Cross-Modal Financial QA",
+      "published": "2026-08-13T18:59:41Z",
+      "updated": "2026-09-07T19:05:18Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13675v1",
+      "title": "From BERT to Frontier Agents: Eight Years of Language-Model Progress, the Collapse of the Capability-Cost Curve, and the Rise of Task-Targeted Models",
+      "published": "2026-08-13T18:16:21Z",
+      "updated": "2026-08-13T18:16:21Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13665v1",
+      "title": "FabDreamer: Exploring the Image-to-Physical Workflow Through AI-Assisted Layered Fabrication",
+      "published": "2026-08-13T18:03:56Z",
+      "updated": "2026-08-13T18:03:56Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13662v1",
+      "title": "Ontology-Grounded Project Memory for Coding Agents",
+      "published": "2026-08-13T18:03:00Z",
+      "updated": "2026-08-13T18:03:00Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13558v1",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "published": "2026-08-13T17:59:52Z",
+      "updated": "2026-08-13T17:59:52Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13505v1",
+      "title": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+      "published": "2026-08-13T17:31:28Z",
+      "updated": "2026-08-13T17:31:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13486v1",
+      "title": "Runtime Monitoring of Distributed Cyber-Physical Systems Without a Global Clock",
+      "published": "2026-08-13T17:15:09Z",
+      "updated": "2026-08-13T17:15:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13472v1",
+      "title": "AaLLM: An End-to-End Analog Circuit Design Framework from Topology Generation to Sizing Using Large Language Models",
+      "published": "2026-08-13T16:57:07Z",
+      "updated": "2026-08-13T16:57:07Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13453v1",
+      "title": "UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models",
+      "published": "2026-08-13T16:38:57Z",
+      "updated": "2026-08-13T16:38:57Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.28644v1",
+      "title": "Measuring Collective Semantic Change in Populations of Language Model Agents",
+      "published": "2026-08-13T16:19:01Z",
+      "updated": "2026-08-13T16:19:01Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13428v1",
+      "title": "RAIL: An Automatic Classifier of the Artificial Intelligence Readiness Level",
+      "published": "2026-08-13T16:17:41Z",
+      "updated": "2026-08-13T16:17:41Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13417v1",
+      "title": "Beyond Final Scores: A Systematic Evaluation of Agents for Long-Horizon AI Research and Development",
+      "published": "2026-08-13T16:11:22Z",
+      "updated": "2026-08-13T16:11:22Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13331v1",
+      "title": "Training AI Scientists to Replicate Research",
+      "published": "2026-08-13T14:59:27Z",
+      "updated": "2026-08-13T14:59:27Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13245v1",
+      "title": "SoM-MTM: Synesthesia of Machines (SoM)-Driven Masked Token Model for Cooperative Perception over Packet Loss Channel",
+      "published": "2026-08-13T13:50:29Z",
+      "updated": "2026-08-13T13:50:29Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13122v1",
+      "title": "Validation-Centric AI-Assisted GPU Porting of a 250,000+ Line Legacy Weather Simulation Code",
+      "published": "2026-08-13T11:52:51Z",
+      "updated": "2026-08-13T11:52:51Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13095v1",
+      "title": "Semantic Radiance Fields as Simulators for Spatial Reasoning in Real-World Scenes",
+      "published": "2026-08-13T11:01:09Z",
+      "updated": "2026-08-13T11:01:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13060v2",
+      "title": "VALG: An Agentic System for ML Theory Research",
+      "published": "2026-08-13T10:23:11Z",
+      "updated": "2026-09-10T01:49:09Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.13029v1",
+      "title": "Static analysis-guided agentic AI translation enables Rust as a full stack bioinformatics language",
+      "published": "2026-08-13T09:58:45Z",
+      "updated": "2026-08-13T09:58:45Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.12984v1",
+      "title": "Reconcile Once, Write Anytime: A Trust-Tiered Librarian and a Multi-Agent Writer for Drift-Free, Point-in-Time Research",
+      "published": "2026-08-13T09:09:28Z",
+      "updated": "2026-08-13T09:09:28Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.12955v1",
+      "title": "PSPACE-Completeness of Multi-Agent Path Finding for Large Agents",
+      "published": "2026-08-13T08:34:03Z",
+      "updated": "2026-08-13T08:34:03Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.12942v1",
+      "title": "Time-ordered free energy in correlated quantum systems: An agentic approach",
+      "published": "2026-08-13T08:19:19Z",
+      "updated": "2026-08-13T08:19:19Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.12860v1",
+      "title": "HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments",
+      "published": "2026-08-13T06:16:05Z",
+      "updated": "2026-08-13T06:16:05Z"
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.12841v2",
+      "title": "AQuA: Recursively Self-Improving Quantitative Trading Research Agents",
+      "published": "2026-08-13T05:25:42Z",
+      "updated": "2026-08-17T23:50:10Z"
+    }
+  ],
+  "page2_url": "https://export.arxiv.org/api/query?search_query=all%3Aagent+AND+%28all%3Ascientific+OR+all%3Abiology+OR+all%3Abiomedical+OR+all%3Achemistry+OR+all%3Aphysics+OR+all%3Amaterials+OR+all%3Aresearch%29+AND+submittedDate%3A%5B202608130000+TO+202609112359%5D&start=500&max_results=500&sortBy=submittedDate&sortOrder=descending",
+  "coverage_note": "671 metadata matches retrieved. 66 explicitly shortlisted; remaining records are discovery inventory, not individually adjudicated or exhaustive verified coverage.",
+  "lanes": [
+    "crossdomain/benchmarks",
+    "biology/medicine",
+    "chemistry/materials/physics/engineering"
+  ]
+}

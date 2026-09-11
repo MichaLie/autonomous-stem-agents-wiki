@@ -40,5 +40,11 @@
     "removed": "2026-08-13",
     "reason": "Availability: the record's only official source (analemma.ai and its subdomains) has refused connections since the last live capture on 2026-06-23 and no live official replacement was found; the archived snapshot http://web.archive.org/web/20260623231233/https://analemma.ai/ documents the system historically. Reversible if an official live source reappears.",
     "replacement_id": null
+  },
+  {
+    "id": "asa-periodic-labs",
+    "removed": "2026-09-11",
+    "reason": "Reversible HOLD: current official source describes a development goal but does not demonstrate the physical autonomous loop required for the prior A5 label. No discontinuation is inferred; restore the reserved ID if first-party system evidence supports an autonomy classification.",
+    "replacement_id": null
   }
 ]

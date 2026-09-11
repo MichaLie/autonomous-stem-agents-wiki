@@ -1,0 +1,2014 @@
+{
+  "8ae1fb8cad34b507cd35": {
+    "url": "https://github.com/harbor-framework/terminal-bench-science",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "4e4201173054ce697dca24321149a3011ee57c6c8ea566948a70ed87d51883c6",
+    "locator": "README / official product or release page",
+    "excerpt": "Terminal-Bench-Science: Evaluating AI agents on research workflows across scientific domains Overview Terminal-Bench-Science is a benchmark designed to measure the frontier"
+  },
+  "a8dbcd0bebc0f0055ffc": {
+    "url": "https://github.com/harbor-framework/terminal-bench-science/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "e9266dbd78f971fc5bd05137b64c184519879f9477319a0d6f0d0936d384e0bf",
+    "locator": "LICENSE text",
+    "excerpt": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean"
+  },
+  "6f8f0395b3313ab9c598": {
+    "url": "https://www.terminal-bench-science.ai/announcement",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "5addd5703345560fdcec599a75d329b1e32fe3eb10b570d62826badbf912aa58",
+    "locator": "README / official product or release page",
+    "excerpt": "Terminal-Bench-Science 0.1 Terminal-Bench-Science 0.1 Terminal-Bench-Science evaluates AI agents on workflows from researchers' own work. Scientists, not model developers or data"
+  },
+  "6ab6ca3f543756e996ea": {
+    "url": "https://arxiv.org/abs/2608.17271v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "6a9a398e5f51c62afac8f7e277934cc97f6e8003e95be707cae295620fcc7f8c",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Artificial superintelligence (ASI) requires AI to move beyond mastering existing knowledge toward exploring the unknown, creating new knowledge, and turning"
+  },
+  "39f64ebe0d28f08aa670": {
+    "url": "https://github.com/apexin-ai/ASI-Bench",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "60a9758ac9f29031d08252036e92e7ce60ac03997f538cf62aeb1dc77f8f6ed9",
+    "locator": "README / official product or release page",
+    "excerpt": "ASI-Bench: At the Dawn of Artificial Superintelligence Evaluating General Intelligence, Innovation, and Autonomous Execution in Scientific Research Help build ASI-Bench:"
+  },
+  "e7a206c9e5c044fdef9f": {
+    "url": "https://github.com/apexin-ai/ASI-Bench/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "e5a960b2cc8119cbe4568746d4d34c1e5ef6aee2d03c9802a0eb49802c8e08d1",
+    "locator": "LICENSE text",
+    "excerpt": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean"
+  },
+  "11ecbf51dade9ad6a95b": {
+    "url": "https://arxiv.org/html/2608.17271v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "18f60203bef8450092c22c037b1c2306499a549b9b823df59eb320fa9f75d0a4",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Artificial superintelligence (ASI) requires AI to move beyond mastering existing knowledge toward exploring the unknown, creating new knowledge, and turning"
+  },
+  "172b4d6170a4670c8825": {
+    "url": "https://asibench.apexin.ai/",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "aa5a9a1ee5e7df2786b56e27a9092c142e890e5554f07b4ede72954c0b870405",
+    "locator": "README / official product or release page",
+    "excerpt": "ASI-Bench: Project-level AI for Science Agent Benchmark V(s) = max Q(s, a) score = scorer(artifact, truth) B1 -> B2 ->"
+  },
+  "0504b70f364c2e9b80cd": {
+    "url": "https://arxiv.org/abs/2608.25286v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "9f1858447c437c3e5a444fb7ecc13beb586e40360e841fb0becd8f01f06f260c",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Artificial intelligence (AI) promises to accelerate biological research by automating computational analyses. Yet the ability of AI agents to carry"
+  },
+  "bbeb5f27687c9275a008": {
+    "url": "https://github.com/EdisonScientific/BixBench3",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "f7293d1fc6e846b1f8d8ba483950ba3471f111980ac5c0be5ebcc4b2181726a2",
+    "locator": "README / official product or release page",
+    "excerpt": "BixBench3 BixBench3 evaluates whether AI agents can reproduce research-scale computational biology analyses from public raw data. Each task supplies a"
+  },
+  "7886a42627566b26b772": {
+    "url": "https://github.com/EdisonScientific/BixBench3/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "c852ba68eb60dab61528dbac224d2567046e82df15afa6d8cda928bf81a67e54",
+    "locator": "LICENSE text",
+    "excerpt": "Creative Commons Attribution-ShareAlike 4.0 International Public License By exercising the Licensed Rights (defined below), You accept and agree to be"
+  },
+  "9fffbb6814102cb1b28c": {
+    "url": "https://arxiv.org/html/2608.25286v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "f32bbf5d1b22de2ff05c8456288b53a6807b1d172b6d3d055eceb51c18369c4a",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Artificial intelligence (AI) promises to accelerate biological research by automating computational analyses. Yet the ability of AI agents to carry"
+  },
+  "1876ca777df46f87f7f5": {
+    "url": "https://advances.edisonscientific.com/research/bixbench3-benchmarking-study-scale-computational-biology/",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "1a57ad48611a0970209e226b96255b4714afdfeef9a3b77e2586c51192914ed7",
+    "locator": "README / official product or release page",
+    "excerpt": "BixBench3: Benchmarking AI agents on research-study-scale computational biology tasks — Research — Edison Advances ← Research BixBench3: Benchmarking AI agents"
+  },
+  "deb3bbb800b55e30b397": {
+    "url": "https://arxiv.org/abs/2608.23525v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "9bb4eb7f0b7c5b7c67464ee7a17da92470d21ea7c2e35c371a74108880f010af",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Earth-system analysis reconstructs changing physical processes from observations that differ in source, scale, timing, and modality. Natural hazards make this"
+  },
+  "b04189a62679d855036a": {
+    "url": "https://github.com/CuiZHIQ/Earth-Verse",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "5edf25bdb3091a87e8fc34d15a5a27e3aeee290228d99fe56d28ce75cab446e1",
+    "locator": "README / official product or release page",
+    "excerpt": "Benchmarking scientific agents across dynamic Earth systems and natural hazards Zhiqing Cui 1 , Xinxiang Yin 2 , Yihong Tang"
+  },
+  "9bfb5550e9705552dbb5": {
+    "url": "https://github.com/CuiZHIQ/Earth-Verse/blob/main/LICENSE.md",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "89bf4b1ae172eb9f900cfb742006518edacb720b250ebacd6f55930b4b4a23b9",
+    "locator": "LICENSE text",
+    "excerpt": "Licensing and source terms EarthVerse contains original task materials and evidence obtained from third-party providers. These categories have different terms."
+  },
+  "a85f19a3ee00ed1b3336": {
+    "url": "https://arxiv.org/html/2608.23525v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "048887a393fe3f9aee470eda6085c67d3cc78ac043a0631f16cfa0c6b3539155",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Earth-system analysis reconstructs changing physical processes from observations that differ in source, scale, timing, and modality. Natural hazards make this"
+  },
+  "d3f7a5b82524922de986": {
+    "url": "https://arxiv.org/abs/2608.24979v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "d17555aea2bc83b652448d0634e450aa741c1ff4a586a175c2fefdded7fb7c80",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific agents increasingly analyze data, execute code, and produce research artifacts, yet most benchmarks emphasize final answers, isolated programs, or"
+  },
+  "a3104dd0d759d95c41d8": {
+    "url": "https://github.com/ApodexAI/FrontierAgent/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "66482f28cc3e1c30356e324ac56aec0dd9531c1297fc3194ae538c952e097b76",
+    "locator": "LICENSE text",
+    "excerpt": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean"
+  },
+  "af29d68814f3f36a1d6b": {
+    "url": "https://arxiv.org/html/2608.24979v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "15804ef13206ec7c254282a903518aed5c40d38db387b16646a02b10cb4c59f3",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Scientific agents increasingly analyze data, execute code, and produce research artifacts, yet most benchmarks emphasize final answers, isolated programs, or"
+  },
+  "9957256cab9bc96fe57f": {
+    "url": "https://arxiv.org/abs/2609.05079v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "29b2470b6281f1b52ad9fc50732814d221cbaea0348d9019e22f5350d9037e07",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Autonomous coding agents are increasingly proposed as AI-scientist systems that conduct analyses and write research reports, but executing a prescribed"
+  },
+  "7c14e5d5c9ff6d3bad9a": {
+    "url": "https://github.com/TruthInsight-stack/TruthInsightBench",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "e3655503c5c142ca7d98e05d7e9138e6ce10bbe24c9ec261322c24c575ba69d8",
+    "locator": "README / official product or release page",
+    "excerpt": "TruthInsightBench TruthInsightBench evaluates whether research Agents can derive reproducible, appropriately bounded scientific findings from real data without seeing the source"
+  },
+  "152707ee214f86878215": {
+    "url": "https://github.com/TruthInsight-stack/TruthInsightBench/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "7e14571c1ec45db61f062ad624c8eec460e8e3cded7e34864d54cbee0350dd1d",
+    "locator": "LICENSE text",
+    "excerpt": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean"
+  },
+  "1d69255f96af31e7dd38": {
+    "url": "https://arxiv.org/html/2609.05079v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "c84db24f4e89e9b5d2ab618c1e4bdfe3f39a81828523f345718a2f275fbfc482",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Autonomous coding agents are increasingly proposed as AI-scientist systems capable of conducting analyses and authoring research reports. Yet carrying out"
+  },
+  "58d412b19830ed433e85": {
+    "url": "https://arxiv.org/abs/2608.30165v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "20066807093b5580f1a032a373d5020abb8351f61654b3d10403149c5e7d0114",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific progress depends not only on finding solutions, but on learning the rules that explain why they work and using"
+  },
+  "d43db7b0455b04d1e7a8": {
+    "url": "https://github.com/asr2210/science-sandbox",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "628e782bc0e774ca927cfebbea8e9025d31161869433a2eec0b3446f35c593b2",
+    "locator": "README / official product or release page",
+    "excerpt": "Science Sandboxes Code and results for \"Science sandboxes measure the scientific capability of AI agents\" . This repository contains two"
+  },
+  "49c904581f164d1b0bff": {
+    "url": "https://github.com/asr2210/science-sandbox/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "0b16bd732598996221cbc01e1a8633f88a207335f2a6c71b020a5ed9de76ba8d",
+    "locator": "LICENSE text",
+    "excerpt": "MIT License Copyright (c) 2025 Ananth Rao Permission is hereby granted, free of charge, to any person obtaining a copy"
+  },
+  "9f75545db33e679da3f8": {
+    "url": "https://arxiv.org/html/2608.30165v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "5d81eeed4c9dcc233bbb6a1096c7a52e870bb762d287ab86848e91f11a07278b",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Scientific progress depends not only on finding solutions, but on learning the rules that explain why they work and using"
+  },
+  "abf7b48ec48554ec63e5": {
+    "url": "https://arxiv.org/abs/2609.00365v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "1d7366eb06d91861fd898f814067a87c2998b9583a6043d9a184af0b9ce1138e",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end"
+  },
+  "18c8c649126f86865dde": {
+    "url": "https://github.com/OpenLAIR/dr-claw",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "9bfefeac9550934943ec1e8cfac471338cb2382090cbb810ee9dca36de36501c",
+    "locator": "README / official product or release page",
+    "excerpt": "Dr. Claw: Your AI Research Assistant Full-stack research workspace. 🎉 Accepted to EMNLP 2026 System Demonstrations English | 中文 Note"
+  },
+  "57e543733a0f8c2f510e": {
+    "url": "https://github.com/OpenLAIR/dr-claw/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "12e5be503c5635b1aef757aa8e123b35f4b1070eb11b182cc76f627d03a02551",
+    "locator": "LICENSE text",
+    "excerpt": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/> Everyone is"
+  },
+  "d56d87108d8499e39898": {
+    "url": "https://arxiv.org/html/2609.00365v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "790735b9af4a135817e3d24818aedbd4a5613ce07bec0db6277bd4404d638c7d",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end"
+  },
+  "d677a6c11434b43000f4": {
+    "url": "https://arxiv.org/abs/2609.01870v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "1b8db972f39b0a3abc293d4b4b9638c365e773d348cced64eead43461ec57480",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Multi-agent systems have shown strong performance in domains with reliable verifiers such as coding, where multi-parallel candidate generation selected by"
+  },
+  "ce67b08abf2994731c79": {
+    "url": "https://github.com/Snowflake-AI-Research/ArcticSwarm",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "3713f3cdb77facd7363de9d195ca069b83a40e662cd18c2dfca084a5e08f1367",
+    "locator": "README / official product or release page",
+    "excerpt": "❄️ ArcticSwarm A state-of-the-art, fully open-source multi-agent framework for long-horizon web research — and the harness that reproduces it. In"
+  },
+  "c82968b09a66b0cfdaae": {
+    "url": "https://github.com/Snowflake-AI-Research/ArcticSwarm/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "a08c62ba680b92b5093e50ec4ca132ce35aaa1979f564d7b4b46f3cd2f0f3cc7",
+    "locator": "LICENSE text",
+    "excerpt": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean"
+  },
+  "1a2ae7445e6bd4fd9acc": {
+    "url": "https://arxiv.org/html/2609.01870v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "61cb08d0662e0238690fbdb5ec1a9a1400931fd30ce9d7550532456a60f0bf95",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Multi-agent systems have shown strong performance in domains with reliable verifiers such as coding, where multi-parallel candidate generation selected by"
+  },
+  "1a16c5ad3eba653c5378": {
+    "url": "https://arxiv.org/abs/2608.17906v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "d11ac88d591111ad342b46c0a4ebdb7462df354ab9478b43e3570f767c6a7813",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does not ensure that the resulting"
+  },
+  "3ed8c432a0f27bc24dbb": {
+    "url": "https://github.com/EvoMap/AutoResearch",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "8a24accd9cea0053e310dfaee49829775cffcc42349f0f65d9705176e40cee86",
+    "locator": "README / official product or release page",
+    "excerpt": "AutoResearch From Idea to Paper-Ready Evidence Insight In, Hallucination Out. English · 简体中文 Yiming Ren · Xiang Liu · Qumeng"
+  },
+  "c57951d57d1f2836041e": {
+    "url": "https://github.com/EvoMap/AutoResearch/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "c5ef6593904cb8533ffca17e7e0f31806bf7734033f4792fc3f7c9e7ed48c667",
+    "locator": "LICENSE text",
+    "excerpt": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean"
+  },
+  "2fd6b7f70c59cd1b3a8d": {
+    "url": "https://arxiv.org/html/2608.17906v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "819ac82435676a1bcaf407ab619a2de0407fea49378bfd0adae49a08e00294a5",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does not ensure that the resulting"
+  },
+  "7e05b8eb4461132f3790": {
+    "url": "https://arxiv.org/abs/2608.23691v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "ef4e3742e03fb5a211a15163188b7f3527ea0368771cf21e48b8b533f83ee8f5",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "We study autonomous mathematical discovery in the Station, an open-world multi-agent environment in which AI agents from different model families"
+  },
+  "df6d28eb4d19759ebf64": {
+    "url": "https://github.com/dualverse-ai/station",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "3d92af16e11eccdfe4e8706363733511815d65e502c8010a7a1d0eb54e40b882",
+    "locator": "README / official product or release page",
+    "excerpt": "Version 2.0.0 The STATION is an open-world, multi-agent environment that models a miniature scientific ecosystem and helps researchers pursue autonomous"
+  },
+  "6e3a19cffeb9e59687a5": {
+    "url": "https://github.com/dualverse-ai/station/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "36d4a377c8d7f84f614df80bdb6e899f51250ca60f8eb18c8952e7627bb9df20",
+    "locator": "LICENSE text",
+    "excerpt": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean"
+  },
+  "c7935d3720756f420cb3": {
+    "url": "https://arxiv.org/html/2608.23691v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "88cbd2588e550a179b532d424c3a5bd9113e3fa0a9620736e98504eee69bca17",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "We study autonomous mathematical discovery in the Station , an open-world multi-agent environment in which AI agents from different model"
+  },
+  "d98c16aff3bfa9ba03b8": {
+    "url": "https://arxiv.org/abs/2608.14354v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "54e3aeece62544e13b8136c45b04375b38204b9d5b14c6b48d117b3feb28a852",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Enabling LLM agents to sustain productive, stable, and goal-aligned research over extended horizons is a central challenge for autonomous machine"
+  },
+  "4f009dca5359c04a4683": {
+    "url": "https://github.com/huawei-noah/noah-research/blob/master/ScienceFlow/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "731aa1e88a1d289d3a6be800621a4223373592e85def78461a8483a7edd98d53",
+    "locator": "LICENSE text",
+    "excerpt": "MIT License Copyright (C) 2026 Huawei Technologies Co., Ltd. All Rights Reserved. Permission is hereby granted, free of charge, to"
+  },
+  "d549d73332d486e6db74": {
+    "url": "https://github.com/huawei-noah/noah-research/tree/master/ScienceFlow",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "9df1fd77936c94f018585304b819874f7bf1022e9883eb204b599bccbd5d46a1",
+    "locator": "README / official product or release page",
+    "excerpt": "noah-research/ScienceFlow at master · huawei-noah/noah-research · GitHub Skip to content Navigation Menu Sign in Appearance settings Search / Sign in"
+  },
+  "25b3f37e69a28e2d0fe4": {
+    "url": "https://arxiv.org/html/2608.14354v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "acd52ef905545458c7b6542a70803023de5a9b8d6c784cc62a1b462b37a18745",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Enabling LLM agents to sustain productive, stable, and goal-aligned research over extended horizons is a central challenge for autonomous machine"
+  },
+  "6be25ee1dba529c3b538": {
+    "url": "https://raw.githubusercontent.com/huawei-noah/noah-research/master/ScienceFlow/README.md",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "b843146f50e5913ab5f83377ff363e1f97a54865c25c2dd7a1656843aa26a85c",
+    "locator": "README / official product or release page",
+    "excerpt": "<h1 align=\"center\">ScienceFlow</h1> <p align=\"center\"><b>An End-to-End Autoresearch Agent Framework</b></p> <p align=\"center\"> <a href=\"https://www.noahlab.com.hk/news/212\"><b>Project News</b></a> · <a href=\"https://arxiv.org/abs/2608.14354\"><b>Paper (arXiv)</b></a> · <a href=\"doc/README_CN.md\"><b>Chinese</b></a>"
+  },
+  "920309f11b829d4756ed": {
+    "url": "https://arxiv.org/abs/2608.19902v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "8e394b0f651464c36b19e44476a8b89f4fb390aa25c4e1265b1569645bcdf4e7",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "AI agents can execute scientific analyses, but an analytic output becomes a defensible claim only after alternatives are weighed and"
+  },
+  "a068f3c704110a0919ec": {
+    "url": "https://github.com/brain-researcher/brain-researcher-public",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "6855c2228dce783337791351d64b73365eb023196d9df55962c8313a602df40d",
+    "locator": "README / official product or release page",
+    "excerpt": "Brain Researcher Software release v0.3.0: DOI 10.5281/zenodo.21966011 Brain Researcher is a workspace-centric infrastructure for auditable AI-assisted neuroimaging. It turns research"
+  },
+  "cf9897d623864f887d88": {
+    "url": "https://github.com/brain-researcher/brain-researcher-public/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "de778556acfd257b4e1e943a3e4efa7b1ee2daf3e3cede219f0c26928bb20db8",
+    "locator": "LICENSE text",
+    "excerpt": "MIT License Copyright (c) 2026 Brain Researcher Team Permission is hereby granted, free of charge, to any person obtaining a"
+  },
+  "0b3aa8073dc884c62541": {
+    "url": "https://arxiv.org/html/2608.19902v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "8529ed577663924477d9ba0ae934e571682cbe2fc823dd0d480a8262ed72b59f",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "AI agents can execute scientific analyses, but an analytic output becomes a defensible claim only after alternatives are weighed and"
+  },
+  "7513211be643f6a9e46b": {
+    "url": "https://arxiv.org/abs/2609.05496v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "473749defd76d2b505039dff13a2ea7bae655540e6b8ab0b600cb80e0aa65950",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Orchestra composes two independently built bioinformatics MCP servers -- RegNetAgents, which infers gene regulatory network topology from ARACNe networks, and"
+  },
+  "c93944a46a7ac9c9cb50": {
+    "url": "https://github.com/jab57/Orchestra",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "299d84c4ad4dd92c4c8f50a718cde1afb0c26c535246ec1d559e7032fcf63d26",
+    "locator": "README / official product or release page",
+    "excerpt": "Orchestra MCP Orchestrator for Multi-System Causal Reasoning in Bioinformatics Orchestra automates multi-step causal reasoning across gene regulatory networks by composing"
+  },
+  "d84d22f805253a46939a": {
+    "url": "https://github.com/jab57/Orchestra/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "c080aa884447580d40057f934fff7d5c0f6cc4e620ac8784d12684976ba7cd90",
+    "locator": "LICENSE text",
+    "excerpt": "MIT License Copyright (c) 2026 Jose A. Bird Permission is hereby granted, free of charge, to any person obtaining a"
+  },
+  "e4aebb72b54d92e01d6f": {
+    "url": "https://arxiv.org/html/2609.05496v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "7bbb1ff355bd9af7e56cca15c8bcbc311e2257c061af6660e0bd89f3c1cf5902",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Orchestra composes two independently-built bioinformatics MCP servers – RegNetAgents ( Bird, 2026c ) , which infers regulatory network topology, and"
+  },
+  "79130b4023e1c62082e2": {
+    "url": "https://arxiv.org/abs/2609.11147v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "bbe58cb560d23e2cfe081343ec9dc8fbe0dd50498320471c57d7d46e2a92e73c",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Unraveling reaction mechanisms is central to modern chemistry, yet automating these investigations remains challenging because computational workflows still rely heavily"
+  },
+  "aa7821f68256f8ddea0f": {
+    "url": "https://github.com/JetAstra/Arche-Harness",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "e972aafec973adf22020b8509e765b2bbe7157956a30e002a474a868b1d23eb5",
+    "locator": "README / official product or release page",
+    "excerpt": "Arche-Harness A recoverable agentic reasoning, reflection, and computational validation framework for ARCHE. English | 简体中文 Architecture and contributors · Research"
+  },
+  "661e97b4bf8908b98bf1": {
+    "url": "https://github.com/JetAstra/Arche-Harness/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "66b5c5b375f84cbe96c5c7e1140c451d2a56499981b8d8a89cf74cd577ca172f",
+    "locator": "LICENSE text",
+    "excerpt": "ACADEMIC AND NON-COMMERCIAL RESEARCH LICENSE Version 1.0 Copyright (c) [2026] [Arvin] 1. Definitions “Software” means the source code, scripts, configuration"
+  },
+  "6f07a472f4e1338118ea": {
+    "url": "https://arxiv.org/html/2609.11147v1",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "4cdf77c8c90bedf4acb8": {
+    "url": "https://arxiv.org/abs/2609.04564v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "e8fd2353721f9e2193179bcbafab50c68063e9f495180c7923bee5f234a76299",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Self-driving laboratories (SDLs) combine automated experimentation with adaptive decision-making to accelerate scientific discovery. Their operation nevertheless often depends on human"
+  },
+  "bc720d8148b794ffc627": {
+    "url": "https://github.com/the-matter-lab/La-Agente-Optima-artifacts",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "79a94bbf3251b0372692819ae3f71db31352288b6419349c62996ebdfb63bd1f",
+    "locator": "README / official product or release page",
+    "excerpt": "La Agente Óptima — research artifacts This repository collects the raw data underlying La Agente Óptima: Towards Agentic Self-Driving Laboratories"
+  },
+  "f4fdb40e60e5ac3dec85": {
+    "url": "https://arxiv.org/html/2609.04564v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "7a9aee13b2b119c27f4bfbed5029dcf4e1fbf250ca21a437164cd665124fae61",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Self-driving laboratories (SDLs) combine automated experimentation with adaptive decision-making to accelerate scientific discovery. Their operation nevertheless often depends on human"
+  },
+  "09f4e74d349a00af21fd": {
+    "url": "https://arxiv.org/abs/2608.23653v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "5808eb1ac4b448fdc96c5b958be45a10c2d22966071f9602262e581bb69ce639",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "AI agents are increasingly used for simulation-driven engineering. Physical system modeling presents different requirements from general-purpose code generation in software"
+  },
+  "ca4b0ac98aa0a0f164db": {
+    "url": "https://github.com/wangzizhe/modelica-agent-workflow-benchmark",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "4939b2abaa542cd3eceba1f29dd64ae9bb561303375e5d89b278daee720b9fc7",
+    "locator": "README / official product or release page",
+    "excerpt": "Modelica Agent Workflow Benchmark An executable benchmark for evaluating AI agents on agentic Modelica workflows. Pufibara is an AI agent"
+  },
+  "36b65ee8baecca15e0a8": {
+    "url": "https://github.com/wangzizhe/modelica-agent-workflow-benchmark/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "f38b3cf2e1c520e90c716798bbf8369d935b3a31c0c5d4068624dc57edaaef7b",
+    "locator": "LICENSE text",
+    "excerpt": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean"
+  },
+  "b53ab969cf3926803882": {
+    "url": "https://arxiv.org/html/2608.23653v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "d919c94f30fab5ef275a4c254e75df23f9b6f06376c4c45ba63e354fa881c8ae",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "AI agents are increasingly used for simulation-driven engineering. Physical system modeling presents different requirements from general-purpose code generation in software"
+  },
+  "bba318fe8f6d0da1edfe": {
+    "url": "https://arxiv.org/abs/2608.14441v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "1a8db6abb8562162c7c7f4c2d9cd41bf116ca3eebc89e5577ba3fb0aaa6d6923",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Self-evolving agents improve future behavior from interaction experience, yet existing evaluations typically optimize under fixed execution conditions and do not"
+  },
+  "3aec53838eec485e1977": {
+    "url": "https://github.com/thunlp/PACE-Bench",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "6d5f38e8ed2a56df6c3194b65ff8b8fae38fde143e18ece7fb978273e2c4c736",
+    "locator": "README / official product or release page",
+    "excerpt": "PACE-Bench Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments Dataset · Paper · Quick Start · Results · License"
+  },
+  "25684dd59845143373c1": {
+    "url": "https://github.com/thunlp/PACE-Bench/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "c4d9dcfcf9fd76c6405e16ebfccf50e4bab0eaa27b49b6d9e311dd3243bb9ab2",
+    "locator": "LICENSE text",
+    "excerpt": "MIT License Copyright (c) 2026 yuhao zhan Permission is hereby granted, free of charge, to any person obtaining a copy"
+  },
+  "a57fe0aaece069c1e4fa": {
+    "url": "https://arxiv.org/html/2608.14441v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "9924031f7f0ec5143b7b606be8061d9f7e2d27751cf34cf8b9068e5d2778bb10",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Self-evolving agents improve future behavior from interaction experience, yet existing evaluations typically optimize under fixed execution conditions and do not"
+  },
+  "cc5a2aa549a832e9ba42": {
+    "url": "https://arxiv.org/abs/2608.15052v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "f8f6f59563954b98a1cc94d7a7a5eb409e41a7b87d5c9b36f8fa34d560481fb8",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Andy is an autonomous mathematical research agent that turns a mathematical problem into a traceable proof. It solves or verifies"
+  },
+  "53e2366e21afbfc56a7e": {
+    "url": "https://github.com/mowaiwaim/Andy",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "141c12acd05c0825852a94ea533c334e399af070c2bb8812e26100b77ebb9ddf",
+    "locator": "README / official product or release page",
+    "excerpt": "Andy Andy 是一个面向数学科研的自主求解、问题生成和严格验证系统。它支持论文或开放问题输入、独立正确性核验、文献辅助的新问题生成、引理 DAG 证明、长期记忆和可追溯报告。 Andy 目前属于研究型软件。模型给出的数学结论即使通过自动核验，也应由研究者独立复核后再用于论文或正式成果。 核心能力 有答案时直接核验 ：对用户答案或从 PDF 定位出的完整证明进行前提、计算和逻辑三维核验，避免重复求解。 无答案时自主求解 ：构造答案并由独立核验模型审查；核验失败后定向修订。 生成一个可研究的新问题 ：用户可指定问题方向和简单、标准、研究级难度；评估阶段逐项给出分数、理由和修改指令。 论文辅助研究 ：除一份主材料外，可上传最多八篇参考论文；Andy 会分析论文之间的共同点、差异、互补关系和研究缺口。 按需检索"
+  },
+  "a6c394d38e69f8efbd71": {
+    "url": "https://github.com/mowaiwaim/Andy/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "14d7785eba4a024889b7ad3600de4d53e6e59330761a9400db53e1f86cc87f8c",
+    "locator": "LICENSE text",
+    "excerpt": "MIT License Copyright (c) 2026 DeepMathLLM Permission is hereby granted, free of charge, to any person obtaining a copy of"
+  },
+  "2a1b5e6849049cd560ad": {
+    "url": "https://arxiv.org/html/2608.15052v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "d675d9418fac772a88f5d064601c06ca09a9c24b9870f31886952fab79c9381a",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Andy is an autonomous mathematical research agent that turns a mathematical problem into a traceable proof. It solves or verifies"
+  },
+  "d368bbe16c893f4054f1": {
+    "url": "https://arxiv.org/abs/2608.16211v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "9bbc0f2e4a3d5bcd0dfec4db73454e12e6b1242a7a664b2985c0c24b5cb20fb1",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Long-horizon agents are beginning to automate complete workflows that produce code, reports, and research artifacts. Medical imaging workflows are multi-stage"
+  },
+  "f7cb1460e57275b4226f": {
+    "url": "https://github.com/AutoMedBench/Benchmark-as-Teacher",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "117afeafc387f859288fe27f923afeeb17d16280534294bec0c563922d101d52",
+    "locator": "README / official product or release page",
+    "excerpt": "Benchmark-as-Teacher English | 简体中文 Benchmark-as-Teacher (BaT) is a self-evolving post-training framework that turns a structured benchmark into training infrastructure for"
+  },
+  "231892974b2e658b9dca": {
+    "url": "https://github.com/AutoMedBench/Benchmark-as-Teacher/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "bc2703ed96a038008b00b10575ff789bcc5064c86b73c99e22cae136cdb1e43b",
+    "locator": "LICENSE text",
+    "excerpt": "MIT License Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES Permission is hereby granted, free of charge, to any person obtaining"
+  },
+  "18721eed0a27738a75f6": {
+    "url": "https://arxiv.org/html/2608.16211v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "06c06faf25e048dfaf5c3ccb6c9e7967dca191e1360a66980feffb0710f2b040",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Long-horizon agents are beginning to automate complete workflows that produce code, reports, and research artifacts. Medical imaging workflows are multi-stage"
+  },
+  "0c0691567cb12b58c555": {
+    "url": "https://arxiv.org/abs/2608.13558v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "942832ff60454f5bca7ba999e93c8e9102f6aec9b9e78c101cae51afb5dc3673",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code"
+  },
+  "ebb4a292f2709b2fe57e": {
+    "url": "https://github.com/Omni-Scientist/OmniScientist",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "ed07fa724e1a438515e39b3724b8550117c3cdabaf410f690d939f6e1056f57d",
+    "locator": "README / official product or release page",
+    "excerpt": "An open, omni-modal AI scientist that runs on your own machine English · 简体中文 · Français · Español · 繁體中文"
+  },
+  "98f086acdffc98c7cd89": {
+    "url": "https://github.com/Omni-Scientist/OmniScientist/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "147589c7fb14c5a697a9e5756a66bd8e82a33de4941b9de8fe76fb83ce060e16",
+    "locator": "LICENSE text",
+    "excerpt": "MIT License Copyright (c) 2026 The OmniScientist Authors Permission is hereby granted, free of charge, to any person obtaining a"
+  },
+  "b837408acf7183dbc2c2": {
+    "url": "https://arxiv.org/html/2608.13558v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "6339dca3a5956cc64e1c098cb41d5a6c74bc80f0645551073e0c54d7c7b216a7",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code"
+  },
+  "2025a45151978be72e98": {
+    "url": "https://arxiv.org/abs/2609.11243v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "98d19b51e590f2c9601607e5c2e8f78e42464feead125b281558d0fdc2af29f8",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Autonomous research agents are increasingly expected to search the literature, analyze experimental evidence, and generate scientific hypotheses. These capabilities require"
+  },
+  "a30a7ec799c7b9636850": {
+    "url": "https://arxiv.org/html/2609.11243v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "ba14519925684b837aded5c53eb4a5d2825d35bb7d041c3a43049fdef41ede09",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Autonomous research agents are increasingly expected to search the literature, analyze experimental evidence, and generate scientific hypotheses. These capabilities require"
+  },
+  "f298ab48457765d65842": {
+    "url": "https://arxiv.org/abs/2609.10509v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "2d190a8ff2199e0b0e087ae971c417ce5b07511090c07a24d2b8a204acfb59ae",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific workflow management (WMSs) systems automate execution, yet orchestrate using fixed, hand-tuned rules. LLM agents promise more autonomous orchestration, but"
+  },
+  "b1a11e6e41599f887802": {
+    "url": "https://arxiv.org/html/2609.10509v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "9119ca13e70a20e7ee2473f79c84e699802355b71ba5187cc8ead8c5fbc31779",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Scientific workflow management (WMSs) systems automate execution, yet orchestrate using fixed, hand-tuned rules. LLM agents promise more autonomous orchestration, but"
+  },
+  "564e0395859ad56a245f": {
+    "url": "https://arxiv.org/abs/2609.10121v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "a862f33f9adbea19df9ee027b1013caf71824d7c38298366ed40d85d07fa77a1",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific agents can move beyond automated model building by using accumulated evidence to revise both their questions and experimental strategies."
+  },
+  "885f2daa3faea7fc96e1": {
+    "url": "https://arxiv.org/html/2609.10121v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "d6f47fb2b1a526baa86598b1450ac2446d60640f0fb2b626d1194029a3733907",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Scientific agents can move beyond automated model building by using accumulated evidence to revise both their questions and experimental strategies."
+  },
+  "afa1778ebdc6481c294f": {
+    "url": "https://github.com/OTeam-AI4S/ADMET-EvO",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "README / official product or release page",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "b4582b3ac164e763a3ed": {
+    "url": "https://arxiv.org/abs/2609.09113v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "60cd464bfc38ededae437c0945b0d3e06f3f393dc13460d958d51702051900b9",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc"
+  },
+  "9ff4a38b8e2bf855a422": {
+    "url": "https://arxiv.org/html/2609.09113v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "0b3ac2119f103486746586b579439f483d43d1c1ed7c2705e66d7e0ca69f1d21",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc"
+  },
+  "1e23819084249b0c0898": {
+    "url": "https://github.com/Trae1ounG/SAEScientist",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "a50f8e6dd52dd6b9768756bf51c02fc27bf05634cb8d384d6179492f186b8a5e",
+    "locator": "README / official product or release page",
+    "excerpt": "SAEScientist-Bench Can AI Agents Conduct Autonomous SAE Interpretability Research? Overview · Agent Index · Quick Start · Scoring · Citation"
+  },
+  "8b9acfd7446631e12266": {
+    "url": "https://arxiv.org/abs/2609.08399v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "ff9a8fec405e067ca01938c45298eb54fb489683136412a035c7d7e4531123f4",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Universal machine-learning interatomic potentials (u-MLIPs) aim to generalize across diverse configurations. Benchmarks enable reproducible evaluation but may not expose failures"
+  },
+  "3b62e2921322ee5f9a68": {
+    "url": "https://arxiv.org/html/2609.08399v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "30149d5ceb116af48105ad05ebfe6a56c511ae4b646cb3c4e7e409a089e6830a",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Universal machine-learning interatomic potentials (u-MLIPs) aim to generalize across diverse configurations. Benchmarks enable reproducible evaluation but may not expose failures"
+  },
+  "8fc60a8bb8793ba66224": {
+    "url": "https://arxiv.org/abs/2609.07826v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "521bff1e243fa56c710dbcccdd1d79c091965a5bae544681420c45794d45a0d5",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "A supergravity solution in the literature is an artifact that cannot be verified without re-deriving it: conventions might not be"
+  },
+  "91b8b06a7f1afab4b040": {
+    "url": "https://arxiv.org/html/2609.07826v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "15d59d6b2c182ab33f610028cbb40a1700c10091122e124e2755aa1751e7c462",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "A supergravity solution in the literature is an artifact that cannot be verified without re-deriving it: conventions might not be"
+  },
+  "8832d3634e1613ed5931": {
+    "url": "https://arxiv.org/abs/2609.06887v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "b6702bff5fca9e699265c3447122096bdc1d84d4279e435e652a5b3f6e98aa71",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Automated experimentation is most effective when the observables, available actions, and objective are defined before the experiment starts, as is"
+  },
+  "97ded8c8a78dc0573491": {
+    "url": "https://arxiv.org/html/2609.06887v1",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "85a155efd17fea6207a0": {
+    "url": "https://arxiv.org/abs/2609.06366v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "bbcc09950da2c670a79a448e38484513604f9921e882ee789490b67fdadf385c",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific discovery in data-rich domains is currently constrained by human bandwidth: the growth in the volume and complexity of real-world"
+  },
+  "649551574e9ffd116d68": {
+    "url": "https://arxiv.org/html/2609.06366v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "6080e39d1b6622c8fbfa657c8fb519bd312ee1ecea6429725113240d292e6759",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": ". Scientific discovery in data-rich domains is currently constrained by human bandwidth: the growth in the volume and complexity of"
+  },
+  "ccc0dea2e2a9a1101767": {
+    "url": "https://github.com/GeQinwen/AutoKD",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "2e8f534ab213e4cbea79f44af162395f158ba8a76e3483f78f74ca9e6de1450f",
+    "locator": "README / official product or release page",
+    "excerpt": "AutoKD A multi-agent system for autonomous knowledge discovery on tabular datasets. Six coordinated LLM agents iteratively generate hypotheses, run statistical"
+  },
+  "6ffbcff2008062c293c1": {
+    "url": "https://arxiv.org/abs/2609.06192v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "4720db4351df288b0e3e743806aa8df6572ac5236deb2fef1076777c94361e0e",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific coding agents produce interdependent code, results, figures, and claims, yet evaluating final outputs alone does not establish whether their"
+  },
+  "4eb3f55afcd2003f8933": {
+    "url": "https://arxiv.org/html/2609.06192v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "26e14317452a31843720828148481092ebe8b3ef036242b26f54ee9abf3ba6d5",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Scientific coding agents increasingly perform long-horizon, open-ended workflows that produce interdependent code, numerical results, figures, and claims. Existing evaluations typically"
+  },
+  "b6fd068d38ac21a353c7": {
+    "url": "https://arxiv.org/abs/2609.05818v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "dd69b0b633572197b5f8b92d3cf129b8a25ba54c6872d44087212972f948ed8b",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "We introduce ABLE, a benchmark for evaluating LLM agents' ability to use biological AI models (BAIMs), such as ProteinMPNN and"
+  },
+  "f6b7246e646ee7bba826": {
+    "url": "https://arxiv.org/html/2609.05818v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "38d95e79d99210fc1f3f3d4237ae604c019be00e2951b04b246c2426754b8070",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "We introduce ABLE, a benchmark for evaluating LLM agents’ ability to use biological AI models (BAIMs), such as ProteinMPNN and"
+  },
+  "3b93ee601c2b6cb451d7": {
+    "url": "https://arxiv.org/abs/2609.04742v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "9b0e9d6e088e0448e1eb6236ee104c736dbf4751c71335e93864dbc45a6f2bef",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Running an unfamiliar nuclear-physics code is rarely difficult because of the physics alone. One must find and build the program,"
+  },
+  "a8cb41acae7ec9ca354e": {
+    "url": "https://arxiv.org/html/2609.04742v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "9a0f355373b06de773cc3e537a6ee87d2796116f9c2779eaf323c6f227921a75",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Running an unfamiliar nuclear-physics code is rarely difficult because of the physics alone. One must find and build the program,"
+  },
+  "32bbe3a89ff27be0f3da": {
+    "url": "https://arxiv.org/abs/2609.04674v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "19faf91d38f0364c488aa14eec1d2f5804e2148286a9c849990967d8bd829645",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "As quantum computing continues to scale, quantum measurement and control (QMC) are increasingly constrained by calibration workflow complexity and by"
+  },
+  "8d8a5879c56f84fd6bb1": {
+    "url": "https://arxiv.org/html/2609.04674v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "8546c22f5d4c95c869b6d4836388893e119c69cb97df7b216e52b24398375e99",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "As quantum computing continues to scale, quantum measurement and control (QMC) are increasingly constrained by calibration workflow complexity and by"
+  },
+  "1df5bfe4073165327da8": {
+    "url": "https://arxiv.org/abs/2609.03621v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "a0950d17c885b01f79398c43101874b89966057f1b7d75df510908fcb95bd89f",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Making science computable requires representations of both scientific knowledge and the physical world in which scientific claims are tested. A"
+  },
+  "fe41b3b19ff3845141ef": {
+    "url": "https://arxiv.org/html/2609.03621v1",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "9a3488176f47f8a9a5b3": {
+    "url": "https://arxiv.org/abs/2609.03338v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "6b094d5afde1353890613a806bf5dffd228c939bdebba34740702b357d33fd90",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific literature synthesis agents increasingly rely on proprietary online services, limiting reproducibility, privacy, and offline deployment. To address this challenge,"
+  },
+  "c960d72df5ecdcdec814": {
+    "url": "https://arxiv.org/html/2609.03338v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "f82bb063ea9aff6414def3ceccd78b04ffd1d243e4e6718b14bccd3e9d563a6d",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Scientific literature synthesis agents increasingly rely on proprietary online services, limiting reproducibility, privacy, and offline deployment. To address this challenge,"
+  },
+  "6089f7a626ee56eac12c": {
+    "url": "https://github.com/LQgdwind/SciLENS",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "ffe3848c323da98586ed7f30fedaa3093fa0577236931521f9beaa414a0f968b",
+    "locator": "README / official product or release page",
+    "excerpt": "Project Tree submit/ ├── README.md ├── requirements.txt ├── KG_construct/ │ ├── build_oag_triples.py │ ├── bulid_oag_stream.py │ └── subgraph_sample.py ├── data_filter/"
+  },
+  "cc4e657ab2395560123d": {
+    "url": "https://arxiv.org/abs/2609.02729v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "32dcae4f8839683f375abe393ecab33ba534aa14670b3f02fc257537644053a6",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Occupants are a primary source of uncertainty in building energy consumption and management, yet existing occupant behavior models cannot capture"
+  },
+  "857b4feeca69a99e2e3c": {
+    "url": "https://arxiv.org/html/2609.02729v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "f83cd39c5d84f94c6a65f2dddbe1ea1fcaaff6ef25dce37e3f5371a15561b374",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Occupants are a primary source of uncertainty in building energy consumption and management, yet existing occupant behavior models cannot capture"
+  },
+  "16a613bb2af884124186": {
+    "url": "https://arxiv.org/abs/2609.02067v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "ae29ad8f3e53495e99e196a2b24f4837ef2abbd4a447b273ba640622e5fbe914",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific benchmarks are commonly built by domain experts who write tasks and cross-check one another's work, or who adapt existing"
+  },
+  "ee73a9fbe2e1585b5f89": {
+    "url": "https://arxiv.org/html/2609.02067v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "2b48e2d432e9f5a22844c45be885a44bb44f145acdf14832d45807c6b7bbfa30",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Scientific benchmarks are commonly built by domain experts who write tasks and cross-check one another’s work, or who adapt existing"
+  },
+  "4a277c80fdc8d63e8d4d": {
+    "url": "https://arxiv.org/abs/2609.02056v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "342f200460ac4f221d57323d8ed50b578b948cb09495c7a8c06fa625b6f90b76",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific knowledge graphs organize entities and relations extracted from scientific literature, but they remain inherently incomplete. Missing typed links in"
+  },
+  "2c369b0e945be77cc9aa": {
+    "url": "https://arxiv.org/html/2609.02056v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "d76fb86695f4fdfe2876f51d166556a0a3879f88e9b937048982d08521081955",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Scientific knowledge graphs organize entities and relations extracted from scientific literature, but they remain inherently incomplete. Missing typed links in"
+  },
+  "b18f62112d6e1ed61b2e": {
+    "url": "https://arxiv.org/abs/2609.01971v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "bc3a7271279e1e07fb461355d025972455e3b36a000d6ed69c814579e6eeaa28",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "AI is rapidly advancing neuroscience, yet many laboratories fail to fully unleash its potential due to significant interdisciplinary barriers. While"
+  },
+  "9e89e2711649cdf70446": {
+    "url": "https://arxiv.org/html/2609.01971v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "ee23ddde0b9cb3d7ec414ade1d63c8ffb28d8613b35122c24a27e41fe5a8e715",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "AI is rapidly advancing neuroscience, yet many laboratories fail to fully unleash its potential due to significant interdisciplinary barriers. While"
+  },
+  "ee497ebe0d70fa939338": {
+    "url": "https://arxiv.org/abs/2609.01526v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "ba0a473844813818ba602e09b4bd3a100de56cb2b2410386154f7bfe3a4292ad",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific agents must learn not only how to reason, but also what to believe. However, existing LLM agents typically express"
+  },
+  "63202d5db2724d94f72d": {
+    "url": "https://arxiv.org/html/2609.01526v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "68f1f3376298e027b786fec2f3bf71295be317a1d3837f26decb174173d1f0fc",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Scientific agents must learn not only how to reason, but also what to believe. However, existing LLM agents typically express"
+  },
+  "00762ab92b62204faeb8": {
+    "url": "https://arxiv.org/abs/2609.01209v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "68f6c9e0cac000546548a60da8550db8b756834766369a28c12a374946001068",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Crystal generators and tool-using agents propose structures faster than density functional theory (DFT) energy and phonon calculations or experiments can"
+  },
+  "5c743d6f109eab1af166": {
+    "url": "https://arxiv.org/html/2609.01209v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "d390106c5bee5f8c6cfaf27cf0729b977e47550254870f457e399fe2ae511f98",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Crystal generators and tool-using agents propose structures faster than density functional theory (DFT) energy and phonon calculations or experiments can"
+  },
+  "2657a0c8649eb8d81c53": {
+    "url": "https://arxiv.org/abs/2609.00814v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "c4411562c8c7ea4c7e71fb0384b60c46611c7cee7b998ddf52b1b98e8a3a91ca",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Remote sensing visual models have continuously advanced various interpretation tasks. However, the research process behind model improvement still heavily relies"
+  },
+  "4edca84528d7c82f21e4": {
+    "url": "https://arxiv.org/html/2609.00814v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "747b814f424f323b9f579a7f28f535e8c06c8874164efcc85fa337e575bef939",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Remote sensing visual models have continuously advanced various interpretation tasks. However, the research process behind model improvement still heavily relies"
+  },
+  "cfc9ffd5b2c95b26ce4a": {
+    "url": "https://arxiv.org/abs/2609.00065v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "38e8a3186b55aa3d440aa9dda1f8d0cd73d0d86caa39c4d79bfaaae8d519a8f2",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "A language-model agent asked to analyse an experiment will usually return working code. Whether the analysis is defensible is a"
+  },
+  "5291e1b152303903f4eb": {
+    "url": "https://arxiv.org/html/2609.00065v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "8eac2807f485e707cd652bace1db04f8dac194059ddb4cf103c8fb7400f8fdea",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "A language-model agent asked to analyse an experiment will usually return working code. Whether the analysis is defensible is a"
+  },
+  "fb5e7ed70e83b1aebb18": {
+    "url": "https://arxiv.org/abs/2608.29309v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "4064e930e4d5cb9951fdbccaeba03ebcd809ecca9753b5d10a23900a43c40450",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "This work provides an overview of the different strategies that can be used to evaluate the performance of AI models"
+  },
+  "80e686bf6829ee004526": {
+    "url": "https://arxiv.org/html/2608.29309v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "abaf028e3b4ccef249919d49ebf7fbba3ea1f2069f71986f418584d61fa195b4",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "This review provides an overview of the different strategies that can be used to evaluate the performance of AI models"
+  },
+  "4a1a25e43a1666829db7": {
+    "url": "https://arxiv.org/abs/2608.28990v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "ec5da45d3715ce03f07e620cf3a9a530702333b36d8a7ee6b82cb81ffea49875",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Protein co-abundance clusters preserved across tissues can reveal shared disease mechanisms and candidate therapeutic targets, particularly when proteins implicated in"
+  },
+  "7ec5cd4ea94e2be187e6": {
+    "url": "https://arxiv.org/html/2608.28990v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "b856e418f7ea0716ddb9ca7c67fa2282f014bece927aba849769d838656d308c",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Motivation: Protein co-abundance clusters preserved across tissues can nominate shared disease mechanisms and candidate therapeutic targets, particularly where proteins implicated"
+  },
+  "867e8a245649e077baab": {
+    "url": "https://arxiv.org/abs/2608.28877v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "3f4ea898b445fe2230e0df6693b58331ee54d62c8e6ed5749e0d094deafbff8d",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Language models have recently been applied to nanophotonic design, but it remains unclear whether they can reliably translate optical objectives"
+  },
+  "dd5f1c329930353aefe3": {
+    "url": "https://arxiv.org/html/2608.28877v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "f10e3f205d9a33a2e8ee3c453242bd3f2a0c7c046a51f7b681a64af1e1903a17",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Language models have recently been applied to nanophotonic design, including device generation, optimization, and tool-assisted simulation. However, it remains less"
+  },
+  "d6dfeb4d1e8c437ede01": {
+    "url": "https://arxiv.org/abs/2608.27869v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "987e0fa6377c2fc7e06daf259ef44eac2150962069534e262f508911cb4206f7",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Discovering governing partial differential equations (PDEs) from observational data remains a core challenge across the sciences. Existing sparse-regression, symbolic-regression, and"
+  },
+  "b6124fb85d7c6dc902a3": {
+    "url": "https://arxiv.org/html/2608.27869v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "5f5bfce5e395b9b1d344fc2d8286aaf00768c6abba2ef81aa24769545c2e497a",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Discovering governing partial differential equations (PDEs) from observational data remains a core challenge across the sciences. Existing sparse-regression, symbolic-regression, and"
+  },
+  "7ee04df7623b1e44418d": {
+    "url": "https://arxiv.org/abs/2608.26747v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "8f925579b3afc781bf7253b446fc383409d7d04c282907bc422e8964c29274d5",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific LLM agents have shown promise in literature reasoning, tool use, and experiment planning, but it remains unclear whether they"
+  },
+  "4bc6267ec680b4cd9fb7": {
+    "url": "https://arxiv.org/html/2608.26747v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "826c93a095732f187f8d4e2e7bc20a58e41d18a621ea5d5bf431aa4613baabdc",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Scientific LLM agents have shown promise in literature reasoning, tool use, and experiment planning, but it remains unclear whether they"
+  },
+  "9a9affcea9698bf6073a": {
+    "url": "https://github.com/lmqfly/AgentFold",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "d4a62360797f8aa05db0842e1db0eb48196c6c0a114af52d8e14d517b6820ea2",
+    "locator": "README / official product or release page",
+    "excerpt": "AgentFold AgentFold: Closed-Loop Agentic Search for Protein Folding Model Design AgentFold is a multi-agent framework that searches for executable protein-folding"
+  },
+  "7f8d7ec9e0546579cab2": {
+    "url": "https://arxiv.org/abs/2608.25770v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "c282ce48bc239d792294958392e2926084cf5e237428784a7872237bdb63b1be",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Large language models (LLMs) have enabled AI scientist systems to automate scientific discovery, yet existing approaches most rely on static"
+  },
+  "4c5aee200fa662edc512": {
+    "url": "https://arxiv.org/html/2608.25770v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "53dcea7dc7257a8ea314a36dce11f9720273d569cc9165be0e8f5431db3797bb",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Large language models (LLMs) have enabled AI scientist systems to automate scientific discovery, yet existing approaches most rely on static"
+  },
+  "eaeeeb2f7c41f936cedc": {
+    "url": "https://arxiv.org/abs/2608.26198v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "cd3ed8713ae1e59034cac181ae289424007ee4815fe102a934a2c6c02938923d",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Operating a scientific instrument such as an atomic force microscope (AFM) requires continuous expert decision-making. A trained user defines the"
+  },
+  "e325fe889d6effc8718c": {
+    "url": "https://arxiv.org/html/2608.26198v1",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "e9b12fd59a7d149ec97c": {
+    "url": "https://arxiv.org/abs/2608.22045v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "a018744d2034be58cc623e1db33b29b84d118878489a8f7a4ff75d86f54301a0",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Modern scientific facilities and instruments generate datasets at scales that are difficult for individual researchers to discover, access, and explore."
+  },
+  "3db1e10c67f7f3d967be": {
+    "url": "https://arxiv.org/html/2608.22045v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "a24037440d166a31ff2083a7ad3727fb094e3b2ec600aff80d6459e8e436ebec",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Modern scientific facilities and instruments generate datasets at scales that are difficult for individual researchers to discover, access, and explore."
+  },
+  "8596d3726910089ded61": {
+    "url": "https://arxiv.org/abs/2608.21601v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "b931740d2ec79b988a610dd4a78f9155db2affe1abcf3cb3a876aecdc5c4bab1",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Benchmarks for scientific artificial intelligence are mostly written to be scored: multiple-choice questions, curated agent tasks with reference solutions, or"
+  },
+  "a0cd4c6540e3b263ca60": {
+    "url": "https://arxiv.org/html/2608.21601v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "a103857003fb0314c86329da75dc8f5fcc929da52165e36fe4bf98cb4cb272bf",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Benchmarks for scientific artificial intelligence are mostly written to be scored: multiple-choice questions, curated agent tasks with reference solutions, or"
+  },
+  "044602a725aa2afcc329": {
+    "url": "https://arxiv.org/abs/2608.19799v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "8729798ee7342d9f6f38884635e79870f5e742b7ca572e0a55e1608a04180bde",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable of compromising not only"
+  },
+  "6daffd237f9b011ec2d5": {
+    "url": "https://arxiv.org/html/2608.19799v2",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "5e857bad12505daa2642": {
+    "url": "https://arxiv.org/abs/2608.20434v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "132f3ef69db884fa9cb126459f366bbe2b6069f6684ce110615f42770a869d8a",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "The coordination of multi-scale tasks is an effective strategy for computational materials discovery, yet the repeated application of diverse algorithms"
+  },
+  "0b72998566fdc04ed6ba": {
+    "url": "https://arxiv.org/html/2608.20434v1",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "9f8521baf492bc6fa4fa": {
+    "url": "https://arxiv.org/abs/2608.27475v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "cdf0c3023373bb7399633e384de5a585b0d1754b1aedf68a07ae39f4bc4b68de",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it. These"
+  },
+  "40460ba812f7541d0330": {
+    "url": "https://arxiv.org/html/2608.27475v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "7939194f6271a489f328860bfebfd53090ba781f635786145ab637d7b1f2600a",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it. These"
+  },
+  "5f11270cbf24242ac5f1": {
+    "url": "https://arxiv.org/abs/2608.19047v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "8458ef3e0e8d2bcaca8a3ffce84f0a44772aeb1af17cdcad329ab463165887f2",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "We present Eureka, a task-conditioned Meta-Agent architecture that compiles long-horizon tasks into dynamic obligation graphs with explicit acceptance semantics. During"
+  },
+  "202d743000b1aa981c9d": {
+    "url": "https://arxiv.org/html/2608.19047v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "38a0adf0c1dc46335fcd4321a9c7d18f2e62eea8cd037b4e9e35c0f4c5de4d0f",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Report GitHub Issue × Title: Content selection saved. Describe the issue below: Description: Submit without GitHub Submit in GitHub arXiv"
+  },
+  "887003cea855277bad49": {
+    "url": "https://github.com/manxis-contact/Eureka",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "21c736e261a470c8f998c456b1ef59309cddc982094cdb054a30ed93ea830d77",
+    "locator": "README / official product or release page",
+    "excerpt": "tags meta-agent scientific-discovery llm-agents orchestration long-horizon-tasks research Eureka Task-Conditioned Meta-Agent Orchestration for Scientific Discovery Eureka is a task-conditioned Meta-Agent architecture"
+  },
+  "cd04321571c9fb73e229": {
+    "url": "https://arxiv.org/abs/2608.18272v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "2a6a531b8879a8761658de5144d37f9037110cbf0215ec73e65756ce0f50a36e",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Classical seismic data reconstruction relies on manually designed structural priors and iterative operators, whose coupled design space is far larger"
+  },
+  "8470241ef73dbf5a73c5": {
+    "url": "https://arxiv.org/html/2608.18272v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "9f0a5688cde5925723536597eaa0c3c3acf13bcf5b3f2e41ce129bc117b23971",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Classical seismic data reconstruction relies on manually designed structural priors and iterative operators, whose coupled design space is far larger"
+  },
+  "f99cc90635b9d2ab0495": {
+    "url": "https://arxiv.org/abs/2608.16876v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "dede254ad6a047e9b6fcea9b413de321ebc04c1b03a16025d35d0f6cf68175cc",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations"
+  },
+  "d868171a77e85b7e5fb7": {
+    "url": "https://arxiv.org/html/2608.16876v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "9f2c6673b3081ff4c1029796138ac626d922b04414e145d00e147ba126daab3f",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations"
+  },
+  "313f82b4c27871d53475": {
+    "url": "https://github.com/AutoResearch-Factory/AutoSR",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "0b3e5d13df2005672d40e85716e3d47592d3163b77b0d7340224d5eb1e26f3e4",
+    "locator": "README / official product or release page",
+    "excerpt": "AutoSR English | 中文 AutoSR ( paper ) is a Claude Code plugin for symbolic ansatz search. Problems and generated"
+  },
+  "c2157ed7fe0aa7fedb8a": {
+    "url": "https://arxiv.org/abs/2608.16733v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "3f07441e6d5ed8d81a469b1f38fcb81383dab69893293f99a584e1c1fd58e913",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Physical design algorithms operate within tightly coupled, multi-stage optimization flows, where stage-local gains may vanish or induce downstream degradation. Existing"
+  },
+  "a973892d02f37fa07f15": {
+    "url": "https://arxiv.org/html/2608.16733v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "de9fccfaf492bf37cdd6cfd8d3c52b4a4872686c42bce7a150865f1447cb05ab",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": ". Physical design algorithms operate within tightly coupled, multi-stage optimization flows, where stage-local gains may vanish or induce downstream degradation."
+  },
+  "77bffd389cd422e6fd3e": {
+    "url": "https://arxiv.org/abs/2608.16048v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "4090ab902ec58811308f6e8d01b3475fde2df1d757cee8f44b9785ac733427aa",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Semiconductor quantum-device design still lacks an integrated Technology Computer-Aided Design (TCAD)-like environment that connects material geometry, quantum many-body simulation, and"
+  },
+  "6c2a1d6ad4f9e2352d37": {
+    "url": "https://arxiv.org/html/2608.16048v1",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "f2a64a378b81a792aa08": {
+    "url": "https://arxiv.org/abs/2608.15900v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "6409857ef5acfcb2951365d8b79a500d78cbff4651bfa636efc30fbaa37683a2",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Data-driven materials discovery interpolates more reliably than it extrapolates and seldom reaches new structure types. We present MatEvolve, an agentic-AI"
+  },
+  "784f90938ba97949c04f": {
+    "url": "https://arxiv.org/html/2608.15900v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "42587bd846bf04d55df3792432e08fe6718c4477c06764b1c97aa8a18c6f851b",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Data-driven materials discovery interpolates more reliably than it extrapolates and seldom reaches new structure types. We present MatEvolve, an agentic-AI"
+  },
+  "6c9d91e783e113e87716": {
+    "url": "https://arxiv.org/abs/2608.15776v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "a3407fd9fc8ab3a4b0ba263f0b32c1552c4bb9371f52dd3fc9ec6d74eef99209",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Despite the powerful multi-scale modeling methods and high-throughput infrastructures established in the materials community, real material computation workflows remain fragmented"
+  },
+  "238404ca45aa1f4296d8": {
+    "url": "https://arxiv.org/html/2608.15776v1",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "22d2af10880e767cda0c": {
+    "url": "https://arxiv.org/abs/2608.16951v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "a5561df6374ec00fa5f5e33b3fde369b9b640bdf366ab1e696795e54932c3628",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "What happens when you teach an LLM-based agent the scientific method? Motivation: Scientific discovery emerges from cycles of hypothesis, implementation,"
+  },
+  "fb2763cccf06db1a39fd": {
+    "url": "https://arxiv.org/html/2608.16951v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "5ffa48da0b833b70a8db8b0df47b29a65f86b55e3373a4e54d4fb5a73af7ddf3",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "What happens when you teach an LLM-based agent the scientific method? Motivation: Scientific discovery emerges from cycles of hypothesis, implementation,"
+  },
+  "de272f9f857e7e76ca73": {
+    "url": "https://arxiv.org/abs/2608.14905v3",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "e1bbaca92af246e7f671df469a65a3b78c08f30db329a8d180bb41490f1528c7",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "AI has long assisted scientific research, but the rapid advance of LLMs and agentic scaffolds is reshaping the landscape; a"
+  },
+  "6bbabfb5c884942a744c": {
+    "url": "https://arxiv.org/html/2608.14905v3",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "952c193fd6f788acd0c5915b02a9199f8c2446c6d73447eae1564e64ded6dd86",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Artificial intelligence has long assisted scientific research, but the rapid advance of large language models and agentic scaffolds is reshaping"
+  },
+  "1980af5464149f4ac806": {
+    "url": "https://arxiv.org/abs/2608.14055v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "0548d7a1ab65c0ff6c76e6dacb0e192a3f4f89c9a5b3bee7c0c81be7fc2ada20",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Authoritative scientific knowledge in geoscience remains largely trapped in legacy monographs and historical literature, where unstructured text and complex layouts"
+  },
+  "fe8b48d3f567e9bed8e3": {
+    "url": "https://arxiv.org/html/2608.14055v1",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "b6b5fc94f8fe3d8f9668": {
+    "url": "https://arxiv.org/abs/2608.13505v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "1bf0fd9973238ada7c6b3629cbc4640e46ee42e9aebf7496186c9ba5d452fc0e",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Scientific discovery increasingly requires AI systems that can reason over scientific evidence of heterogeneous modalities, interact with scientific tools and"
+  },
+  "e9fe65ec4402753582dd": {
+    "url": "https://arxiv.org/html/2608.13505v1",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "2b96d200ad4d95a1c388bd7d7b76e34e1f32ff11c8a4123a05b827c18279d81b",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Scientific discovery increasingly requires AI systems that can reason over scientific evidence of heterogeneous modalities, interact with scientific tools and"
+  },
+  "68f2b30aa5d9a20dd32d": {
+    "url": "https://arxiv.org/abs/2608.13060v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "6cad9c78f106b7f68b58c22bd1b6b185cfc8e638c270479499649b76dc1afe16",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Machine learning theory studies learning procedures through mathematical setups in which the data model, training protocol, oracle access, loss, metric,"
+  },
+  "5bbe9da2b4a52e3cf74f": {
+    "url": "https://arxiv.org/html/2608.13060v2",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "1afd5fce4990f653051970f95052543ca96f050064b98096e33cb07b702a7b83",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Machine learning theory studies learning procedures through mathematical setups in which the data model, training protocol, oracle access, loss, metric,"
+  },
+  "a454183a53a705fd6579": {
+    "url": "https://github.com/DechenZhang/VALG-ML-Theory-Agent",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "d841fe19bbfa06ec57c529e151d3e9fe9c507bfef757984842aadd61e7e0ed52",
+    "locator": "README / official product or release page",
+    "excerpt": "VALG: An Agentic System for ML Theory Research 🚀 Quick Start | 🔥 Why It Matters | ⚙️ Workflow |"
+  },
+  "90f795b9d28e358a4c12": {
+    "url": "https://github.com/mims-harvard/ToolUniverse",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "bd1a90cf7e4ef3323d820476bfbe8b2ff28ad5a73ad66eb30be466d1f669eb35",
+    "locator": "README / official product or release page",
+    "excerpt": "ToolUniverse: Democratizing AI scientists Install AI agent (recommended) — open your AI agent and run: Read https://aiscientist.tools/setup.md and set up"
+  },
+  "563fb4e41941b9e42a66": {
+    "url": "https://github.com/OSU-NLP-Group/ChemMCP",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "ba5f303da22058421de0b179487c4c701a682571d9a52a6ea9bc97fd1d61b846",
+    "locator": "README / official product or release page",
+    "excerpt": "ChemMCP See our website and document at osu-nlp-group.github.io/ChemMCP . Join our Discord community to discuss ChemMCP, get help, and build"
+  },
+  "7d209bb6bbb5d23da4b9": {
+    "url": "https://github.com/PUDAP/puda",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "0148d6fd80415c90a8d7473fafd4d30f85f67a4323d739ed7c3960cb1e3a4fef",
+    "locator": "README / official product or release page",
+    "excerpt": "PUDA The Runtime Enivronment for Physical AI Overview PUDA is a hardware-agnostic , LLM-agnostic modular platform — a runtime for"
+  },
+  "c8f3d928a400ca537089": {
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "1fd6f3e41033037833a3a6aae5b8be1ef4c705e5a585b6042670581c0f09ac91",
+    "locator": "README / official product or release page",
+    "excerpt": "Scientific Agent Skills 🔔 Claude Scientific Skills is now Scientific Agent Skills. Same skills, broader compatibility — now works with"
+  },
+  "6e596d3d0b5369198aaa": {
+    "url": "https://github.com/silviachen46/SCTA",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "da7d63c8846bf63adbd873a615a0bb1dbc464745e5a87a82056012635991cd2d",
+    "locator": "README / official product or release page",
+    "excerpt": "SCTA: An Agentic Framework for Stable and Interpretable Target Gene Discovery from Single-Cell RNA Sequencing Overview This repository contains the"
+  },
+  "c425d212a6cb7cadad22": {
+    "url": "https://arxiv.org/abs/2606.31763",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "5a49386494d77d73025995e37960ed2a93a525dea81861a5aba3dd323c45f137",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Autonomous wet-lab experimentation requires more than plausible protocol text: biological intent, quantitative procedures, device constraints and experimental feedback must remain"
+  },
+  "52fea497aaf8e881b85f": {
+    "url": "https://arxiv.org/html/2606.31763",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "6041c88897b506a3be878437159236d50cd174fdc36bd08ca04c6c7e833f7faf",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Autonomous wet-lab experimentation requires more than plausible protocol text: biological intent, quantitative procedures, device constraints and experimental feedback must remain"
+  },
+  "1ab86faa90141d1205c0": {
+    "url": "https://periodic.com/",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "95b3aa61d608b3189068bc3d01953c18c20b390b9ee5f903ae68cf762219085c",
+    "locator": "README / official product or release page",
+    "excerpt": "Periodic Labs Careers get in touch Careers get in touch Accelerate science Accelerate science Today, we introduce Periodic Labs. Our"
+  },
+  "42994f878be5784a9b02": {
+    "url": "https://github.com/IOBR/IOBRpy",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "9c8e816ee3f7d74a40ef8df08236a43d0afbb88bcd7ae7bb1580510b245edb25",
+    "locator": "README / official product or release page",
+    "excerpt": "IOBRpy IOBRpy is a command-line toolkit for bulk RNA-seq tumor microenvironment (TME) analysis. It wires together FASTQ QC, quantification (Salmon"
+  },
+  "fae72769dcb4f0a71be1": {
+    "url": "https://arxiv.org/abs/2607.24093",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "f40646936183a8ad51607709acf230080f95d8c6949eb4b08aa6965d6732f612",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Cell type standardization plays a central role in integrating biological knowledge across single-cell studies. While standardized resources (e.g., Cell Ontology,"
+  },
+  "479c48a4bae5857b144a": {
+    "url": "https://github.com/Su-ISE-2001/SciRobo",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "10c4327e3e73ff9b73b915c41800830eb59f8e50f46954e4087ada97125d21a7",
+    "locator": "README / official product or release page",
+    "excerpt": "LabRobFail LabRobFail 是一个基于 NVIDIA Isaac Sim 的实验室机器人仿真与数据构建项目，核心目标是进行 异常注入（Anomaly Injection） ：在标准实验任务中系统性注入失败模式，生成可复现的异常轨迹、图像与状态数据，用于异常检测、故障诊断和鲁棒策略评测。 主要特性 基于 Isaac Sim 的可视化与无头（headless）仿真运行 使用 Hydra 配置系统管理多任务实验 支持批量任务循环执行（Shell 脚本一键跑多个任务）"
+  },
+  "f728a12a2f6d28381023": {
+    "url": "https://sakana.ai/marlin/",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "67093c6400ac929f3d77fbba2980a4e6c086e37b16710bc3dcc25345120db1c8",
+    "locator": "README / official product or release page",
+    "excerpt": "Sakana Marlin — Your Virtual CSO Sakana Marlin, Your Virtual CSO. リサーチはAIへ。 人間は「意思決定」に集中する。 Deeper insight. Faster action. 今すぐはじめる Try Sakana"
+  },
+  "185cf90bf5c965811467": {
+    "url": "https://analemma.ai/",
+    "retrieved": "2026-09-11",
+    "status": null,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "README / official product or release page",
+    "excerpt": "",
+    "error": "URLError"
+  },
+  "a8210622bb4f5e226641": {
+    "url": "https://arxiv.org/abs/2607.23975",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "0520d985230b7f6356d8a7ce91542ffed60f6e176618892019a7f01374aa97e4",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Large language model research agents can connect literature retrieval, analysis code, and manuscript preparation, but coherent output does not establish"
+  },
+  "8f1cfddd310369768d75": {
+    "url": "https://arxiv.org/abs/2607.22813",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "f309ac979d90acbab207ada7781ed7b99a8bd104114c39fbe432eaea685064f7",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Analysis re-casting at the LHC is highly standardized and nevertheless requires resources, time, and physics input. Building on the new"
+  },
+  "640b2744da548a646849": {
+    "url": "https://pubs.rsc.org/en/content/articlelanding/2026/dd/d5dd00435g",
+    "retrieved": "2026-09-11",
+    "status": 403,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "README / official product or release page",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "644e64c6ef92c1a90b69": {
+    "url": "https://edisonscientific.com/",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "a3c57709162eb408b17997b1aeae8b9cb73b2839df40e14b72e53670ad3c7071",
+    "locator": "README / official product or release page",
+    "excerpt": "Edison Scientific | The AI Platform for scientific R&D No items found. The bottleneck in drug development isn't just ideas."
+  },
+  "35b48a88b1cd9d7a9064": {
+    "url": "https://github.com/facebookresearch/aira-dojo",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "f97398cd23e73ef44955d00966cd43dc743bf29091b13d9ab574c3875fd2887c",
+    "locator": "README / official product or release page",
+    "excerpt": "aira-dojo : AI Research Agent DOJO aira-dojo is a scalable and customizable framework for AI research agents, designed to accelerate"
+  },
+  "c392a96b3cd224c455b4": {
+    "url": "https://github.com/facebookresearch/aira-dojo/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "6efc344d3a28e88d9ba241a4388276035a9771bb66cc478b97d96d7bc2280166",
+    "locator": "LICENSE text",
+    "excerpt": "Creative Commons Attribution-NonCommercial 4.0 International Public License By exercising the Licensed Rights (defined below), You accept and agree to be"
+  },
+  "3d402209bcf9a6eb7f6b": {
+    "url": "https://github.com/marszzibros/AMPGANv3",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "c6f13db8191fddc797d25c6dc5eb4e0586ef5f3d8cfd7a3afc781d28fcd83c68",
+    "locator": "README / official product or release page",
+    "excerpt": "Agentic Discovery of Non-Canonical Antimicrobial Peptides with AMPGAN v3 This repository contains the official code implementation for the paper Agentic"
+  },
+  "ef13f8007a899d255118": {
+    "url": "https://github.com/pic-ai-robotic-chemistry/LabBench",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "af124474341fc96644e04172052e3d778e1904a1fa026c351d3e4d0671f5efc6",
+    "locator": "README / official product or release page",
+    "excerpt": "LabBench Code and data supporting Stress-testing large language model agents in a robotic chemistry laboratory . Contents agent_experiments/ : benchmark"
+  },
+  "fe7c413448e50b565e48": {
+    "url": "https://github.com/sjtu-sai-agents/LQCD_Master",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "33a29c786c950e18c7699ece8a3dbdb456ecbe1ffb08e1ac03f8d3c4291be0d3",
+    "locator": "README / official product or release page",
+    "excerpt": "LQCD Master Agentic Scientific Computing for Lattice QCD - Natural Language to GPU Computation LQCD Master translates natural-language physics requests"
+  },
+  "cfe366ce93436534b6c1": {
+    "url": "https://github.com/sjtu-sai-agents/LQCD_Master/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "LICENSE text",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "09133bc7bc16ed9e5f5d": {
+    "url": "https://github.com/AaronMahn/NM-rmf-benchmark-scheme",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "525c89d6e0afed2ea5ea9bf9af612a67eb9dadea5faf03168f7e8a9a19bb984c",
+    "locator": "README / official product or release page",
+    "excerpt": "RMF Skill Benchmark A benchmark measuring how much a domain skill (a bundled relativistic mean-field toolkit, rmf-toolkit ) helps large"
+  },
+  "87b0bb77b834f5cdc19b": {
+    "url": "https://github.com/AaronMahn/NM-rmf-benchmark-scheme/blob/main/LICENSE",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "273782dfeb1bfab91ddbcad1548487174befc6cda64239f9c16d59e7e4ade551",
+    "locator": "LICENSE text",
+    "excerpt": "MIT License Copyright (c) <YEAR> <COPYRIGHT HOLDER> Permission is hereby granted, free of charge, to any person obtaining a copy"
+  },
+  "493ff969b9350c1e25a1": {
+    "url": "https://github.com/HelloWorldLTY/SciAgentArena",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "cedcf3b98f778247096e0a13bfbaf5b3e64089e6e1f3bc956e3450265247fb68",
+    "locator": "README / official product or release page",
+    "excerpt": "SciAgentArena A benchmark platform for evaluating AI agents across diverse scientific and biomedical domains. This repository provides agent implementations, standardized"
+  },
+  "8bb844ed89eeeb0fd8ff": {
+    "url": "https://arxiv.org/abs/2606.22376",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "8c19993e1867c2accf3e6ebe92fc765173cfd6c2fa21667ccfc7c55a228aefe9",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Superconducting quantum computing is one of the most mature solid-state platforms for quantum computation, with processors exceeding one hundred qubits."
+  },
+  "3f5f1a7355084b5946c9": {
+    "url": "https://arxiv.org/html/2606.22376",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "fulltext-html",
+    "payload_sha256": "e8eeb842900ac2ad57a9af7fc9dda8d780406ac3bba77db9bb069c3bde02c917",
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "Superconducting quantum computing is one of the most mature solid-state platforms for quantum computation, with processors exceeding one hundred qubits."
+  },
+  "92220edde1c15dc9b754": {
+    "url": "https://arxiv.org/abs/2608.12277",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "187e78b44cdc46a0579f90659684609452b22e314167e864396aa381670f333d",
+    "locator": "Abstract and submission/version metadata",
+    "excerpt": "Time-of-flight secondary ion mass spectrometry (ToF-SIMS) is widely used for local chemical investigations across a broad range of materials and"
+  },
+  "802e095db7841a3edc63": {
+    "url": "https://arxiv.org/html/2608.12277",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "Abstract plus selected methods/availability sections",
+    "excerpt": "",
+    "error": "HTTPError"
+  },
+  "48271a3e301679fb8ad2": {
+    "url": "https://claude.com/product/claude-science",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "6e81e6c54cd27c6f0d26c79f15ec1c1c34ee24e061c19dcb302695d4f573252f",
+    "locator": "README / official product or release page",
+    "excerpt": "Claude Science (beta) | Claude by Anthropic Explore here Claude Team plan for scientists Next Next Putting Claude in the"
+  },
+  "00f974ba0571af7df69b": {
+    "url": "https://www.lila.ai/",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "8cfa9e5a128bd7b2dae506a0410c319a2debf32d0c409339b7ede91873d8e683",
+    "locator": "README / official product or release page",
+    "excerpt": "LILA | Scientific Superintelligence Explore LILA Building Scientific Superintelligence TM What is Lila? LILA is building Scientific Superintelligence . With"
+  },
+  "e9e1b153add42e845e7b": {
+    "url": "https://github.com/ApodexAI/FrontierAgent/tree/main/benchmarks/frontierchallenge",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "5c407863f04cc77c8d50de681e95a3ca0f41d873e9dcd1466070cc3dd1cdfb2d",
+    "locator": "Official benchmark directory",
+    "excerpt": "FrontierAgent/benchmarks/frontierchallenge at main · ApodexAI/FrontierAgent · GitHub Skip to content Navigation Menu Sign in Appearance settings Search / Sign in"
+  },
+  "7a73bd418a1447ff0f3f": {
+    "url": "https://arxiv.org/abs/2511.16931",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "23768ca2621465191bbec7d7e6a01a9961e08dc4d8beb40651704d8d674aae7e",
+    "locator": "Title and authors, prior independent OmniScientist",
+    "excerpt": "With the rapid development of Large Language Models (LLMs), AI agents have demonstrated increasing proficiency in scientific tasks, ranging from"
+  },
+  "63e155ea2051214ad9be": {
+    "url": "https://arxiv.org/abs/2608.14720",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "paper-metadata-and-abstract",
+    "payload_sha256": "840c239f80eaac6d2e954f775bc23f036eb89efc49c084ee7950997894971365",
+    "locator": "Abstract and submission metadata",
+    "excerpt": "Following the molecular discovery and synthesis revolutions, scalable automated structure elucidation from routine spectroscopic data remains an outstanding challenge. Despite"
+  },
+  "c9e4779b714ca09377b6": {
+    "url": "https://arxiv.org/html/2608.14720",
+    "retrieved": "2026-09-11",
+    "status": 404,
+    "access_level": "inaccessible",
+    "payload_sha256": null,
+    "locator": "HTML access attempt",
+    "excerpt": ""
+  },
+  "16984a2b616762974819": {
+    "url": "https://github.com/wangzizhe/Pufibara",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "9f335b4d9115d172253e402099ef6888712cc579d94b1a40a007b5443bd33f1d",
+    "locator": "README, Repository Scope",
+    "excerpt": "GitHub - wangzizhe/Pufibara: AI Agent for Physical Systems Modeling · GitHub Skip to content Navigation Menu Sign in Appearance settings"
+  },
+  "fec957641d6ce1c5d53d": {
+    "url": "https://github.com/wangzizhe/modelica-agent-workflow-benchmark/blob/main/DATA_LICENSE.md",
+    "retrieved": "2026-09-11",
+    "status": 200,
+    "access_level": "primary-page-or-repository-text",
+    "payload_sha256": "a32dbc8617ef569f4a1dbabc74669a9ba2ff1ec74591cc28932ad000fae2e24a",
+    "locator": "Benchmark Data License, Permitted Use and Prohibited Use",
+    "excerpt": "academic or non-commercial research evaluation"
+  }
+}

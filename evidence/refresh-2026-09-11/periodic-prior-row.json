@@ -1,0 +1,28 @@
+{
+  "id": "asa-periodic-labs",
+  "date_added": "2026-06-16",
+  "name": "Periodic Labs",
+  "category": "crossdomain",
+  "domain": "Commercial physical-science autonomous-lab platform",
+  "paper_links": [
+    {
+      "label": "official site",
+      "url": "https://periodic.com/"
+    }
+  ],
+  "repo_links": [
+    {
+      "label": "Link",
+      "url": "https://periodic.com/"
+    }
+  ],
+  "access": "platform",
+  "inputs": "Physical-science / materials objectives (e.g. superconductors, semiconductors)",
+  "outputs": "Autonomous experiments, high-quality experimental data, materials insights",
+  "autonomy": "A5",
+  "notes": "Commercial 'AI scientist' paired with autonomous physical-science labs; founders from ChatGPT and DeepMind GNoME.",
+  "verified": "2026-06-16",
+  "sources": [
+    "https://periodic.com/"
+  ]
+}

@@ -230,7 +230,7 @@ footer{margin-top:26px;padding:17px 18px;border:1px solid #e0dce9;border-radius:
 </style></head><body><div class="wrap">
 <header class="top"><div class="htext">
 <h1>Autonomous Science Agents — Researcher Index</h1>
-<div class="vbadge" title="Version and date of the most recent published catalog update"><b>v__CATVERSION__</b> · updated __CATMODIFIED__</div>
+<div class="vbadge" title="Catalog version and metadata modification date"><b>v__CATVERSION__</b> · updated __CATMODIFIED__</div>
 <div class="sub">A filterable index of AI systems that act as scientific agents: literature, hypothesis, experiment planning, code/simulation execution, lab automation, analysis, and reporting across STEM.
 Answer fast: <b>what domain?</b> · <b>in → out?</b> · <b>accessible today?</b> · <b>how autonomous?</b>
 __EVIDENCE_STATEMENT__ Access tags are best-effort — <b>verify before relying on any system</b>. Rows tagged <b>Paper-only</b> are leads from papers with no confirmed public code. Click a row for detail.</div>

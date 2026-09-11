@@ -1,0 +1,255 @@
+[
+  {
+    "id": "asa-tooluniverse",
+    "repo_url": "https://github.com/mims-harvard/ToolUniverse",
+    "retrieved": "2026-09-11",
+    "access_level": "repository-api-metadata",
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/mims-harvard/ToolUniverse",
+        "status": 403,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/mims-harvard/ToolUniverse/license",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/mims-harvard/ToolUniverse/contents",
+        "status": 429,
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "id": "asa-chemmcp",
+    "repo_url": "https://github.com/OSU-NLP-Group/ChemMCP",
+    "retrieved": "2026-09-11",
+    "access_level": "repository-api-metadata",
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/OSU-NLP-Group/ChemMCP",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/OSU-NLP-Group/ChemMCP/license",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/OSU-NLP-Group/ChemMCP/contents",
+        "status": 429,
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "id": "asa-aira-dojo",
+    "repo_url": "https://github.com/facebookresearch/aira-dojo",
+    "retrieved": "2026-09-11",
+    "access_level": "repository-api-metadata",
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/facebookresearch/aira-dojo",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/facebookresearch/aira-dojo/license",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/facebookresearch/aira-dojo/contents",
+        "status": 429,
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "id": "asa-scta",
+    "repo_url": "https://github.com/silviachen46/SCTA",
+    "retrieved": "2026-09-11",
+    "access_level": "repository-api-metadata",
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/silviachen46/SCTA",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/silviachen46/SCTA/license",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/silviachen46/SCTA/contents",
+        "status": 429,
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "id": "asa-pepcraft",
+    "repo_url": "https://github.com/marszzibros/AMPGANv3",
+    "retrieved": "2026-09-11",
+    "access_level": "repository-api-metadata",
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/marszzibros/AMPGANv3",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/marszzibros/AMPGANv3/license",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/marszzibros/AMPGANv3/contents",
+        "status": 429,
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "id": "asa-puda",
+    "repo_url": "https://github.com/PUDAP/puda",
+    "retrieved": "2026-09-11",
+    "access_level": "repository-api-metadata",
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/PUDAP/puda",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/PUDAP/puda/license",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/PUDAP/puda/contents",
+        "status": 429,
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "id": "asa-labbench-robotic-chemistry",
+    "repo_url": "https://github.com/pic-ai-robotic-chemistry/LabBench",
+    "retrieved": "2026-09-11",
+    "access_level": "repository-api-metadata",
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/pic-ai-robotic-chemistry/LabBench",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/pic-ai-robotic-chemistry/LabBench/license",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/pic-ai-robotic-chemistry/LabBench/contents",
+        "status": 429,
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "id": "asa-lqcdmaster",
+    "repo_url": "https://github.com/sjtu-sai-agents/LQCD_Master",
+    "retrieved": "2026-09-11",
+    "access_level": "repository-api-metadata",
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/sjtu-sai-agents/LQCD_Master",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/sjtu-sai-agents/LQCD_Master/license",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/sjtu-sai-agents/LQCD_Master/contents",
+        "status": 429,
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "id": "asa-nnstar",
+    "repo_url": "https://github.com/AaronMahn/NM-rmf-benchmark-scheme",
+    "retrieved": "2026-09-11",
+    "access_level": "repository-api-metadata",
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/AaronMahn/NM-rmf-benchmark-scheme",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/AaronMahn/NM-rmf-benchmark-scheme/license",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/AaronMahn/NM-rmf-benchmark-scheme/contents",
+        "status": 429,
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "id": "asa-sciagentarena",
+    "repo_url": "https://github.com/HelloWorldLTY/SciAgentArena",
+    "retrieved": "2026-09-11",
+    "access_level": "repository-api-metadata",
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/HelloWorldLTY/SciAgentArena",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/HelloWorldLTY/SciAgentArena/license",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/HelloWorldLTY/SciAgentArena/contents",
+        "status": 429,
+        "error": "HTTPError"
+      }
+    ]
+  },
+  {
+    "id": "asa-k-dense-scientific-agent-skills",
+    "repo_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "retrieved": "2026-09-11",
+    "access_level": "repository-api-metadata",
+    "sources": [
+      {
+        "url": "https://api.github.com/repos/K-Dense-AI/scientific-agent-skills",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/K-Dense-AI/scientific-agent-skills/license",
+        "status": 429,
+        "error": "HTTPError"
+      },
+      {
+        "url": "https://api.github.com/repos/K-Dense-AI/scientific-agent-skills/contents",
+        "status": 429,
+        "error": "HTTPError"
+      }
+    ]
+  }
+]

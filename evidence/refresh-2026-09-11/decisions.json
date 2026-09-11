@@ -1,0 +1,1444 @@
+{
+  "review_date": "2026-09-11",
+  "baseline_commit": "601e7e49fa4c6d28c1124c92015f15812c76272c",
+  "source_registry": "source_registry.json",
+  "decisions": [
+    {
+      "record_id": "asa-terminal-bench-science",
+      "name": "Terminal-Bench-Science",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "Stanford-led scientific branch of Terminal-Bench. The 0.1 release contains 70 expert-curated workflows executed through Harbor; the public repository provides tasks and reference solutions. Apache-2.0. Benchmark performance concerns computational workflows, not autonomous laboratory operation.",
+      "sources": [
+        "8ae1fb8cad34b507cd35",
+        "a8dbcd0bebc0f0055ffc",
+        "6f8f0395b3313ab9c598"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://github.com/harbor-framework/terminal-bench-science"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/harbor-framework/terminal-bench-science"
+        ],
+        "license": [
+          "https://github.com/harbor-framework/terminal-bench-science/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No paper required: first-party release and repository verified",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-asi-bench",
+      "name": "ASI-Bench",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "60 research tasks across 11 domains; holds the scientific objective fixed while removing methods and adding distractors. The public runner produces artifacts, while official scoring uses the submission service. The repository LICENSE is Apache-2.0 despite a stale MIT footer on the project site. The title does not establish artificial superintelligence.",
+      "sources": [
+        "6ab6ca3f543756e996ea",
+        "39f64ebe0d28f08aa670",
+        "e7a206c9e5c044fdef9f",
+        "11ecbf51dade9ad6a95b",
+        "172b4d6170a4670c8825"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.17271"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/apexin-ai/ASI-Bench"
+        ],
+        "license": [
+          "https://github.com/apexin-ai/ASI-Bench/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-bixbench3",
+      "name": "BixBench3",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "Edison benchmark with 20 study-scale tasks, distinct from the earlier question/capsule-based BixBench. Public runner and deterministic grader are provided; task manifests are on Hugging Face and raw inputs/reference artifacts use Google Cloud Storage. Running the documented harness requires a configured GCP project. Edison-authored code and materials are CC BY-SA 4.0; upstream scientific data retain their own terms.",
+      "sources": [
+        "0504b70f364c2e9b80cd",
+        "bbeb5f27687c9275a008",
+        "7886a42627566b26b772",
+        "9fffbb6814102cb1b28c",
+        "1876ca777df46f87f7f5"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.25286"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/EdisonScientific/BixBench3"
+        ],
+        "license": [
+          "https://github.com/EdisonScientific/BixBench3/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-earthverse",
+      "name": "EarthVerse",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "Agents inspect event evidence, choose tools, calculate and reconcile observations. Public tasks, reference answers, tools and evaluation code are released. Mixed licensing matters: original software is Apache-2.0, original task annotations are CC BY-NC 4.0, and third-party evidence retains provider-specific terms. Simulated/computational evaluation, not field actuation.",
+      "sources": [
+        "deb3bbb800b55e30b397",
+        "b04189a62679d855036a",
+        "9bfb5550e9705552dbb5",
+        "a85f19a3ee00ed1b3336"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.23525"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/CuiZHIQ/Earth-Verse"
+        ],
+        "license": [
+          "https://github.com/CuiZHIQ/Earth-Verse/blob/main/LICENSE.md"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-frontierchallenge",
+      "name": "FrontierChallenge",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "The paper describes 300 workflows but releases and evaluates 97; the record refers to that released subset. Evaluation code is within the Apache-2.0 FrontierAgent repository; task data are separately distributed on Hugging Face. Completion and partial progress are separate measures, and reported success is not proof of independent scientific discovery.",
+      "sources": [
+        "d3f7a5b82524922de986",
+        "a3104dd0d759d95c41d8",
+        "af29d68814f3f36a1d6b",
+        "e9e1b153add42e845e7b"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.24979"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/ApodexAI/FrontierAgent/tree/main/benchmarks/frontierchallenge"
+        ],
+        "license": [
+          "https://github.com/ApodexAI/FrontierAgent/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-truthinsightbench",
+      "name": "TruthInsightBench",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "Withholds source-study conclusions and analysis paths. The public release includes task data, four harness adapters and scoring code under Apache-2.0, with upstream attribution and licenses preserved separately. The fixed LLM judge measures rubric-defined evidentiary maturity; its scores do not certify the scientific truth of a discovery.",
+      "sources": [
+        "9957256cab9bc96fe57f",
+        "7c14e5d5c9ff6d3bad9a",
+        "152707ee214f86878215",
+        "1d69255f96af31e7dd38"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2609.05079"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/TruthInsight-stack/TruthInsightBench"
+        ],
+        "license": [
+          "https://github.com/TruthInsight-stack/TruthInsightBench/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-science-sandboxes",
+      "name": "Science Sandboxes (MPRAbox / CodonBox)",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "MPRAbox uses a pretrained empirical surrogate; CodonBox uses invented biological rules. Both provide computational experimental feedback and neither is a physical wet-lab loop. MIT code; Malinois model weights retain the separate boda2 license. The public repository includes the harnesses and results.",
+      "sources": [
+        "58d412b19830ed433e85",
+        "d43db7b0455b04d1e7a8",
+        "49c904581f164d1b0bff",
+        "9f75545db33e679da3f8"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.30165"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/asr2210/science-sandbox"
+        ],
+        "license": [
+          "https://github.com/asr2210/science-sandbox/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-dr-claw",
+      "name": "Dr. Claw",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "A research workspace that coordinates existing executors through persistent state and explicit human decisions. It implements the research workflow layer rather than a new underlying autonomous model. AGPL-3.0 with GPL-3.0 upstream components; private medical datasets used in the study are not included in the release.",
+      "sources": [
+        "abf7b48ec48554ec63e5",
+        "18c8c649126f86865dde",
+        "57e543733a0f8c2f510e",
+        "d56d87108d8499e39898"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2609.00365"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/OpenLAIR/dr-claw"
+        ],
+        "license": [
+          "https://github.com/OpenLAIR/dr-claw/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-arcticswarm",
+      "name": "ArcticSwarm",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "Snowflake research framework with independent exploration followed by peer challenge and verification before synthesis. The released harness supports live-web and corpus-based research under Apache-2.0. Demonstrated closure is information gathering and synthesis, not laboratory experiments.",
+      "sources": [
+        "d677a6c11434b43000f4",
+        "ce67b08abf2994731c79",
+        "c82968b09a66b0cfdaae",
+        "1a2ae7445e6bd4fd9acc"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2609.01870"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/Snowflake-AI-Research/ArcticSwarm"
+        ],
+        "license": [
+          "https://github.com/Snowflake-AI-Research/ArcticSwarm/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-evomap-autoresearch",
+      "name": "AutoResearch (EvoMap)",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "Two-stage idea generation and execution workflow that persists research state and uses separate models to review plans and evidence. Pilot outcomes can trigger continuation, revision or termination. Apache-2.0. Disambiguated from other systems and informal workflows named autoresearch; the release describes computational experiments.",
+      "sources": [
+        "1a16c5ad3eba653c5378",
+        "3ed8c432a0f27bc24dbb",
+        "c57951d57d1f2836041e",
+        "2fd6b7f70c59cd1b3a8d"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.17906"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/EvoMap/AutoResearch"
+        ],
+        "license": [
+          "https://github.com/EvoMap/AutoResearch/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-station",
+      "name": "The Station (Dualverse)",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "An open-world research environment with persistent agents, shared scientific records and executable evaluation. The v2 paper documents autonomous mathematical exploration; Apache-2.0 code and public trajectories are linked by the authors. Requires task-specific scoring and sufficiently fast iterations. Computational discovery does not imply a physical loop.",
+      "sources": [
+        "7e05b8eb4461132f3790",
+        "df6d28eb4d19759ebf64",
+        "6e3a19cffeb9e59687a5",
+        "c7935d3720756f420cb3"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.23691"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/dualverse-ai/station"
+        ],
+        "license": [
+          "https://github.com/dualverse-ai/station/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-scienceflow",
+      "name": "ScienceFlow",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "Huawei Noah’s Ark Lab framework that couples persistent research workspaces, evidence gates and adaptive continuation or re-anchoring with compute scheduling. The author-owned noah-research monorepo releases the framework, tasks and documentation under MIT. The paper’s physical jobs are compute jobs, not laboratory actuation.",
+      "sources": [
+        "d98c16aff3bfa9ba03b8",
+        "4f009dca5359c04a4683",
+        "d549d73332d486e6db74",
+        "25b3f37e69a28e2d0fe4",
+        "6be25ee1dba529c3b538"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.14354"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/huawei-noah/noah-research/tree/master/ScienceFlow"
+        ],
+        "license": [
+          "https://github.com/huawei-noah/noah-research/blob/master/ScienceFlow/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-brain-researcher",
+      "name": "Brain Researcher",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "Connects evidence, analysis choices and tool execution through a workspace with a researcher commitment gate. Public MIT code includes the CLI, MCP contracts, service stack and examples. Private benchmark corpora, knowledge-graph contents and site-specific launchers are excluded; the paper’s broad archive wording must not be read as public access to every study asset. Interpretation remains with researchers.",
+      "sources": [
+        "920309f11b829d4756ed",
+        "a068f3c704110a0919ec",
+        "cf9897d623864f887d88",
+        "0b3aa8073dc884c62541"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.19902"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/brain-researcher/brain-researcher-public"
+        ],
+        "license": [
+          "https://github.com/brain-researcher/brain-researcher-public/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-orchestra-regulatory",
+      "name": "Orchestra (regulatory discovery)",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "MIT LangGraph workflow composing regulatory-topology and experimental-evidence MCP services. Tests whether agreement between evidence sources enriches known cancer-gene annotations; it does not establish causal regulation or prospective wet-lab discovery. This CASCADE dependency is Jose Bird’s bioinformatics service, distinct from the catalogued scientific skill-learning CASCADE.",
+      "sources": [
+        "7513211be643f6a9e46b",
+        "c93944a46a7ac9c9cb50",
+        "d84d22f805253a46939a",
+        "e4aebb72b54d92e01d6f"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2609.05496"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/jab57/Orchestra"
+        ],
+        "license": [
+          "https://github.com/jab57/Orchestra/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-arche",
+      "name": "ARCHE",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "The paper combines general and chemistry-specialized models with a tool registry for iterative mechanistic investigation. Its author-linked Arche-Harness release is a later investigation_v2 implementation, not the paper’s earlier Planner/Execution/Reflection system. ARCHE-Chem weights, reward model, training corpus and training pipeline are absent; the public code and selected case data do not reproduce the complete paper configuration. A custom academic/non-commercial license applies. Closure is computational; reviewed sources were the primary abstract and repository documentation, not inaccessible HTML full text.",
+      "sources": [
+        "79130b4023e1c62082e2",
+        "aa7821f68256f8ddea0f",
+        "661e97b4bf8908b98bf1",
+        "6f07a472f4e1338118ea"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2609.11147"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/JetAstra/Arche-Harness"
+        ],
+        "license": [
+          "https://github.com/JetAstra/Arche-Harness/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced",
+      "root_review": "Independent root README/license review corrected release extent and/or task-data restrictions before final preview."
+    },
+    {
+      "record_id": "asa-la-agente-optima",
+      "name": "La Agente Óptima",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "Demonstrated on five digital tasks and two physical platforms. A real contact-angle loop executed measurements and revised a failing campaign, with operator approval for constraint changes and restarts; physical deck preparation requires a named human certification. Public research artifacts include data, conversations and plotting code, not a verified complete deployable Óptima system. The artifacts repository has no confirmed license, so public visibility is not an open-source claim.",
+      "sources": [
+        "4cdf77c8c90bedf4acb8",
+        "bc720d8148b794ffc627",
+        "f4fdb40e60e5ac3dec85"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2609.04564"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/the-matter-lab/La-Agente-Optima-artifacts"
+        ],
+        "license": []
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-modelica-agent-workflow-benchmark",
+      "name": "Modelica Agent Workflow Benchmark",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "Companion benchmark to Pufibara. Public v0.2 provides Apache-2.0 code, protocol and schemas plus a small demo split under a separate Benchmark Data License: academic/non-commercial evaluation and local smoke testing are permitted, while model training, distillation, training-data expansion and dataset redistribution require written permission. Official evaluation uses hidden maintainer-run sets. Neither the full task set nor the full Pufibara stack is released; modeling is computational.",
+      "sources": [
+        "09f4e74d349a00af21fd",
+        "ca4b0ac98aa0a0f164db",
+        "36b65ee8baecca15e0a8",
+        "b53ab969cf3926803882",
+        "fec957641d6ce1c5d53d"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.23653"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/wangzizhe/modelica-agent-workflow-benchmark"
+        ],
+        "license": [
+          "https://github.com/wangzizhe/modelica-agent-workflow-benchmark/blob/main/LICENSE",
+          "https://github.com/wangzizhe/modelica-agent-workflow-benchmark/blob/main/DATA_LICENSE.md"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced",
+      "root_review": "Independent root README/license review corrected release extent and/or task-data restrictions before final preview."
+    },
+    {
+      "record_id": "asa-pace-bench",
+      "name": "PACE-Bench",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "Tests whether agents can repair a formerly successful design after a change in simulated physics while preserving goal and interface. Public MIT harness includes task environments and executable validation. Distinct from PACE-SIMS, which concerns a physical mass-spectrometry instrument.",
+      "sources": [
+        "bba318fe8f6d0da1edfe",
+        "3aec53838eec485e1977",
+        "25684dd59845143373c1",
+        "a57fe0aaece069c1e4fa"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.14441"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/thunlp/PACE-Bench"
+        ],
+        "license": [
+          "https://github.com/thunlp/PACE-Bench/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-andy-mathematics",
+      "name": "Andy (mathematical research)",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "MIT research system with a local workspace, persistent proof state and separate generation and checking models. Failed proof nodes trigger targeted repair. Automatic checking is language-model-based and is not equivalent to a formally verified proof-assistant certificate; the README requires researcher review before formal use.",
+      "sources": [
+        "cc5a2aa549a832e9ba42",
+        "53e2366e21afbfc56a7e",
+        "a6c394d38e69f8efbd71",
+        "2a1b5e6849049cd560ad"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.15052"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/mowaiwaim/Andy"
+        ],
+        "license": [
+          "https://github.com/mowaiwaim/Andy/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-benchmark-as-teacher",
+      "name": "Benchmark-as-Teacher (BaT)",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "NVIDIA-associated MIT framework connecting stage diagnostics, data generation, GRPO training and evaluation gates for medical-imaging research agents. The public repository implements the training loop; it does not establish prospective clinical usefulness or a wet-lab loop. Distinct from the AutoMedBench evaluation resource it uses.",
+      "sources": [
+        "d368bbe16c893f4054f1",
+        "f7cb1460e57275b4226f",
+        "231892974b2e658b9dca",
+        "18721eed0a27738a75f6"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.16211"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/AutoMedBench/Benchmark-as-Teacher"
+        ],
+        "license": [
+          "https://github.com/AutoMedBench/Benchmark-as-Teacher/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "record_id": "asa-omniscientist-omni-modal",
+      "name": "OmniScientist (omni-modal, NUS/Oxford)",
+      "decision": "ADD",
+      "review_date": "2026-09-11",
+      "rationale": "MIT system by Bobo Li, Hao Fei and collaborators with perception, ideation, experiment and writing stages. The September desktop release replaces the discontinued standalone terminal edition; a coding-agent skill remains available. Independent identity from Tsinghua FIB Lab’s 2025 OmniScientist: different authors, paper and repository. Demonstrations are computational.",
+      "sources": [
+        "0c0691567cb12b58c555",
+        "ebb4a292f2709b2fe57e",
+        "98f086acdffc98c7cd89",
+        "b837408acf7183dbc2c2",
+        "7a73bd418a1447ff0f3f"
+      ],
+      "claim_sources": {
+        "identity_scope_and_closure": [
+          "https://arxiv.org/abs/2608.13558"
+        ],
+        "artifact_ownership_and_extent": [
+          "https://github.com/Omni-Scientist/OmniScientist"
+        ],
+        "license": [
+          "https://github.com/Omni-Scientist/OmniScientist/blob/main/LICENSE"
+        ]
+      },
+      "paper_status": "No withdrawal notice on inspected arXiv metadata; not a peer-review endorsement",
+      "execution_validation": "Documentation/source review only; no scientific workload or advertised performance reproduced"
+    },
+    {
+      "name": "Sci-MMR: Benchmarking Multi-Step Evidence-Grounded Scientific Reasoning in Multimodal Agents",
+      "paper": "https://arxiv.org/abs/2609.11243",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "2025a45151978be72e98",
+        "a30a7ec799c7b9636850"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Avatar: Toward Autonomous End-to-End Orchestration of Scientific Workflows using LLMs",
+      "paper": "https://arxiv.org/abs/2609.10509",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "f298ab48457765d65842",
+        "b1a11e6e41599f887802"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks",
+      "paper": "https://arxiv.org/abs/2609.10121",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "The author-linked OTeam-AI4S/ADMET-EvO repository returned 404. Hold until official code is accessible; not evidence the system or paper is false.",
+      "sources": [
+        "564e0395859ad56a245f",
+        "885f2daa3faea7fc96e1",
+        "afa1778ebdc6481c294f"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+      "paper": "https://arxiv.org/abs/2609.09113",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Author-endorsed repository is public, but no usable license text was confirmed. Hold pending a licensed benchmark release.",
+      "sources": [
+        "b4582b3ac164e763a3ed",
+        "9ff4a38b8e2bf855a422",
+        "1e23819084249b0c0898"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "MLIP Detective: Active Failure Mode Discovery Beyond Benchmark Scores for Machine-Learning Interatomic Potentials",
+      "paper": "https://arxiv.org/abs/2609.08399",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "8b9acfd7446631e12266",
+        "3b62e2921322ee5f9a68"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "SolutionsX: supergravity theories/solutions as code, with an agentic workflow for machine-verifiable physics",
+      "paper": "https://arxiv.org/abs/2609.07826",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Mathematica/xAct package with an agent-assisted codification demonstration. Hold new component inclusion pending clearer autonomous-workflow or benchmark release and scope adjudication.",
+      "sources": [
+        "8fc60a8bb8793ba66224",
+        "91b8b06a7f1afab4b040"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Human-agent discovery of reconfigurable in-plane ferroelectric superdomain control",
+      "paper": "https://arxiv.org/abs/2609.06887",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "SPARC documents a human-agent microscope campaign; primary abstract verifies identity but HTML full text was unavailable. Hold detailed physical-loop, human-gate and reusable-artifact appraisal.",
+      "sources": [
+        "8832d3634e1613ed5931",
+        "97ded8c8a78dc0573491"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "AutoKD: Autonomous Knowledge Discovery",
+      "paper": "https://arxiv.org/abs/2609.06366",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Author-endorsed AutoKD repository is public, but no usable license text was confirmed. Hold pending a licensed release.",
+      "sources": [
+        "85a155efd17fea6207a0",
+        "649551574e9ffd116d68",
+        "ccc0dea2e2a9a1101767"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "SCIRIGOR:Evaluating Open-Ended Scientific Analysis Beyond Final Scores",
+      "paper": "https://arxiv.org/abs/2609.06192",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "6ffbcff2008062c293c1",
+        "4eb3f55afcd2003f8933"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Agentic BAIM-LLM Evaluation (ABLE): Benchmarking LLM Use of Protein Design Tools",
+      "paper": "https://arxiv.org/abs/2609.05818",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "b6fd068d38ac21a353c7",
+        "f6b7246e646ee7bba826"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "FUSION: a skill-based research agent for publicly obtainable nuclear-physics codes",
+      "paper": "https://arxiv.org/abs/2609.04742",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Code-specific skills and literature corpus executed inside an external coding agent. Hold new skill-pack inclusion on scope; retaining selected existing infrastructure is not blanket admission of new packs.",
+      "sources": [
+        "3b93ee601c2b6cb451d7",
+        "a8cb41acae7ec9ca354e"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "QMClaw: A Scalable General-purpose Framework for Quantum Measurement and Control",
+      "paper": "https://arxiv.org/abs/2609.04674",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "32bbe3a89ff27be0f3da",
+        "8d8a5879c56f84fd6bb1"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "A computable representation of the physical laboratory enables verifiable workflows",
+      "paper": "https://arxiv.org/abs/2609.03621",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary abstract describes laboratory representation/workflow infrastructure. HTML full text was unavailable; hold reusable-system and scope appraisal.",
+      "sources": [
+        "1df5bfe4073165327da8",
+        "fe41b3b19ff3845141ef"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "SciLENS: RL-Driven Autonomous Agents for Scientific Localized Evidence Navigation and Synthesis",
+      "paper": "https://arxiv.org/abs/2609.03338",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Author-endorsed SciLENS repository is public, but no usable license text was confirmed. Hold pending a licensed release.",
+      "sources": [
+        "9a3488176f47f8a9a5b3",
+        "c960d72df5ecdcdec814",
+        "6089f7a626ee56eac12c"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "BuildOcc: A Large Language Model Occupant Agent Platform for Building Energy Research",
+      "paper": "https://arxiv.org/abs/2609.02729",
+      "decision": "REJECT_SCOPE",
+      "review_date": "2026-09-11",
+      "rationale": "REJECT: occupant agents are the subjects of an energy-behavior simulation, not agents conducting multi-step scientific work.",
+      "sources": [
+        "cc4e657ab2395560123d",
+        "857b4feeca69a99e2e3c"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "ToolGate: An Executable Acceptance Pipeline for Tool-Dependent Scientific Benchmark Construction",
+      "paper": "https://arxiv.org/abs/2609.02067",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "16a613bb2af884124186",
+        "ee73a9fbe2e1585b5f89"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "HyGRAIL: Cost-Aware and Evidence-Grounded Scientific Hypothesis Discovery over Knowledge Graphs",
+      "paper": "https://arxiv.org/abs/2609.02056",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "4a277c80fdc8d63e8d4d",
+        "2c369b0e945be77cc9aa"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "NS-Copilot: An LLM-Driven Agent System for Autonomous Neuroscience Analysis",
+      "paper": "https://arxiv.org/abs/2609.01971",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "b18f62112d6e1ed61b2e",
+        "9e89e2711649cdf70446"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "EvoSCM: Scientific Belief Revision Through Causal Model Evolution and Experimentation",
+      "paper": "https://arxiv.org/abs/2609.01526",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "ee497ebe0d70fa939338",
+        "63202d5db2724d94f72d"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening",
+      "paper": "https://arxiv.org/abs/2609.01209",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "00762ab92b62204faeb8",
+        "5c743d6f109eab1af166"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "RingMoClaw: An Experience-Inspired Multi-Agent Framework for Self-Evolving Research in Remote Sensing",
+      "paper": "https://arxiv.org/abs/2609.00814",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "2657a0c8649eb8d81c53",
+        "4edca84528d7c82f21e4"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+      "paper": "https://arxiv.org/abs/2609.00065",
+      "decision": "MATCH_EXISTING",
+      "review_date": "2026-09-11",
+      "rationale": "Existing K-Dense skills-library record corrected with this paper and per-skill license limits, under root review of the August selected-infrastructure precedent.",
+      "sources": [
+        "cfc9ffd5b2c95b26ce4a",
+        "5291e1b152303903f4eb"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim.",
+      "record_id": "asa-k-dense-scientific-agent-skills"
+    },
+    {
+      "name": "Evaluating LLM-based AI agents integrated with materials synthesis tools: the case of atomic layer deposition",
+      "paper": "https://arxiv.org/abs/2608.29309",
+      "decision": "REJECT_SCOPE",
+      "review_date": "2026-09-11",
+      "rationale": "REJECT: overview and evaluation case study of LLMs for atomic-layer deposition; no separately established reusable scientific agent or benchmark identified.",
+      "sources": [
+        "fb5e7ed70e83b1aebb18",
+        "80e686bf6829ee004526"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Agentic AI uncovers conserved cross-tissue protein co-abundance programs inaccessible to single-dataset analysis",
+      "paper": "https://arxiv.org/abs/2608.28990",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "4a1a25e43a1666829db7",
+        "7ec5cd4ea94e2be187e6"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "HALO: A Physics-Aware LLM Agent Framework for Nanophotonic Design",
+      "paper": "https://arxiv.org/abs/2608.28877",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "867e8a245649e077baab",
+        "dd5f1c329930353aefe3"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "See, Hypothesize, Validate: Multimodal Agentic Framework for Discovering Governing PDEs",
+      "paper": "https://arxiv.org/abs/2608.27869",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "d6dfeb4d1e8c437ede01",
+        "b6124fb85d7c6dc902a3"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "AgentFold: Closed-Loop Agentic Search for Protein Folding Model Design",
+      "paper": "https://arxiv.org/abs/2608.26747",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Author-endorsed AgentFold repository is public, but no usable license text was confirmed. Hold pending a licensed release; protein-model architecture search is distinct from folding model weights.",
+      "sources": [
+        "7ee04df7623b1e44418d",
+        "4bc6267ec680b4cd9fb7",
+        "9a9affcea9698bf6073a"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "HypoForge: A Self-Improving Multi-Agent Framework for Automated Hypothesis Generation and Testing via Scientific Skill Learning",
+      "paper": "https://arxiv.org/abs/2608.25770",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "7f8d7ec9e0546579cab2",
+        "4c5aee200fa662edc512"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Agentic AI for operating scientific instruments for nanoscale characterization",
+      "paper": "https://arxiv.org/abs/2608.26198",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Instrument-operation framework needs full-text physical-closure and identity comparison against existing microscopy agents. HTML was unavailable; no standalone record asserted.",
+      "sources": [
+        "eaeeeb2f7c41f936cedc",
+        "e325fe889d6effc8718c"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Multi-Agent Discovery and Resource-Aware Autonomous Exploration of Scientific Datasets",
+      "paper": "https://arxiv.org/abs/2608.22045",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "e9b12fd59a7d149ec97c",
+        "3db1e10c67f7f3d967be"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "K-Bench: measuring model performance on real scientific agent requests",
+      "paper": "https://arxiv.org/abs/2608.21601",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "K-Bench uses first-turn requests from live users and LLM judging. The primary full text was inspected, but public task/harness release and usable release terms were not verified; do not substitute the cited pi harness for benchmark data.",
+      "sources": [
+        "8596d3726910089ded61",
+        "a0cd4c6540e3b263ca60"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?",
+      "paper": "https://arxiv.org/abs/2608.19799",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Scientific software-engineering benchmark, but HTML full text was unavailable and a complete licensed official benchmark artifact was not verified in this pass.",
+      "sources": [
+        "044602a725aa2afcc329",
+        "6daffd237f9b011ec2d5"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "An LLM agent for end-to-end computational materials discovery",
+      "paper": "https://arxiv.org/abs/2608.20434",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "MAESTRO is a plausible in-scope multi-step MOF workflow; HTML was unavailable and an author-owned released artifact was not verified. Hold rather than infer code access.",
+      "sources": [
+        "5e857bad12505daa2642",
+        "0b72998566fdc04ed6ba"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
+      "paper": "https://arxiv.org/abs/2608.27475",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "9f8521baf492bc6fa4fa",
+        "40460ba812f7541d0330"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery",
+      "paper": "https://arxiv.org/abs/2608.19047",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Author-endorsed manxis-contact/Eureka repository is public, but no usable license text was confirmed. Do not conflate with other Eureka systems.",
+      "sources": [
+        "5f11270cbf24242ac5f1",
+        "202d743000b1aa981c9d",
+        "887003cea855277bad49"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "SeisEvo: Evolution of Seismic Data Reconstruction Algorithms by Agents",
+      "paper": "https://arxiv.org/abs/2608.18272",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "cd04321571c9fb73e229",
+        "8470241ef73dbf5a73c5"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+      "paper": "https://arxiv.org/abs/2608.16876",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Author-endorsed AutoSR repository is public, but no usable license text was confirmed. Hold pending a licensed release.",
+      "sources": [
+        "f99cc90635b9d2ab0495",
+        "d868171a77e85b7e5fb7",
+        "313f82b4c27871d53475"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "GoalEvolve: From Handcrafted Algorithm Priors to Goal-Driven Evolution of Physical Design Algorithms",
+      "paper": "https://arxiv.org/abs/2608.16733",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "c2157ed7fe0aa7fedb8a",
+        "a973892d02f37fa07f15"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "zenDot: An LLM-integrated quantum TCAD platform for semiconductor quantum-device design and optimization automation",
+      "paper": "https://arxiv.org/abs/2608.16048",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "zenDot is a plausible in-scope quantum-device workflow; HTML was unavailable and a licensed official system release was not verified.",
+      "sources": [
+        "77bffd389cd422e6fd3e",
+        "6c2a1d6ad4f9e2352d37"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Crystal-structure design by agentic AI in a language of motifs",
+      "paper": "https://arxiv.org/abs/2608.15900",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "f2a64a378b81a792aa08",
+        "784f90938ba97949c04f"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "ALKEMIE Agent: an autonomous platform for computational materials design",
+      "paper": "https://arxiv.org/abs/2608.15776",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "ALKEMIE Agent is a plausible in-scope materials workflow; HTML was unavailable and a licensed official agent release was not verified.",
+      "sources": [
+        "6c9d91e783e113e87716",
+        "238404ca45aa1f4296d8"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "The Little Scientist: LLM Agent-Driven Discovery via the Scientific Method",
+      "paper": "https://arxiv.org/abs/2608.16951",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "The Little Scientist paper points to two domain-specific implementation/result repositories. Their complete framework scope, license and independence from upstream agent infrastructure remain unverified; hold.",
+      "sources": [
+        "22d2af10880e767cda0c",
+        "fb2763cccf06db1a39fd"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "How Do Agents Fail on AutoResearch: End-to-End Diagnostic Evaluation on 100 Real-World Frontier Research Tasks",
+      "paper": "https://arxiv.org/abs/2608.14905",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "de272f9f857e7e76ca73",
+        "6bbabfb5c884942a744c"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "HERMES: a multi-agent framework for structured knowledge extraction from ultra-long documents in geoscience",
+      "paper": "https://arxiv.org/abs/2608.14055",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Primary paper identity and scientific scope were screened; a complete author-endorsed, licensed runtime or benchmark release was not verified in this pass. Keep as a discovery lead without inferring release, reproducibility or performance validity.",
+      "sources": [
+        "1980af5464149f4ac806",
+        "fe8b48d3f567e9bed8e3"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+      "paper": "https://arxiv.org/abs/2608.13505",
+      "decision": "REJECT_SCOPE",
+      "review_date": "2026-09-11",
+      "rationale": "REJECT: scientific agentic foundation-model family; this catalog does not separately list a base model without a distinct autonomous scientific system.",
+      "sources": [
+        "b6b5fc94f8fe3d8f9668",
+        "e9fe65ec4402753582dd"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "name": "VALG: An Agentic System for ML Theory Research",
+      "paper": "https://arxiv.org/abs/2608.13060",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "MIT repository currently links skills and case-study proof artifacts. Hold until the extent of a released reusable agent runtime versus procedural assets is resolved.",
+      "sources": [
+        "68f2b30aa5d9a20dd32d",
+        "5bbe9da2b4a52e3cf74f",
+        "a454183a53a705fd6579"
+      ],
+      "reconsider_when": "Resolve stated scope, artifact, license or access gate; this is not an exhaustive absence claim."
+    },
+    {
+      "record_id": "asa-tooluniverse",
+      "name": "ToolUniverse",
+      "decision": "CORRECT_EXISTING",
+      "review_date": "2026-09-11",
+      "changes": {
+        "notes": "Scientific-agent infrastructure standardizing tool discovery and invocation across models, datasets, APIs and scientific packages. Supports sequential and parallel tool composition in configured self-directed workflows; this row describes the ecosystem rather than a standalone autonomous scientist."
+      },
+      "rationale": "Targeted current-source correction; prior verified date retained unless explicitly changed in patch. Root independently adjudicated component precedent.",
+      "sources": [
+        "90f795b9d28e358a4c12"
+      ]
+    },
+    {
+      "record_id": "asa-chemmcp",
+      "name": "ChemMCP",
+      "decision": "CORRECT_EXISTING",
+      "review_date": "2026-09-11",
+      "changes": {
+        "notes": "Apache-2.0 MCP-compatible chemistry toolkit extending ChemToolAgent. The current release supports native multi-turn agent/tool reinforcement-learning loops as well as standalone tool integration; scientific autonomy depends on the configured agent and workflow."
+      },
+      "rationale": "Targeted current-source correction; prior verified date retained unless explicitly changed in patch. Root independently adjudicated component precedent.",
+      "sources": [
+        "563fb4e41941b9e42a66"
+      ]
+    },
+    {
+      "record_id": "asa-puda",
+      "name": "PUDA",
+      "decision": "CORRECT_EXISTING",
+      "review_date": "2026-09-11",
+      "changes": {
+        "notes": "Hardware orchestration runtime, not a standalone scientist. External agents drive deterministic, provenance-recorded device commands using separate skills; the A3-A4 range describes configured workflows rather than autonomous reasoning intrinsic to PUDA. Researchers may inspect, approve or revise actions mid-campaign. No usable license was confirmed in the public repository."
+      },
+      "rationale": "Targeted current-source correction; prior verified date retained unless explicitly changed in patch. Root independently adjudicated component precedent.",
+      "sources": [
+        "7d209bb6bbb5d23da4b9"
+      ]
+    },
+    {
+      "record_id": "asa-k-dense-scientific-agent-skills",
+      "name": "K-Dense scientific-agent-skills",
+      "decision": "CORRECT_EXISTING",
+      "review_date": "2026-09-11",
+      "changes": {
+        "paper_links": [
+          {
+            "label": "arXiv",
+            "url": "https://arxiv.org/abs/2609.00065"
+          }
+        ],
+        "notes": "Scientific Agent Skills is a reusable procedural-skills library for existing coding agents, not a standalone scientist. The repository-level license is MIT, but individual skills may specify different terms, including document skills derived from Anthropic. Users must inspect each skill’s license. Retained under the explicit August selected-infrastructure precedent; no volatile skill count is asserted."
+      },
+      "rationale": "Targeted current-source correction; prior verified date retained unless explicitly changed in patch. Root independently adjudicated component precedent.",
+      "sources": [
+        "cfc9ffd5b2c95b26ce4a",
+        "c8f3d928a400ca537089",
+        "5291e1b152303903f4eb"
+      ]
+    },
+    {
+      "record_id": "asa-scta",
+      "name": "SCTA",
+      "decision": "CORRECT_EXISTING",
+      "review_date": "2026-09-11",
+      "changes": {
+        "notes": "Decomposes target discovery into agents aligned with single-cell pipeline decision points, each restricted to predefined tool sets; a Reviewer performs bounded repair on execution errors. Stability was assessed by repeated runs on public GEO datasets. The current README declares MIT but no standalone license text was confirmed, so the record remains source-available.",
+        "access_evidence": {
+          "software_license": "MIT declared in README; no standalone license text confirmed on 2026-09-11",
+          "commercial_use": false,
+          "source_url": "https://github.com/silviachen46/SCTA"
+        }
+      },
+      "rationale": "Targeted current-source correction; prior verified date retained unless explicitly changed in patch. Root independently adjudicated component precedent.",
+      "sources": [
+        "6e596d3d0b5369198aaa"
+      ]
+    },
+    {
+      "record_id": "asa-protopilot",
+      "name": "ProtoPilot",
+      "decision": "CORRECT_EXISTING",
+      "review_date": "2026-09-11",
+      "changes": {
+        "notes": "Self-evolving multi-agent workflow from intent through protocols, SOPs and SDK-compliant code to physical execution and feedback-guided revision. The current paper explicitly describes orchestration of physical instruments; the earlier note that it did not state this was too strong. Optional human checkpoints confirm materials, instrument compatibility and local constraints. Wet-lab demonstrations do not establish unattended operation of every step. No official software release was verified.",
+        "verified": "2026-09-11"
+      },
+      "rationale": "Targeted current-source correction; prior verified date retained unless explicitly changed in patch. Root independently adjudicated component precedent.",
+      "sources": [
+        "c425d212a6cb7cadad22",
+        "52fea497aaf8e881b85f"
+      ]
+    },
+    {
+      "record_id": "asa-periodic-labs",
+      "name": "Periodic Labs",
+      "decision": "REMOVE_TO_REVERSIBLE_HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Root independently reopened the current only cited source. It states development goals, not an observed physical autonomous loop. Prior A5 is unsupported; no invented lower autonomy label and no discontinuation claim. Original row preserved in periodic-prior-row.json; ID reserved in deprecated_ids.json.",
+      "sources": [
+        "1ab86faa90141d1205c0"
+      ]
+    },
+    {
+      "name": "IOBRpy",
+      "decision": "HOLD_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Retain August scope HOLD: pipeline toolkit plus external-agent skills; MIT is verified but new component admission remains unresolved.",
+      "sources": [
+        "42994f878be5784a9b02"
+      ]
+    },
+    {
+      "name": "TCellAlign",
+      "decision": "HOLD_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Retain August scope/artifact HOLD: label harmonization and expert curation; no reviewed licensed agent/harness release.",
+      "sources": [
+        "fae72769dcb4f0a71be1"
+      ]
+    },
+    {
+      "name": "LabRobFail",
+      "decision": "HOLD_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Retain HOLD: public simulator/anomaly-injection scaffolding; no confirmed license and complete dataset/evaluation-harness release not demonstrated.",
+      "sources": [
+        "479c48a4bae5857b144a"
+      ]
+    },
+    {
+      "name": "Sakana Marlin",
+      "decision": "HOLD_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Retain scope HOLD: first-party commercial strategy/business research remains outside scientific research boundary.",
+      "sources": [
+        "f728a12a2f6d28381023"
+      ]
+    },
+    {
+      "name": "FARS",
+      "decision": "HOLD_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Retain existing tombstone: official site still produces a network failure; no current live official system artifact verified. No claim of company closure.",
+      "sources": [
+        "185cf90bf5c965811467"
+      ]
+    },
+    {
+      "name": "Plato-Bio",
+      "decision": "HOLD_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Carry forward HOLD: identity remains distinct from Denario; full renewed code/adoption diligence not performed.",
+      "sources": [
+        "a8210622bb4f5e226641"
+      ]
+    },
+    {
+      "name": "Agentic Re-Casting",
+      "decision": "HOLD_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Carry forward HOLD: paper metadata reopened; reusable released system beyond method demonstration not verified.",
+      "sources": [
+        "8f1cfddd310369768d75"
+      ]
+    },
+    {
+      "name": "Argonne atomistic framework",
+      "decision": "HOLD_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Carry forward HOLD: primary publisher returned 403; no negative availability inference.",
+      "sources": [
+        "640b2744da548a646849"
+      ]
+    },
+    {
+      "name": "Edison Finch",
+      "decision": "HOLD_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "No amendment: current first-party product page does not substantiate the old Finch lead.",
+      "sources": [
+        "644e64c6ef92c1a90b69"
+      ]
+    },
+    {
+      "record_id": "asa-aira-dojo",
+      "name": "AIRA-dojo",
+      "decision": "ACCESS_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Existing access label retained. Public repository is not proof of a usable software license. LQCDMaster license link still returns 404; NNStar license remains an unresolved template. SCTA README-only MIT declaration is corrected separately. No whole-record date refresh.",
+      "sources": [
+        "35b48a88b1cd9d7a9064",
+        "c392a96b3cd224c455b4"
+      ]
+    },
+    {
+      "record_id": "asa-scta",
+      "name": "SCTA",
+      "decision": "ACCESS_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Existing access label retained. Public repository is not proof of a usable software license. LQCDMaster license link still returns 404; NNStar license remains an unresolved template. SCTA README-only MIT declaration is corrected separately. No whole-record date refresh.",
+      "sources": [
+        "6e596d3d0b5369198aaa"
+      ]
+    },
+    {
+      "record_id": "asa-pepcraft",
+      "name": "PepCraft",
+      "decision": "ACCESS_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Existing access label retained. Public repository is not proof of a usable software license. LQCDMaster license link still returns 404; NNStar license remains an unresolved template. SCTA README-only MIT declaration is corrected separately. No whole-record date refresh.",
+      "sources": [
+        "3d402209bcf9a6eb7f6b"
+      ]
+    },
+    {
+      "record_id": "asa-puda",
+      "name": "PUDA",
+      "decision": "ACCESS_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Existing access label retained. Public repository is not proof of a usable software license. LQCDMaster license link still returns 404; NNStar license remains an unresolved template. SCTA README-only MIT declaration is corrected separately. No whole-record date refresh.",
+      "sources": [
+        "7d209bb6bbb5d23da4b9"
+      ]
+    },
+    {
+      "record_id": "asa-labbench-robotic-chemistry",
+      "name": "LabBench (robotic chemistry)",
+      "decision": "ACCESS_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Existing access label retained. Public repository is not proof of a usable software license. LQCDMaster license link still returns 404; NNStar license remains an unresolved template. SCTA README-only MIT declaration is corrected separately. No whole-record date refresh.",
+      "sources": [
+        "ef13f8007a899d255118"
+      ]
+    },
+    {
+      "record_id": "asa-lqcdmaster",
+      "name": "LQCDMaster",
+      "decision": "ACCESS_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Existing access label retained. Public repository is not proof of a usable software license. LQCDMaster license link still returns 404; NNStar license remains an unresolved template. SCTA README-only MIT declaration is corrected separately. No whole-record date refresh.",
+      "sources": [
+        "fe7c413448e50b565e48",
+        "cfe366ce93436534b6c1"
+      ]
+    },
+    {
+      "record_id": "asa-nnstar",
+      "name": "NNStar",
+      "decision": "ACCESS_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Existing access label retained. Public repository is not proof of a usable software license. LQCDMaster license link still returns 404; NNStar license remains an unresolved template. SCTA README-only MIT declaration is corrected separately. No whole-record date refresh.",
+      "sources": [
+        "09133bc7bc16ed9e5f5d",
+        "87b0bb77b834f5cdc19b"
+      ]
+    },
+    {
+      "record_id": "asa-sciagentarena",
+      "name": "SciAgentArena",
+      "decision": "ACCESS_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Existing access label retained. Public repository is not proof of a usable software license. LQCDMaster license link still returns 404; NNStar license remains an unresolved template. SCTA README-only MIT declaration is corrected separately. No whole-record date refresh.",
+      "sources": [
+        "493ff969b9350c1e25a1"
+      ]
+    },
+    {
+      "record_id": "asa-vibe-calibration",
+      "decision": "TARGETED_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Current paper still describes human skill distillation followed by autonomous physical calibration; no record change.",
+      "sources": [
+        "8bb844ed89eeeb0fd8ff",
+        "3f5f1a7355084b5946c9"
+      ]
+    },
+    {
+      "record_id": "asa-pace-sims",
+      "decision": "TARGETED_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Abstract reopened; HTML unavailable. No new physical-autonomy or access claim; previous row retained.",
+      "sources": [
+        "92220edde1c15dc9b754",
+        "802e095db7841a3edc63"
+      ]
+    },
+    {
+      "record_id": "asa-claude-science",
+      "decision": "TARGETED_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Official workbench page remains accessible and supports scientific-analysis tools; no full record re-verification or date bump.",
+      "sources": [
+        "48271a3e301679fb8ad2"
+      ]
+    },
+    {
+      "record_id": "asa-lila-sciences",
+      "decision": "TARGETED_RECHECK",
+      "review_date": "2026-09-11",
+      "rationale": "Current first-party site claims hypothesis generation, physical experiments and feedback. This is vendor evidence, not independent closure verification; no date bump.",
+      "sources": [
+        "00f974ba0571af7df69b"
+      ]
+    },
+    {
+      "name": "MACROS",
+      "paper": "https://arxiv.org/abs/2608.14720",
+      "decision": "HOLD",
+      "review_date": "2026-09-11",
+      "rationale": "Overlap lead from August 12: multimodal spectral structure elucidation. Abstract identity verified, but HTML full text returned 404 and a licensed author-endorsed agent release was not verified. Hold detailed autonomy and release appraisal.",
+      "sources": [
+        "63e155ea2051214ad9be",
+        "c9e4779b714ca09377b6"
+      ]
+    },
+    {
+      "name": "Pufibara agent",
+      "paper": "https://arxiv.org/abs/2608.23653",
+      "decision": "HOLD_COMPONENT_OF_ADDED_PAPER",
+      "review_date": "2026-09-11",
+      "rationale": "Companion Modelica benchmark is admitted with explicit partial-release limits. Pufibara README states only selected tooling is public and the broader stack is private; do not label the complete agent open-source. No separate agent row added.",
+      "sources": [
+        "16984a2b616762974819"
+      ]
+    }
+  ]
+}

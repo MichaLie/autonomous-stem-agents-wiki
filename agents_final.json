@@ -335,12 +335,13 @@
     "inputs": "Agent request requiring tools, APIs, models, databases",
     "outputs": "Tool calls, retrieved evidence, analysis artifacts",
     "autonomy": "A2",
-    "notes": "Open ecosystem of 600-1000+ standardized tools for building biomedical/scientific agents (pip tooluniverse).",
+    "notes": "Scientific-agent infrastructure standardizing tool discovery and invocation across models, datasets, APIs and scientific packages. Supports sequential and parallel tool composition in configured self-directed workflows; this row describes the ecosystem rather than a standalone autonomous scientist.",
     "verified": "2026-06-16",
     "sources": [
       "https://arxiv.org/abs/2509.23426",
       "https://github.com/mims-harvard/ToolUniverse"
-    ]
+    ],
+    "date_modified": "2026-09-11"
   },
   {
     "id": "asa-agentrxiv",
@@ -1081,12 +1082,12 @@
     "inputs": "Agent requests for chemistry tools/data",
     "outputs": "Standardized chemistry tool calls (MCP)",
     "autonomy": "A2",
-    "notes": "MCP-compatible chemistry toolkit; extends ChemToolAgent tools for building chemistry co-scientists.",
+    "notes": "Apache-2.0 MCP-compatible chemistry toolkit extending ChemToolAgent. The current release supports native multi-turn agent/tool reinforcement-learning loops as well as standalone tool integration; scientific autonomy depends on the configured agent and workflow.",
     "verified": "2026-07-13",
     "sources": [
       "https://github.com/OSU-NLP-Group/ChemMCP"
     ],
-    "date_modified": "2026-07-13"
+    "date_modified": "2026-09-11"
   },
   {
     "id": "asa-chemagent-ai4chem",
@@ -2783,34 +2784,6 @@
     "verified": "2026-06-16",
     "sources": [
       "https://www.flagshippioneering.com/news/press-release/flagship-pioneering-unveils-lila-sciences-to-build-superintelligence-in-science"
-    ]
-  },
-  {
-    "id": "asa-periodic-labs",
-    "date_added": "2026-06-16",
-    "name": "Periodic Labs",
-    "category": "crossdomain",
-    "domain": "Commercial physical-science autonomous-lab platform",
-    "paper_links": [
-      {
-        "label": "official site",
-        "url": "https://periodic.com/"
-      }
-    ],
-    "repo_links": [
-      {
-        "label": "Link",
-        "url": "https://periodic.com/"
-      }
-    ],
-    "access": "platform",
-    "inputs": "Physical-science / materials objectives (e.g. superconductors, semiconductors)",
-    "outputs": "Autonomous experiments, high-quality experimental data, materials insights",
-    "autonomy": "A5",
-    "notes": "Commercial 'AI scientist' paired with autonomous physical-science labs; founders from ChatGPT and DeepMind GNoME.",
-    "verified": "2026-06-16",
-    "sources": [
-      "https://periodic.com/"
     ]
   },
   {
@@ -10386,17 +10359,18 @@
     "inputs": "Public scRNA-seq datasets (AnnData) plus a disease-focused target-discovery objective",
     "outputs": "Executed preprocessing, annotation, and differential-expression pipelines with prioritized target hypotheses",
     "autonomy": "A3",
-    "notes": "Decomposes target discovery into agents aligned with single-cell pipeline decision points, each restricted to a disjoint predefined tool set with no ability to define new tools; a Reviewer agent fires only on execution errors and performs bounded repair under retry limits without changing the biological objective. Stability was assessed by repeated autonomous runs on public GEO datasets. The public repository carries no licence file and its last commits predate the preprint.",
+    "notes": "Decomposes target discovery into agents aligned with single-cell pipeline decision points, each restricted to predefined tool sets; a Reviewer performs bounded repair on execution errors. Stability was assessed by repeated runs on public GEO datasets. The current README declares MIT but no standalone license text was confirmed, so the record remains source-available.",
     "verified": "2026-08-13",
     "sources": [
       "https://arxiv.org/abs/2607.23821",
       "https://github.com/silviachen46/SCTA"
     ],
     "access_evidence": {
-      "software_license": "None: public repository with no licence file at verification (2026-08-13)",
+      "software_license": "MIT declared in README; no standalone license text confirmed on 2026-09-11",
       "commercial_use": false,
       "source_url": "https://github.com/silviachen46/SCTA"
-    }
+    },
+    "date_modified": "2026-09-11"
   },
   {
     "id": "asa-graphrarebench",
@@ -10484,11 +10458,12 @@
     "inputs": "Natural-language experimental objective plus laboratory context supplied through multi-turn clarification",
     "outputs": "Validated protocols and SOPs, SDK-compliant instrument code, executed workflows, and feedback-revised versions",
     "autonomy": "A4-A5",
-    "notes": "Self-evolving multi-agent system with an Orchestrator over a five-layer representation from intent to instrument code, rubric validators, and a runtime-updated skill library; 294 benchmark tasks give 90.2% Top@3 expert preference. Physical closure is real but partial and human-gated: disclosed checkpoints confirm materials and instruments, wet-lab work involved off-deck human steps, and the paper does not state that the agent triggers instrument runs itself.",
-    "verified": "2026-08-13",
+    "notes": "Self-evolving multi-agent workflow from intent through protocols, SOPs and SDK-compliant code to physical execution and feedback-guided revision. The current paper explicitly describes orchestration of physical instruments; the earlier note that it did not state this was too strong. Optional human checkpoints confirm materials, instrument compatibility and local constraints. Wet-lab demonstrations do not establish unattended operation of every step. No official software release was verified.",
+    "verified": "2026-09-11",
     "sources": [
       "https://arxiv.org/abs/2606.31763"
-    ]
+    ],
+    "date_modified": "2026-09-11"
   },
   {
     "id": "asa-pepcraft",
@@ -10902,7 +10877,7 @@
     "inputs": "Agent-issued CLI/JSON protocol commands and experiment campaign specifications",
     "outputs": "Deterministic, atomic hardware executions with provenance-linked state, responses, and data records",
     "autonomy": "A3-A4",
-    "notes": "AI-native hardware harness rather than a science agent: agents observe, decide, and act through a command-line runtime while hardware execution stays deterministic and auditable, deployed across sample-handling, synthesis, and device-measurement workflows. Researchers can inspect, approve, or revise hardware actions mid-campaign; the public repositories carry no licence file.",
+    "notes": "Hardware orchestration runtime, not a standalone scientist. External agents drive deterministic, provenance-recorded device commands using separate skills; the A3-A4 range describes configured workflows rather than autonomous reasoning intrinsic to PUDA. Researchers may inspect, approve or revise actions mid-campaign. No usable license was confirmed in the public repository.",
     "verified": "2026-08-13",
     "sources": [
       "https://arxiv.org/abs/2607.26464",
@@ -10913,7 +10888,8 @@
       "software_license": "None: public repository with no licence file at verification (2026-08-13)",
       "commercial_use": false,
       "source_url": "https://github.com/PUDAP/puda"
-    }
+    },
+    "date_modified": "2026-09-11"
   },
   {
     "id": "asa-llm4mof",
@@ -12264,7 +12240,12 @@
     "name": "K-Dense scientific-agent-skills",
     "category": "crossdomain",
     "domain": "Scientific-agent skills library",
-    "paper_links": [],
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.00065"
+      }
+    ],
     "repo_links": [
       {
         "label": "GitHub",
@@ -12275,10 +12256,663 @@
     "inputs": "Agent tasks requiring scientific skills or scientific database access",
     "outputs": "Executable skill invocations and queries across 100+ scientific databases",
     "autonomy": "A2",
-    "notes": "MIT-licensed Agent Skills library of 158 skills across bioinformatics, cheminformatics, clinical research, and machine learning, compatible with common coding agents and the open Agent Skills standard. A component library included under the ToolUniverse and ChemMCP precedent, not a standalone agent.",
+    "notes": "Scientific Agent Skills is a reusable procedural-skills library for existing coding agents, not a standalone scientist. The repository-level license is MIT, but individual skills may specify different terms, including document skills derived from Anthropic. Users must inspect each skill’s license. Retained under the explicit August selected-infrastructure precedent; no volatile skill count is asserted.",
     "verified": "2026-08-13",
     "sources": [
+      "https://arxiv.org/abs/2609.00065",
       "https://github.com/K-Dense-AI/scientific-agent-skills"
+    ],
+    "date_modified": "2026-09-11"
+  },
+  {
+    "id": "asa-terminal-bench-science",
+    "date_added": "2026-09-11",
+    "name": "Terminal-Bench-Science",
+    "category": "benchmark",
+    "domain": "Expert-authored research workflows across life, physical, earth, mathematical and engineering sciences",
+    "paper_links": [],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/harbor-framework/terminal-bench-science"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Scientific task instructions, containerized environments and required output artifacts",
+    "outputs": "Task resolution scores against executable reference checks",
+    "autonomy": "B",
+    "notes": "Stanford-led scientific branch of Terminal-Bench. The 0.1 release contains 70 expert-curated workflows executed through Harbor; the public repository provides tasks and reference solutions. Apache-2.0. Benchmark performance concerns computational workflows, not autonomous laboratory operation.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://github.com/harbor-framework/terminal-bench-science",
+      "https://github.com/harbor-framework/terminal-bench-science/blob/main/LICENSE"
+    ]
+  },
+  {
+    "id": "asa-asi-bench",
+    "date_added": "2026-09-11",
+    "name": "ASI-Bench",
+    "category": "benchmark",
+    "domain": "Project-level computational research with progressively reduced methodological guidance",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.17271"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/apexin-ai/ASI-Bench"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Scientific objectives and task data under four levels of methodological guidance",
+    "outputs": "Executable research artifacts, task scores and guidance-level comparisons",
+    "autonomy": "B",
+    "notes": "60 research tasks across 11 domains; holds the scientific objective fixed while removing methods and adding distractors. The public runner produces artifacts, while official scoring uses the submission service. The repository LICENSE is Apache-2.0 despite a stale MIT footer on the project site. The title does not establish artificial superintelligence.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.17271",
+      "https://github.com/apexin-ai/ASI-Bench",
+      "https://github.com/apexin-ai/ASI-Bench/blob/main/LICENSE"
+    ]
+  },
+  {
+    "id": "asa-bixbench3",
+    "date_added": "2026-09-11",
+    "name": "BixBench3",
+    "category": "benchmark",
+    "domain": "Research-study-scale computational biology",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.25286"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/EdisonScientific/BixBench3"
+      }
+    ],
+    "access": "open-data",
+    "inputs": "Raw study data, a biological objective, methodological guidance and structured artifact contracts",
+    "outputs": "Analysis artifacts graded against published-study references plus process-quality diagnostics",
+    "autonomy": "B",
+    "notes": "Edison benchmark with 20 study-scale tasks, distinct from the earlier question/capsule-based BixBench. Public runner and deterministic grader are provided; task manifests are on Hugging Face and raw inputs/reference artifacts use Google Cloud Storage. Running the documented harness requires a configured GCP project. Edison-authored code and materials are CC BY-SA 4.0; upstream scientific data retain their own terms.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.25286",
+      "https://github.com/EdisonScientific/BixBench3",
+      "https://github.com/EdisonScientific/BixBench3/blob/main/LICENSE"
+    ]
+  },
+  {
+    "id": "asa-earthverse",
+    "date_added": "2026-09-11",
+    "name": "EarthVerse",
+    "category": "benchmark",
+    "domain": "Earth-system and natural-hazard scientific investigations",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.23525"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/CuiZHIQ/Earth-Verse"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "Heterogeneous event packages and 405 research tasks covering 199 events and 19 hazard families",
+    "outputs": "Evidence-grounded answers, calculation traces, answer-unit accuracy and strict completion scores",
+    "autonomy": "B",
+    "notes": "Agents inspect event evidence, choose tools, calculate and reconcile observations. Public tasks, reference answers, tools and evaluation code are released. Mixed licensing matters: original software is Apache-2.0, original task annotations are CC BY-NC 4.0, and third-party evidence retains provider-specific terms. Simulated/computational evaluation, not field actuation.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.23525",
+      "https://github.com/CuiZHIQ/Earth-Verse",
+      "https://github.com/CuiZHIQ/Earth-Verse/blob/main/LICENSE.md"
+    ],
+    "access_evidence": {
+      "software_license": "Apache-2.0 original software; CC-BY-NC-4.0 original task annotations; separate upstream evidence terms",
+      "commercial_use": false,
+      "source_url": "https://github.com/CuiZHIQ/Earth-Verse/blob/main/LICENSE.md"
+    }
+  },
+  {
+    "id": "asa-frontierchallenge",
+    "date_added": "2026-09-11",
+    "name": "FrontierChallenge",
+    "category": "benchmark",
+    "domain": "Complete scientific workflows across chemistry, materials and life science",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.24979"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ApodexAI/FrontierAgent/tree/main/benchmarks/frontierchallenge"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Fixed scientific input data and bundles of required end-to-end deliverables",
+    "outputs": "Full-completion pass rates, partial scores and process diagnostics",
+    "autonomy": "B",
+    "notes": "The paper describes 300 workflows but releases and evaluates 97; the record refers to that released subset. Evaluation code is within the Apache-2.0 FrontierAgent repository; task data are separately distributed on Hugging Face. Completion and partial progress are separate measures, and reported success is not proof of independent scientific discovery.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.24979",
+      "https://github.com/ApodexAI/FrontierAgent/blob/main/LICENSE",
+      "https://github.com/ApodexAI/FrontierAgent/tree/main/benchmarks/frontierchallenge"
+    ]
+  },
+  {
+    "id": "asa-truthinsightbench",
+    "date_added": "2026-09-11",
+    "name": "TruthInsightBench",
+    "category": "benchmark",
+    "domain": "Evidence quality in open-ended scientific data analysis",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.05079"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/TruthInsight-stack/TruthInsightBench"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "40 blind research objectives with frozen data across ten scientific domains",
+    "outputs": "Reproducible claims and artifacts scored by a 29-item evidence rubric",
+    "autonomy": "B",
+    "notes": "Withholds source-study conclusions and analysis paths. The public release includes task data, four harness adapters and scoring code under Apache-2.0, with upstream attribution and licenses preserved separately. The fixed LLM judge measures rubric-defined evidentiary maturity; its scores do not certify the scientific truth of a discovery.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2609.05079",
+      "https://github.com/TruthInsight-stack/TruthInsightBench",
+      "https://github.com/TruthInsight-stack/TruthInsightBench/blob/main/LICENSE"
+    ]
+  },
+  {
+    "id": "asa-science-sandboxes",
+    "date_added": "2026-09-11",
+    "name": "Science Sandboxes (MPRAbox / CodonBox)",
+    "category": "benchmark",
+    "domain": "Agent experimentation against biological surrogate models and invented biological worlds",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.30165"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/asr2210/science-sandbox"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Sealed sequence-design or sequence-to-fitness environments and tool budgets",
+    "outputs": "Experiment trajectories and oracle-scored scientific exploration outcomes",
+    "autonomy": "B",
+    "notes": "MPRAbox uses a pretrained empirical surrogate; CodonBox uses invented biological rules. Both provide computational experimental feedback and neither is a physical wet-lab loop. MIT code; Malinois model weights retain the separate boda2 license. The public repository includes the harnesses and results.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.30165",
+      "https://github.com/asr2210/science-sandbox",
+      "https://github.com/asr2210/science-sandbox/blob/main/LICENSE"
+    ],
+    "aliases": [
+      "MPRAbox",
+      "CodonBox"
+    ]
+  },
+  {
+    "id": "asa-dr-claw",
+    "date_added": "2026-09-11",
+    "name": "Dr. Claw",
+    "category": "crossdomain",
+    "domain": "Human-supervised research workspace and executor orchestration",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.00365"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/OpenLAIR/dr-claw"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Research goals, project data, existing coding-agent executors and researcher decisions",
+    "outputs": "Persistent task graphs, executed analyses, writing artifacts and recoverable audit trails",
+    "autonomy": "A3",
+    "notes": "A research workspace that coordinates existing executors through persistent state and explicit human decisions. It implements the research workflow layer rather than a new underlying autonomous model. AGPL-3.0 with GPL-3.0 upstream components; private medical datasets used in the study are not included in the release.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2609.00365",
+      "https://github.com/OpenLAIR/dr-claw",
+      "https://github.com/OpenLAIR/dr-claw/blob/main/LICENSE"
+    ]
+  },
+  {
+    "id": "asa-arcticswarm",
+    "date_added": "2026-09-11",
+    "name": "ArcticSwarm",
+    "category": "crossdomain",
+    "domain": "Long-horizon evidence retrieval and research synthesis",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.01870"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Snowflake-AI-Research/ArcticSwarm"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Research questions, web or corpus retrieval and configured model backends",
+    "outputs": "Cross-examined findings, cited answers and inspectable research trajectories",
+    "autonomy": "A3",
+    "notes": "Snowflake research framework with independent exploration followed by peer challenge and verification before synthesis. The released harness supports live-web and corpus-based research under Apache-2.0. Demonstrated closure is information gathering and synthesis, not laboratory experiments.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2609.01870",
+      "https://github.com/Snowflake-AI-Research/ArcticSwarm",
+      "https://github.com/Snowflake-AI-Research/ArcticSwarm/blob/main/LICENSE"
+    ]
+  },
+  {
+    "id": "asa-evomap-autoresearch",
+    "date_added": "2026-09-11",
+    "name": "AutoResearch (EvoMap)",
+    "category": "crossdomain",
+    "domain": "Evidence-reviewed AI and machine-learning research",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.17906"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/EvoMap/AutoResearch"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Research ideas or recent research signals, domain knowledge and compute resources",
+    "outputs": "Experiment plans, implemented code, run logs, analyses and independent review reports",
+    "autonomy": "A4",
+    "notes": "Two-stage idea generation and execution workflow that persists research state and uses separate models to review plans and evidence. Pilot outcomes can trigger continuation, revision or termination. Apache-2.0. Disambiguated from other systems and informal workflows named autoresearch; the release describes computational experiments.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.17906",
+      "https://github.com/EvoMap/AutoResearch",
+      "https://github.com/EvoMap/AutoResearch/blob/main/LICENSE"
+    ],
+    "aliases": [
+      "EvoMap AutoResearch"
+    ]
+  },
+  {
+    "id": "asa-station",
+    "date_added": "2026-09-11",
+    "name": "The Station (Dualverse)",
+    "category": "crossdomain",
+    "domain": "Open-world multi-agent computational and mathematical discovery",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.23691"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/dualverse-ai/station"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A shared scorable research task, an executable evaluator and model-provider configuration",
+    "outputs": "Candidate constructions, evaluated solutions and persistent collaborative research records",
+    "autonomy": "A4",
+    "notes": "An open-world research environment with persistent agents, shared scientific records and executable evaluation. The v2 paper documents autonomous mathematical exploration; Apache-2.0 code and public trajectories are linked by the authors. Requires task-specific scoring and sufficiently fast iterations. Computational discovery does not imply a physical loop.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.23691",
+      "https://github.com/dualverse-ai/station",
+      "https://github.com/dualverse-ai/station/blob/main/LICENSE"
+    ],
+    "aliases": [
+      "Station v2"
+    ]
+  },
+  {
+    "id": "asa-scienceflow",
+    "date_added": "2026-09-11",
+    "name": "ScienceFlow",
+    "category": "crossdomain",
+    "domain": "Long-horizon machine-learning and computational scientific research",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.14354"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/huawei-noah/noah-research/tree/master/ScienceFlow"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Research task packages, model credentials, isolated workspaces and compute budgets",
+    "outputs": "Recoverable experiment states, validated results, search branches and execution records",
+    "autonomy": "A4",
+    "notes": "Huawei Noah’s Ark Lab framework that couples persistent research workspaces, evidence gates and adaptive continuation or re-anchoring with compute scheduling. The author-owned noah-research monorepo releases the framework, tasks and documentation under MIT. The paper’s physical jobs are compute jobs, not laboratory actuation.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.14354",
+      "https://github.com/huawei-noah/noah-research/blob/master/ScienceFlow/LICENSE",
+      "https://github.com/huawei-noah/noah-research/tree/master/ScienceFlow"
+    ]
+  },
+  {
+    "id": "asa-brain-researcher",
+    "date_added": "2026-09-11",
+    "name": "Brain Researcher",
+    "category": "biology",
+    "domain": "Auditable neuroimaging analysis",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.19902"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/brain-researcher/brain-researcher-public"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Research questions, admissible neuroimaging datasets and approved analysis plans",
+    "outputs": "Versioned analysis episodes, artifacts, provenance and condition-tagged review verdicts",
+    "autonomy": "A3",
+    "notes": "Connects evidence, analysis choices and tool execution through a workspace with a researcher commitment gate. Public MIT code includes the CLI, MCP contracts, service stack and examples. Private benchmark corpora, knowledge-graph contents and site-specific launchers are excluded; the paper’s broad archive wording must not be read as public access to every study asset. Interpretation remains with researchers.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.19902",
+      "https://github.com/brain-researcher/brain-researcher-public",
+      "https://github.com/brain-researcher/brain-researcher-public/blob/main/LICENSE"
+    ]
+  },
+  {
+    "id": "asa-orchestra-regulatory",
+    "date_added": "2026-09-11",
+    "name": "Orchestra (regulatory discovery)",
+    "category": "biology",
+    "domain": "Corroborated gene-regulatory candidate analysis",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.05496"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/jab57/Orchestra"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Gene/network comparison queries and configured RegNetAgents and CASCADE evidence services",
+    "outputs": "Regulator candidates with independent-source support and source-level evidence flags",
+    "autonomy": "A3",
+    "notes": "MIT LangGraph workflow composing regulatory-topology and experimental-evidence MCP services. Tests whether agreement between evidence sources enriches known cancer-gene annotations; it does not establish causal regulation or prospective wet-lab discovery. This CASCADE dependency is Jose Bird’s bioinformatics service, distinct from the catalogued scientific skill-learning CASCADE.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2609.05496",
+      "https://github.com/jab57/Orchestra",
+      "https://github.com/jab57/Orchestra/blob/main/LICENSE"
+    ]
+  },
+  {
+    "id": "asa-arche",
+    "date_added": "2026-09-11",
+    "name": "ARCHE",
+    "category": "chemistry",
+    "domain": "Computational chemical-mechanism discovery",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.11147"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JetAstra/Arche-Harness"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "Mechanistic research questions, chemistry tools and configured reasoning models",
+    "outputs": "Prioritized mechanisms, executed computational investigations and evidence-revised conclusions",
+    "autonomy": "A4",
+    "notes": "The paper combines general and chemistry-specialized models with a tool registry for iterative mechanistic investigation. Its author-linked Arche-Harness release is a later investigation_v2 implementation, not the paper’s earlier Planner/Execution/Reflection system. ARCHE-Chem weights, reward model, training corpus and training pipeline are absent; the public code and selected case data do not reproduce the complete paper configuration. A custom academic/non-commercial license applies. Closure is computational; reviewed sources were the primary abstract and repository documentation, not inaccessible HTML full text.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2609.11147",
+      "https://github.com/JetAstra/Arche-Harness",
+      "https://github.com/JetAstra/Arche-Harness/blob/main/LICENSE"
+    ],
+    "access_evidence": {
+      "software_license": "Academic and Non-Commercial Research License v1.0",
+      "commercial_use": false,
+      "source_url": "https://github.com/JetAstra/Arche-Harness/blob/main/LICENSE"
+    }
+  },
+  {
+    "id": "asa-la-agente-optima",
+    "date_added": "2026-09-11",
+    "name": "La Agente Óptima",
+    "category": "chemistry",
+    "domain": "Agentic Bayesian-optimization campaigns on digital and physical laboratories",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.04564"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/the-matter-lab/La-Agente-Optima-artifacts"
+      }
+    ],
+    "access": "paper-only",
+    "inputs": "Scientific objectives, experiment search spaces, BO-MCP optimizers and connected laboratory platforms",
+    "outputs": "Executable campaigns, measurements, repaired constraints and feedback-guided experiments",
+    "autonomy": "A4-A5",
+    "notes": "Demonstrated on five digital tasks and two physical platforms. A real contact-angle loop executed measurements and revised a failing campaign, with operator approval for constraint changes and restarts; physical deck preparation requires a named human certification. Public research artifacts include data, conversations and plotting code, not a verified complete deployable Óptima system. The artifacts repository has no confirmed license, so public visibility is not an open-source claim.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2609.04564",
+      "https://github.com/the-matter-lab/La-Agente-Optima-artifacts"
+    ]
+  },
+  {
+    "id": "asa-modelica-agent-workflow-benchmark",
+    "date_added": "2026-09-11",
+    "name": "Modelica Agent Workflow Benchmark",
+    "category": "benchmark",
+    "domain": "Modelica model repair, generation and parameter tuning",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.23653"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/wangzizhe/modelica-agent-workflow-benchmark"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "Faulty models, engineering requirements or tuning targets with OpenModelica validation",
+    "outputs": "Executable and behavioral task checks under a shared agent evaluation protocol",
+    "autonomy": "B",
+    "notes": "Companion benchmark to Pufibara. Public v0.2 provides Apache-2.0 code, protocol and schemas plus a small demo split under a separate Benchmark Data License: academic/non-commercial evaluation and local smoke testing are permitted, while model training, distillation, training-data expansion and dataset redistribution require written permission. Official evaluation uses hidden maintainer-run sets. Neither the full task set nor the full Pufibara stack is released; modeling is computational.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.23653",
+      "https://github.com/wangzizhe/modelica-agent-workflow-benchmark",
+      "https://github.com/wangzizhe/modelica-agent-workflow-benchmark/blob/main/DATA_LICENSE.md"
+    ],
+    "access_evidence": {
+      "software_license": "Apache-2.0 code; custom Benchmark Data License restricts task data to specified uses and prohibits training/distillation and dataset redistribution without permission",
+      "commercial_use": false,
+      "source_url": "https://github.com/wangzizhe/modelica-agent-workflow-benchmark/blob/main/DATA_LICENSE.md"
+    }
+  },
+  {
+    "id": "asa-pace-bench",
+    "date_added": "2026-09-11",
+    "name": "PACE-Bench",
+    "category": "benchmark",
+    "domain": "Adaptation of code-driven designs to changed simulated physics",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.14441"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/thunlp/PACE-Bench"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "144 source-to-target environment pairs across six physics domains with a limited attempt budget",
+    "outputs": "Adapted designs, sandbox feedback, validity checks and adaptation success scores",
+    "autonomy": "B",
+    "notes": "Tests whether agents can repair a formerly successful design after a change in simulated physics while preserving goal and interface. Public MIT harness includes task environments and executable validation. Distinct from PACE-SIMS, which concerns a physical mass-spectrometry instrument.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.14441",
+      "https://github.com/thunlp/PACE-Bench",
+      "https://github.com/thunlp/PACE-Bench/blob/main/LICENSE"
+    ]
+  },
+  {
+    "id": "asa-andy-mathematics",
+    "date_added": "2026-09-11",
+    "name": "Andy (mathematical research)",
+    "category": "physics",
+    "domain": "Mathematical problem generation and proof workflows",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.15052"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mowaiwaim/Andy"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Mathematical problems, proposed proofs and optional reference papers",
+    "outputs": "Proof dependency graphs, separately reviewed proof steps, new problems and traceable reports",
+    "autonomy": "A4",
+    "notes": "MIT research system with a local workspace, persistent proof state and separate generation and checking models. Failed proof nodes trigger targeted repair. Automatic checking is language-model-based and is not equivalent to a formally verified proof-assistant certificate; the README requires researcher review before formal use.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.15052",
+      "https://github.com/mowaiwaim/Andy",
+      "https://github.com/mowaiwaim/Andy/blob/main/LICENSE"
+    ]
+  },
+  {
+    "id": "asa-benchmark-as-teacher",
+    "date_added": "2026-09-11",
+    "name": "Benchmark-as-Teacher (BaT)",
+    "category": "benchmark",
+    "domain": "Evaluation and recursive post-training harness for medical-imaging research agents",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.16211"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/AutoMedBench/Benchmark-as-Teacher"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Stage-level research rubrics, held-out-safe training states and an agent model",
+    "outputs": "Targeted training curricula, updated agent checkpoints and repeated stage-level evaluations",
+    "autonomy": "B",
+    "notes": "NVIDIA-associated MIT framework connecting stage diagnostics, data generation, GRPO training and evaluation gates for medical-imaging research agents. The public repository implements the training loop; it does not establish prospective clinical usefulness or a wet-lab loop. Distinct from the AutoMedBench evaluation resource it uses.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.16211",
+      "https://github.com/AutoMedBench/Benchmark-as-Teacher",
+      "https://github.com/AutoMedBench/Benchmark-as-Teacher/blob/main/LICENSE"
+    ]
+  },
+  {
+    "id": "asa-omniscientist-omni-modal",
+    "date_added": "2026-09-11",
+    "name": "OmniScientist (omni-modal, NUS/Oxford)",
+    "category": "crossdomain",
+    "domain": "Research from raw multimodal evidence to executable analyses and manuscripts",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.13558"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Omni-Scientist/OmniScientist"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A research direction and local raw multimodal scientific data",
+    "outputs": "Hypotheses, executed code, analyzed figures, traceable results and manuscript artifacts",
+    "autonomy": "A4",
+    "notes": "MIT system by Bobo Li, Hao Fei and collaborators with perception, ideation, experiment and writing stages. The September desktop release replaces the discontinued standalone terminal edition; a coding-agent skill remains available. Independent identity from Tsinghua FIB Lab’s 2025 OmniScientist: different authors, paper and repository. Demonstrations are computational.",
+    "verified": "2026-09-11",
+    "sources": [
+      "https://arxiv.org/abs/2608.13558",
+      "https://github.com/Omni-Scientist/OmniScientist",
+      "https://github.com/Omni-Scientist/OmniScientist/blob/main/LICENSE"
+    ],
+    "aliases": [
+      "Omni-Scientist OmniScientist"
     ]
   }
 ]

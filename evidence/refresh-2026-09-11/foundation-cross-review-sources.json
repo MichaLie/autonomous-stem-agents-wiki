@@ -1,0 +1,196 @@
+{
+  "reviewer": "autonomous_refresh independent cross-catalog reviewer",
+  "date": "2026-09-11",
+  "scope": "Six specified Foundation records; bounded adversarial sample, not an independent review of the whole Foundation refresh. Artifacts and code were not executed. Large weights/archives not downloaded.",
+  "sources": [
+    {
+      "url": "https://huggingface.co/yangheng/PlantRNA-FM/raw/main/README.md",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "cbf85880088ae79b70c134df43084cff351e55984702a489d39280fc93c6ab7c",
+      "access_level": "repository-or-model-card-text"
+    },
+    {
+      "url": "https://huggingface.co/api/models/yangheng/PlantRNA-FM",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "cd30a95e9335e09418b2a2c5e8731b646eae17222dc79f2a84a81bb2283bf15b",
+      "access_level": "artifact-metadata-and-file-list"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11652376/",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "ecfa3a25e01a8e4392b343ea55674ef00f2e9df1effdfd34f67eda6f6a25d4aa",
+      "access_level": "publisher-full-text-selected-sections"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blazejba/Monroe/HEAD/README.md",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "5dd6bd6a8af709ffc4d7c864d9797b0783250a360bba921356e86cafcacbf2f4",
+      "access_level": "repository-or-model-card-text"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blazejba/Monroe/HEAD/LICENSE",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "18a0af8a0e748b03052cdf67619030883a225e9565b23ff22813a66bf1747400",
+      "access_level": "license-body"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blazejba/Monroe/HEAD/checkpoint/weights.pt",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "9a5f48bb46acbed1d22502231292be19d2ee449885da41bc22c799d339fc9f06",
+      "access_level": "git-lfs-pointer-only"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Boehringer-Ingelheim/mol-jepa/HEAD/README.md",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "fce70d80a4c030697655b2014b4663f18384c65a5d6a4a195ea68412032842de",
+      "access_level": "repository-or-model-card-text"
+    },
+    {
+      "url": "https://huggingface.co/Flogrammer/Mol-JEPA/raw/main/README.md",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "93192e45c97b928610e8040c3e1ca256646c5e13f7fdf33f9d6512888a76a63d",
+      "access_level": "repository-or-model-card-text"
+    },
+    {
+      "url": "https://huggingface.co/api/models/Flogrammer/Mol-JEPA",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "1ae0d2445376d09f4fe3f6d19619b2864afc99bd291b798bcb7bc19bdc0ea7b9",
+      "access_level": "artifact-metadata-and-file-list"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/microsoft/frame-flow/HEAD/README.md",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "68b27deac48d4ffc20034e5d0e2740fe90943568232efbca1064ce829d7bdbe7",
+      "access_level": "repository-or-model-card-text"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/microsoft/frame-flow/HEAD/LICENSE",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "d9a1b1e30d633d5732ea18e3cba9538d293ebc53e1a9e4e96ab739e0c5c4f1cb",
+      "access_level": "license-body"
+    },
+    {
+      "url": "https://zenodo.org/api/records/12776473",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "8b0b0af4e44051c5c1d9825ff35e6a49ce2511472ad64cee3e38c0cb8c94d1f8",
+      "access_level": "artifact-metadata-and-file-list"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/THGLab/KinConfBench/HEAD/README.md",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "4a77bd84859b9e6867ddd2fcdcc4ee131d66859294d2ff841d077299909521cb",
+      "access_level": "repository-or-model-card-text"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/THGLab/KinConfBench/HEAD/LICENSE",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "53aa924ef62762cabb294fa2458a33d003b324b27d720d69e29c73cf467252ac",
+      "access_level": "license-body"
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/31986663",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "9672a5879ab890afa25877fe3165e3232637b969d7863cded9756f18666769f4",
+      "access_level": "artifact-metadata-and-file-list"
+    },
+    {
+      "url": "https://www.nature.com/articles/s44386-026-00068-z",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "access_level": "inaccessible-client-challenge-despite-http-200"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wangmingxuan666/ScDiVa/HEAD/README.md",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "553dde5299e82dd46fa2048dbeab4b719c88f32bd1df50b4558a6ac79551ede2",
+      "access_level": "repository-or-model-card-text"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wangmingxuan666/ScDiVa/HEAD/LICENSE",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "acf73540c4f30449c065a4b82e4c79c4ff9638c507ba7beec344e045610d8307",
+      "access_level": "license-body"
+    },
+    {
+      "url": "https://huggingface.co/warming666/ScDiVa/raw/main/modeling_scdiva.py",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "4607fc7e701debb341f55cb3b4889516f3fbc27b2b8bf795801bf363a2150025",
+      "access_level": "inference-source-code-static-review"
+    },
+    {
+      "url": "https://huggingface.co/warming666/ScDiVa/raw/main/README.md",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "34499387c10a8da2eb7b02e3fc21a3488b196b86e7bb129d754e9e00adbb92f8",
+      "access_level": "repository-or-model-card-text"
+    },
+    {
+      "url": "https://huggingface.co/api/models/warming666/ScDiVa",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "7f7375f8a2bbb9faa7652868242a2f9f3b1608673a4bbca8e1c3f142503c5dee",
+      "access_level": "artifact-metadata-and-file-list"
+    },
+    {
+      "url": "https://arxiv.org/html/2602.03477v1",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "afa64827eff5ae45755fc7fc468c6d7564def98aae62120ca3b124ac65761823",
+      "access_level": "fulltext-html"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18982",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "267da3cfd0b762b9f9ddac9c3bc025836d8f04f0f58255f79b3bbeca08d2e17c",
+      "access_level": "paper-metadata-and-abstract"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.22642",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "24f5b1757ca440f2808dc6368805950da8d07db26584ad4edb6dd265d7261d4b",
+      "access_level": "paper-metadata-and-abstract"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.05297",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "46b780d2eaec9bc1117475fae7dcc16a71ba20d66f128866c6aa0eb13f673d62",
+      "access_level": "paper-metadata-and-abstract"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.04082",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "b614804073e46070ba2fa293bba58737c11a9242382a02a7ec1af5e4288003e5",
+      "access_level": "paper-metadata-and-abstract"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.03477",
+      "retrieved": "2026-09-11",
+      "http_status": 200,
+      "payload_sha256": "02d93dbe4fc05ff7e48818373f77fbc3fd811beb54f52ad7d55b704d56b04161",
+      "access_level": "paper-metadata-and-abstract"
+    }
+  ]
+}

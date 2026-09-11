@@ -1,0 +1,189 @@
+[
+  {
+    "id": "asa-tooluniverse",
+    "row": {
+      "id": "asa-tooluniverse",
+      "date_added": "2026-06-16",
+      "name": "ToolUniverse",
+      "category": "crossdomain",
+      "domain": "Scientific-agent tool ecosystem",
+      "paper_links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2509.23426"
+        }
+      ],
+      "repo_links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/mims-harvard/ToolUniverse"
+        }
+      ],
+      "access": "open-source",
+      "inputs": "Agent request requiring tools, APIs, models, databases",
+      "outputs": "Tool calls, retrieved evidence, analysis artifacts",
+      "autonomy": "A2",
+      "notes": "Open ecosystem of 600-1000+ standardized tools for building biomedical/scientific agents (pip tooluniverse).",
+      "verified": "2026-06-16",
+      "sources": [
+        "https://arxiv.org/abs/2509.23426",
+        "https://github.com/mims-harvard/ToolUniverse"
+      ]
+    },
+    "decision": "RETAIN_WITH_EXPLICIT_COMPONENT_BOUNDARY",
+    "reason": "Initial lane interpretation favored exclusion; root independently reviewed current first-party sources and retained the explicit August selected-infrastructure precedent. No governance rule changed.",
+    "current_primary_source": {
+      "url": "https://github.com/mims-harvard/ToolUniverse",
+      "retrieved": "2026-09-11",
+      "status": 200,
+      "access_level": "primary-page-or-repository-text",
+      "payload_sha256": "bd1a90cf7e4ef3323d820476bfbe8b2ff28ad5a73ad66eb30be466d1f669eb35",
+      "excerpt": "ToolUniverse is an ecosystem for creating AI scientist systems from any large language model.",
+      "locator": "README"
+    },
+    "raw_cache": ".maintenance-output/refresh-2026-09-11/sources/"
+  },
+  {
+    "id": "asa-chemmcp",
+    "row": {
+      "id": "asa-chemmcp",
+      "date_added": "2026-06-16",
+      "name": "ChemMCP",
+      "category": "chemistry",
+      "domain": "Chemistry MCP toolkit for agents",
+      "paper_links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/OSU-NLP-Group/ChemMCP"
+        }
+      ],
+      "repo_links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/OSU-NLP-Group/ChemMCP"
+        }
+      ],
+      "access": "open-source",
+      "inputs": "Agent requests for chemistry tools/data",
+      "outputs": "Standardized chemistry tool calls (MCP)",
+      "autonomy": "A2",
+      "notes": "MCP-compatible chemistry toolkit; extends ChemToolAgent tools for building chemistry co-scientists.",
+      "verified": "2026-07-13",
+      "sources": [
+        "https://github.com/OSU-NLP-Group/ChemMCP"
+      ],
+      "date_modified": "2026-07-13"
+    },
+    "decision": "RETAIN_WITH_EXPLICIT_COMPONENT_BOUNDARY",
+    "reason": "Initial lane interpretation favored exclusion; root independently reviewed current first-party sources and retained the explicit August selected-infrastructure precedent. No governance rule changed.",
+    "current_primary_source": {
+      "url": "https://github.com/OSU-NLP-Group/ChemMCP",
+      "retrieved": "2026-09-11",
+      "status": 200,
+      "access_level": "primary-page-or-repository-text",
+      "payload_sha256": "ba5f303da22058421de0b179487c4c701a682571d9a52a6ea9bc97fd1d61b846",
+      "excerpt": "Because ChemMCP is not a standalone agent but rather an open-source resource",
+      "locator": "README"
+    },
+    "raw_cache": ".maintenance-output/refresh-2026-09-11/sources/"
+  },
+  {
+    "id": "asa-puda",
+    "row": {
+      "id": "asa-puda",
+      "date_added": "2026-08-13",
+      "aliases": [
+        "Physical Unified Device Architecture"
+      ],
+      "name": "PUDA",
+      "category": "chemistry",
+      "domain": "Self-driving laboratory hardware orchestration harness",
+      "paper_links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2607.26464"
+        }
+      ],
+      "repo_links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/PUDAP/puda"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.puda.co/"
+        }
+      ],
+      "access": "source-available",
+      "inputs": "Agent-issued CLI/JSON protocol commands and experiment campaign specifications",
+      "outputs": "Deterministic, atomic hardware executions with provenance-linked state, responses, and data records",
+      "autonomy": "A3-A4",
+      "notes": "AI-native hardware harness rather than a science agent: agents observe, decide, and act through a command-line runtime while hardware execution stays deterministic and auditable, deployed across sample-handling, synthesis, and device-measurement workflows. Researchers can inspect, approve, or revise hardware actions mid-campaign; the public repositories carry no licence file.",
+      "verified": "2026-08-13",
+      "sources": [
+        "https://arxiv.org/abs/2607.26464",
+        "https://docs.puda.co/",
+        "https://github.com/PUDAP/puda"
+      ],
+      "access_evidence": {
+        "software_license": "None: public repository with no licence file at verification (2026-08-13)",
+        "commercial_use": false,
+        "source_url": "https://github.com/PUDAP/puda"
+      }
+    },
+    "decision": "RETAIN_WITH_EXPLICIT_COMPONENT_BOUNDARY",
+    "reason": "Initial lane interpretation favored exclusion; root independently reviewed current first-party sources and retained the explicit August selected-infrastructure precedent. No governance rule changed.",
+    "current_primary_source": {
+      "url": "https://github.com/PUDAP/puda",
+      "retrieved": "2026-09-11",
+      "status": 200,
+      "access_level": "primary-page-or-repository-text",
+      "payload_sha256": "0148d6fd80415c90a8d7473fafd4d30f85f67a4323d739ed7c3960cb1e3a4fef",
+      "excerpt": "The intended way to drive PUDA is with AI agents",
+      "locator": "README"
+    },
+    "raw_cache": ".maintenance-output/refresh-2026-09-11/sources/"
+  },
+  {
+    "id": "asa-k-dense-scientific-agent-skills",
+    "row": {
+      "id": "asa-k-dense-scientific-agent-skills",
+      "date_added": "2026-08-13",
+      "aliases": [
+        "scientific-agent-skills",
+        "K-Dense Scientific Agent Skills"
+      ],
+      "name": "K-Dense scientific-agent-skills",
+      "category": "crossdomain",
+      "domain": "Scientific-agent skills library",
+      "paper_links": [],
+      "repo_links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+        }
+      ],
+      "access": "open-source",
+      "inputs": "Agent tasks requiring scientific skills or scientific database access",
+      "outputs": "Executable skill invocations and queries across 100+ scientific databases",
+      "autonomy": "A2",
+      "notes": "MIT-licensed Agent Skills library of 158 skills across bioinformatics, cheminformatics, clinical research, and machine learning, compatible with common coding agents and the open Agent Skills standard. A component library included under the ToolUniverse and ChemMCP precedent, not a standalone agent.",
+      "verified": "2026-08-13",
+      "sources": [
+        "https://github.com/K-Dense-AI/scientific-agent-skills"
+      ]
+    },
+    "decision": "RETAIN_WITH_EXPLICIT_COMPONENT_BOUNDARY",
+    "reason": "Initial lane interpretation favored exclusion; root independently reviewed current first-party sources and retained the explicit August selected-infrastructure precedent. No governance rule changed.",
+    "current_primary_source": {
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "retrieved": "2026-09-11",
+      "status": 200,
+      "access_level": "primary-page-or-repository-text",
+      "payload_sha256": "1fd6f3e41033037833a3a6aae5b8be1ef4c705e5a585b6042670581c0f09ac91",
+      "excerpt": "They are used under Anthropic's terms — see each skill's LICENSE.txt",
+      "locator": "README, document-skill licensing paragraph"
+    },
+    "raw_cache": ".maintenance-output/refresh-2026-09-11/sources/"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "retrieved": "2026-09-11",
+  "engine": "web search plus direct first-party retrieval and arXiv API",
+  "queries": [
+    "scientific autonomous agent benchmark August September 2026 arxiv after:2026-08-01",
+    "biology medicine scientific agent August September 2026 arxiv after:2026-08-01",
+    "chemistry materials physics autonomous agent scientist August September 2026 arxiv after:2026-08-01",
+    "site:arxiv.org/abs \"agent\" \"Sep\" \"2026\" science",
+    "site:arxiv.org/abs \"agent\" \"Aug\" \"2026\" biology",
+    "site:arxiv.org/abs \"agent\" \"Aug\" \"2026\" chemistry",
+    "site:arxiv.org/abs \"benchmark\" \"Aug\" \"2026\" scientific",
+    "site:arxiv.org \"2608\" \"scientific agents\"",
+    "site:arxiv.org \"2609\" \"scientific\" \"agent\"",
+    "site:arxiv.org \"2608\" \"biology\" \"multi-agent\"",
+    "site:arxiv.org \"2608\" \"materials\" \"agent\"",
+    "scientific agents September 2026 EarthVerse K-Bench",
+    "autonomous science agents August 2026 new benchmark",
+    "biology agent September 2026 preprint",
+    "chemistry autonomous agents September 2026 preprint",
+    "site:biorxiv.org \"agent\" \"2026.08\"",
+    "site:biorxiv.org \"agent\" \"2026.09\"",
+    "site:edisonscientific.com August 2026 Finch BixBench3",
+    "LabRobFail IOBRpy TCellAlign September 2026",
+    "ScienceFlow Huawei Noah Ark ScienceFlow agent github",
+    "TCellAlign label harmonization agent repository",
+    "September 2026 biology multi-agent biomedical research new systems",
+    "August 2026 bioRxiv scientific agent research system"
+  ],
+  "selection": "Search results are leads only. Accepted claims rely on sources in source_registry.json; source snippets were never counted as full-text review.",
+  "arxiv_feed": "discovery-index.json",
+  "coverage_limit": "The dated API feed was fully retrieved but not every result received individual evidence adjudication. bioRxiv/medRxiv/vendor discovery is search-led, not exhaustive archive screening."
+}

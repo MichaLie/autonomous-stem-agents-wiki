@@ -2,6 +2,14 @@
 
 All notable public changes to this resource are documented here.
 
+## 2.2.0 — 2026-09-11
+
+- Added 21 source-reviewed systems and benchmarks, with explicit license, partial-release, human-gate and computational/physical boundaries.
+- Corrected six existing records, preserving untouched verification dates and the selected-infrastructure precedent after separate source review.
+- Moved Periodic Labs to a reversible hold because the current official development-goal description does not substantiate the prior A5 label; retained its stable ID and full prior row.
+- Recorded discovery coverage, 43 held leads, scope rejections and source-level evidence in `evidence/DISCOVERY_AUDIT_2026-09-11.md` and its companion JSON files.
+- Rebuilt all distributions and audited 819 unique catalog URLs: 789 reachable, 30 restricted and no missing URLs. Set the immutable release reference after owner review and publication authorization.
+
 ## 2.1.1 — 2026-08-14
 
 - Added a visible version-and-date badge to the index header, generated from
