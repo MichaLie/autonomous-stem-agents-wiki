@@ -2,6 +2,17 @@
 
 All notable public changes to this resource are documented here.
 
+## 2.3.0 — 2026-10-10
+
+- Added 82 source-reviewed systems and benchmarks: 66 from five discovery lanes and 16 earlier held leads whose conditions are now met. Every admission passed a separate review agent instructed to refute it.
+- Restored Periodic Labs (lab-gated, A2–A3) and FARS (open-data, A4) under their reserved IDs after new first-party evidence; Periodic Labs' earlier A5 label is not restored.
+- Checked the licence of every record labelled open-source. 58 records move to source-available, 3 to paper-only and 2 to open-data, because their repositories carry no licence text or carry non-commercial or content-only terms.
+- Corrected 13 further records, including two autonomy reclassifications (InternAgent A4–A5 → A4; Claw AI Lab from benchmark to an A4 research platform). Corrected records keep their earlier verification dates.
+- Added a separate `evidence_review_date` to the resource metadata so presentation-only patches no longer move the evidence-review line.
+- Recorded method, coverage limits, 220 held leads and 73 scope rejections in `evidence/DISCOVERY_AUDIT_2026-10-10.md` and `evidence/refresh-2026-10-10/`.
+- Audited 1,316 unique catalog URLs. None are missing; GitHub pages that returned 503 under load were confirmed through the GitHub API.
+- Set the immutable release reference after owner review and publication authorization.
+
 ## 2.2.0 — 2026-09-11
 
 - Added 21 source-reviewed systems and benchmarks, with explicit license, partial-release, human-gate and computational/physical boundaries.

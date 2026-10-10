@@ -24,7 +24,7 @@ def links_md(rec):
 
 def cell(s): return (s or '').replace('|', '\\|').replace('\n', ' ').strip()
 
-today = resource_meta['modified']
+today = resource_meta.get('evidence_review_date', resource_meta['modified'])
 o = []
 o.append('# Autonomous AI Researchers and Scientific Agents for STEM')
 o.append('')
