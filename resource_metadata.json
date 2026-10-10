@@ -3,16 +3,16 @@
   "profile": "autonomous-agents",
   "title": "Autonomous Science Agents - Researcher Index",
   "description": "A curated, filterable catalog of autonomous and agentic scientific systems, self-driving laboratories, and evaluation benchmarks across STEM.",
-  "resource_version": "2.2.0",
+  "resource_version": "2.3.0",
   "issued": "2026-06-16",
-  "modified": "2026-09-11",
-  "evidence_review_date": "2026-09-11",
+  "modified": "2026-10-10",
+  "evidence_review_date": "2026-10-10",
   "data_file": "agents_final.json",
   "schema_file": "schema.json",
   "repository": "https://github.com/MichaLie/autonomous-stem-agents-wiki",
-  "baseline_commit": "601e7e49fa4c6d28c1124c92015f15812c76272c",
-  "baseline_commit_url": "https://github.com/MichaLie/autonomous-stem-agents-wiki/commit/601e7e49fa4c6d28c1124c92015f15812c76272c",
-  "release_ref": "https://github.com/MichaLie/autonomous-stem-agents-wiki/releases/tag/v2.2.0",
+  "baseline_commit": "2a9298a63dc28a8eddaf4193872fcc6e62847412",
+  "baseline_commit_url": "https://github.com/MichaLie/autonomous-stem-agents-wiki/commit/2a9298a63dc28a8eddaf4193872fcc6e62847412",
+  "release_ref": null,
   "legacy_snapshot_commit": "33af6dee17ab454a749d8e2b2e67e03bd21b5e41",
   "legacy_snapshot_date": "2026-06-16",
   "baseline_data_date": "2026-06-20",
@@ -51,5 +51,5 @@
     "STEM",
     "ELIXIR"
   ],
-  "evidence_statement": "Version 2.2.0 reviewed 2026-09-11. New records and explicitly re-reviewed claims have dated evidence; untouched verification dates are preserved. The September audit records source/access boundaries, holds, partial releases and coverage limits."
+  "evidence_statement": "Local 2.3.0 preview reviewed 2026-10-10. 542 records; 84 carry this review date. 0 records were added or restored after an independent adversarial check. 160 existing records received targeted corrections, mostly access relabels after a licence check, and keep their earlier verification dates. The October audit records sources, review verdicts, holds and coverage limits."
 }
