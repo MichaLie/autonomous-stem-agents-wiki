@@ -12,7 +12,7 @@
   "repository": "https://github.com/MichaLie/autonomous-stem-agents-wiki",
   "baseline_commit": "2a9298a63dc28a8eddaf4193872fcc6e62847412",
   "baseline_commit_url": "https://github.com/MichaLie/autonomous-stem-agents-wiki/commit/2a9298a63dc28a8eddaf4193872fcc6e62847412",
-  "release_ref": null,
+  "release_ref": "https://github.com/MichaLie/autonomous-stem-agents-wiki/releases/tag/v2.3.0",
   "legacy_snapshot_commit": "33af6dee17ab454a749d8e2b2e67e03bd21b5e41",
   "legacy_snapshot_date": "2026-06-16",
   "baseline_data_date": "2026-06-20",

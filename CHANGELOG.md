@@ -11,6 +11,7 @@ All notable public changes to this resource are documented here.
 - Added a separate `evidence_review_date` to the resource metadata so presentation-only patches no longer move the evidence-review line.
 - Recorded method, coverage limits, 220 held leads and 73 scope rejections in `evidence/DISCOVERY_AUDIT_2026-10-10.md` and `evidence/refresh-2026-10-10/`.
 - Audited 1,316 unique catalog URLs. None are missing; GitHub pages that returned 503 under load were confirmed through the GitHub API.
+- Set the immutable release reference after owner review and publication authorization.
 
 ## 2.2.0 — 2026-09-11
 
