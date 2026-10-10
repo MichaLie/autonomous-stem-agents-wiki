@@ -37,7 +37,9 @@ def main():
     write(ROOT / 'agents_final.json', rows)
     write(ROOT / 'deprecated_ids.json', tombstones)
 
-    new = sum(1 for r in payload['records'] if r['id'] not in existing)
+    # Counts come from the payload, not the current file, so a re-run writes identical metadata.
+    restored = set(payload['restored_ids'])
+    new = sum(1 for r in payload['records'] if r['date_added'] == date or r['id'] in restored)
     corrected = len(payload['records']) - new
     verified_now = sum(1 for r in rows if r['verified'] == date)
     meta = read(ROOT / 'resource_metadata.json')
