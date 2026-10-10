@@ -58,7 +58,7 @@ This is a broad discovery refresh with adversarial verification of every admissi
 
 ## Local checks
 
-- The dated migration (`scripts/apply_2026_10_10_refresh.py`) is idempotent: a second run left the catalog and tombstones byte-identical.
+- The dated migration (`scripts/apply_2026_10_10_refresh.py`) is idempotent: a second run left every canonical JSON file, including the resource metadata, byte-identical.
 - `build.py`: 14 generated artifacts byte-stable. `validate_catalog.py`: pass (one expected warning, null release reference). `git diff --check`: clean.
 - Full URL audit: 1,316 unique URLs across 2,369 occurrences. 2,219 occurrences reachable and 63 restricted (publisher bot blocks, not verification). 85 occurrences are GitHub file pages that returned 503 under burst load; the authenticated GitHub contents API confirmed every one of those files exists. One Zenodo DOI (two occurrences) timed out; the Zenodo REST API confirmed the record. Details: [`refresh-2026-10-10/link_recheck.json`](refresh-2026-10-10/link_recheck.json).
 - `validate_catalog.py --release` is expected to fail only on the null release reference. Governance was not weakened.
