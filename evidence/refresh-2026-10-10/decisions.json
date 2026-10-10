@@ -2604,9 +2604,6 @@
     {
       "id": "asa-scbench-long",
       "date_added": "2026-08-13",
-      "aliases": [
-        "SCBench-Long"
-      ],
       "name": "scBench-Long",
       "category": "benchmark",
       "domain": "Long-horizon single-cell agent tasks recovering published conclusions",
@@ -3501,9 +3498,6 @@
     },
     {
       "name": "Ascent",
-      "aliases": [
-        "ASCENT"
-      ],
       "category": "biology",
       "domain": "Pharmacoepidemiological analysis of real-world clinical data",
       "paper_links": [
@@ -3632,9 +3626,6 @@
     },
     {
       "name": "MicroClaw",
-      "aliases": [
-        "Microclaw"
-      ],
       "category": "biology",
       "domain": "Natural-language microscope control and adaptive image acquisition",
       "paper_links": [
@@ -3779,9 +3770,6 @@
     },
     {
       "name": "cryoAgent",
-      "aliases": [
-        "CryoAgent"
-      ],
       "category": "biology",
       "domain": "Autonomous single-particle cryo-EM image processing",
       "paper_links": [
@@ -4807,8 +4795,7 @@
     {
       "name": "Quailbot",
       "aliases": [
-        "Quailbot Pi",
-        "quailbot-pi"
+        "Quailbot Pi"
       ],
       "category": "physics",
       "domain": "Agentic scanning tunneling microscopy and instrument operation",
@@ -4876,9 +4863,6 @@
     },
     {
       "name": "LaMET-Agent",
-      "aliases": [
-        "lamet-agent"
-      ],
       "category": "physics",
       "domain": "Lattice QCD large-momentum effective theory (LaMET) analysis",
       "paper_links": [
