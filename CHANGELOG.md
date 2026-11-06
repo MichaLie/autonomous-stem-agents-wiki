@@ -8,6 +8,7 @@ All notable public changes to this resource are documented here.
 - Re-reviewed all 220 October held leads and the 30 records flagged by a GitHub licence check. PUDA moves to open-source after gaining an MIT licence; the other flagged records keep their labels with licence evidence recorded.
 - RoboRXN / IBM RXN for Chemistry moves from platform to paper-only: the hosted service went offline on 2026-10-28. OpenAI Deep Research records the shutdown of its dedicated API models. RE-Bench records its deprecation and archived repository. Journal versions added for The AI Scientist, The AI Scientist-v2 and Google AI Co-Scientist. 17 records corrected in total; corrected records keep their earlier verification dates.
 - Recorded method, coverage limits, 310 holds and 81 scope rejections in `evidence/DISCOVERY_AUDIT_2026-11-06.md` and `evidence/refresh-2026-11-06/`.
+- Set the immutable release reference after owner review and publication authorization.
 
 ## 2.3.0 — 2026-10-10
 

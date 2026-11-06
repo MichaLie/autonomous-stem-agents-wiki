@@ -157,9 +157,9 @@
     "@id": "https://github.com/MichaLie/autonomous-stem-agents-wiki/commit/46d0937ccce2316c1ea330bcecee8cb5e3fed2ba"
   },
   "prov:wasGeneratedBy": {
-    "@id": "https://michalie.github.io/autonomous-stem-agents-wiki/#local-preview-build-2.4.0",
+    "@id": "https://github.com/MichaLie/autonomous-stem-agents-wiki/releases/tag/v2.4.0",
     "@type": "prov:Activity",
-    "dct:type": "Working build without an immutable release reference",
+    "dct:type": "Versioned release build",
     "prov:endedAtTime": {
       "@type": "xsd:date",
       "@value": "2026-11-06"
