@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-06",
+  "missing_by_design": [
+    {
+      "url": "https://api.github.com/repos/hoon-ock/CatalystAIgent/license",
+      "record": "asa-adsorb-agent",
+      "status": "404",
+      "note": "GitHub licence-API URL cited as evidence that the repository has no licence file; 404 is the expected answer."
+    },
+    {
+      "url": "https://api.github.com/repos/tpeterka/chatvis/license",
+      "record": "asa-chatvis",
+      "status": "404",
+      "note": "GitHub licence-API URL cited as evidence that the repository has no licence file; 404 is the expected answer."
+    },
+    {
+      "url": "https://api.github.com/repos/cong-lab/crispr-gpt-pub/license",
+      "record": "asa-crispr-gpt",
+      "status": "404",
+      "note": "GitHub licence-API URL cited as evidence that the repository has no licence file; 404 is the expected answer."
+    },
+    {
+      "url": "https://api.github.com/repos/SZU-ADDG/FROGENT/license",
+      "record": "asa-frogent",
+      "status": "404",
+      "note": "GitHub licence-API URL cited as evidence that the repository has no licence file; 404 is the expected answer."
+    },
+    {
+      "url": "https://api.github.com/repos/ninglab/LIDDiA/license",
+      "record": "asa-liddia",
+      "status": "404",
+      "note": "GitHub licence-API URL cited as evidence that the repository has no licence file; 404 is the expected answer."
+    },
+    {
+      "url": "https://api.github.com/repos/Ruan-Yixiang/LLM-RDF/license",
+      "record": "asa-llm-rdf",
+      "status": "404",
+      "note": "GitHub licence-API URL cited as evidence that the repository has no licence file; 404 is the expected answer."
+    },
+    {
+      "url": "https://api.github.com/repos/cxcscmu/ResearchArena/license",
+      "record": "asa-researcharena",
+      "status": "404",
+      "note": "GitHub licence-API URL cited as evidence that the repository has no licence file; 404 is the expected answer."
+    },
+    {
+      "url": "https://api.github.com/repos/Anikethh/ResearchGym/license",
+      "record": "asa-researchgym",
+      "status": "404",
+      "note": "GitHub licence-API URL cited as evidence that the repository has no licence file; 404 is the expected answer."
+    },
+    {
+      "url": "https://api.github.com/repos/li-group/scChat/license",
+      "record": "asa-scchat",
+      "status": "404",
+      "note": "GitHub licence-API URL cited as evidence that the repository has no licence file; 404 is the expected answer."
+    },
+    {
+      "url": "https://api.github.com/repos/xyzCS/SciReplicate-Bench/license",
+      "record": "asa-scireplicate-bench",
+      "status": "404",
+      "note": "GitHub licence-API URL cited as evidence that the repository has no licence file; 404 is the expected answer."
+    },
+    {
+      "url": "https://api.github.com/repos/linjc16/trialatlas/license",
+      "record": "asa-trialatlas",
+      "status": "404",
+      "note": "GitHub licence-API URL cited as evidence that the repository has no licence file; 404 is the expected answer."
+    }
+  ],
+  "http_errors": [
+    {
+      "url": "https://szuaddg.com/research/",
+      "record": "asa-frogent",
+      "status": "525"
+    },
+    {
+      "url": "https://szuaddg.com/research/",
+      "record": "asa-frogent",
+      "status": "525"
+    },
+    {
+      "url": "https://szuaddg.com/",
+      "record": "asa-frogent",
+      "status": "525"
+    }
+  ],
+  "manual_recheck": [
+    {
+      "url": "https://szuaddg.com/research/",
+      "record": "asa-frogent",
+      "curl_status": 200,
+      "note": "Cloudflare 525 during the burst audit; HTTP 200 on a single curl request the same day."
+    }
+  ],
+  "not_rechecked": "Restricted bioRxiv and publisher pages (bot blocks) are not counted as verified."
+}

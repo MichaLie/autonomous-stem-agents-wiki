@@ -2,6 +2,13 @@
 
 All notable public changes to this resource are documented here.
 
+## 2.4.0 — 2026-11-06
+
+- Added 68 source-reviewed systems and benchmarks: 42 from five discovery lanes and 26 October held leads whose conditions are now met. Every admission passed a separate review agent instructed to refute it. Four additions demonstrate an A5 physical loop (Auctopus, HERA, QUANTA, Qiushi Engine).
+- Re-reviewed all 220 October held leads and the 30 records flagged by a GitHub licence check. PUDA moves to open-source after gaining an MIT licence; the other flagged records keep their labels with licence evidence recorded.
+- RoboRXN / IBM RXN for Chemistry moves from platform to paper-only: the hosted service went offline on 2026-10-28. OpenAI Deep Research records the shutdown of its dedicated API models. RE-Bench records its deprecation and archived repository. Journal versions added for The AI Scientist, The AI Scientist-v2 and Google AI Co-Scientist. 17 records corrected in total; corrected records keep their earlier verification dates.
+- Recorded method, coverage limits, 310 holds and 81 scope rejections in `evidence/DISCOVERY_AUDIT_2026-11-06.md` and `evidence/refresh-2026-11-06/`.
+
 ## 2.3.0 — 2026-10-10
 
 - Added 82 source-reviewed systems and benchmarks: 66 from five discovery lanes and 16 earlier held leads whose conditions are now met. Every admission passed a separate review agent instructed to refute it.
