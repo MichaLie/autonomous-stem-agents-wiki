@@ -18237,8 +18237,7 @@
   {
     "name": "Gan Jiang",
     "aliases": [
-      "GanJiang",
-      "干将"
+      "GanJiang"
     ],
     "category": "chemistry",
     "domain": "Powder X-ray diffraction analysis: phase identification, multiphase decomposition and structure refinement",
@@ -18619,8 +18618,7 @@
   {
     "name": "Qiushi Engine",
     "aliases": [
-      "Qiushi Discovery Engine",
-      "求是引擎"
+      "Qiushi Discovery Engine"
     ],
     "category": "physics",
     "domain": "Autonomous optical-physics experimentation on a free-space optical platform, plus mathematical construction discovery",

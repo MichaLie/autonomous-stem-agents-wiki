@@ -22,7 +22,7 @@
       "dcat:accessURL": {
         "@id": "https://michalie.github.io/autonomous-stem-agents-wiki/"
       },
-      "dcat:byteSize": 884021,
+      "dcat:byteSize": 883983,
       "dcat:downloadURL": {
         "@id": "https://michalie.github.io/autonomous-stem-agents-wiki/agents_final.json"
       },
@@ -36,7 +36,7 @@
         "spdx:algorithm": {
           "@id": "http://spdx.org/rdf/terms#checksumAlgorithm_sha256"
         },
-        "spdx:checksumValue": "08b43ec50b753ee07e99fa95a3e368998d71aac234e4801a44bcd319d5769cfd"
+        "spdx:checksumValue": "88895ad8eba0748d2a5e03a0bf1f76e16f6cf432c1c7a734c7dc6dfc844835ff"
       }
     },
     {
