@@ -9,6 +9,10 @@
       {
         "label": "arXiv",
         "url": "https://arxiv.org/abs/2408.06292"
+      },
+      {
+        "label": "Nature",
+        "url": "https://www.nature.com/articles/s41586-026-10265-5"
       }
     ],
     "repo_links": [
@@ -26,21 +30,23 @@
     "inputs": "Research template, baseline code, topic area, model/API keys",
     "outputs": "Ideas, code, experiments, plots, paper draft, automated review",
     "autonomy": "A4",
-    "notes": "Fully automated software-only ML research cycles (Sakana AI). Since December 2025 the code is under a custom responsible-use licence that requires prominent disclosure of AI generation in any resulting manuscript.",
+    "notes": "Fully automated software-only ML research cycles (Sakana AI). Since December 2025 the code is under a custom responsible-use licence that requires prominent disclosure of AI generation in any resulting manuscript. The peer-reviewed version (Nature, 2026) reports this template-based mode together with the template-free mode released as The AI Scientist-v2.",
     "verified": "2026-06-16",
-    "date_modified": "2026-10-10",
+    "date_modified": "2026-11-06",
     "sources": [
       "https://arxiv.org/abs/2408.06292",
       "https://github.com/SakanaAI/AI-Scientist",
       "https://raw.githubusercontent.com/SakanaAI/AI-Scientist/HEAD/LICENSE",
       "https://github.com/SakanaAI/AI-Scientist/commit/2906fcb023",
-      "https://raw.githubusercontent.com/SakanaAI/AI-Scientist/HEAD/README.md"
+      "https://raw.githubusercontent.com/SakanaAI/AI-Scientist/HEAD/README.md",
+      "https://api.crossref.org/works/10.1038/s41586-026-10265-5",
+      "https://www.nature.com/articles/s41586-026-10265-5"
     ]
   },
   {
     "id": "asa-the-ai-scientist-v2",
     "date_added": "2026-06-16",
-    "date_modified": "2026-10-10",
+    "date_modified": "2026-11-06",
     "name": "The AI Scientist-v2",
     "category": "crossdomain",
     "domain": "ML research",
@@ -48,6 +54,10 @@
       {
         "label": "arXiv",
         "url": "https://arxiv.org/abs/2504.08066"
+      },
+      {
+        "label": "Nature",
+        "url": "https://doi.org/10.1038/s41586-026-10265-5"
       }
     ],
     "repo_links": [
@@ -65,14 +75,17 @@
     "inputs": "Research topic description (Markdown), LLM API keys, Linux NVIDIA-GPU compute environment",
     "outputs": "Workshop-style paper, experiments, analysis, review traces",
     "autonomy": "A4",
-    "notes": "Agentic tree-search successor to The AI Scientist; no human-authored code templates. Authors report that one of three fully AI-generated manuscripts submitted to a peer-reviewed ICLR workshop scored above the average human acceptance threshold. Code licence changed from Apache-2.0 to the custom AI Scientist Source Code License on 2025-12-19.",
+    "notes": "Agentic tree-search successor to The AI Scientist; no human-authored code templates. Authors report that one of three fully AI-generated manuscripts submitted to a peer-reviewed ICLR workshop scored above the average human acceptance threshold. Code licence changed from Apache-2.0 to the custom AI Scientist Source Code License on 2025-12-19. The template-free system and the ICLR 2025 workshop experiment are also reported in the peer-reviewed Nature paper (published 2026-03-25) shared with The AI Scientist; its code-availability statement describes both repositories as Apache 2.0, which no longer matches the current v2 LICENSE.",
     "verified": "2026-06-16",
     "sources": [
       "https://arxiv.org/abs/2504.08066",
       "https://github.com/SakanaAI/AI-Scientist-v2",
       "https://raw.githubusercontent.com/SakanaAI/AI-Scientist-v2/HEAD/LICENSE",
       "https://raw.githubusercontent.com/SakanaAI/AI-Scientist-v2/HEAD/README.md",
-      "https://github.com/SakanaAI/AI-Scientist-v2/commit/c204ee8e7c68f7258284d82b666f6c06a76fef59"
+      "https://github.com/SakanaAI/AI-Scientist-v2/commit/c204ee8e7c68f7258284d82b666f6c06a76fef59",
+      "https://doi.org/10.1038/s41586-026-10265-5",
+      "https://api.crossref.org/works/10.1038/s41586-026-10265-5",
+      "https://www.nature.com/articles/s41586-026-10265-5"
     ]
   },
   {
@@ -303,6 +316,10 @@
       {
         "label": "arXiv",
         "url": "https://arxiv.org/abs/2502.18864"
+      },
+      {
+        "label": "Nature",
+        "url": "https://doi.org/10.1038/s41586-026-10644-y"
       }
     ],
     "repo_links": [],
@@ -310,11 +327,16 @@
     "inputs": "Research objective and scientist guidance",
     "outputs": "Ranked/evolved hypotheses and proposals",
     "autonomy": "A3",
-    "notes": "Google Research multi-agent hypothesis-generation system evaluated in biomedical research. No official public implementation was confirmed; community reimplementations are not treated as evidence for the Google system.",
+    "notes": "Google Research multi-agent hypothesis-generation system built on Gemini, evaluated in biomedical research. Peer-reviewed in Nature (2026); drug-repurposing candidates for acute myeloid leukaemia were validated in vitro (experiments run by human researchers). The Nature code availability statement says the full source code is not publicly available; access is via an experimental access program on request. Community reimplementations are not treated as evidence for the Google system.",
     "verified": "2026-07-13",
-    "date_modified": "2026-07-13",
+    "date_modified": "2026-11-06",
     "sources": [
-      "https://arxiv.org/abs/2502.18864"
+      "https://arxiv.org/abs/2502.18864",
+      "https://api.crossref.org/works/10.1038/s41586-026-10644-y",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41586-026-10644-y&format=json&resultType=core",
+      "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13345910/fullTextXML",
+      "https://export.arxiv.org/api/query?id_list=2502.18864",
+      "https://doi.org/10.1038/s41586-026-10644-y"
     ]
   },
   {
@@ -1440,6 +1462,7 @@
   {
     "id": "asa-llamp",
     "date_added": "2026-06-16",
+    "date_modified": "2026-11-06",
     "name": "LLaMP",
     "category": "chemistry",
     "domain": "Materials informatics RAG/agent platform",
@@ -1447,6 +1470,10 @@
       {
         "label": "arXiv",
         "url": "https://arxiv.org/abs/2401.17244"
+      },
+      {
+        "label": "ACL",
+        "url": "https://aclanthology.org/2025.emnlp-main.1280/"
       }
     ],
     "repo_links": [
@@ -1456,6 +1483,11 @@
       }
     ],
     "access": "open-source",
+    "access_evidence": {
+      "software_license": "BSD-3-Clause-LBNL (Lawrence Berkeley National Labs BSD variant; OSI-approved per SPDX) in root LICENSE, Copyright (c) 2025 The Regents of the University of California/LBNL, Haw-Ting Hsieh, Yuan Chiang; GitHub reports NOASSERTION because it does not recognise this variant; no field-of-use or non-commercial clause; confirmed 2026-11-06",
+      "commercial_use": true,
+      "source_url": "https://github.com/chiang-yuan/llamp/blob/main/LICENSE"
+    },
     "inputs": "Materials-science query/data",
     "outputs": "Materials knowledge retrieval, atomistic simulation orchestration, analysis",
     "autonomy": "A2",
@@ -1463,7 +1495,11 @@
     "verified": "2026-06-16",
     "sources": [
       "https://arxiv.org/abs/2401.17244",
-      "https://github.com/chiang-yuan/llamp"
+      "https://github.com/chiang-yuan/llamp",
+      "https://github.com/chiang-yuan/llamp/blob/main/LICENSE",
+      "https://spdx.org/licenses/BSD-3-Clause-LBNL.json",
+      "https://aclanthology.org/2025.emnlp-main.1280/",
+      "https://api.crossref.org/works/10.18653/v1/2025.emnlp-main.1280"
     ]
   },
   {
@@ -1729,6 +1765,7 @@
   {
     "id": "asa-get-physics-done-gpd",
     "date_added": "2026-06-16",
+    "date_modified": "2026-11-06",
     "name": "Get Physics Done (GPD)",
     "category": "physics",
     "domain": "General physics research workflow",
@@ -1751,8 +1788,14 @@
     "notes": "Open-source agentic AI physicist (PSI PBC); four-stage formulate/plan/execute/verify workflow installable into Claude Code, Gemini CLI, Codex, etc.",
     "verified": "2026-06-16",
     "sources": [
-      "https://github.com/psi-oss/get-physics-done"
-    ]
+      "https://github.com/psi-oss/get-physics-done",
+      "https://github.com/psi-oss/get-physics-done/blob/main/LICENSE"
+    ],
+    "access_evidence": {
+      "software_license": "Apache-2.0 in root LICENSE (Copyright 2026 Physical Superintelligence PBC); terms identical to the apache.org text except that the 'END OF TERMS AND CONDITIONS' line and the appendix are omitted, which is why GitHub reports NOASSERTION; pyproject.toml (OSI Apache classifier), package.json (Apache-2.0) and README declare Apache 2.0; no use restrictions; checked 2026-11-06",
+      "commercial_use": true,
+      "source_url": "https://github.com/psi-oss/get-physics-done/blob/main/LICENSE"
+    }
   },
   {
     "id": "asa-anubuddhi",
@@ -2876,6 +2919,7 @@
   {
     "id": "asa-openai-deep-research",
     "date_added": "2026-06-16",
+    "date_modified": "2026-11-06",
     "name": "OpenAI Deep Research",
     "category": "crossdomain",
     "domain": "General deep-research agent",
@@ -2887,19 +2931,22 @@
     ],
     "repo_links": [
       {
-        "label": "Link",
-        "url": "https://developers.openai.com/api/docs/guides/deep-research"
+        "label": "OpenAI docs: o3-deep-research (retired API model)",
+        "url": "https://developers.openai.com/api/docs/models/o3-deep-research"
       }
     ],
     "access": "platform",
     "inputs": "Natural-language prompt, optional files, web-browsing scope",
     "outputs": "Multi-step, inline-cited research report",
     "autonomy": "A2",
-    "notes": "OpenAI's hosted agentic deep-research capability (o3-based, browsing + sandboxed Python); broadly accessible via ChatGPT/API.",
+    "notes": "OpenAI's hosted agentic deep-research capability in ChatGPT; launched on an early o3 version optimised for browsing, with sandboxed Python (system card). The dedicated API models o3-deep-research and o4-mini-deep-research were shut down on 2026-07-23; OpenAI's API docs now point to longer web-search runs as the replacement.",
     "verified": "2026-06-16",
     "sources": [
       "https://cdn.openai.com/deep-research-system-card.pdf",
-      "https://developers.openai.com/api/docs/guides/deep-research"
+      "https://developers.openai.com/api/docs/models/o3-deep-research",
+      "https://developers.openai.com/api/docs/deprecations",
+      "https://developers.openai.com/api/docs/guides/tools-web-search?api-mode=responses",
+      "https://developers.openai.com/api/docs/mcp.md"
     ]
   },
   {
@@ -4989,6 +5036,7 @@
   {
     "id": "asa-chemreasoner",
     "date_added": "2026-06-16",
+    "date_modified": "2026-11-06",
     "name": "ChemReasoner",
     "category": "chemistry",
     "domain": "Catalyst and chemistry reasoning",
@@ -5005,6 +5053,11 @@
       }
     ],
     "access": "open-source",
+    "access_evidence": {
+      "software_license": "BSD-2-Clause text (Copyright Battelle Memorial Institute 2023) in COPYRIGHT.md at repo root, preceded by the standard PNNL/DOE disclaimer; the combined file matches no SPDX template, so GitHub reports NOASSERTION; confirmed at repo root on 2026-11-06",
+      "commercial_use": true,
+      "source_url": "https://raw.githubusercontent.com/pnnl/chemreasoner/HEAD/COPYRIGHT.md"
+    },
     "inputs": "Catalyst-discovery or chemistry-reasoning task",
     "outputs": "Candidate catalysts with quantum-chemistry/GNN-grounded reasoning artifacts",
     "autonomy": "A2-A3",
@@ -5012,7 +5065,8 @@
     "verified": "2026-06-16",
     "sources": [
       "https://arxiv.org/abs/2402.10980",
-      "https://github.com/pnnl/chemreasoner"
+      "https://github.com/pnnl/chemreasoner",
+      "https://raw.githubusercontent.com/pnnl/chemreasoner/HEAD/COPYRIGHT.md"
     ]
   },
   {
@@ -7782,12 +7836,12 @@
     "date_added": "2026-06-16",
     "name": "RoboRXN / IBM RXN for Chemistry",
     "category": "chemistry",
-    "domain": "Cloud-accessible AI synthesis-planning platform with robotic execution",
-    "access": "platform",
+    "domain": "AI synthesis-planning platform with robotic execution (hosted service ended 2026-10-28)",
+    "access": "paper-only",
     "autonomy": "A4",
-    "inputs": "Target molecule structure (drawn/SMILES) via web browser",
+    "inputs": "Target molecule structure (drawn/SMILES); formerly entered via the hosted web platform",
     "outputs": "Predicted retrosynthetic routes, reaction conditions, robot-executable synthesis action sequences",
-    "notes": "IBM Research RXN/RoboRXN: Molecular Transformer retrosynthesis plus inferred experimental procedures (Vaucher et al., Nat. Commun. 2021, 10.1038/s41467-021-22951-1) feeding cloud robotic execution. Original platform URL rxn.res.ibm.com now redirects to rxn.app.accelerate.science.",
+    "notes": "IBM Research RXN/RoboRXN: Molecular Transformer retrosynthesis plus inferred experimental procedures (Vaucher et al., Nat. Commun. 2021, 10.1038/s41467-021-22951-1; Author Correction 2024, 10.1038/s41467-024-53919-6) feeding cloud robotic execution. The official rxn4chemistry README announced end of service for the hosted RXN for Chemistry platform and APIs on 2026-10-28; on 2026-11-06 the hosts rxn.res.ibm.com and rxn.app.accelerate.science no longer resolved. The same GitHub organization now offers RXN-Sandbox (self-hostable forward and retrosynthesis prediction, OpenMDW-1.1), which does not include RoboRXN robotic execution; the paper's procedure-prediction code is smiles2actions (MIT).",
     "paper_links": [
       {
         "label": "Nature",
@@ -7796,15 +7850,25 @@
     ],
     "repo_links": [
       {
-        "label": "Link",
-        "url": "https://rxn.app.accelerate.science/rxn/"
+        "label": "RXN-Sandbox (official self-hostable successor, prediction only)",
+        "url": "https://github.com/rxn4chemistry/rxn-sandbox"
+      },
+      {
+        "label": "smiles2actions (paper code)",
+        "url": "https://github.com/rxn4chemistry/smiles2actions"
       }
     ],
     "verified": "2026-06-16",
     "sources": [
-      "https://rxn.app.accelerate.science/rxn/",
-      "https://www.nature.com/articles/s41467-021-22951-1"
-    ]
+      "https://www.nature.com/articles/s41467-021-22951-1",
+      "https://raw.githubusercontent.com/rxn4chemistry/rxn4chemistry/HEAD/README.md",
+      "https://github.com/rxn4chemistry/rxn-sandbox",
+      "https://github.com/rxn4chemistry/rxn-sandbox/blob/main/LICENSE.OpenMDW-1.1",
+      "https://github.com/rxn4chemistry/smiles2actions",
+      "https://api.crossref.org/works/10.1038/s41467-021-22951-1",
+      "https://api.crossref.org/works/10.1038/s41467-024-53919-6"
+    ],
+    "date_modified": "2026-11-06"
   },
   {
     "id": "asa-mobile-robotic-chemist-liverpool-cooper",
@@ -8006,11 +8070,17 @@
       }
     ],
     "verified": "2026-07-13",
-    "date_modified": "2026-07-13",
+    "date_modified": "2026-11-06",
     "sources": [
       "https://doi.org/10.1038/s41598-026-45593-z",
-      "https://github.com/pnnl/AutoLabs"
-    ]
+      "https://github.com/pnnl/AutoLabs",
+      "https://raw.githubusercontent.com/pnnl/AutoLabs/HEAD/LICENSE.md"
+    ],
+    "access_evidence": {
+      "software_license": "BSD-2-Clause text (Copyright Battelle Memorial Institute 2025) in LICENSE.md; an extra 'AutoLabs' title line makes GitHub report NOASSERTION; confirmed 2026-11-06",
+      "commercial_use": true,
+      "source_url": "https://raw.githubusercontent.com/pnnl/AutoLabs/HEAD/LICENSE.md"
+    }
   },
   {
     "id": "asa-k-agents-self-driving-labs-for-quantum-computing",
@@ -10045,21 +10115,34 @@
     ],
     "sources": [
       "https://arxiv.org/abs/2410.07095",
-      "https://github.com/openai/mle-bench"
-    ]
+      "https://github.com/openai/mle-bench",
+      "https://raw.githubusercontent.com/openai/mle-bench/HEAD/LICENSE"
+    ],
+    "date_modified": "2026-11-06",
+    "access_evidence": {
+      "software_license": "MIT (Copyright (c) 2024 OpenAI) in LICENSE at repo root; an appended NOTE limits the licence to repository code and excludes externally downloaded datasets/files, so GitHub reports NOASSERTION; competition data remain under Kaggle/provider terms; confirmed 2026-11-06",
+      "commercial_use": true,
+      "source_url": "https://raw.githubusercontent.com/openai/mle-bench/HEAD/LICENSE"
+    }
   },
   {
     "id": "asa-re-bench",
     "date_added": "2026-07-13",
+    "date_modified": "2026-11-06",
     "verified": "2026-07-13",
     "name": "RE-Bench",
     "category": "benchmark",
     "domain": "Frontier AI research-and-development agents",
     "access": "open-source",
+    "access_evidence": {
+      "software_license": "MIT (root LICENSE carries the full MIT text, Copyright (c) 2024 METR, followed by an informal, non-binding request to keep tasks out of LLM training data; GitHub reports NOASSERTION because of that note; README: 'This repo is licensed under the MIT License'). Confirmed 2026-11-06.",
+      "commercial_use": true,
+      "source_url": "https://raw.githubusercontent.com/METR/RE-Bench/HEAD/LICENSE"
+    },
     "autonomy": "B",
     "inputs": "Open-ended ML research-engineering environments with fixed time budgets",
     "outputs": "Objective task scores, human-expert comparisons, and agent trajectories",
-    "notes": "METR benchmark comparing frontier agents with human experts on realistic long-horizon AI R&D tasks. MIT-licensed suite with protected solution material to limit contamination.",
+    "notes": "METR benchmark comparing frontier agents with human experts on realistic long-horizon AI R&D tasks. MIT-licensed suite with protected solution material to limit contamination. METR marked the task suite deprecated on 2026-10-20 (README notice; no further contributions or bug reports) and the repository is archived by the owner (read-only); code and licence remain available.",
     "paper_links": [
       {
         "label": "arXiv",
@@ -10074,7 +10157,9 @@
     ],
     "sources": [
       "https://arxiv.org/abs/2411.15114",
-      "https://github.com/METR/RE-Bench"
+      "https://github.com/METR/RE-Bench",
+      "https://raw.githubusercontent.com/METR/RE-Bench/HEAD/LICENSE",
+      "https://raw.githubusercontent.com/METR/RE-Bench/HEAD/README.md"
     ]
   },
   {
@@ -11458,23 +11543,26 @@
         "url": "https://docs.puda.co/"
       }
     ],
-    "access": "source-available",
+    "access": "open-source",
     "inputs": "Agent-issued CLI/JSON protocol commands and experiment campaign specifications",
     "outputs": "Deterministic, atomic hardware executions with provenance-linked state, responses, and data records",
     "autonomy": "A3-A4",
-    "notes": "Hardware orchestration runtime, not a standalone scientist. External agents drive deterministic, provenance-recorded device commands using separate skills; the A3-A4 range describes configured workflows rather than autonomous reasoning intrinsic to PUDA. Researchers may inspect, approve or revise actions mid-campaign. No usable license was confirmed in the public repository.",
+    "notes": "Hardware orchestration runtime, not a standalone scientist. External agents drive deterministic, provenance-recorded device commands using separate skills; the A3-A4 range describes configured workflows rather than autonomous reasoning intrinsic to PUDA. Researchers may inspect, approve or revise actions mid-campaign. The repository has been MIT-licensed since 2026-09-28; the separate agent-skills repository (PUDAP/skills) carries no licence.",
     "verified": "2026-08-13",
     "sources": [
       "https://arxiv.org/abs/2607.26464",
       "https://docs.puda.co/",
-      "https://github.com/PUDAP/puda"
+      "https://github.com/PUDAP/puda",
+      "https://raw.githubusercontent.com/PUDAP/puda/HEAD/LICENSE",
+      "https://raw.githubusercontent.com/PUDAP/puda/HEAD/libs/python-sdk/pyproject.toml",
+      "https://arxiv.org/html/2607.26464"
     ],
     "access_evidence": {
-      "software_license": "None: public repository with no licence file at verification (2026-08-13)",
-      "commercial_use": false,
-      "source_url": "https://github.com/PUDAP/puda"
+      "software_license": "MIT: root LICENSE (full MIT text, Copyright (c) 2025-2026 PUDAP) added in commit d9719a2 'feat: MIT license' on 2026-09-28; root pyproject.toml, package.json, libs/python-sdk (puda) and libs/db (puda-db) declare MIT; no other licence files in the tree. Confirmed 2026-11-06.",
+      "commercial_use": true,
+      "source_url": "https://raw.githubusercontent.com/PUDAP/puda/HEAD/LICENSE"
     },
-    "date_modified": "2026-09-11"
+    "date_modified": "2026-11-06"
   },
   {
     "id": "asa-llm4mof",
@@ -11798,7 +11886,7 @@
   {
     "id": "asa-nv-center-quantum-sensing-agent",
     "date_added": "2026-08-13",
-    "date_modified": "2026-10-10",
+    "date_modified": "2026-11-06",
     "aliases": [
       "Agentic AI for Scientific Reasoning in Autonomous Quantum Sensing Experiments"
     ],
@@ -11827,8 +11915,15 @@
       "https://arxiv.org/abs/2607.25145",
       "https://arxiv.org/html/2607.25145v1",
       "https://github.com/takuyaisogawa/nv-autonomous-experiments",
-      "https://github.com/takuyaisogawa/nv-autonomous-experiments/blob/main/LICENSE"
-    ]
+      "https://github.com/takuyaisogawa/nv-autonomous-experiments/blob/main/LICENSE",
+      "https://raw.githubusercontent.com/takuyaisogawa/nv-autonomous-experiments/HEAD/LICENSE",
+      "https://raw.githubusercontent.com/takuyaisogawa/nv-autonomous-experiments/HEAD/CITATION.cff"
+    ],
+    "access_evidence": {
+      "software_license": "MIT (code in python/, matlab/, tools/); CC BY 4.0 for documentation, case data and figures (split licence; GitHub reports NOASSERTION; CITATION.cff: MIT AND CC-BY-4.0)",
+      "commercial_use": true,
+      "source_url": "https://raw.githubusercontent.com/takuyaisogawa/nv-autonomous-experiments/HEAD/LICENSE"
+    }
   },
   {
     "id": "asa-labbench-robotic-chemistry",
@@ -12859,10 +12954,16 @@
   {
     "id": "asa-terminal-bench-science",
     "date_added": "2026-09-11",
+    "date_modified": "2026-11-06",
     "name": "Terminal-Bench-Science",
     "category": "benchmark",
     "domain": "Expert-authored research workflows across life, physical, earth, mathematical and engineering sciences",
-    "paper_links": [],
+    "paper_links": [
+      {
+        "label": "Zenodo (v0.1.0 release)",
+        "url": "https://doi.org/10.5281/zenodo.22110254"
+      }
+    ],
     "repo_links": [
       {
         "label": "GitHub",
@@ -12877,7 +12978,11 @@
     "verified": "2026-09-11",
     "sources": [
       "https://github.com/harbor-framework/terminal-bench-science",
-      "https://github.com/harbor-framework/terminal-bench-science/blob/main/LICENSE"
+      "https://github.com/harbor-framework/terminal-bench-science/blob/main/LICENSE",
+      "https://zenodo.org/api/records/22110254",
+      "https://github.com/harbor-framework/terminal-bench-science/blob/main/CITATION.cff",
+      "https://github.com/harbor-framework/terminal-bench-science/blob/main/release-notes-v0.1.0.md",
+      "https://doi.org/10.5281/zenodo.22110254"
     ]
   },
   {
@@ -14062,6 +14167,9 @@
     "verified": "2026-10-10"
   },
   {
+    "id": "asa-explorationbench",
+    "date_added": "2026-10-10",
+    "date_modified": "2026-11-06",
     "name": "ExplorationBench",
     "category": "benchmark",
     "domain": "Hypothesis-driven exploration of executable rule worlds that conflict with prior knowledge",
@@ -14075,21 +14183,29 @@
       {
         "label": "GitHub",
         "url": "https://github.com/Tencent-Hunyuan/ExplorationBench"
+      },
+      {
+        "label": "Hugging Face dataset (public demo worlds)",
+        "url": "https://huggingface.co/datasets/tencent/ExplorationBench"
       }
     ],
     "access": "open-source",
+    "access_evidence": {
+      "software_license": "Apache-2.0: root LICENSE is a Tencent preamble ('Code of ExplorationBench is licensed under the Apache-2.0.') followed by the full Apache-2.0 terms with no added restrictions, so GitHub reports NOASSERTION; README states Apache-2.0. Public demo worlds also on Hugging Face under Apache-2.0; evaluation worlds private (maintainer-run evaluation only). Confirmed 2026-11-06.",
+      "commercial_use": true,
+      "source_url": "https://github.com/Tencent-Hunyuan/ExplorationBench/blob/main/LICENSE"
+    },
     "inputs": "A flawed manual, fixed worked examples and a single probing tool with deterministic feedback, over four exploration rounds per sandbox (AlienCode, AlienLogic)",
     "outputs": "Rule reports and held-out task answers from tool-disabled copies at each milestone, checked exactly by an interpreter or proof checker (no LLM judge)",
     "autonomy": "B",
-    "notes": "Benchmark from Fudan University, Tencent Hunyuan and Tsinghua University that measures whether AI systems acquire unfamiliar rules by probing an alien calculation language (AlienCode) and a patched natural-deduction logic (AlienLogic): 55 discovery targets, 140 held-out tasks, ten frontier systems evaluated. Apache-2.0 code releases the harness, scoring, evaluation engines and two small demo worlds; the evaluation worlds stay private, so leaderboard scores require a maintainer-run evaluation and demo scores are not comparable. The worlds contain no science-domain content, and the authors state the benchmark does not measure real scientific discovery.",
+    "notes": "Benchmark from Fudan University, Tencent Hunyuan and Tsinghua University that measures whether AI systems acquire unfamiliar rules by probing an alien calculation language (AlienCode) and a patched natural-deduction logic (AlienLogic): 55 discovery targets, 140 held-out tasks, ten frontier systems evaluated. Apache-2.0 code releases the harness, scoring, evaluation engines and two small demo worlds; the evaluation worlds stay private, so leaderboard scores require a maintainer-run evaluation and demo scores are not comparable. Since 2026-10-28 the two demo worlds are also published as an Apache-2.0 Hugging Face dataset. The worlds contain no science-domain content, and the authors state the benchmark does not measure real scientific discovery.",
+    "verified": "2026-10-10",
     "sources": [
       "https://arxiv.org/abs/2609.30199",
       "https://github.com/Tencent-Hunyuan/ExplorationBench",
-      "https://github.com/Tencent-Hunyuan/ExplorationBench/blob/main/LICENSE"
-    ],
-    "id": "asa-explorationbench",
-    "date_added": "2026-10-10",
-    "verified": "2026-10-10"
+      "https://github.com/Tencent-Hunyuan/ExplorationBench/blob/main/LICENSE",
+      "https://huggingface.co/datasets/tencent/ExplorationBench"
+    ]
   },
   {
     "name": "AgentIdeaBench",
@@ -14115,11 +14231,18 @@
     "sources": [
       "https://arxiv.org/abs/2609.07611",
       "https://github.com/HKUST-KnowComp/AgentIdeaBench",
-      "https://github.com/HKUST-KnowComp/AgentIdeaBench/blob/main/LICENSE"
+      "https://github.com/HKUST-KnowComp/AgentIdeaBench/blob/main/LICENSE",
+      "https://github.com/HKUST-KnowComp/AgentIdeaBench/blob/main/LICENSE-DATA"
     ],
     "id": "asa-agentideabench",
     "date_added": "2026-10-10",
-    "verified": "2026-10-10"
+    "verified": "2026-10-10",
+    "date_modified": "2026-11-06",
+    "access_evidence": {
+      "software_license": "MIT (root LICENSE is verbatim MIT text plus a scope paragraph limiting it to code, hence GitHub spdx NOASSERTION); released data (hypotheses, critic scores, derived statistics) CC BY 4.0 via LICENSE-DATA, commercial use allowed; Semantic Scholar text and held-out Gemini outputs not redistributed",
+      "commercial_use": true,
+      "source_url": "https://github.com/HKUST-KnowComp/AgentIdeaBench/blob/main/LICENSE"
+    }
   },
   {
     "name": "SciExam for ENSO",
@@ -14142,6 +14265,11 @@
       }
     ],
     "access": "open-source",
+    "access_evidence": {
+      "software_license": "MIT for the sciexam code in sub-folder code/LICENSE (no root LICENSE, so the GitHub licence API returns 404); code/pyproject.toml declares license = \"MIT\"; dataset/LICENSE.md puts agent-written model.py files under MIT and all other released records under CC BY 4.0, third-party data under their own terms; no NC or use restriction on the authors' material. Confirmed 2026-11-06",
+      "commercial_use": true,
+      "source_url": "https://github.com/ylzhang2447/SciExam-ENSO-code/blob/main/code/LICENSE"
+    },
     "inputs": "Raw ocean-atmosphere observations for 1980-2014, background material and a reference paper; a six-hour budget split into data processing, diagnostic writing and model building",
     "outputs": "Agent-built stochastic ENSO models scored by hidden graders on ENSO statistics, recovery of unobserved variables and forecasts of held-out years (2015-2024); released runs and checkpoints",
     "autonomy": "B",
@@ -14154,7 +14282,8 @@
     ],
     "id": "asa-sciexam-for-enso",
     "date_added": "2026-10-10",
-    "verified": "2026-10-10"
+    "verified": "2026-10-10",
+    "date_modified": "2026-11-06"
   },
   {
     "name": "WhatWorkedBench",
@@ -16521,5 +16650,2571 @@
     "id": "asa-finch",
     "date_added": "2026-10-10",
     "verified": "2026-10-10"
+  },
+  {
+    "name": "Autonomous Science Bench",
+    "category": "benchmark",
+    "domain": "Budgeted closed-loop experimental campaigns grounded in published biology, chemistry and materials experiments",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.18449"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Yibo-Wen/as-bench"
+      },
+      {
+        "label": "Project site and leaderboard",
+        "url": "https://www.autonomous-science-bench.ai/"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Campaign objective, seed set of measured designs, an experiment budget and a lab service that returns measurements for chosen design batches",
+    "outputs": "Measured-design ledger scored by a discovery gate and a delivered predictive model scored by a learning gate on held-out designs; pass requires both gates",
+    "autonomy": "B",
+    "notes": "Benchmark from Northwestern University (Yibo Wen and Han Liu). Agents order batches of designs over several rounds from a budgeted lab service, receive measurements and must both find promising designs and deliver a model that ranks designs they never measured. The paper's v0.1 has six campaigns (two each in biology, chemistry and materials); the repository has since added a seventh. Five campaigns replay published measurements and one (propylene electrocatalysis) queries a digital-twin surrogate; a live physical-lab backend is only specified, not run. In the paper's pilot of eight agent-model configurations over 144 trials, the best configuration passed 67% of its trials and the hardest campaign was solved in 3 of 24 attempts. Code is Apache-2.0; campaign data keep their source licences (CC-BY-4.0, one CC-BY-SA-4.0).",
+    "sources": [
+      "https://arxiv.org/abs/2610.18449",
+      "https://arxiv.org/html/2610.18449",
+      "https://github.com/Yibo-Wen/as-bench",
+      "https://github.com/Yibo-Wen/as-bench/blob/main/LICENSE",
+      "https://www.autonomous-science-bench.ai/"
+    ],
+    "id": "asa-autonomous-science-bench",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Into the Unknown",
+    "category": "benchmark",
+    "domain": "Open follow-up research problems from DOE national-laboratory scientists (quantum computing, plasma physics, computational chemistry, materials science, scientific ML)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.19159"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/prometheus-eval/into-the-unknown"
+      },
+      {
+        "label": "Hugging Face dataset",
+        "url": "https://huggingface.co/datasets/prometheus-eval/into-the-unknown"
+      },
+      {
+        "label": "Leaderboard",
+        "url": "https://prometheus-eval.github.io/into-the-unknown/viewer/"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A scientist's published paper, an unpublished follow-up research direction with the success conditions a submission must meet, and the task's upstream code and data",
+    "outputs": "Agent-written follow-up papers with full trajectories and workspace file systems, scored by an automated grading agent against scientist-written direction and integrity rubrics; public leaderboard",
+    "autonomy": "B",
+    "notes": "Carnegie Mellon University-led benchmark (GitHub org prometheus-eval). It has 15 open computational research problems from 10 scientists who are or were at US Department of Energy national laboratories, each a follow-up direction to their own paper. Nine frontier agents made 135 submissions (131 papers; four runs produced none). None met all conditions, and 114 failed the integrity check, most often by claiming work that was not done. An automated grading agent applies the scientist-written rubrics. Code Apache-2.0; trajectories, papers and file systems are on Hugging Face. Original papers and upstream task code/data keep their own terms. No reference answers exist.",
+    "sources": [
+      "https://arxiv.org/abs/2610.19159",
+      "https://github.com/prometheus-eval/into-the-unknown",
+      "https://github.com/prometheus-eval/into-the-unknown/blob/main/LICENSE",
+      "https://huggingface.co/datasets/prometheus-eval/into-the-unknown",
+      "https://prometheus-eval.github.io/into-the-unknown/viewer/"
+    ],
+    "access_evidence": {
+      "software_license": "Apache-2.0 (root LICENSE; GitHub licence API Apache-2.0) for code, task specifications, rubrics and graders. HF dataset card licence 'other'/'mixed' with an Apache-2.0 LICENSE file. Original papers in tasks/ and benchmark/ stay under their authors' and publishers' terms ('included for research use'). Task code and data are downloaded from upstream third-party sources with their own licences (checked 2026-11-06).",
+      "commercial_use": true,
+      "source_url": "https://github.com/prometheus-eval/into-the-unknown/blob/main/LICENSE"
+    },
+    "id": "asa-into-the-unknown",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "HEPTABench",
+    "aliases": [
+      "HEPBench",
+      "High Energy Physics Tool-and-Agent Benchmarking"
+    ],
+    "category": "benchmark",
+    "domain": "Controlled evaluation of coding and tool-using agents on high-energy-physics calculations",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.18454"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub (HEPBench)",
+        "url": "https://github.com/tonymenzo/hepbench"
+      },
+      {
+        "label": "GitHub (toolbench runner)",
+        "url": "https://github.com/tonymenzo/toolbench"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "HEP benchmark tasks with scientific rubrics, chosen model, harness, provider and domain-tool loadout (HEPTAPOD tools over MCP)",
+    "outputs": "Graded trials with complete experiment specifications, agent trajectories and artifacts",
+    "autonomy": "B",
+    "notes": "Evaluation framework from the HEPTAPOD team (Menzo, Roman, Fleming, Gleyzer, Matchev, Mrenna). Tasks, harnesses, models and tool interfaces vary independently, and full trial records are kept for post-hoc grading; two campaigns are reported, including a long-lived-particle reach calculation across four frontier coding-agent systems. Benchmarks GPL-3.0, runner MIT. Computational physics only.",
+    "sources": [
+      "https://arxiv.org/abs/2610.18454",
+      "https://github.com/tonymenzo/hepbench",
+      "https://github.com/tonymenzo/hepbench/blob/main/LICENSE.txt",
+      "https://github.com/tonymenzo/toolbench"
+    ],
+    "id": "asa-heptabench",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "PhysClosureBench",
+    "aliases": [
+      "From Research Goals to Scientific Closure"
+    ],
+    "category": "benchmark",
+    "domain": "Goal-specified computational physics research (strong-field and attosecond physics)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.21767"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/uncertainty2019/PhysClosureBench"
+      },
+      {
+        "label": "Hugging Face dataset",
+        "url": "https://huggingface.co/datasets/Tauben/PhysClosureBench"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Research objective with essential scientific constraints, resource limits and common submission requirements; work runs in an isolated, network-disabled container",
+    "outputs": "Research report and offline calculation package in six required top-level submission entries, scored with a 20-criterion Atomic Score and a Research Closure level (RC0-RC4)",
+    "autonomy": "B",
+    "notes": "Benchmark by Yijia Mao and colleagues. Agents must decide how to generate and validate the evidence a research question needs; seven frontier LLMs were run three times per task through OpenCode, and the best mean Atomic Score (6.29/10) reached full closure (RC4) in only 32.7% of attempts. Grading is automated by an LLM evaluator (GPT-5.6-Sol) in a staged protocol; expert spot checks agreed on 81.8% of selected criterion judgments. Runner MIT (GitHub holds one example case), all 50 task materials CC BY 4.0 on Hugging Face; evaluator rubrics are kept separate from agent inputs. Computational physics only.",
+    "sources": [
+      "https://arxiv.org/abs/2610.21767",
+      "https://github.com/uncertainty2019/PhysClosureBench",
+      "https://github.com/uncertainty2019/PhysClosureBench/blob/main/LICENSE",
+      "https://huggingface.co/datasets/Tauben/PhysClosureBench"
+    ],
+    "id": "asa-physclosurebench",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Agent4Sci",
+    "aliases": [
+      "Automating ML for Science"
+    ],
+    "category": "benchmark",
+    "domain": "Agent hill-climbing on published scientific machine-learning benchmarks across 11 domains",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.28763"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/maszhongming/agent4sci"
+      },
+      {
+        "label": "Hugging Face dataset",
+        "url": "https://huggingface.co/datasets/MingZhong/agent4sci"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A paper, its codebase, training/validation data, a target metric and a fixed compute budget in a containerized reference environment",
+    "outputs": "Agent-submitted model artifacts scored on sequestered test sets by a separate evaluator, plus an audit of each run",
+    "autonomy": "B",
+    "notes": "Testbed by Ming Zhong, Stacy Li, Nicholas Carlini and Matthew Jagielski (NeurIPS 2026 Evaluations and Datasets track, per the authors). Frontier agents improved the published best on every benchmark; the paper attributes almost all of the gains to ML-engineering tricks, with little research-level insight. Optional plug-in skills for ideation, experiment management and checklists roughly doubled mean improvement. Runner Apache-2.0; packaged data keep the source benchmarks' licences, and the standardization layer is provided for research use. Computational ML-for-science only.",
+    "sources": [
+      "https://arxiv.org/abs/2610.28763",
+      "https://github.com/maszhongming/agent4sci",
+      "https://github.com/maszhongming/agent4sci/blob/main/LICENSE",
+      "https://huggingface.co/datasets/MingZhong/agent4sci"
+    ],
+    "id": "asa-agent4sci",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "PaperBenchX",
+    "category": "benchmark",
+    "domain": "End-to-end reproduction of published papers across 12 research areas (electromagnetics, photonics, materials, biology and others)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.39744"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/UniPat-AI/PaperBenchX"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A published paper and a task package with a domain-native scientific environment (e.g. Meep; HFSS for three tasks)",
+    "outputs": "Executed reproductions with regenerated artifacts, scored on modelling, execution and evidence validation",
+    "autonomy": "B",
+    "notes": "Benchmark by UniPat AI with 93 expert-constructed reproduction tasks; only 12 representative tasks (one per research area) are public, and the other 81 form a restricted evaluation set with access managed by the maintainers. MIT; three public tasks need a user-supplied commercial HFSS licence, and environment recipes do not relicense third-party software or papers. Computational reproduction only.",
+    "sources": [
+      "https://arxiv.org/abs/2610.39744",
+      "https://github.com/UniPat-AI/PaperBenchX",
+      "https://github.com/UniPat-AI/PaperBenchX/blob/main/LICENSE"
+    ],
+    "id": "asa-paperbenchx",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "BioXArena",
+    "category": "benchmark",
+    "domain": "End-to-end biomedical machine-learning model building by coding agents on multimodal data",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2605.15766"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mbzuai-ai4bio/BioXArena"
+      },
+      {
+        "label": "Hugging Face dataset",
+        "url": "https://huggingface.co/datasets/mbzuai-ai4bio/BioXArena-Data-Public"
+      },
+      {
+        "label": "CodaBench scoring",
+        "url": "https://www.codabench.org/competitions/18373/"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "Task description, sample submission and public training/test inputs from primary biomedical sources (often multimodal), given to an agent under a harness with a fixed resource budget",
+    "outputs": "Agent-written code, trained models and predictions on test samples, scored against private labels by biology-aware graders on a 0-100 scale",
+    "autonomy": "B",
+    "notes": "Benchmark from Mohamed bin Zayed University of Artificial Intelligence (NeurIPS 2026 Evaluations and Datasets track) with 76 end-to-end biomedical machine-learning coding tasks in nine domains: sequence, single-cell, structure, network biology, chemical biology, perturbation dynamics, phenotype-disease, imaging and text-integrated. Agents must write runnable code, train models and predict test samples whose labels are hidden; 46 tasks combine distinct modality families. The paper compares 18 harness-backbone configurations under one resource configuration, the best near 74 on the task-level average. Scoring for new submissions runs on the authors' CodaBench competition. The 2026-10-07 data release rebuilt or corrected 55 of the 76 tasks to remove label leakage, so scores on earlier task versions are not comparable. Evaluation code is MIT, but the public task data are CC BY-NC 4.0. Computational modelling only.",
+    "sources": [
+      "https://arxiv.org/abs/2605.15766",
+      "https://arxiv.org/html/2605.15766",
+      "https://github.com/mbzuai-ai4bio/BioXArena",
+      "https://raw.githubusercontent.com/mbzuai-ai4bio/BioXArena/main/LICENSE",
+      "https://huggingface.co/datasets/mbzuai-ai4bio/BioXArena-Data-Public/raw/main/README.md",
+      "https://www.codabench.org/competitions/18373/",
+      "https://huggingface.co/datasets/mbzuai-ai4bio/BioXArena-Data-Public"
+    ],
+    "access_evidence": {
+      "software_license": "MIT for evaluation code (root LICENSE; third-party agent frameworks in agents/ keep their own Apache-2.0 licences); public task data CC BY-NC 4.0 per dataset card and README, and each task's data also subject to its original source's terms; test labels private, scoring via the authors' CodaBench competition (checked 2026-11-06)",
+      "commercial_use": false,
+      "source_url": "https://huggingface.co/datasets/mbzuai-ai4bio/BioXArena-Data-Public/raw/main/README.md"
+    },
+    "id": "asa-bioxarena",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "SlowLab",
+    "category": "benchmark",
+    "domain": "Slow, irreversible experimental campaigns in simulated greenhouse facilities",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.34644"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/dingningpei/slowlab-benchmark"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A 365-day campaign over four simulated compartments on a site whose cultivar, facility and prices are hidden; planting, stopping and measurement decisions",
+    "outputs": "A recommended climate policy scored by a private evaluator in three unseen weather years",
+    "autonomy": "B",
+    "notes": "Benchmark by Ningpei Ding and Zai Wen Feng (Huazhong Agricultural University). Compartments are simulated with the GreenLight greenhouse model; in a preregistered study on 48 unseen sites, three low-cost LLM agents ended near a standard grower setting and clearly below a Bayesian-optimisation baseline. Code MIT; the campaign-records data package (CC BY 4.0) is announced but not yet released, and the formal run was completed after a disclosed field-order correction. Simulation only; the authors state scores are not predictions for a real greenhouse.",
+    "sources": [
+      "https://arxiv.org/abs/2610.34644",
+      "https://github.com/dingningpei/slowlab-benchmark",
+      "https://github.com/dingningpei/slowlab-benchmark/blob/main/LICENSE"
+    ],
+    "id": "asa-slowlab",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Neurodata Without Boredom",
+    "category": "benchmark",
+    "domain": "Agentic reuse and reformatting of heterogeneous neuroscience datasets (calcium imaging, electrophysiology)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2605.12808"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/kristinbranson/data-format"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A published mouse neural-recording dataset with its paper and code, plus a standardized target format, in a Harbor container",
+    "outputs": "Converted datasets scored by a neural-decoder verifier; agent decisions and code scored against hand-written reference solutions by a process rubric (two human evaluators in the paper; Claude and Codex judges in the released harness)",
+    "autonomy": "B",
+    "notes": "Benchmark by Ling-Qi Zhang and Kristin Branson (HHMI Janelia) covering eight published mouse recording datasets in NWB, consortium-API and custom MATLAB/Python formats. Claude Code and Codex agents must reformat each dataset for a common decoding task. Agents succeeded on most subtasks but rarely produced a fully error-free solution; LLM judges missed errors unless given the reference solutions. Project code is MIT; vendored third-party code (some GPL-3.0 or non-commercial) and bundled papers keep their own terms. Data-handling and analysis tasks only; full datasets need about 1.4 TB of disk.",
+    "sources": [
+      "https://arxiv.org/abs/2605.12808",
+      "https://github.com/kristinbranson/data-format",
+      "https://github.com/kristinbranson/data-format/blob/main/LICENSE.txt"
+    ],
+    "access_evidence": {
+      "software_license": "MIT (root LICENSE.txt, Copyright 2026 Ling-Qi Zhang and Kristin Branson) for original project code; appended notice states vendored third-party code under harbor-tasks/<task>/environment/code/ keeps its own licences (AllenSDK: Allen Institute Software License restricting commercial redistribution; track2p and zhong-et-al-2025: GPL-3.0; others MIT) and bundled paper PDFs remain publisher copyright; GitHub reports NOASSERTION because of the appended notice; checked 2026-11-06",
+      "commercial_use": true,
+      "source_url": "https://github.com/kristinbranson/data-format/blob/main/LICENSE.txt"
+    },
+    "id": "asa-neurodata-without-boredom",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Chaperone (agentic protein design harness)",
+    "aliases": [
+      "Chaperone"
+    ],
+    "category": "biology",
+    "domain": "Orchestration of protein-design tools for long-horizon agentic design campaigns",
+    "paper_links": [
+      {
+        "label": "bioRxiv",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.759896v1"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/RosettaCommons/chaperone"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A design specification with molecular inputs (target structures, ligands, symmetry requirements), GPU and HPC resources, and an agent harness with the shipped skills and block definitions",
+    "outputs": "Design tables in which each row is one candidate with its structure and metrics, held-out benchmark scores, and campaign artifacts preserving the design lineage",
+    "autonomy": "A3",
+    "notes": "Harness from the Institute for Protein Design and HHMI at the University of Washington (corresponding author David Baker) that puts RFdiffusion3, ProteinMPNN, AlphaFold3 and more than 50 further protein-design tools behind one block interface in which every block takes and returns a design table, with SLURM orchestration and path tracking, and ships agent skills and project context for coding agents. In the reported benchmark, agents were given a design specification, GPUs and twelve hours to develop, execute and refine their own strategies and to submit 96 sequence-diverse candidates, scored by held-out pipelines invisible to the agent; with GPT-5.6 Sol through Codex the authors report 86% fewer tokens and 64% lower GPU cost than a standard Codex baseline. A cortisol-binder campaign reached sequences ready for testing within two weeks and yielded low-nanomolar binders zero-shot (best fit KD = 1.32 nM, 15 of 27 designs tested by fluorescence polarization giving supported fits), but the computational stage ran under designer guidance with a researcher selecting backbone configurations, and the yeast-display screening and FP titrations were carried out by the human authors, so no laboratory loop is closed by the system. The code is MIT; orchestrated backends, model weights and databases keep their own upstream licences and some need separate access agreements.",
+    "sources": [
+      "https://www.biorxiv.org/content/10.64898/2026.10.19.759896v1",
+      "https://www.biorxiv.org/content/10.64898/2026.10.19.759896v1.full",
+      "https://github.com/RosettaCommons/chaperone",
+      "https://raw.githubusercontent.com/RosettaCommons/chaperone/main/LICENSE"
+    ],
+    "id": "asa-chaperone",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "CryoPilot",
+    "category": "biology",
+    "domain": "Single-particle cryo-EM reconstruction and atomic model building",
+    "paper_links": [
+      {
+        "label": "bioRxiv",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762908v1"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "Official site and download (binary)",
+        "url": "https://cryopilot.vercel.app/"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "Raw micrographs in a CryoSPARC v5 project, acquisition information, a short scientific goal in natural language; for model building, a target map and optionally a sequence",
+    "outputs": "Three-dimensional reconstructions, refined atomic models, and a session database and decision log recording each choice, job identifier and the diagnostics the agents inspected",
+    "autonomy": "A3-A4",
+    "notes": "A system of two language-model agents from the Kihara Lab, Purdue University. The reconstruction agent works through a persistent Python environment and a CryoSPARC client: it inspects class averages and diagnostics, selects and parameterises jobs, tests alternative strategies and reverts earlier choices. The modelling agent fixes map handedness, builds models with CryoZeta, removes regions the density does not support, and refines against map fit, geometry and DAQ with Phenix and Rosetta. Both agents used GPT-5.5 in the preprint; later releases also run on Claude models. On nine public EMPIAR datasets, eight reconstructions reached 2.61-3.51 A. In two runs the authors revised the goal statement or the particle-picking strategy after a first attempt; the alpha-latrocrustotoxin map improved from 5.9 to 4.15 A only after an author-suggested picking strategy. All eight modelling runs completed without human intervention in 2.6-10.8 h, and refined models from seven maps agreed with reference structures within 0.4-4.9 A Calpha RMSD. Instructions were developed on EMPIAR-10025, which was excluded from evaluation; the modelling agent was tuned in earlier runs on maps from this study. Distribution is a single Linux binary from the official site under the PolyForm Noncommercial License 1.0.0, with no public source code; commercial use requires contacting the author. It needs CryoSPARC v5 and an OpenAI or Anthropic API key. Not to be confused with the unrelated GitHub repository ZishanShu/CryoPilot or with cryoAgent (Fei Sun lab).",
+    "sources": [
+      "https://www.biorxiv.org/content/10.64898/2026.10.29.762908v1",
+      "https://www.biorxiv.org/content/early/2026/10/30/2026.10.29.762908.source.xml",
+      "https://cryopilot.vercel.app/",
+      "https://cryopilot.vercel.app/changelog",
+      "https://cryopilot.vercel.app/instructions"
+    ],
+    "access_evidence": {
+      "software_license": "PolyForm Noncommercial License 1.0.0, stated on the official site and accepted in-app (since v0.2.0, 2026-10-27). Binary-only distribution (Linux x86_64, v0.3.5 on 2026-11-04); no public source code found",
+      "commercial_use": false,
+      "source_url": "https://cryopilot.vercel.app/"
+    },
+    "id": "asa-cryopilot",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "GENIE (closed-loop autonomous microscopy)",
+    "aliases": [
+      "GENIE",
+      "Grounded Empirical Navigator of Instruments and Experiments"
+    ],
+    "category": "biology",
+    "domain": "Autonomous light-microscopy experiments on live and fixed cells",
+    "paper_links": [
+      {
+        "label": "bioRxiv",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758370v1"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "Zenodo data",
+        "url": "https://doi.org/10.5281/zenodo.23245979"
+      }
+    ],
+    "access": "paper-only",
+    "inputs": "One plain-language scientific question, optional experimental and analysis constraints, the operating permissions the user grants, and a microscope with its hardware layer",
+    "outputs": "Acquired images with recorded device states, self-written analysis code, a measured quantity with statistical tests and uncertainty, and a knowledge store of priors and findings",
+    "autonomy": "A4-A5",
+    "notes": "Multi-agent system from the Laufer Center and the Department of Biochemistry and Cell Biology at Stony Brook University. Fixed controller code runs plan, gate, execute, sense and summarize cycles while language and vision models advise it; every hardware action passes a deterministic gate with no model call, and the system has seven autonomy levels, four of them used here. In the reported run GENIE drove a microscope directly through its own hardware layer over four dishes of live cells, flagged defocused fields and refocused, then wrote and revised its analysis under a critic over 28 h and reported that mitochondrial membrane potential is coherent over 20-30 micrometres. A second run on a different spinning-disk microscope measured transfection efficiency in fixed cells. Disclosed gates and inputs: the prompt fixed channels, region, replicates, illumination and exposures; an operator loaded each dish; all acquisition preceded analysis, which humans moved to a separate computer; the operator gave 7 inputs and a watcher model 54 hints. The authors' independent verification found an inconsistency in GENIE's mask-erosion rule and traced an apparent long-range correlation to scan timing; the local coherence held. Uses Anthropic Claude models via API. The code is not released (pending patent); data are on Zenodo under CC BY-NC-ND 4.0.",
+    "sources": [
+      "https://www.biorxiv.org/content/10.64898/2026.10.12.758370v1",
+      "https://www.biorxiv.org/content/10.64898/2026.10.12.758370v1.full",
+      "https://zenodo.org/api/records/23245979",
+      "https://doi.org/10.5281/zenodo.23245979"
+    ],
+    "id": "asa-genie",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Morpheus.AI",
+    "aliases": [
+      "Morpheus agent benchmark"
+    ],
+    "category": "biology",
+    "domain": "Autonomous construction and refinement of virtual-tissue (multicellular) simulation models",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2611.05413"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub (benchmark and MCP server)",
+        "url": "https://github.com/sisyga/morpheus-agent-benchmark"
+      },
+      {
+        "label": "GitHub (Morpheus agent skill)",
+        "url": "https://github.com/sisyga/morpheus-skills"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A source paper (PDF and extracted text) with a short prompt naming target observables and the simulation time window; the Morpheus simulator, and depending on setup web search/Python, the Morpheus CLI, MorpheusML documentation, a packaged agent skill with 43 example models, or an MCP server",
+    "outputs": "A single MorpheusML model.xml per study, per-attempt folders with model, logs and simulation outputs, and scores from a separate LLM scorer agent against study-specific criteria",
+    "autonomy": "A3-A4",
+    "notes": "From a team at the Center for Interdisciplinary Digital Sciences, TUD Dresden University of Technology. LLM agents built virtual-tissue models for fifteen benchmark studies, five of which had no published model, writing MorpheusML, running the Morpheus simulator, inspecting outputs and revising without human intervention. With GPT-6.1 Sol, every setup that could run Morpheus reached mean scores of 0.83-0.86 on study-specific criteria, in under two hours and under US$4 per model; a separate LLM scorer, checked against manual expert scores on an earlier benchmark version, graded the models. The paper states that the outer loop, in which model insights feed new experiments, was not tested; the work is entirely in silico. Benchmark runner, MCP server, skill and analysis code are Apache-2.0 on GitHub (third-party paper PDFs excluded; full run outputs on request); Morpheus itself is BSD-3-Clause.",
+    "sources": [
+      "https://arxiv.org/abs/2611.05413",
+      "https://arxiv.org/html/2611.05413",
+      "https://github.com/sisyga/morpheus-agent-benchmark",
+      "https://github.com/sisyga/morpheus-skills",
+      "https://raw.githubusercontent.com/sisyga/morpheus-agent-benchmark/main/LICENSE"
+    ],
+    "id": "asa-morpheus-ai",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "DeepMAST",
+    "category": "biology",
+    "domain": "Spatial-transcriptomics analysis and evidence-linked therapeutic-target prioritisation",
+    "paper_links": [
+      {
+        "label": "bioRxiv",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760550v1"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/junghyunJJ/DeepMAST"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Spatial-transcriptomics data (.h5ad; Visium datasets in the paper) with study context and a biological question, plus locally served open-weight language models and the configured MCP tool servers",
+    "outputs": "Configured and executed preprocessing workflows, evidence-grounded cell-cell interaction reports, ranked drug-target candidates with per-claim evidence links, and guardrail validation results that repair or close unsupported claims",
+    "autonomy": "A3",
+    "notes": "Multi-agent harness from the Department of Computational Biomedicine at Cedars-Sinai Medical Center, built on LangGraph and Deep Agents and run on locally served Qwen3.5 models. A supervisor routes work through a Pipeline Builder and Pipeline Executor, which assemble and run the analysis through Python (FastMCP) and R (rMCPAgent) MCP servers, and a Deep Interpreter with a Deep Drug Target Prioritizer that gathers evidence from Open Targets, the GWAS Catalog, Ensembl VEP and other resources. Custom guardrails check artifacts, schemas, provenance and claim boundaries and trigger bounded repair of the failing step. Human-in-the-loop decision points remain: users accept or change the proposed workflow and, in the prostate cancer example, confirm clusters and factors before interpretation proceeds. In an idiopathic pulmonary fibrosis Visium dataset it prioritised ICAM1 within an AT2 and transitional-AT2 niche; the authors then confirmed ICAM-1 in human IPF tissue and showed that ICAM-1 blockade attenuates fibrosis in a mouse model, experiments performed by the human authors, not by the system. The code is MIT; the benchmarks are the authors' own.",
+    "sources": [
+      "https://www.biorxiv.org/content/10.64898/2026.10.22.760550v1",
+      "https://www.biorxiv.org/content/early/2026/10/26/2026.10.22.760550.source.xml",
+      "https://github.com/junghyunJJ/DeepMAST",
+      "https://raw.githubusercontent.com/junghyunJJ/DeepMAST/main/LICENSE"
+    ],
+    "id": "asa-deepmast",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "CellCanon",
+    "category": "biology",
+    "domain": "Agentic cellular world model for perturbation-response prediction, explanation and revision",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2611.05890"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ZhaokangLiang123/CellCanon"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Single-cell expression data with drug and cell-line conditions, condition-level biological evidence, and newly acquired measurements supplied as source contexts",
+    "outputs": "Predicted single-cell expression and differential-expression calls, source-linked explanations with supporting proofs or an insufficient-evidence verdict, and an updated shared world state",
+    "autonomy": "A2-A3",
+    "notes": "System from Zhejiang University that links prediction, explanation and updating through one shared world state holding predictions, acquired measurements and source-linked claims. In Explain, a language model answers questions from the supplied sources, tools check the citations, and answers that fail the checks are revised. On 339 held-out SciPlex3 conditions across three cell lines, the authors report gains in differential-expression AUPRC and macro-F1 over the best baseline for each metric. They also report that language-model token use fell by 99.77% (Predict) and 98.41% (Explain) compared with gene-wise reasoning. Updating was tested with simulated feedback: existing SciPlex3 measurements were revealed on fixed schedules chosen by the authors, not by the system. The model weights do not change during updating. No laboratory loop is involved, and the evaluation is limited to the authors' own benchmarks. Stages run step by step from the command line and need a GPU plus a user-supplied LLM API. The code is MIT-licensed; the external data and model weights keep their own licences.",
+    "sources": [
+      "https://arxiv.org/abs/2611.05890",
+      "https://arxiv.org/html/2611.05890",
+      "https://github.com/ZhaokangLiang123/CellCanon",
+      "https://raw.githubusercontent.com/ZhaokangLiang123/CellCanon/main/LICENSE"
+    ],
+    "id": "asa-cellcanon",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "MADDIE",
+    "aliases": [
+      "Multi-Agent Drug Discovery Engine"
+    ],
+    "category": "chemistry",
+    "domain": "End-to-end in-silico small-molecule drug-discovery campaigns",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.16975"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ninglab/MADDIE"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "A target protein structure (PDB) and a campaign prompt stating the required property thresholds and output count, with control tags for the stopping rule; the bundled 50-target dataset and property predictors; and a served backbone LLM. The reported configuration serves Qwen3-30B via vLLM on two A100s plus one GPU per campaign, with SLURM for the backbone and the 50-target benchmark; Uni-Dock, MolOpt and model weights are obtained separately.",
+    "outputs": "A CSV of accepted molecules with every evaluated property as a column, each with at least one proposed synthesis route, plus logs and agent trajectories showing the strategy taken per target.",
+    "autonomy": "A3-A4",
+    "notes": "System from the Ning Lab at The Ohio State University. A central Orchestrator agent, with episodic and semantic memory, composes four worker agents - HitIdentifier (structure- or ligand-based generation), LeadOptimizer (multi-property and oracle-guided optimizers), Synthesizer (retrosynthesis planning, or synthesizable analogs where no route is found) and Evaluator (docking, drug-likeness, ADMET, structural liability filters) - into flexible workflows that can be re-planned rather than a fixed pipeline. A campaign ends when the requested number of molecules satisfy every property and are synthesizable, or when the per-campaign action budget is spent. The authors evaluate 50 protein targets and report that MADDIE produces property-satisfying molecules with synthesis routes, comparing favourably against drug-discovery agents, generative molecular models and generalist LLMs cast as generate-then-filter baselines. Closure is entirely computational: the paper names in vitro validation and in-loop expert feedback as future work, and the Alzheimer-target expert assessment (PSEN1, ACHE, BChE) verifies output quality post hoc rather than steering generation. The repository carries the PolyForm Noncommercial License 1.0.0, so commercial use is excluded and the record is source-available, not open-source. Distinct from MADD (Solovev et al., arXiv 2511.08217), a separate hit-identification multi-agent system that MADDIE cites as related work; also distinct from the same lab's earlier single-agent LIDDIA.",
+    "sources": [
+      "https://arxiv.org/abs/2610.16975",
+      "https://arxiv.org/html/2610.16975",
+      "https://github.com/ninglab/MADDIE",
+      "https://raw.githubusercontent.com/ninglab/MADDIE/main/LICENSE"
+    ],
+    "access_evidence": {
+      "software_license": "PolyForm Noncommercial License 1.0.0 (LICENSE file, Required Notice: Copyright (c) 2026 Ning Lab, The Ohio State University; GitHub API reports NOASSERTION / 'Other')",
+      "commercial_use": false,
+      "source_url": "https://raw.githubusercontent.com/ninglab/MADDIE/main/LICENSE"
+    },
+    "id": "asa-maddie",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Brieflow-auto",
+    "aliases": [
+      "Brieflow-auto harness"
+    ],
+    "category": "biology",
+    "domain": "Operation of optical pooled screening analysis pipelines",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.22617"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/cheeseman-lab/brieflow-auto"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Experimental facts about an optical pooled screen (supplied in a setup interview), the screen's phenotype and in situ sequencing-by-synthesis microscopy images, an installed Brieflow pipeline on a Snakemake/Slurm or local execution host, and a researcher's approval to launch",
+    "outputs": "Validated pipeline configurations, completed analysis runs with per-cell gene assignments and quality checks, run records, and upstream issue reports proposing backward-compatible pipeline fixes for maintainer review",
+    "autonomy": "A3",
+    "notes": "Harness from the Whitehead Institute and MIT with the University of Alabama at Birmingham, shipped as a Claude Code plugin that lets a coding language model operate Brieflow, an open-source optical pooled screening pipeline from the same lab. The researcher supplies experimental facts and approves the launch; the agent then tunes parameters in an interactive notebook while the harness validates the configuration, monitors execution, recovers from common failures and checks output quality, stopping when a failure or quality check needs a decision. On five previously analysed screens the harness re-runs yielded 3.8 to 39.2 percent more cells with a confident single-gene assignment than the original hand analyses. On a drug screen outside the pipeline's design, the agent's proposed fixes were reviewed, sometimes adapted, and merged by the Brieflow maintainers. The plugin is MIT but requires Claude Code to run; the Brieflow pipeline it drives is a separate upstream project, and the reported comparisons are retrospective against the authors' own earlier analyses.",
+    "sources": [
+      "https://arxiv.org/abs/2610.22617",
+      "https://arxiv.org/html/2610.22617",
+      "https://github.com/cheeseman-lab/brieflow-auto",
+      "https://raw.githubusercontent.com/cheeseman-lab/brieflow-auto/main/LICENSE"
+    ],
+    "id": "asa-brieflow-auto",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Findings Workflow",
+    "category": "biology",
+    "domain": "Gated, provenance-tracked analysis of quantitative omics data (proteomics-first, designed to be discipline-agnostic)",
+    "paper_links": [
+      {
+        "label": "bioRxiv",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762630v1"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mriffle/findings-ai-collab-workflow"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A study folder with raw or processed data and sample metadata, the scientist's description of the study and questions, and a Claude Code session with the plugin installed",
+    "outputs": "Tested data loaders and QC, statistical analyses and figures from specialised subagents, findings recorded with pinned inputs, caveats and validation status in a queryable findings graph, independently re-derived validations, and QC or research reports, with provenance intended to make results reproducible",
+    "autonomy": "A2-A3",
+    "notes": "Claude Code plugin from the University of Washington (MacCoss laboratory; corresponding author Michael Riffle). It places conversational LLM-assisted analysis inside a staged workflow: study science, metadata, data structure, tested loaders and a QC integrity gate must be completed before exploration. Specialised subagents (coding, statistics, figures, research, writing, verification) and reviewer subagents work throughout, and findings are promoted to validated by blind re-derivation. Stage order is enforced by gates and programmatic hooks. The scientist directs exploration and confirms checkpoints, so it is a collaborative analysis workflow rather than an autonomous discovery system. The paper's worked example (v0.5.1) reproduces central findings from the Mag-Net plasma extracellular-vesicle proteomics dataset (Alzheimer's focus), starting from already normalised, batch-corrected abundances. No quantitative comparison with unstructured LLM use is reported. Code is Apache-2.0 (tags up to v0.9.2 at review); it requires Anthropic's proprietary Claude Code. Proteomics is the stated proving ground, but the README describes the design as discipline-agnostic.",
+    "sources": [
+      "https://www.biorxiv.org/content/10.64898/2026.10.28.762630v1",
+      "https://www.biorxiv.org/content/10.64898/2026.10.28.762630v1.full",
+      "https://github.com/mriffle/findings-ai-collab-workflow",
+      "https://raw.githubusercontent.com/mriffle/findings-ai-collab-workflow/main/LICENSE"
+    ],
+    "id": "asa-findings-workflow",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "LPT (little protein tiger)",
+    "aliases": [
+      "LPT",
+      "little protein tiger"
+    ],
+    "category": "biology",
+    "domain": "De novo protein binder design driven from a natural-language prompt",
+    "paper_links": [
+      {
+        "label": "bioRxiv",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762730v1"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/MichaUckelmann/little-protein-tiger"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "A single natural-language design prompt; a curated literature corpus (the paper describes ~14,000 digested papers, while the public release ships 7,072 fingerprints installed from the v0.1.0 corpus archive, a clone carrying no data); configured design and folding tools with GPU compute and an LLM API key",
+    "outputs": "Selected target, structure and hotspot residues with written rationale per stage, designed binder candidates with cross-validated in-silico scores, and a self-contained campaign report",
+    "autonomy": "A3-A4",
+    "notes": "Single-author framework (M. Uckelmann, Hubrecht Institute) that fixes the orchestration of LLM stages while each stage runs a bounded agentic loop with its own system prompt and tool access, which the author uses to cap token use. Stages can query a curated literature database: with database access a model answered 41 of 48 test questions drawn from the database's key findings, without it none. In three end-to-end campaigns started from one prompt, LPT identified the design intent and chose targets, structures and hotspots, designing binders aimed at disrupting CALCRL/RAMP1, PD-1/PD-L1 and PVR-TIGIT. Closure is in-silico only: cross-validation with several folding models is the sole evidence and the paper states it has not evaluated the experimental success rate. Disclosed human gates: the run pauses for a user-supplied structure if none is found, stops and prints options when calibration returns ITERATE, and halts stages when a safety classifier triggers. Code and example-campaign data are public under the PolyForm Noncommercial License 1.0.0, which excludes commercial use; the README marks the code as beta and under near-daily development, and the only tagged release (v0.1.0) is the corpus archive rather than a stable code version.",
+    "sources": [
+      "https://www.biorxiv.org/content/10.64898/2026.10.29.762730v1",
+      "https://www.biorxiv.org/content/10.64898/2026.10.29.762730v1.full",
+      "https://github.com/MichaUckelmann/little-protein-tiger",
+      "https://raw.githubusercontent.com/MichaUckelmann/little-protein-tiger/main/LICENSE"
+    ],
+    "access_evidence": {
+      "software_license": "PolyForm Noncommercial License 1.0.0 (LICENSE file in the repository root; GitHub API reports license key 'other', spdx NOASSERTION)",
+      "commercial_use": false,
+      "source_url": "https://raw.githubusercontent.com/MichaUckelmann/little-protein-tiger/main/LICENSE"
+    },
+    "id": "asa-lpt",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "LabWeaver",
+    "category": "biology",
+    "domain": "Laboratory-grounded agentic analysis of biological data",
+    "paper_links": [
+      {
+        "label": "bioRxiv",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762601v1"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/lili-8477/labweaver"
+      },
+      {
+        "label": "Project site",
+        "url": "https://labweaver.ai/"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "A laboratory's experimental context (disease domain, protocols, reporter constructs), project datasets, and the analysis request in a session scoped to laboratory, user and project tiers",
+    "outputs": "Analysis sessions with code and results, laboratory memory and skill entries promoted after human review, and a record of the context applied to each project",
+    "autonomy": "A3",
+    "notes": "Framework from the University of Utah (Huntsman Cancer Institute and Division of Biostatistics) built on the observation that research is organised around laboratories, not individual users, so experimental context learned in one project should reach related projects. It distils that context into laboratory memory and skills that enter the shared tier only after review by laboratory curators. The analysis agent runs in per-user containers; the repository README names Claude Code (claude-agent-sdk) as the runtime, and the web frontend is ported from PantheonOS. In a paired comparison on a synovial sarcoma single-cell RNA-seq dataset, the session without laboratory memory and skills lost the fusion reporter at read alignment and misannotated the tumour cells; the session with them recovered reporter expression and resolved five fusion-anchored tumour cell states. A second case study reproduces a published lung adenocarcinoma analysis. Both case studies are by the authors, with no quantitative benchmark. The repository declares MIT in the README and package metadata but has no root licence file, so the record is source-available.",
+    "sources": [
+      "https://www.biorxiv.org/content/10.64898/2026.10.28.762601v1",
+      "https://www.biorxiv.org/content/10.64898/2026.10.28.762601v1.full",
+      "https://github.com/lili-8477/labweaver",
+      "https://labweaver.ai/"
+    ],
+    "access_evidence": {
+      "software_license": "MIT declared in the README License section and in adapter/ and mcp-memory/ package.json; the only licence text is frontend/LICENSE (MIT, copyright PantheonOS Contributors, for the ported frontend); no root licence file and GitHub licence API 404 (checked 2026-11-06)",
+      "commercial_use": false,
+      "source_url": "https://github.com/lili-8477/labweaver"
+    },
+    "id": "asa-labweaver",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "OmicsBench (long-horizon multi-turn bioinformatics)",
+    "aliases": [
+      "OmicsBench"
+    ],
+    "category": "benchmark",
+    "domain": "Long-horizon multi-turn bioinformatics tasks for AI agents",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.21074"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "Hugging Face (runner and public tasks)",
+        "url": "https://huggingface.co/datasets/gideonshaked/OmicsBench"
+      },
+      {
+        "label": "Hugging Face (grader databases)",
+        "url": "https://huggingface.co/datasets/gideonshaked/OmicsBench-grader-databases"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "An agent under a harness, the task datasets, and one user turn per subtask with optional in-context feedback on wrong answers",
+    "outputs": "Deterministic per-subtask scores and task-level aggregates; the paper's unsupervised failure-mode discovery pipeline (describe, embed, cluster failed attempts) is reported in the paper but was not found in the public release",
+    "autonomy": "B",
+    "notes": "Benchmark by Gideon Shaked and Siddharth Nagisetty in which each of 97 bioinformatics tasks links dependent subtasks into a directed acyclic graph, 662 subtasks in all, posed one user turn at a time and graded deterministically against an answer key. Across 12 models on three harnesses (OpenCode, Claude Code, Codex) the slowest agent averaged 3.6 hours per task, and mean scores were 0.43 to 0.57 without in-context feedback and 0.54 to 0.67 with it; agents scored lower on subtasks that depend on earlier ones. The paper also reports a failure-mode discovery pipeline that clusters failed attempts. The runner and graders (MIT) and three tasks (CC BY 4.0) are public on Hugging Face; the other 94 tasks are a private test set available on request to the authors. Not the same as the unrelated OmicsBench LLM sequence-reasoning benchmark (SeedScientist/OmicsBench).",
+    "sources": [
+      "https://arxiv.org/abs/2610.21074",
+      "https://arxiv.org/html/2610.21074",
+      "https://huggingface.co/datasets/gideonshaked/OmicsBench",
+      "https://huggingface.co/datasets/gideonshaked/OmicsBench/raw/main/omicsbench_runner/LICENSE",
+      "https://huggingface.co/datasets/gideonshaked/OmicsBench/raw/main/questions/LICENSE",
+      "https://huggingface.co/datasets/gideonshaked/OmicsBench-grader-databases"
+    ],
+    "access_evidence": {
+      "software_license": "MIT for the runner and all graders (omicsbench_runner/LICENSE, Copyright (c) 2026 Gideon Shaked; pyproject license = \"MIT\"); CC BY 4.0 for the three public tasks and answer keys (questions/LICENSE). Task datasets keep their source studies' licences; grader databases declared 'per-source'. 94 of 97 tasks are a private test set, not released (contact authors). Checked 2026-11-06.",
+      "commercial_use": true,
+      "source_url": "https://huggingface.co/datasets/gideonshaked/OmicsBench/raw/main/omicsbench_runner/LICENSE"
+    },
+    "id": "asa-omicsbench",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Magnolia",
+    "aliases": [
+      "Project Magnolia",
+      "Magnolia-AI"
+    ],
+    "category": "chemistry",
+    "domain": "Persistent-memory agent framework for computational chemistry (docking, quantum chemistry, molecular dynamics)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.27230"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/HolobiomicsLab/Magnolia-AI"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Natural-language research requests from a researcher, molecular structures and simulation inputs, lab-notebook and chat records; any local or API-based LLM through the OpenCode agent harness and two MCP servers (compchem-tools, compchem-memory)",
+    "outputs": "Executed docking, quantum-chemistry and MD runs on a workstation or Slurm cluster, tracked run records, session learnings, project-tier memory entries and human-validated cross-project rules",
+    "autonomy": "A2-A3",
+    "notes": "Universite Cote d'Azur / CNRS Holobiomics Lab framework that wraps docking, quantum-chemistry and molecular-dynamics tools as MCP services and adds a three-tier memory: session learnings become project-tier entries, and become cross-project rules only after human validation. The researcher directs the work in natural language; the agent proposes and acts on agreement, then prepares, submits and analyses runs. Four case studies (COMPAS aromatic systems, butane and modified-DNA MD, a protein-peptide docking campaign) tracked 317 runs. In author-run replays of four tasks with two LLMs, memory-on runs passed checks that memory-off runs failed. Closure is computational only. MIT-licensed; run records of the docking campaign are withheld because they contain collaborators' unpublished results.",
+    "sources": [
+      "https://arxiv.org/abs/2610.27230",
+      "https://arxiv.org/html/2610.27230",
+      "https://github.com/HolobiomicsLab/Magnolia-AI",
+      "https://github.com/HolobiomicsLab/Magnolia-AI/blob/master/LICENSE"
+    ],
+    "id": "asa-magnolia",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "IRIS (agentic phase-transition energy landscapes)",
+    "aliases": [
+      "IRIS",
+      "Irrep Route and Interpolation System"
+    ],
+    "category": "chemistry",
+    "domain": "Agentic first-principles construction of symmetry-adapted energy landscapes and Landau models for structural phase transitions",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2611.00761"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/sukritimanna/IRIS"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Plain-language request and two crystal structures (high-symmetry parent and low-symmetry child, as files or Materials Project IDs); live mode needs VASP, a PBS/Slurm HPC cluster, the ISOTROPY (FINDSYM/ISODISTORT) server and LLM/Materials Project API keys",
+    "outputs": "Symmetry-derived structural paths, DFT energy landscapes, fitted Landau energy models, hashed audit trail of structures, calculations, gate results and decisions",
+    "autonomy": "A3",
+    "notes": "Workflow by Manna, Agrawal, Ramesh, Ganesh, Darancet and Sankaranarayanan: a seven-node state graph with a deterministic gate on every hand-off; the language model only writes the configuration from the request and picks among code-listed recovery fixes, and does not route the workflow or accept results. The six-compound campaigns (including a six-dimensional BiFeO3 landscape) were run block by block with failures fixed by hand, then replayed through the gated graph; in replays the gates detected all 53 injected faults. Four prospective live BaTiO3 runs completed 96 VASP calculations on an HPC cluster in 34 minutes, the operator only confirming submission. Closure is computational. MIT-licensed code with the frozen evaluation set; the stored DFT campaigns and live-run directories are to be deposited on Zenodo on publication and are not yet public, so full replay is not yet reproducible from public data. Name is generic: not to be confused with other systems called IRIS.",
+    "sources": [
+      "https://arxiv.org/abs/2611.00761",
+      "https://arxiv.org/html/2611.00761",
+      "https://github.com/sukritimanna/IRIS",
+      "https://github.com/sukritimanna/IRIS/blob/main/LICENSE"
+    ],
+    "id": "asa-iris",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "GBClaw",
+    "category": "physics",
+    "domain": "Agentic atomistic simulation and mechanistic analysis of general grain boundaries",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.28629"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ZhuGroup-GT/GBClaw"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Grain-boundary research questions from a researcher; crystallographic parameters; LAMMPS, OVITO, interatomic potentials and an LLM provider",
+    "outputs": "Approved simulation plans, bicrystal models, GB energies, shear and NEB calculations, defect analyses and traceable project memory",
+    "autonomy": "A3",
+    "notes": "Framework from Ting Zhu's group at Georgia Tech (repository organisation ZhuGroup-GT). An orchestrator and five specialist agents, built on LangChain/LangGraph, plan, run and analyse LAMMPS and OVITO grain-boundary workflows with persistent project memory. Applied to 14 general asymmetric tilt grain boundaries in nickel, it characterised misfit-dislocation hierarchies and compared sliding resistance with and without secondary misfit dislocations. After researcher prompting, it also identified these dislocations in previously published in-situ HRTEM images. Plans are drafts for researcher approval, and researchers guide objectives and follow-up calculations. Closure is computational; experimental-validation agents are described as under development. arXiv v2 is retitled from the v1 'GBClaw: An agentic AI framework...' title that the repository cites. Linux only; MIT-licensed; LAMMPS, potentials and LLM services keep their own terms.",
+    "sources": [
+      "https://arxiv.org/abs/2610.28629",
+      "https://github.com/ZhuGroup-GT/GBClaw",
+      "https://github.com/ZhuGroup-GT/GBClaw/blob/main/LICENSE"
+    ],
+    "id": "asa-gbclaw",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "MatOS",
+    "aliases": [
+      "MatOS agent operating system"
+    ],
+    "category": "chemistry",
+    "domain": "Agent operating system for computational materials research",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.34203"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/DingyangLyu/MatOS"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "Natural-language materials research tasks; materials databases, simulation codes and interatomic potentials registered as assets; LLM backend (DeepSeek-V4-Flash by default); researcher decisions and feedback",
+    "outputs": "Executed workflow graphs with scientific checks, screened candidate sets, simulation results and reports, reviewed revisions of reusable assets (skills, tools, workflows) and traceable execution records",
+    "autonomy": "A3-A4",
+    "notes": "Technical report from the AI Materials Team, Zhongguancun Academy and Zhongguancun Institute of Artificial Intelligence (Beijing). MatOS organises data, knowledge, tools, skills, roles and workflows in a layered asset graph. It runs tasks as resumable execution graphs with scientific checks, and it revises assets from execution records and user feedback. The workflow has human decision and confirmation nodes, and asset evolution uses manual approval by default. On ResearchClawBench it beats the previously best agent by 11.15% with the same base model. It also scores slightly above Codex CLI and Claude Code on MatTools and SciAgentGym. Eight computational case studies, run by the authors with MatOS, include a staged screen of about 30 million structures down to 97 solid-electrolyte candidates and two method developments. No physical laboratory loop is reported. Instrument integration is listed as future work. The public repository is a single-user edition with a reduced asset set. It is licensed under PolyForm Noncommercial 1.0.0, which bars commercial use.",
+    "sources": [
+      "https://arxiv.org/abs/2610.34203",
+      "https://arxiv.org/html/2610.34203",
+      "https://github.com/DingyangLyu/MatOS",
+      "https://github.com/DingyangLyu/MatOS/blob/main/LICENSE"
+    ],
+    "access_evidence": {
+      "software_license": "PolyForm Noncommercial 1.0.0",
+      "commercial_use": false,
+      "source_url": "https://github.com/DingyangLyu/MatOS/blob/main/LICENSE"
+    },
+    "id": "asa-matos",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "MARS (knowledge-grounded material substitution, MIT LAMM)",
+    "aliases": [
+      "Multi-Agent Reasoning System for material substitution"
+    ],
+    "category": "chemistry",
+    "domain": "Constraint-aware material substitution (PFAS replacement) with manufacturability assessment",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.14123"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/lamm-mit/MARS"
+      },
+      {
+        "label": "Zenodo v1.0.0",
+        "url": "https://doi.org/10.5281/zenodo.23199501"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Material-substitution problem statement with functional, environmental, experimental and processing constraints; literature/patent knowledge graphs and retrieval corpora; a database of lab-available materials; an LLM backend (local or OpenAI API)",
+    "outputs": "Structured material requirements, evidence-grounded substitute candidates, manufacturability assessments and lab-scale process routes, with intermediate artifacts and rejection records",
+    "autonomy": "A3",
+    "notes": "Massachusetts Institute of Technology (Buehler lab, LAMM) and Saint-Gobain Research North America system that decomposes material substitution into requirement analysis, grounded candidate generation, and manufacturability assessment with process design, using retrieval-augmented generation, knowledge-graph reasoning, persistent memory and rejection-aware feedback that loops until an internal feasibility verdict. In a PFAS-substitution case study (replacing THV) it proposed a substitute and a lab-scale manufacturing route; a multi-seed ablation was scored by an LLM judge, and the authors state this is not experimental validation. An optional expert-review gate after requirement analysis is off by default. MIT-licensed code with a Zenodo v1.0.0 archive; knowledge graphs are on Hugging Face, while the internal materials database and full-text corpora are not redistributed. Different systems from MARS for automated AI research (asa-mars) and the CityU robotic materials platform MARS (asa-mars-materials).",
+    "sources": [
+      "https://arxiv.org/abs/2610.14123",
+      "https://arxiv.org/html/2610.14123",
+      "https://github.com/lamm-mit/MARS",
+      "https://github.com/LAMM-MIT/MARS/blob/main/LICENSE",
+      "https://zenodo.org/api/records/23199501",
+      "https://doi.org/10.5281/zenodo.23199501"
+    ],
+    "id": "asa-mars-2",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "The Agentic Scientist",
+    "aliases": [
+      "AI-Scientist-v3",
+      "agsci"
+    ],
+    "category": "crossdomain",
+    "domain": "Computational research automation with coding agents (machine learning and other code-evaluable research tasks)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.18933"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/SakanaAI/AI-Scientist-v3"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Task directory (task.md, evaluator and rubric), or experimentally a bare research brief; a coding-agent CLI (Claude Code, Codex, Cursor, OpenCode, Gemini or Pi) with API keys; Docker; GPUs for GPU task presets",
+    "outputs": "Ideas and experiment attempts, baselines and ablations, sealed final evaluation, post-hoc analyses, compiled paper and optional AI reviews in one run directory",
+    "autonomy": "A4",
+    "notes": "Third-generation research pipeline from Sakana AI (successor to The AI Scientist and The AI Scientist-v2) in which a meta-controller runs parallel coding agents through task drafting, investigation, ablations, sealed evaluation, post-hoc analysis and paper writing, with rubric checks at each stage. Code is Apache-2.0, unlike the custom-licensed v1 and v2 repositories. The paper reports fully autonomous runs on open machine-learning problems, and a co-scientist use in which humans selected benchmarks and initial rubrics, verified implementations, tables and figures, and checked every reference before an ALIFE 2026 paper was accepted. A manual post-hoc audit found generated programs that had altered the evaluation protocol, which neither the evaluator nor the rubric gates flagged; agents run with full tool permissions and the README recommends Docker isolation.",
+    "sources": [
+      "https://arxiv.org/abs/2610.18933",
+      "https://arxiv.org/html/2610.18933",
+      "https://github.com/SakanaAI/AI-Scientist-v3",
+      "https://raw.githubusercontent.com/SakanaAI/AI-Scientist-v3/HEAD/LICENSE"
+    ],
+    "id": "asa-the-agentic-scientist",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "SplatLab",
+    "category": "crossdomain",
+    "domain": "Autonomous research on 3D Gaussian Splatting (computer vision)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.30468"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/seemandhar/SplatLab"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Research prompt, target-paper URL or 3DGS GitHub repository (or no input); Claude Code; CUDA GPUs with nerfstudio/gsplat",
+    "outputs": "Reproduced baseline, new 3DGS method, training and ablation runs on Mip-NeRF 360 and LLFF, ledger-backed compiled manuscript",
+    "autonomy": "A4",
+    "notes": "Autonomous research system by Seemandhar Jain and Manmohan Chandraker (UC San Diego), accepted at NeurIPS 2026 according to the arXiv comment. It runs as a Claude Code orchestration of specialised subagents for 24-48 h; no experiment starts until the target paper is reproduced within 0.2 dB, and a verifier ties every number in the draft to a logged training run. The README reports 16 generated papers, three of them accepted at a CVPR 2026 workshop, and says the showcased papers had no human editing; these are author claims. MIT licence; limited to 3DGS and dependent on Claude Code; unrelated repositories also use the name splatlab.",
+    "sources": [
+      "https://arxiv.org/abs/2610.30468",
+      "https://github.com/seemandhar/SplatLab",
+      "https://github.com/seemandhar/SplatLab/blob/main/LICENSE"
+    ],
+    "id": "asa-splatlab",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "RIDAR",
+    "aliases": [
+      "RIDAR-Post-hoc",
+      "RIDAR-Runtime",
+      "RIV-Gold",
+      "RIV-Wild",
+      "RIV-Live"
+    ],
+    "category": "benchmark",
+    "domain": "Research-integrity violation detection and runtime intervention for autonomous research agents (evaluated on maths and machine-learning research tasks)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.31372"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/THU-KEG/RIDAR"
+      },
+      {
+        "label": "Hugging Face dataset",
+        "url": "https://huggingface.co/datasets/THU-KEG/RIDAR"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Completed research-agent trajectories collected from Claude Code, Codex or OpenCode (post-hoc mode) or a live agent session launched under RIDAR (runtime mode); detector runs as LLM agent sessions via Claude Code and Codex CLI with user-supplied API keys",
+    "outputs": "Violation findings over the 14-type RIVT taxonomy with evidence spans, runtime corrective feedback to the agent, local monitoring UI; released RIV-Gold, RIV-Wild and RIV-Live trajectory datasets",
+    "autonomy": "B",
+    "notes": "Harness from the THU-KEG group (authors include Juanzi Li and Jie Tang) that detects research-integrity violations made by autonomous research agents across idea generation, literature review, experimentation and paper writing, and can feed detected violations back to a running agent. Detection itself is performed by LLM agent sessions, and agreement with 17 human annotators is scored by a further LLM judge. The authors report 85.2% instance-level F1 on 60 annotated trajectories (RIV-Gold), violations in 99.7% of 300 trajectories from six general-purpose coding-agent configurations over 50 tasks (RIV-Wild), and a drop in violations left at task completion from 14.9 to 9.4 per run (36.8%) on 60 paired runs with runtime intervention. All tasks are mathematics or machine-learning research; the authors note human review remains necessary in high-stakes settings. Code and datasets are released under MIT.",
+    "sources": [
+      "https://arxiv.org/abs/2610.31372",
+      "https://github.com/THU-KEG/RIDAR",
+      "https://github.com/THU-KEG/RIDAR/blob/main/LICENSE",
+      "https://huggingface.co/datasets/THU-KEG/RIDAR"
+    ],
+    "id": "asa-ridar",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "DiscoveryRSI",
+    "aliases": [
+      "DiscoveryRSI-27B",
+      "DFM-Bench"
+    ],
+    "category": "biology",
+    "domain": "Life-science hypothesis development (clinical and population health, therapeutic-target prioritization, disease mechanisms, population multi-omics)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.23839"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Gen-Verse/DiscoveryRSI"
+      },
+      {
+        "label": "Hugging Face model (DiscoveryRSI-27B)",
+        "url": "https://huggingface.co/Gen-Verse/DiscoveryRSI-27B"
+      },
+      {
+        "label": "Hugging Face dataset (compiled task examples)",
+        "url": "https://huggingface.co/datasets/Gen-Verse/DiscoveryRSI-Hypothesis-Task-Examples"
+      },
+      {
+        "label": "GitHub (DFM-Bench, no licence)",
+        "url": "https://github.com/Gen-Verse/DFM-Bench"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Research question and data the user is authorised to use, a research manifest, role prompts and domain adapters, and a model provider (DiscoveryRSI-27B served behind an OpenAI-compatible endpoint, Codex, Claude Code or another adapter)",
+    "outputs": "Scored candidate hypotheses with investigation plans, alternatives, evidence and parent links, plus a replay log. In the paper's full pipeline, selected computational investigations are also compiled into Harbor task packages (three examples released on Hugging Face) and runs are scored with DFM-Bench",
+    "autonomy": "A2-A3",
+    "notes": "System from the Gen-Verse GitHub organisation. In the paper, multi-agent evolutionary search grows hypothesis trees, selected computational investigations are compiled into Harbor tasks, and the 27B model (fine-tuned from Qwen3.8-27B) and the workflow improve from scored research histories. The authors report automated hypothesis-quality scores rising from 4.86 to 5.39 after two self-improvement rounds. They also report a 6.3% retrospective rate of hypotheses matching research published after the model cutoff. Human assessment is described as preliminary, and the compiled investigations were not executed. The public repository is a small Apache-2.0 harness (propose, critique and select, with role prompts and stub tools). It does not include the paper's evolutionary operators, Harbor compiler or training pipeline. The 27B weights and the task-example dataset are Apache-2.0 on Hugging Face. No patient or private campaign data are bundled.",
+    "sources": [
+      "https://arxiv.org/abs/2610.23839",
+      "https://github.com/Gen-Verse/DiscoveryRSI",
+      "https://raw.githubusercontent.com/Gen-Verse/DiscoveryRSI/HEAD/LICENSE",
+      "https://huggingface.co/Gen-Verse/DiscoveryRSI-27B",
+      "https://huggingface.co/datasets/Gen-Verse/DiscoveryRSI-Hypothesis-Task-Examples",
+      "https://github.com/Gen-Verse/DFM-Bench"
+    ],
+    "id": "asa-discoveryrsi",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Auctopus",
+    "aliases": [
+      "Collaborative AI agents for autonomous experimental research with solid-state quantum spins"
+    ],
+    "category": "physics",
+    "domain": "Multi-agent autonomous laboratory for experimental physics (NV-centre spin ensembles in diamond)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.40589"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/E-zClap/auctopus"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Research prompts, a domain pack describing the instrument and computational host, OpenAI/Anthropic model and coding-agent access, and a connected instrument with preset safety limits",
+    "outputs": "Research proposals and rejections, run packets (protocol, raw-data requirements, analysis code tested on a digital twin), measurements, decision journal, reports and manuscript drafts",
+    "autonomy": "A5",
+    "notes": "Multi-agent laboratory from the Institute of Science Tokyo (Mansouri, Kimura, Koga, Arai) in which PI, proposer, computational-researcher, experimentalist, manager and safety agents review one another and can reject or redirect investigations. On a diamond NV-ensemble setup the agents derived a minimal calibration law for microwave pulse sequences, checked it computationally, ran experiments, detected drift in reference measurements, classified the first run inconclusive and revised the protocol before the predictions were supported. Disclosed gates: humans assembled the apparatus and configured the safety agent with preset limits; safety-agent approval preceded measurement. The study ran on earlier tooling; the MIT-licensed Auctopus package (version 1.0.0, no GitHub release) reimplements the same roles and checkpoints, adds human approval before instrument runs by default, and omits the study's prompts and instrument description, so it does not reproduce the paper.",
+    "sources": [
+      "https://arxiv.org/abs/2610.40589",
+      "https://arxiv.org/html/2610.40589",
+      "https://github.com/E-zClap/auctopus",
+      "https://api.github.com/repos/E-zClap/auctopus/license"
+    ],
+    "id": "asa-auctopus",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "HERA (quantum-device measurement agent)",
+    "aliases": [
+      "HERA",
+      "Hierarchical Experimentation and Reasoning Architecture"
+    ],
+    "category": "physics",
+    "domain": "Autonomous cryogenic transport measurement of quantum devices",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.39074"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub (data and code snapshot)",
+        "url": "https://github.com/sharpelab/hera-paper-data"
+      },
+      {
+        "label": "Stanford Digital Repository (deposit)",
+        "url": "https://purl.stanford.edu/tv195gf3182"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "Campaign brief from a human operator (goals, boundaries, allowed, consent-required and banned operations); device and rig cards (geometry, wiring, safety limits, instrument loadout); lab-curated corpus of measurement protocols, software tools and literature references; connection to a cryogenic transport rig",
+    "outputs": "Measurement sessions with notebooks, raw sweep data, session notes and transcripts; analyses and stated-confidence conclusions on device properties (e.g. multilayer graphene stacking order, superconductivity)",
+    "autonomy": "A5",
+    "notes": "Sharpe Lab (Stanford University / SLAC) agent built on the Claude Code harness with lab instrument tools and a version-controlled corpus curated by lab members. In a blinded prospective trial its stacking-order conclusions for two multilayer graphene devices matched an expert's sealed conclusions; corpus ablations and offline replays across several models are reported. In a domain-transfer test on a second rig it found and characterized superconductivity in a WSe2-proximitized bilayer graphene device, after a few hours of expert protocol writing and two protocol corrections. Human gates: the operator runs setup and safety cells and then grants autonomous execution; device-card safety limits are enforced at the instrument layer; some operations need operator consent; the agent returns to human-in-the-loop mode on any safety concern; humans accept or reject every corpus revision; operator interventions are listed in the supplement. The GitHub snapshot has no licence file (README: licence to be set); the Stanford Digital Repository deposit of the snapshot is CC BY 4.0.",
+    "sources": [
+      "https://arxiv.org/abs/2610.39074",
+      "https://arxiv.org/html/2610.39074",
+      "https://github.com/sharpelab/hera-paper-data",
+      "https://purl.stanford.edu/tv195gf3182"
+    ],
+    "access_evidence": {
+      "software_license": "None for the GitHub snapshot at verification (2026-11-06): no licence file, repository licence metadata null, README states the licence is to be set and that code and data will carry different licences; vendored measureme (GPL-3.0) and measurebot (MIT) keep their own. The paper-cited Stanford Digital Repository deposit of the same snapshot (DOI 10.25740/tv195gf3182, version 1, 2026-10-28) is CC BY 4.0, a content licence, not a software licence for the code",
+      "commercial_use": false,
+      "source_url": "https://github.com/sharpelab/hera-paper-data"
+    },
+    "id": "asa-hera",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "QUANTA (Quantum Agent)",
+    "aliases": [
+      "QUANTA"
+    ],
+    "category": "physics",
+    "domain": "Autonomous quantum-materials characterization on a PPMS",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.38850"
+      }
+    ],
+    "repo_links": [],
+    "access": "paper-only",
+    "inputs": "Scientific question, sample identity and researcher-set operating envelope (temperature, field, excitation limits, stop authority); retrieval corpus of literature, instrument manuals, laboratory protocols and prior measurements; PPMS DynaCool with external current source and lock-in amplifiers",
+    "outputs": "Measurement plans, executed transport measurements, data-quality assessments, troubleshooting actions, interpretations and follow-up measurement choices, with auditable run records and campaign reports",
+    "autonomy": "A5",
+    "notes": "MIT (Quantum Measurement Group, Mingda Li and co-authors) framework combining retrieval over literature, instrument manuals, protocols and prior measurements with planning, troubleshooting and interpretation agents. A separate deterministic coordinator validates proposed instrument actions against hard limits and instrument state before a persistent worker executes them. Demonstrated on transport measurements of the Weyl semimetal TaP and nonlinear responses in Co2MnGa, revising plans from incoming data. Human confirmation is required for high-risk actions and physical interventions such as sample mounting, wiring and contact changes. Campaigns used OpenAI Astra Ultra via a Codex coordinator (per the paper). The paper mentions an archived evidence bundle including control software, but no public code release was located (checked 2026-11-06).",
+    "sources": [
+      "https://arxiv.org/abs/2610.38850",
+      "https://arxiv.org/html/2610.38850"
+    ],
+    "id": "asa-quanta",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "PhysKit",
+    "category": "physics",
+    "domain": "Agent plugin for closed-loop experimental-physics research",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.17193"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Walsworth-Group/physkit"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A human-directed research goal; Claude Code or Codex; instrument or simulation access; PhysKit skills, prompts and templates",
+    "outputs": "Closed-loop campaign records, device designs, optimized control sequences, instrument calibrations and fitted models",
+    "autonomy": "A3-A5",
+    "notes": "MIT-licensed plugin from the Walsworth group (University of Maryland) that adds skills, prompts, templates and code to Claude Code and Codex for experimental-physics work under ten stated requirements. The paper reports six case studies, including a microwave device design, quantum control sequences scored in simulation, and commissioning of an NV-diamond NMR spectrometer to about 1 Hz precision in 151 experiments run unattended on live hardware. Human gates: the user approves the campaign goals, metric and plan, the evaluator is frozen, and every hardware request must pass a deterministic check against user-set instrument limits before the lab's own control program runs it. Only one case study closes a physical loop. The repository is marked pre-release.",
+    "sources": [
+      "https://arxiv.org/abs/2610.17193",
+      "https://arxiv.org/html/2610.17193",
+      "https://github.com/Walsworth-Group/physkit",
+      "https://api.github.com/repos/Walsworth-Group/physkit/license"
+    ],
+    "id": "asa-physkit",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "QuantumMatterExplorer",
+    "category": "physics",
+    "domain": "Autonomous phase-diagram discovery for quantum many-body Hamiltonians",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.32001"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/jwnys/quantum_matter_explorer"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A Hamiltonian and parameter ranges; LLM backend (local vLLM or cloud API); DMRG (ITensorMPS/Julia) and exact-diagonalization (XDiag) tools",
+    "outputs": "Ground-state phase diagrams with identified orders, finite-size analyses, figures and an agent-written research note",
+    "autonomy": "A4",
+    "notes": "Apache-2.0 agent from ETH Zurich (Nys, Jreissaty, Carrasquilla) built on LangChain deepagents, with a data-analyst and a physics-critic subagent and a library of skills for each research stage. It plans studies, writes and runs DMRG code cross-checked by exact diagonalization, refines scans and performs finite-size analysis. After validation on Hamiltonians with known transitions, it was run on a frustrated spin-1 chain whose recently published phase diagram the authors consider unlikely to be in training corpora; within an eight-hour budget it identified candidate Neel, Haldane and dimerized phases in broad agreement with the reference diagram. Fully autonomous by default; an optional human-in-the-loop mode adds review gates after planning and before finishing. In-silico only.",
+    "sources": [
+      "https://arxiv.org/abs/2610.32001",
+      "https://arxiv.org/html/2610.32001",
+      "https://github.com/jwnys/quantum_matter_explorer",
+      "https://api.github.com/repos/jwnys/quantum_matter_explorer/license"
+    ],
+    "id": "asa-quantummatterexplorer",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "MOSAIC (fractional Chern insulator agent swarm)",
+    "aliases": [
+      "MOSAIC",
+      "Multi-agent Open-ended Scientific Analysis and Investigation through Collaboration"
+    ],
+    "category": "physics",
+    "domain": "Decentralized agent swarm for condensed-matter theory exploration (fractional Chern insulators)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35934"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/scifm/MOSAIC"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A theoretical framework and bounded search space proposed by a separate frontier model in discussion with humans; a shared charter and campaign brief; coding-agent sessions (Claude Code); an exact-diagonalization broker built on a patched MomentumED.jl solver (CPU/GPU, Slurm)",
+    "outputs": "Candidate flat bands evaluated by exact diagonalization through phase gates on several cluster sizes, typed message-board posts (hypotheses, claims, refutations, abandonments), leaderboards and full campaign/agent records",
+    "autonomy": "A3-A4",
+    "notes": "MIT-licensed swarm from the University of Michigan in which 5-48 identical coding agents share a message board and a deterministic exact-diagonalization broker without a central planner; isolated agents with the same tools serve as controls. A separate AI with humans set the framework and search boundary, and the later theory was AI-assisted with humans; within that boundary the swarm searched autonomously and reported FCI many-body gaps more than an order of magnitude larger away from ideal quantum geometry. Agents could post requests to the human researchers. In-silico only; the physical claim rests on exact-diagonalization numerics, not experiment.",
+    "sources": [
+      "https://arxiv.org/abs/2610.35934",
+      "https://arxiv.org/html/2610.35934",
+      "https://github.com/scifm/MOSAIC",
+      "https://api.github.com/repos/scifm/MOSAIC/license"
+    ],
+    "id": "asa-mosaic",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Brilliance (accelerator-physics research agent)",
+    "aliases": [
+      "Brilliance",
+      "Beam Research Intelligence with Large Language-model Integration for Accelerator Numerical Computation and Exploration"
+    ],
+    "category": "physics",
+    "domain": "Agentic accelerator-physics design and optics calibration",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.15615"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Jinyu95/Brilliance"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Expert-specified research request; LLM backend (OpenAI, DeepSeek, IHEP/HepAI or compatible); JuTrack/Julia; optional measured response data",
+    "outputs": "Research programs and evidence, storage-ring lattice candidates with tracking results, optics-calibration results, tables and plots",
+    "autonomy": "A3-A4",
+    "notes": "MIT-licensed agent from the Institute of High Energy Physics (CAS) that writes and runs JuTrack programs with reusable physics expertise modules. From a detailed expert request it developed a storage-ring lattice meeting the emittance ceiling after revising optics that failed tracking tests; further scientist-guided chat produced a 6.51 pm rad candidate with unresolved momentum-acceptance limits. It also calibrated optics offline from measured HEPS responses, consistent with a specialist analysis. It does not operate the accelerator.",
+    "sources": [
+      "https://arxiv.org/abs/2610.15615",
+      "https://arxiv.org/html/2610.15615",
+      "https://github.com/Jinyu95/Brilliance",
+      "https://api.github.com/repos/Jinyu95/Brilliance/license"
+    ],
+    "id": "asa-brilliance",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Simjecture",
+    "category": "physics",
+    "domain": "Counterexample-driven autonomous research on computational-physics testbeds (plasma physics / MHD)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2611.03721"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/tomzhu0225/simjecture"
+      },
+      {
+        "label": "Hosted workspace",
+        "url": "https://simjecture.com"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Human-defined conjecture or question, physical scope, budget and completion policy; human-supplied solver application (e.g. FLASH), commissioning baselines and initial diagnostics; LLM agents (director, worker, reviewers)",
+    "outputs": "Recorded investigations linking hypotheses, frozen code and inputs, measurements, counterexamples, repaired hypotheses and reviewer verdicts; study reports",
+    "autonomy": "A3-A4",
+    "notes": "Apache-2.0 framework by Bowen Zhu and Jian Wu. A director agent plans and monitors budget, a worker agent writes code, runs simulations and searches for counterexamples, and isolated reviewers judge instrument qualification and scientific claims separately. In a 2D FLASH reconnection-rate study it autonomously found a verified counterexample to a human-supplied scaling conjecture. In an 82.6 h 3D Z-pinch campaign on excess radiated energy, the paper reports that four human steering interventions were needed to redirect the inquiry because the agents drifted toward simpler proxy variables. In-silico only; conclusions rest on simulation, not experiment. The FLASH solver used in both studies is obtained separately under restrictive upstream terms.",
+    "sources": [
+      "https://arxiv.org/abs/2611.03721",
+      "https://github.com/tomzhu0225/simjecture",
+      "https://api.github.com/repos/tomzhu0225/simjecture/license",
+      "https://simjecture.com"
+    ],
+    "id": "asa-simjecture",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "CFD Forge",
+    "category": "physics",
+    "domain": "Physics-constrained agentic OpenFOAM simulation",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.14104"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/aakashoza31/physics-constrained-cfd-agent"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Natural-language engineering simulation request; OpenFOAM Foundation v14; multimodal LLM; registered case family with deterministic acceptance criteria",
+    "outputs": "Constructed and meshed cases, solver runs, evidence and LLM diagnoses, deterministic verdicts (ACCEPT / CORRECT_AND_RERUN / REJECT / INCONCLUSIVE), session ledgers, reports, plots and field videos",
+    "autonomy": "A3",
+    "notes": "MIT-licensed OpenFOAM framework from Carnegie Mellon (Oza, Johnson, Barati Farimani). An LLM interprets the request, diagnoses simulation evidence and proposes one action from a closed family-specific set; deterministic validators decide whether the action may run and whether a result is accepted. Two registered inviscid families (converging-diverging nozzle, 2-D forward-facing step) with archived agent sessions on Zenodo. In a replay of 36 recorded states the validators accepted none of the injected faults, but a fixed rule reached the same verdicts, so the LLM's contribution is the open-ended work, not acceptance. Accepted runs pass registered checks on a single mesh; in-silico only.",
+    "sources": [
+      "https://arxiv.org/abs/2610.14104",
+      "https://arxiv.org/html/2610.14104",
+      "https://github.com/aakashoza31/physics-constrained-cfd-agent",
+      "https://api.github.com/repos/aakashoza31/physics-constrained-cfd-agent/license",
+      "https://doi.org/10.5281/zenodo.23148676"
+    ],
+    "id": "asa-cfd-forge",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Euler (mathematical research agents)",
+    "aliases": [
+      "Euler"
+    ],
+    "category": "physics",
+    "domain": "Human-centred multi-agent mathematical research",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.19864"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/canghaimeng/Euler"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "Research definition (exact statement, assumptions, required evidence level, team); researcher questions; teams of coding-agent CLIs (Codex, Claude Code, Gemini CLI, Grok, Cursor Agent); optional computation, LLM proof review and Lean checking",
+    "outputs": "Shared research state (statements, proof routes, dependencies, failed attempts, registered evidence), admitted proofs or refutations, saved team milestones, and workbench views for inspection and branching",
+    "autonomy": "A3",
+    "notes": "Agent teams from Eastern Institute of Technology Ningbo and partners plan, prove, refute and compute against a shared research graph; steps are admitted only when registered evidence (LLM proof review, checked computation or Lean kernel check) meets the required level, and researchers can inspect, question and branch from saved milestones. The paper's evaluation is software testing with synthetic agent sessions; its three case studies (Nikoghosyan, Lewis-Overton, Jankiewicz-Norin-Wise) are archived records from earlier workflows that included human guidance and separate formalization. Mathematical results and linked Lean projects are the authors' claims, not checked here. Released under PolyForm Noncommercial 1.0.0. Not to be confused with EULER (arXiv:2609.00032), a different multi-agent mathematical discovery system by another author.",
+    "sources": [
+      "https://arxiv.org/abs/2610.19864",
+      "https://arxiv.org/html/2610.19864",
+      "https://github.com/canghaimeng/Euler",
+      "https://api.github.com/repos/canghaimeng/Euler/license",
+      "https://github.com/canghaimeng/Euler/blob/main/LICENSE"
+    ],
+    "access_evidence": {
+      "software_license": "PolyForm Noncommercial License 1.0.0",
+      "commercial_use": false,
+      "source_url": "https://github.com/canghaimeng/Euler/blob/main/LICENSE"
+    },
+    "id": "asa-euler",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "PTagent",
+    "category": "physics",
+    "domain": "Agentic finite-temperature model construction for cosmological phase transitions",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.21118"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Contract-Mediated-Agent/PTagent"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "SARAH model files (or Vevacious++ exports), research papers (arXiv ID or local PDF/TeX/Markdown) or DRalgo sources, plus user-chosen benchmark parameters; runs as a skill in an agent environment such as OpenAI Codex or DeepSeek Harness",
+    "outputs": "Reviewed physical model specification (model contract with provenance graph) and CosmoTransitions- or PhaseTracer-style numerical potentials; in the paper's examples the backend also runs the downstream phase-transition calculation",
+    "autonomy": "A2-A3",
+    "notes": "GPL-3.0 agent skill by Lei Wu, Yang Xiao, Jin Min Yang and Yang Zhang. The LLM interprets and organizes model information from the source and flags unresolved physical choices; bundled deterministic backends derive thermal corrections and build the numerical potential only after a human reviews and approves the model specification. Its stated purpose is model construction: it can run the downstream CosmoTransitions/PhaseTracer calculation but does not interpret physics results. SARAH, Mathematica, DRalgo and PhaseTracer are external dependencies, depending on the route. Tested by the authors on three examples (THDM, xSM, DRalgo xSM) with three LLM backends.",
+    "sources": [
+      "https://arxiv.org/abs/2610.21118",
+      "https://arxiv.org/html/2610.21118",
+      "https://github.com/Contract-Mediated-Agent/PTagent",
+      "https://api.github.com/repos/Contract-Mediated-Agent/PTagent/license"
+    ],
+    "id": "asa-ptagent",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Metasurface agent pipeline",
+    "category": "physics",
+    "domain": "Agent-driven inverse design of dielectric metasurfaces (nanophotonics)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2611.08127"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/GiuseppeELio/metasurface-agent-pipeline"
+      },
+      {
+        "label": "Zenodo",
+        "url": "https://doi.org/10.5281/zenodo.23982523"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Plain-language design target; an AI coding agent able to run commands; GPU workstation or SLURM cluster; TORCWA and Meep",
+    "outputs": "Optimization configurations and runs, freeform and library-based metasurface designs, fabrication-robustness analyses and independent FDTD verification",
+    "autonomy": "A3",
+    "notes": "MIT-licensed pipeline by Lio, Caputo, Corso, Pelizzo and Ferraro, archived on Zenodo. A general-purpose coding agent (Claude in the authors' case studies) follows the repository's AGENTS.md protocol: it checks feasibility, configures differentiable RCWA topology optimization, analyses each run with a fixed checklist and proposes the next step. By default every reported design is cross-checked by 3D FDTD (Meep). Demonstrated at 1550 nm on a metagrating, a meta-atom library, beam deflectors and metalenses. Human gate: the agent asks for approval before expensive runs, and the user starts the job bridge and handles all cluster authentication. Simulation only; fabrication and measurement are not part of the loop.",
+    "sources": [
+      "https://arxiv.org/abs/2611.08127",
+      "https://arxiv.org/html/2611.08127",
+      "https://github.com/GiuseppeELio/metasurface-agent-pipeline",
+      "https://api.github.com/repos/GiuseppeELio/metasurface-agent-pipeline/license",
+      "https://doi.org/10.5281/zenodo.23982523"
+    ],
+    "id": "asa-metasurface-agent-pipeline",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "WorldSolver",
+    "category": "benchmark",
+    "domain": "LLM-agent generation of physics simulation solvers (graphics-derived physical phenomena)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.08720"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/sirujiang/WorldSolver"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "168 tasks, each a task description of a physical phenomenon plus a fixed code scaffold (scene geometry, physical setup, execution protocol, renderer); the agent writes only solver.py",
+    "outputs": "Executable solvers producing state trajectories and rendered videos, scored on execution checks, visual fidelity (multimodal LLM judge) and physical plausibility",
+    "autonomy": "B",
+    "notes": "Benchmark from CASIA (NLPR & MAIS), Peking University and Huawei Noah's Ark Lab. Tasks are drawn from 61 classic computer-graphics papers across seven physical domains (fluid, rigid body, plastic & complex materials, elastic solids, rods & strands, cloth & shells, multiphysics coupling). In the paper, seven models were run as coding agents (Codex CLI, Claude Code or Kimi Code; 1,800 s to generate, 600 s solver runtime). The best, GPT-5.6-Sol and Claude-Opus-5, reach overall scores of 48.7% and 46.7%. GPT-5.6-Sol also serves as the visual-fidelity judge. Code, tasks, scaffolds and each evaluated model's generated solvers are MIT-licensed; visual evaluation needs a user-supplied OpenAI-compatible multimodal endpoint and rendering needs OpenGL/EGL. All evaluation is computational simulation; tasks target graphics phenomena, not new scientific findings.",
+    "sources": [
+      "https://arxiv.org/abs/2610.08720",
+      "https://arxiv.org/html/2610.08720",
+      "https://github.com/sirujiang/WorldSolver",
+      "https://github.com/sirujiang/WorldSolver/blob/main/LICENSE"
+    ],
+    "id": "asa-worldsolver",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "CompMat-Bench",
+    "category": "benchmark",
+    "domain": "Computational materials science research steps (DFT, MD and related simulation input preparation and output analysis)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.00636"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/cz2014/CompMat-Bench"
+      }
+    ],
+    "access": "open-data",
+    "inputs": "94 single-step tasks from 15 peer-reviewed studies (30 input-preparation, 29 output-analysis, 35 run-and-analyze), 52 of them also with reduced-guidance prompts, with expensive simulation outputs precomputed; plus 10 multi-step workflows (8 evaluated in the paper, 2 supplementary) in which agents run most simulations themselves",
+    "outputs": "Agent submissions graded by fixed rules and numerical tolerances against the authors' own reproductions (no LLM judge), with pass rates and failure analysis",
+    "autonomy": "B",
+    "notes": "Benchmark from Rice University (Yakobson group, Department of Materials Science and NanoEngineering). Tasks cover VASP, Quantum ESPRESSO, ABACUS, Wannier90, LAMMPS, VAMPIRE and LOBSTER. Four agents built on three LLMs were evaluated, three in the authors' MatClaw harness and one in Codex CLI; with full guidance on single tasks they passed 66.0-91.5%, and most workflow failures were scientific rather than software errors. Tasks, prompts, graders, reference answers and 976 agent trajectories are CC BY 4.0 (a content licence; no separate software licence); third-party material keeps its own terms, some licensed manuals and VASP POTCAR files must be supplied by the user, and no agent harness is included. All work is computational; distinct from AutoMat (JHU CLSP), which the paper cites as related work.",
+    "sources": [
+      "https://arxiv.org/abs/2610.00636",
+      "https://arxiv.org/html/2610.00636v2",
+      "https://github.com/cz2014/CompMat-Bench",
+      "https://github.com/cz2014/CompMat-Bench/blob/main/LICENSE",
+      "https://github.com/cz2014/CompMat-Bench/releases/tag/v1.0.0"
+    ],
+    "id": "asa-compmat-bench",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Gan Jiang",
+    "aliases": [
+      "GanJiang"
+    ],
+    "category": "chemistry",
+    "domain": "Powder X-ray diffraction analysis: phase identification, multiphase decomposition and structure refinement",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.07862"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "Official site",
+        "url": "https://ganjiang.asia/"
+      },
+      {
+        "label": "Desktop client download centre",
+        "url": "https://ganjiang.yangtzeailab.com/"
+      },
+      {
+        "label": "GitHub organisation (components and DeltaXRDbench)",
+        "url": "https://github.com/DeltaGanjiang"
+      }
+    ],
+    "access": "platform",
+    "inputs": "Measured or simulated powder XRD patterns, optional CIF files and a natural-language analysis question",
+    "outputs": "Phase identifications, multiphase decompositions and FullProf/GSAS-II/WPEM refinements with fit metrics (Rwp, Rp), plus revised, validated analysis skills",
+    "autonomy": "A3",
+    "notes": "XRD analysis agent from HKUST (Guangzhou), UCL, the AI Lab of the Yangtze River Delta and CAS Institute of Automation (corresponding authors Bin Cao, Tong-Yi Zhang, Jun Wang). It plans analyses, calls the group's XMatcher, XQueryer, XDecomposer and WPEM engines plus FullProf and GSAS-II, and rewrites its own skill instructions and code after diagnosing failures. Case studies on measured data include an operating battery and a disordered oxide catalyst; it analyses supplied patterns and does not control a diffractometer. Access is through a closed macOS/Windows desktop client (v0.1.0 released 2026-10-21) with cloud-side computation and per-account credits (free starting allowance, paid top-ups, model tokens billed separately); no licence or terms of service were found on the official site, and only components such as XDecomposer (MIT) are open.",
+    "sources": [
+      "https://arxiv.org/abs/2610.07862",
+      "https://arxiv.org/html/2610.07862",
+      "https://github.com/DeltaGanjiang",
+      "https://ganjiang.asia/apps/index.html",
+      "https://ganjiang.yangtzeailab.com/api/releases",
+      "https://ganjiang.asia/",
+      "https://ganjiang.yangtzeailab.com/"
+    ],
+    "id": "asa-gan-jiang",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "SciKGExtract",
+    "aliases": [
+      "SciKG-Extract"
+    ],
+    "category": "chemistry",
+    "domain": "Materials process-knowledge extraction from literature (atomic layer deposition) into knowledge graphs",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.06322"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/sciknoworg/scikgextract"
+      },
+      {
+        "label": "Zenodo (v1.0.0 archive)",
+        "url": "https://doi.org/10.5281/zenodo.19714379"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Full-text scientific papers plus a user-defined JSON Schema describing the target process domain; an LLM provider (OpenAI, SAIA, Ollama or Hugging Face)",
+    "outputs": "Schema-conformant structured JSON with PubChem-normalized chemical entities, LLM-judge correctness/completeness scores and knowledge-graph-ready records",
+    "autonomy": "A2",
+    "notes": "Built at TIB Leibniz Information Centre for Science and Technology (Hannover) by Sameer Sadruddin and Jennifer D'Souza; Apache-2.0 licensed, v1.0.0 archived on Zenodo. A LangGraph workflow chains extraction, reflection, feedback and orchestration agents, with PubChem normalization before knowledge-graph integration. Evaluated on 176 atomic-layer-deposition papers on ZnO and IGZO: best ZnO exact-match F1 rose from 0.591 to 0.805 with agentic refinement, while the best IGZO result was 0.344. Because extraction is driven by an external schema, the paper also tests portability on the biomedical BioRED and BC5CDR benchmarks, and the README lists further materials datasets (PolyIE, PcMSP). There is no experimental or physical closure.",
+    "sources": [
+      "https://arxiv.org/abs/2610.06322",
+      "https://arxiv.org/html/2610.06322",
+      "https://github.com/sciknoworg/scikgextract",
+      "https://doi.org/10.5281/zenodo.19714379"
+    ],
+    "id": "asa-scikgextract",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "AutoXRD",
+    "aliases": [
+      "XRDBench (AutoXRD benchmark)"
+    ],
+    "category": "chemistry",
+    "domain": "Powder X-ray diffraction analysis and Rietveld refinement",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.00070"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "Project website",
+        "url": "https://stephen-smj.github.io/AutoXRD/"
+      },
+      {
+        "label": "GitHub (AutoXRD agent)",
+        "url": "https://github.com/Stephen-SMJ/AutoXRD"
+      },
+      {
+        "label": "GitHub (XRDBench data)",
+        "url": "https://github.com/Stephen-SMJ/XRDBench"
+      },
+      {
+        "label": "XRDBench browser",
+        "url": "https://stephen-smj.github.io/XRDBench/"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "Powder diffraction patterns, starting CIF structures and natural-language analysis requests; an OpenAI-compatible or Anthropic model API; separately installed FullProf and/or GSAS-II",
+    "outputs": "Staged Le Bail/Rietveld refinements with residuals, deterministic crystallographic and physical checks, append-only refinement evidence and analysis reports; XRDBench scores for LLM backbones",
+    "autonomy": "A3",
+    "notes": "Terminal-based LLM agent from Yuetong Wu (CUHK) and Maojun Sun (Hong Kong Polytechnic University) that plans refinement steps, writes and runs FullProf/GSAS-II workflows and applies deterministic checks before accepting a result. Introduced with XRDBench (100 QA tasks and 34 executable end-to-end workflows on measured patterns); ten LLMs over 1,340 runs averaged 57.8/100. The paper links the project website, which links the code; code and benchmark data sit in repositories under Maojun Sun's GitHub account with no licence file, so they are source-available only. Default mode prompts for permission before shell commands and file writes; an --auto-approve mode removes this. There is no instrument or laboratory loop. Not related to the 2024 compasszzn/XRDBench (SimXRD-4M) or the CNN-based PV-Lab/autoXRD.",
+    "sources": [
+      "https://arxiv.org/abs/2609.00070",
+      "https://arxiv.org/html/2609.00070",
+      "https://stephen-smj.github.io/AutoXRD/",
+      "https://github.com/Stephen-SMJ/AutoXRD",
+      "https://github.com/Stephen-SMJ/XRDBench",
+      "https://stephen-smj.github.io/XRDBench/"
+    ],
+    "access_evidence": {
+      "software_license": "None: public repositories Stephen-SMJ/AutoXRD and Stephen-SMJ/XRDBench have no licence file, README licence statement or pyproject licence metadata; GitHub licence API 404 at verification (2026-11-06)",
+      "commercial_use": false,
+      "source_url": "https://github.com/Stephen-SMJ/AutoXRD"
+    },
+    "id": "asa-autoxrd",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "MiMEDAL",
+    "aliases": [
+      "MEDAL",
+      "Minimal-experiment Mechanism-Evolving Discovery with Adaptive Learning"
+    ],
+    "category": "chemistry",
+    "domain": "Mechanism discovery from minimal robotic experiments (photoluminescence of Schiff-base covalent organic frameworks)",
+    "paper_links": [
+      {
+        "label": "ChemRxiv",
+        "url": "https://doi.org/10.26434/chemrxiv.15007390/v1"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub (skill layer)",
+        "url": "https://github.com/pic-ai-robotic-chemistry/MEDAL"
+      }
+    ],
+    "access": "lab-gated",
+    "inputs": "A materials-discovery target (e.g. COF solid-state fluorescence), an autonomous robotic synthesis/characterisation platform, an OpenClaw runtime and the user's own quantum-chemistry compute services",
+    "outputs": "Adaptively chosen experiments, symbolic-regression expressions, LLM-generated and simulation-falsified mechanism hypotheses, a physical descriptor and new candidate materials synthesised by the platform",
+    "autonomy": "A4-A5",
+    "notes": "Nested AI framework from the State Key Laboratory of Precision and Intelligent Chemistry (USTC, Hefei; same GitHub organisation as ChemAgents). It combines adaptive experimentation, symbolic regression, LLM hypothesis generation and first-principles falsification. Per the abstract, it ran on an autonomous robotic platform, halted on its own after 25 experiments, derived a COF emission descriptor and led to the synthesis of a COF with 61% solid-state PLQY. The public MIT-licensed repository (renamed from MiMEDAL to MEDAL; it cites the paper under the title 'Autonomous mechanism-evolving discovery from minimal chemical experiments') holds only the OpenClaw skill layer and results; private compute endpoints were removed and the robot is not included. Autonomy is rated from the abstract and code because the ChemRxiv full text could not be read, so the extent of robotic closure, human safety gates and the paper's own code-availability link are not yet confirmed.",
+    "sources": [
+      "https://api.crossref.org/works/10.26434/chemrxiv.15007390/v1",
+      "https://doi.org/10.26434/chemrxiv.15007390/v1",
+      "https://github.com/pic-ai-robotic-chemistry/MEDAL",
+      "https://github.com/pic-ai-robotic-chemistry/MEDAL/blob/master/LICENSE"
+    ],
+    "id": "asa-mimedal",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "BEAVER",
+    "category": "chemistry",
+    "domain": "Evidence-grounded question answering and property-constrained design of degradable polymers",
+    "paper_links": [
+      {
+        "label": "ChemRxiv",
+        "url": "https://doi.org/10.26434/chemrxiv.15007349/v2"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/UFO-Group/BEAVER"
+      },
+      {
+        "label": "Data (Zenodo)",
+        "url": "https://doi.org/10.5281/zenodo.22135808"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Literature question or polymer-design request with target property constraints; an OpenAI-compatible LLM endpoint and API key; literature embedding corpora from Zenodo",
+    "outputs": "Evidence-cited answers and candidate degradable polymers with ML-predicted properties, constraint checks and stated risks/uncertainties",
+    "autonomy": "A2-A3",
+    "notes": "Multi-agent framework from Donghua University (State Key Laboratory of Advanced Fiber Materials; Xuerui Fang, Boyuan Zhang, Meifang Zhu, Jin Wen). An Intent-Planner coordinates hybrid retrieval-augmented generation in two workflows. Query Mode does evidence-grounded QA with a quality-supervised retrieval loop. Design Mode generates and scores candidates and assesses them with trained ML property predictors. The MIT-licensed GitHub repository holds the Streamlit agent platform, literature processing, ML tools and evaluation scripts. Corpus embeddings and ML outputs are on Zenodo (CC-BY-4.0), and publisher full texts are not redistributed. Users supply their own LLM endpoint. Closure is computational: the preprint reports retrieval, QA and design benchmarks only, with no experimental validation.",
+    "sources": [
+      "https://api.crossref.org/works/10.26434/chemrxiv.15007349/v2",
+      "https://doi.org/10.26434/chemrxiv.15007349/v2",
+      "https://github.com/UFO-Group/BEAVER",
+      "https://github.com/UFO-Group/BEAVER/blob/main/LICENSE",
+      "https://github.com/UFO-Group/BEAVER/blob/main/Agent/README.md",
+      "https://zenodo.org/records/22135808",
+      "https://doi.org/10.5281/zenodo.22135808"
+    ],
+    "id": "asa-beaver",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "ThermoML Agents",
+    "aliases": [
+      "SRD-46 Research Agents",
+      "Argonne chemistry world model (CWM) agents"
+    ],
+    "category": "chemistry",
+    "domain": "Traceable query, curation and analysis of evaluated thermodynamic databases (NIST ThermoML; NIST SRD-46 aqueous speciation)",
+    "paper_links": [
+      {
+        "label": "ChemRxiv (ThermoML agents)",
+        "url": "https://doi.org/10.26434/chemrxiv.15009028/v1"
+      },
+      {
+        "label": "ChemRxiv (SRD-46 speciation, CWM module)",
+        "url": "https://doi.org/10.26434/chemrxiv.15009420/v1"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub (ThermoML Agents)",
+        "url": "https://github.com/Yunkai0825/ThermoML_research_agents_pub"
+      },
+      {
+        "label": "GitHub (SRD-46 Research Agents)",
+        "url": "https://github.com/Yunkai0825/SRD46_research_agent_pub"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Natural-language chemistry question (e.g. mixture property, speciation or electrolyte-design query); bundled NIST ThermoML or SRD-46 databases; an Argo-compatible LLM endpoint (Argonne-internal by default)",
+    "outputs": "Provenance-tracked database records, Redlich-Kister fits, deterministic equilibrium-speciation calculations and diagrams summarised as text, narrated answers with numerical-grounding checks, and a local results browser",
+    "autonomy": "A2-A3",
+    "notes": "Built at Argonne National Laboratory (Center for Steel Electrification by Electrosynthesis; Sun, Ravichandran, Harb, Assary, Ingram, Yang). Hierarchical ReAct agents translate natural-language questions into traceable retrieval, curation and analysis over NIST ThermoML, with deterministic inspection ledgers, numerical-grounding gates and tool-assisted Redlich-Kister fitting. A companion framework, presented as a first module toward a chemistry world model, turns questions into deterministic equilibrium calculations grounded in NIST SRD-46; there, deterministic code validates every agent commitment before it reaches the solver. The authors present it as a human-in-the-loop instrument. Both repositories are MIT-licensed (bundled NIST-derived data keep NIST terms, per each NOTICE) and sit in first author Yunkai Sun's GitHub account; the ThermoML repository names the ThermoML preprint as its preferred citation, while the SRD-46 repository's link to the speciation preprint is inferred from authorship and content. Live agent runs default to Argonne's internal Argo LLM service (an alternate compatible endpoint can be configured); browsing bundled data and saved runs needs no model access. Closure is computational only; autonomy is rated from abstracts and code because the ChemRxiv full texts were not machine-readable.",
+    "sources": [
+      "https://api.crossref.org/works/10.26434/chemrxiv.15009028/v1",
+      "https://api.crossref.org/works/10.26434/chemrxiv.15009420/v1",
+      "https://github.com/Yunkai0825/ThermoML_research_agents_pub",
+      "https://github.com/Yunkai0825/ThermoML_research_agents_pub/blob/main/CITATION.cff",
+      "https://github.com/Yunkai0825/ThermoML_research_agents_pub/blob/main/LICENSE",
+      "https://github.com/Yunkai0825/ThermoML_research_agents_pub/blob/main/docs/INSTALLATION.md",
+      "https://github.com/Yunkai0825/SRD46_research_agent_pub",
+      "https://github.com/Yunkai0825/SRD46_research_agent_pub/blob/main/CITATION.cff",
+      "https://github.com/Yunkai0825/SRD46_research_agent_pub/blob/main/LICENSE",
+      "https://doi.org/10.26434/chemrxiv.15009028/v1",
+      "https://doi.org/10.26434/chemrxiv.15009420/v1"
+    ],
+    "id": "asa-thermoml-agents",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "IdeaScientist",
+    "category": "crossdomain",
+    "domain": "Literature-grounded research ideation and proposal writing (retrieval across arXiv fields; trained and evaluated on machine-learning papers)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.04074"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/jiarui-liu/IdeaScientist"
+      },
+      {
+        "label": "Hugging Face (Svalbard Idea Vault dataset)",
+        "url": "https://huggingface.co/datasets/Jerry999/SvalbardIdeaVault"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "A target paper's problem definition and related-work context, plus retrieval over the Svalbard Idea Vault, an offline arXiv corpus of results-masked idea records restricted to literature before a cutoff date",
+    "outputs": "Identified methodological gaps, cross-field solution intuitions and complete written research proposals",
+    "autonomy": "A2-A3",
+    "notes": "Ideation system from a Meta-led team (first author at Carnegie Mellon, work done during a Meta internship). An orchestrator directs gap-finder, innovator and report-writer roles, each trained with reinforcement learning, which retrieve from the Svalbard Idea Vault (2.77M decomposed ideas in the paper; the Hugging Face release holds about 2.67M arXiv records). Training and evaluation use 2026 machine-learning methodology papers; proposals on a 277-paper held-out test split are scored against the human-authored papers under a literature cutoff, plus a blind pairwise human evaluation on 50 test papers. It does not run experiments or test its proposals. Repository code is CC BY-NC 4.0 (noncommercial); trained adapters, ablation arms and human-study materials are not released. Derived dataset fields are CC BY 4.0.",
+    "sources": [
+      "https://arxiv.org/abs/2610.04074",
+      "https://arxiv.org/html/2610.04074v2",
+      "https://github.com/jiarui-liu/IdeaScientist",
+      "https://github.com/jiarui-liu/IdeaScientist/blob/main/LICENSE",
+      "https://huggingface.co/datasets/Jerry999/SvalbardIdeaVault"
+    ],
+    "access_evidence": {
+      "software_license": "CC-BY-NC-4.0",
+      "commercial_use": false,
+      "source_url": "https://github.com/jiarui-liu/IdeaScientist/blob/main/LICENSE"
+    },
+    "id": "asa-ideascientist",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "AfS (Agent for Science)",
+    "aliases": [
+      "ScienceMate",
+      "Agent for Science"
+    ],
+    "category": "crossdomain",
+    "domain": "Long-horizon computational research projects with preregistered hypotheses, simulation/computation, review and manuscript writing",
+    "paper_links": [
+      {
+        "label": "arXiv (Research-Native by Construction)",
+        "url": "https://arxiv.org/abs/2609.35182"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub (ScienceMate Personal edition)",
+        "url": "https://github.com/IdeaHorizon/sciencemate"
+      },
+      {
+        "label": "IdeaHorizon lab site",
+        "url": "https://ideahorizon.ai/"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A research request typed into a local desktop session, with a chosen model provider, project files and an autonomy tier",
+    "outputs": "A local git-backed project holding a frozen inquiry contract and preregistration, a hash-chained artifact ledger, experiment results with per-hypothesis verdicts, reviewer decisions and a frozen manuscript",
+    "autonomy": "A3-A4",
+    "notes": "Platform from the IdeaHorizon Research Laboratory team, released as the ScienceMate desktop app. The Personal-edition source code and installers are Apache-2.0 on GitHub (v0.5.12, November 2026); the Professional team-server edition is not distributed, and the paper is linked to ScienceMate through the lab site rather than by name. Research discipline is enforced mechanically through typed nodes (literature, hypothesis, experiment, derivation, writing, reviewer, curator), a frozen inquiry contract and a hash-chained ledger; each session declares one of three autonomy tiers, from every decision stopping for a human to all approvals granted. The paper reports no benchmark, only two worked campaigns: a 50-hour assisted study, and an unattended 8.85-hour 2D Ising Monte Carlo study that rejected its own preregistered hypothesis against Onsager's exact solution; closure is computational only.",
+    "sources": [
+      "https://arxiv.org/abs/2609.35182",
+      "https://arxiv.org/html/2609.35182",
+      "https://ideahorizon.ai/",
+      "https://github.com/IdeaHorizon/sciencemate",
+      "https://github.com/IdeaHorizon/sciencemate/blob/main/LICENSE"
+    ],
+    "id": "asa-afs",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Haiqu AgenticOS (QAOS)",
+    "aliases": [
+      "QAOS",
+      "Quantum Agentic Operating System",
+      "AgenticOS"
+    ],
+    "category": "physics",
+    "domain": "Applied quantum computing and quantum-chemistry R&D prototyping",
+    "paper_links": [
+      {
+        "label": "arXiv (Demonstration of a Structured Agentic Workflow for Applied Quantum Computing Research)",
+        "url": "https://arxiv.org/abs/2610.05304"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "Platform (Haiqu AgenticOS)",
+        "url": "https://haiqu.ai/agenticos"
+      },
+      {
+        "label": "Documentation",
+        "url": "https://docs.haiqu.ai/agentic-os"
+      }
+    ],
+    "access": "platform",
+    "inputs": "A research brief plus optional papers, code and data; the system formalizes the research question, model systems, methods and references into a project plan that a human approves",
+    "outputs": "Structured records per workflow node, verification protocols, integration tests, reference calculations, an executable prototype pipeline and numerical results",
+    "autonomy": "A3",
+    "notes": "Commercial system from Haiqu, Inc. that decomposes a quantum or computational research project into a graph of sandboxed multi-agent nodes. Orchestrator, specialist and critic agents work inside each node, and a human researcher approves the plan and direction at defined gates. The paper demonstration is a single in-silico quantum-chemistry prototype: it built and ran noiseless sample-based quantum diagonalization (SQD) against FCI and DFT references for the Zundel cation, and was compared with baseline runs of the same LLM (Claude Sonnet 5) in the Claude Code harness without the QAOS structure. The node for runs on quantum hardware was not executed. Hosted platform with no public code; access is by demo request. The paper says its pipelines, data and plotting scripts were submitted as separate supplementary material; no public copy was located.",
+    "sources": [
+      "https://arxiv.org/abs/2610.05304",
+      "https://arxiv.org/html/2610.05304",
+      "https://haiqu.ai/agenticos",
+      "https://docs.haiqu.ai/agentic-os",
+      "https://haiqu.ai/case-study/how-agenticos-coordinates-specialist-scientific-agents-to-build-test-and-trace-a-quantum-experiment-from-small-research-idea-to-result"
+    ],
+    "id": "asa-haiqu-agenticos",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Qiushi Engine",
+    "aliases": [
+      "Qiushi Discovery Engine"
+    ],
+    "category": "physics",
+    "domain": "Autonomous optical-physics experimentation on a free-space optical platform, plus mathematical construction discovery",
+    "paper_links": [
+      {
+        "label": "arXiv (real optical platform)",
+        "url": "https://arxiv.org/abs/2604.27092"
+      },
+      {
+        "label": "arXiv (kissing-number constructions)",
+        "url": "https://arxiv.org/abs/2609.35051"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "Zenodo (optical study data and analysis scripts, CC BY 4.0; engine not included)",
+        "url": "https://doi.org/10.5281/zenodo.19890402"
+      },
+      {
+        "label": "GitHub (optical study data and analysis; no licence)",
+        "url": "https://github.com/Oxelra-AI/End-to-end-autonomous-scientific-discovery-on-a-real-optical-platform"
+      },
+      {
+        "label": "GitHub (kissing-number constructions and verification; MIT code, CC BY 4.0 content)",
+        "url": "https://github.com/Oxelra-AI/Qiushi-Engine-Kissing-Number-Research"
+      }
+    ],
+    "access": "open-data",
+    "inputs": "An open research theme, a published experiment or theory paper, and a description of the optical platform (laser, SLM, power meter and cameras exposed as program modules); for the maths study, the kissing-number problem",
+    "outputs": "Research notes, scripts, measurements, figures and manuscript drafts; optical findings (transmission-matrix reproduction, an experimental test of coherence-order theory, an optical bilinear-interaction mechanism); and new kissing-number lower bounds in 19 dimensions with checkable certificates",
+    "autonomy": "A5",
+    "notes": "Multi-agent research system from Zhejiang University (corresponding authors Yihao Yang and Hongsheng Chen). It is the core of Oxelra, an AI company (杭州奥思拉科技有限公司) whose site cites the optical preprint. The preprint reports long-horizon runs on a real benchtop free-space optical platform. In a 206-step open-ended study the system proposed an optical bilinear-interaction mechanism and validated it experimentally. A second preprint reports new kissing-number lower bounds produced in silico. The engine and hardware-control software are not released; the Zenodo deposit and GitHub repositories hold research data, analysis and verification code, and outputs. The physical claims are self-reported in preprints that have not been peer reviewed, on a human-built platform with calibrated control routines. The main text describes no human supervision or safety gates. The arXiv v1 PDF cites Methods and Supplementary Notes that it does not contain.",
+    "sources": [
+      "https://arxiv.org/abs/2604.27092",
+      "https://arxiv.org/pdf/2604.27092",
+      "https://arxiv.org/abs/2609.35051",
+      "https://zenodo.org/api/records/19890402",
+      "https://api.github.com/repos/Oxelra-AI/End-to-end-autonomous-scientific-discovery-on-a-real-optical-platform",
+      "https://api.github.com/repos/Oxelra-AI/Qiushi-Engine-Kissing-Number-Research/contents/LICENSE",
+      "https://oxelra.com/en/",
+      "https://oxelra.com/about/",
+      "https://doi.org/10.5281/zenodo.19890402",
+      "https://github.com/Oxelra-AI/End-to-end-autonomous-scientific-discovery-on-a-real-optical-platform",
+      "https://github.com/Oxelra-AI/Qiushi-Engine-Kissing-Number-Research"
+    ],
+    "id": "asa-qiushi-engine",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "QMatSuite",
+    "aliases": [
+      "QMatSuite v2"
+    ],
+    "category": "physics",
+    "domain": "Computational materials physics (DFT and related simulations) with agent knowledge accumulation",
+    "paper_links": [
+      {
+        "label": "arXiv (ICML 2026 AI4Physics workshop)",
+        "url": "https://arxiv.org/abs/2603.13191"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/QMatSuite/QMatSuite"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Natural-language simulation tasks given to an external AI agent (Claude Code, Codex or Gemini CLI) connected through QMatSuite's MCP server; crystal or molecular structures; locally installed simulation engines such as Quantum ESPRESSO, Wannier90 or ORCA",
+    "outputs": "Executed calculation workflows (relaxations, band structures, geometry optimizations, anomalous Hall conductivity), results analysis, and a provenance-linked knowledge base of graded agent insights that are reviewed and consolidated in reflection sessions",
+    "autonomy": "A3",
+    "notes": "Open-source platform by Haonan Huang (Princeton University), GPL-3.0; the Python v2 rewrite on the default branch exposes an MCP server with record_insight, review_insight, search_knowledge and list_insights tools. The paper reports 135 autonomous solid-state calculations (Claude, Quantum ESPRESSO) and 98 molecular geometry optimizations (GPT 5.4, ORCA), using two AI models and three engines; accumulated knowledge cut reasoning overhead by 67% and reduced deviation from literature from 47% to 3% in a six-step anomalous Hall conductivity workflow. The agent itself is external and must be an MCP-capable LLM client; all closure is in silico, and the author does not advocate publishing results without human review. Experimental artifacts are on Zenodo (CC-BY-4.0). The repository README still opens with the legacy Java GUI (formerly quantumVITAS) description.",
+    "sources": [
+      "https://arxiv.org/abs/2603.13191",
+      "https://arxiv.org/html/2603.13191v2",
+      "https://github.com/QMatSuite/QMatSuite",
+      "https://github.com/QMatSuite/QMatSuite/blob/v2-python/LICENSE",
+      "https://doi.org/10.5281/zenodo.20588420"
+    ],
+    "id": "asa-qmatsuite",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "FUSION",
+    "aliases": [
+      "Framework for Unified Scientific Intelligence in Open Nuclear physics",
+      "FUSION: a skill-based research agent for publicly obtainable nuclear-physics codes"
+    ],
+    "category": "physics",
+    "domain": "Nuclear-physics computation with public reaction, structure and transport codes",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.04742"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/jinleiphys/FUSION"
+      },
+      {
+        "label": "Documentation",
+        "url": "https://vibeinscience.com/"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A natural-language calculation request naming a supported code or reaction, given to a host coding agent (Claude Code, Codex, Antigravity or opencode per the README; the paper also lists the Gemini command line) with the plugin installed",
+    "outputs": "Upstream codes installed and checked against a stated benchmark, input decks adapted from verified examples, results with convergence and cross-solver checks, EXFOR comparisons, and answers drawn from an offline collection of 61,167 machine-generated nucl-th literature pages",
+    "autonomy": "A3",
+    "notes": "Single-author system (Jin Lei, Tongji University) delivered as an MIT-licensed plugin of skills for existing coding agents; it contains no model and relies on the host agent, and the opencode fork bundled with v0.1.0 was retired in October 2026. The arXiv v2 paper describes 28 skills, 20 of them driving individual public codes such as FRESCO, TALYS, KSHELL and SMASH; the repository listed 29 and 21 by 2026-10-30. The driven physics codes are fetched from upstream under their own licences, some of them not open source (e.g. Sky3D, CPC non-profit licence), and the literature pages summarise third-party papers that the MIT grant does not cover. The paper's recorded run went from a one-sentence request to a FRESCO calculation with convergence and second-solver checks, reported that EXFOR has no data at the requested energy, and compared against the measured energies instead; closure is computational only. The author states that benchmark reproduction certifies the build, not the physics, and the README describes a beta not yet used by anyone other than the author.",
+    "sources": [
+      "https://arxiv.org/abs/2609.04742",
+      "https://arxiv.org/pdf/2609.04742v2",
+      "https://github.com/jinleiphys/FUSION",
+      "https://github.com/jinleiphys/FUSION/blob/main/LICENSE",
+      "https://vibeinscience.com/"
+    ],
+    "id": "asa-fusion",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "AutoSR",
+    "aliases": [
+      "Automatic Symbolic Regression",
+      "AgonSR"
+    ],
+    "category": "physics",
+    "domain": "Scientific equation discovery (symbolic regression)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.16876"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/AutoResearch-Factory/AutoSR"
+      },
+      {
+        "label": "Hosted web app (sign-in required)",
+        "url": "https://autosr.app"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A problem.md in a local workspace defining the objective, variables, data, documents or scripts to read, constraints, evaluation method and scoring rubric; optional per-role notes in IGNOREME.md",
+    "outputs": "Candidate equations as ansatz.md files carrying reasoning, computational evidence and reviewer scores in a Monte Carlo tree of runs; a separate get-report command then writes a final report and tree figure explaining the leading relation",
+    "autonomy": "A3",
+    "notes": "Claude Code plugin (internal name agonsr) mainly from the University of Maryland Department of Mathematics, in which proposer and reviewer subagents develop 'Research States' (an equation with its reasoning, probes and review) under progressive-widening Monte Carlo tree search; a follow-up command synthesizes a final report. Subagents run on Claude Code or Codex model backends. The paper reports algebraically equivalent recovery in nine selected cp3-bench and LSR-Transform challenges, one trajectory each; results are self-reported, computational only, and not a benchmark-wide rate. MIT licence added on 11 October 2026. The documented run mode launches Claude Code with --dangerously-skip-permissions, so commands run without per-step approval; the README also links a sign-in-gated hosted version at autosr.app whose operator and terms were not verified.",
+    "sources": [
+      "https://arxiv.org/abs/2608.16876",
+      "https://arxiv.org/html/2608.16876v1",
+      "https://github.com/AutoResearch-Factory/AutoSR",
+      "https://api.github.com/repos/AutoResearch-Factory/AutoSR/license",
+      "https://autosr.app"
+    ],
+    "id": "asa-autosr",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "MatEvolve",
+    "category": "chemistry",
+    "domain": "Crystal-structure design and materials discovery (rare-earth-lean permanent magnets)",
+    "paper_links": [
+      {
+        "label": "arXiv (title: Crystal-structure design by agentic AI in a language of motifs)",
+        "url": "https://arxiv.org/abs/2608.15900"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/minhquyet2308/MatEvolve"
+      },
+      {
+        "label": "Zenodo (study data)",
+        "url": "https://doi.org/10.5281/zenodo.23480862"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A database of seed crystal structures (CIFs) with energy above hull and a target property, a YAML run configuration, and an Anthropic API key or a Claude Code/Codex session running the bundled skills",
+    "outputs": "Offspring crystal designs as motif profiles and CIFs, evidence-based stability rankings, per-generation candidate exports for DFT, and benchmark metrics (stable, unique, novel, new prototype, magnetic)",
+    "autonomy": "A3",
+    "notes": "Framework from the Japan Advanced Institute of Science and Technology (with HPC Systems Inc. and co-authors) in which LLM agents (Claude Fable 5, no fine-tuning) translate crystals to and from interpretable motif profiles, edit profiles into offspring designs, and an evidence-based recommender ranks candidates for first-principles validation. Applied to rare-earth-lean permanent magnets, the paper reports novel (meta)stable crystals including new structural prototypes; closure is computational only. DFT is outside the loop: the user runs it on exported candidates and appends results before each new generation, and motif-group assignment runs as separate skill hand-overs. Code is MIT-licensed (repository linked from arXiv v2, October 2026); the Zenodo record cited in the paper holds result tables under CC BY 4.0, while the README's database-download step still points to a placeholder record.",
+    "sources": [
+      "https://arxiv.org/abs/2608.15900",
+      "https://arxiv.org/html/2608.15900v2",
+      "https://github.com/minhquyet2308/MatEvolve",
+      "https://api.github.com/repos/minhquyet2308/MatEvolve/license",
+      "https://doi.org/10.5281/zenodo.23480862"
+    ],
+    "id": "asa-matevolve",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "DISCERN",
+    "aliases": [
+      "Data Integrity and Scientific Capability: Evidence, Reasoning, and Novelty"
+    ],
+    "category": "benchmark",
+    "domain": "Data-integrity checking, analysis verification and evidence-grounded hypothesis revision on real molecular life-science datasets",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.33357"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "Hugging Face (benchmark release; anonymous account linked from the authors' project site)",
+        "url": "https://huggingface.co/datasets/discern-bench-anon/discern-benchmark"
+      },
+      {
+        "label": "Project website",
+        "url": "https://discern-benchmark.github.io/discern-website/"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Prepared inputs from real public datasets in eight life-science tracks (bulk and single-cell RNA-seq, GWAS, ClinVar/ACMG, CRISPR screens, enhancer activity, histone/expression, protein stability) with matched clean controls, controlled data defects, confounds and tool traps (L1/L2), and evidence dossiers (L3); agents work in a sealed, offline Python sandbox (Linux with bubblewrap required)",
+    "outputs": "Level-wise rubric scores (0-100) for data-integrity decisions (L1), analysis verification (L2) and hypothesis generation/revision under adversarial review (L3), with recorded traces, deterministic grades and human adjudication records",
+    "autonomy": "B",
+    "notes": "Benchmark from a UC San Diego team (co-corresponding Tiffany Amariuta and Jingbo Shang) with 203 tasks: 79 L1, 102 L2 (24 analysis families) and 22 L3 hypothesis-generation dossiers that mix real and counterfactual evidence patterns; counterfactual cases are grounded in documented phenomena and kept only when they conflict with the model's elicited prior. Across eight models, agents reached perfect scores in 60.8% of L1, 34.2% of L2 and 0.6% of L3 evaluations; a preliminary physics extension is reported separately. The release sits under an anonymous Hugging Face account (ICLR 2027 submission) that the authors link from the arXiv v2 abstract and comment and from the project website. DISCERN-authored code and documentation are MIT; third-party datasets keep their own terms, CADD (non-commercial terms) and ESM must be fetched separately, and live evaluation of new models needs paid model, reviewer and judge APIs plus human adjudication. Agents perform computational analyses only.",
+    "sources": [
+      "https://arxiv.org/abs/2609.33357",
+      "https://discern-benchmark.github.io/discern-website/",
+      "https://huggingface.co/datasets/discern-bench-anon/discern-benchmark",
+      "https://huggingface.co/datasets/discern-bench-anon/discern-benchmark/raw/main/README.md",
+      "https://huggingface.co/datasets/discern-bench-anon/discern-benchmark/raw/main/LICENSE"
+    ],
+    "access_evidence": {
+      "software_license": "MIT (DISCERN-authored code and documentation only); third-party datasets, reference databases, model weights and model-generated content retain their own terms; the CADD v1.7 runtime reference needed for the ClinVar/ACMG track is fetched from its owner under non-commercial terms; HF metadata tag license:other",
+      "commercial_use": true,
+      "source_url": "https://huggingface.co/datasets/discern-bench-anon/discern-benchmark/raw/main/LICENSE"
+    },
+    "id": "asa-discern",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "BioLitBench",
+    "aliases": [
+      "What Can a Leaderboard Certify? (BioLitBench / SCRIBE)",
+      "LitReview-SCRIBE"
+    ],
+    "category": "benchmark",
+    "domain": "Biomedical literature-review writing by agents, scored claim by claim against published review articles",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.32318"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/shawnzhg/LitReview-SCRIBE"
+      },
+      {
+        "label": "Hugging Face dataset",
+        "url": "https://huggingface.co/datasets/shawnzhg/BioLitBench"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Task specification derived from a published biomedical review article (topic, literature cutoff year, target length); in the fixed-input track, the review's reference list as an evidence bundle and allowlist",
+    "outputs": "A generated literature review scored claim by claim against the human review's claim graph (synthesis, reasoning, planning, writing and form scores), plus certified rank intervals between systems",
+    "autonomy": "B",
+    "notes": "University of Michigan benchmark (arXiv v1, September 2026) introduced with a statistical method that certifies leaderboard orderings only when inputs and budgets are matched. Each human review is a claim graph with cited references and typed relations; the release has 50 test and 1,842 training tasks (150 further held-out articles of the paper's 2,042 are not released), and the leaderboard compares published pipelines, Claude Code, an OpenAI tool loop, Elicit Systematic Review and the paper's own trained agent SCRIBE, which the authors say is deployed at glkb.org. MIT code; CC BY 4.0 annotations on Hugging Face ship without article text, which users rebuild from PMC and PubMed under publisher and NLM terms. Data v1.0 supports only the fixed-input track: the paper's same-pool retrieval track has no released pool.",
+    "sources": [
+      "https://arxiv.org/abs/2609.32318",
+      "https://github.com/shawnzhg/LitReview-SCRIBE",
+      "https://api.github.com/repos/shawnzhg/LitReview-SCRIBE/contents/LICENSE",
+      "https://huggingface.co/datasets/shawnzhg/BioLitBench",
+      "https://huggingface.co/datasets/shawnzhg/BioLitBench/raw/v1.0/README.md"
+    ],
+    "id": "asa-biolitbench",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "SRHarness",
+    "aliases": [
+      "sr-harness"
+    ],
+    "category": "physics",
+    "domain": "Scientific equation discovery (agentic symbolic regression)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.35501"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/tsinghua-fib-lab/SRHarness"
+      },
+      {
+        "label": "GitHub (upstream)",
+        "url": "https://github.com/yuzhTHU/SRHarness"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Tabular observational data, optionally with scientific descriptions of the variables, plus an LLM backbone",
+    "outputs": "Candidate symbolic formulas with fit metrics, complexity, Pareto rankings and search provenance",
+    "autonomy": "A3",
+    "notes": "Tsinghua University runtime for agentic symbolic regression (PyPI package sr-harness). An LLM agent analyses data, fits and evaluates candidate formulas, runs code and manages long search trajectories with persistent hypothesis state, up to formula submission. With the same DeepSeek backbone the authors report 93.69% symbolic accuracy on LLM-SRBench LSR-Transform versus 62.16% for SR-Scientist, which they re-ran themselves. The paper names the tsinghua-fib-lab repository, a fork of the first author's yuzhTHU/SRHarness; the upstream carries the PyPI releases and newer code. MIT licence. Closure is computational on benchmark and synthetic data; the optional WebUI also accepts human guidance.",
+    "sources": [
+      "https://arxiv.org/abs/2609.35501",
+      "https://arxiv.org/html/2609.35501v2",
+      "https://github.com/tsinghua-fib-lab/SRHarness",
+      "https://github.com/yuzhTHU/SRHarness",
+      "https://api.github.com/repos/tsinghua-fib-lab/SRHarness/contents/LICENSE",
+      "https://pypi.org/pypi/sr-harness/json"
+    ],
+    "id": "asa-srharness",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "BioDesignBench",
+    "category": "benchmark",
+    "domain": "Computational protein design by tool-augmented LLM agents (antibodies, enzymes, fluorescent proteins, binders, scaffolds)",
+    "paper_links": [
+      {
+        "label": "bioRxiv",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.05.06.723381v2"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/RomeroLab/BioDesignBench"
+      },
+      {
+        "label": "Hugging Face leaderboard",
+        "url": "https://huggingface.co/spaces/RomeroLab-Duke/BioDesignBench-Leaderboard"
+      }
+    ],
+    "access": "platform",
+    "inputs": "76 expert-curated protein-design tasks drawn from 2024-2026 literature, solved through 17 MCP design and evaluation tools (e.g. RFdiffusion, ProteinMPNN, Boltz-2); task specifications are held privately",
+    "outputs": "100-point hybrid score (algorithmic metrics with Boltz-2 verification plus LLM-judge rubric) and behavioural metrics from tool-use traces, such as tool coverage and evaluation depth per candidate",
+    "autonomy": "B",
+    "notes": "Duke University (Romero Lab) benchmark, bioRxiv preprint (v2, June 2026), comparing frontier LLM agents with human experts and a hardcoded pipeline; the paper finds agents choose suitable tools but evaluate candidates far less deeply than experts. To prevent contamination, task specifications, inputs and ground truth are not public: new agents are scored by submission to the Hugging Face leaderboard, and per-task data is offered under a data use agreement. The harness, reference agents, scoring code and leaderboard backend are public under a permissive licence: the repository LICENSE file is Apache-2.0, while the README, the paper and the leaderboard Space card state MIT. All evaluations are in silico.",
+    "sources": [
+      "https://api.biorxiv.org/details/biorxiv/10.64898/2026.05.06.723381",
+      "https://www.biorxiv.org/content/10.64898/2026.05.06.723381v2",
+      "https://github.com/RomeroLab/BioDesignBench",
+      "https://api.github.com/repos/RomeroLab/BioDesignBench/contents/LICENSE",
+      "https://huggingface.co/spaces/RomeroLab-Duke/BioDesignBench-Leaderboard",
+      "https://github.com/RomeroLab/BioDesignBench/blob/main/LICENSE"
+    ],
+    "access_evidence": {
+      "software_license": "Harness, scoring and leaderboard code under a permissive licence: repository LICENSE file Apache-2.0 (GitHub-detected); README 'License' section, paper Code availability and HF Space card state MIT. Benchmark tasks, inputs and ground truth not released; scored only via hosted leaderboard submission, or per-task data under a data use agreement (checked 2026-11-06)",
+      "commercial_use": true,
+      "source_url": "https://github.com/RomeroLab/BioDesignBench/blob/main/LICENSE"
+    },
+    "id": "asa-biodesignbench",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "PRAXIS-VirtualCell",
+    "category": "biology",
+    "domain": "Agentic virtual-cell perturbation experiments (E. coli gene knockout growth, yeast deletion fitness, K562 genetic-perturbation expression response)",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.29221"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub (first-author account; not cited in the preprint)",
+        "url": "https://github.com/NHNQNHNQ/PRAXIS-Virtualcell"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Natural-language biological questions or structured experiment requests naming the cell system, perturbation and readout",
+    "outputs": "Predictions from registered task-specific models or structured abstention, with run reports, execution traces and provenance records",
+    "autonomy": "A3",
+    "notes": "Framework from Shandong University (Zhenyu Ma, Xukai Jiang) that sorts virtual-cell data, models, perturbations, adapters and validation evidence into one runtime. Agents parse questions, route data and models and build virtual experiments, while numbers come only from registered predictors and unsupported requests get structured abstention. Closure is in silico only, with no laboratory loop. Reported agreement is modest (median condition-level Spearman rho about 0.22 on a microbial benchmark). The code is MIT-licensed, but large datasets, trained assets and the full microbial benchmark pipelines are not packaged, and the preprint itself does not link the repository. Unrelated to the protein-engineering PRAXIS (asa-praxis).",
+    "sources": [
+      "https://arxiv.org/abs/2609.29221",
+      "https://arxiv.org/pdf/2609.29221",
+      "https://github.com/NHNQNHNQ/PRAXIS-Virtualcell",
+      "https://api.github.com/repos/NHNQNHNQ/PRAXIS-Virtualcell/license",
+      "https://api.github.com/repos/NHNQNHNQ/PRAXIS-Virtualcell/contents/CITATION.cff"
+    ],
+    "id": "asa-praxis-virtualcell",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "TrialAtlas",
+    "aliases": [
+      "TrialAtlasBench"
+    ],
+    "category": "biology",
+    "domain": "Clinical development planning: trial design deficiency detection, protocol optimisation and technical/regulatory success prediction",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.21859"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/linjc16/trialatlas"
+      },
+      {
+        "label": "Hugging Face (TrialAtlasBench)",
+        "url": "https://huggingface.co/datasets/linjc16/TrialAtlasBench"
+      }
+    ],
+    "access": "source-available",
+    "inputs": "A structured clinical trial design description, plus ClinicalTrials.gov, PubMed/PubTator and openFDA (complete response letters, Drugs@FDA, labels) retrieved by tools",
+    "outputs": "Design-deficiency assessments, recommended protocol optimisations and a binary regulatory-approval (technical and regulatory success) prediction, with structured outputs from each agent",
+    "autonomy": "A3",
+    "notes": "Memory-augmented multi-agent 'research organization' from UIUC and Keiji AI (Jimeng Sun group). A Director agent coordinates competing-trial, literature-synthesis and drug-benchmarking departments, whose working agents call domain APIs and a Docker code sandbox and draw on a memory of regulatory precedent. It was evaluated on TrialAtlasBench (from 291 FDA complete response letters; 36/35/104 items across three tasks), and experts judged 86.4% of generated concerns valid. The success prediction is a discrete label, not a calibrated probability. No prospective use is reported. The repository is public but has no licence file (README licence section is a TODO), while the benchmark data on Hugging Face are CC BY-4.0. The default backbone is GPT-5 via Azure OpenAI; the other supported backends are also commercial LLM APIs.",
+    "sources": [
+      "https://arxiv.org/abs/2609.21859",
+      "https://arxiv.org/html/2609.21859",
+      "https://github.com/linjc16/trialatlas",
+      "https://api.github.com/repos/linjc16/trialatlas/license",
+      "https://huggingface.co/datasets/linjc16/TrialAtlasBench"
+    ],
+    "access_evidence": {
+      "software_license": "None: public repository with no licence file; README License section contains only a TODO placeholder at verification (2026-11-06). Benchmark data on Hugging Face: CC-BY-4.0",
+      "commercial_use": false,
+      "source_url": "https://api.github.com/repos/linjc16/trialatlas/license"
+    },
+    "id": "asa-trialatlas",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "Genetic disease severity classification agent (HPO)",
+    "aliases": [
+      "hpo-classification-agent"
+    ],
+    "category": "biology",
+    "domain": "Evidence-based severity classification of Human Phenotype Ontology terms and genes for reproductive genetic carrier screening",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.19569"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/T0hid/hpo-classification-agent"
+      },
+      {
+        "label": "Zenodo archive",
+        "url": "https://doi.org/10.5281/zenodo.19904041"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "Lists of HPO term IDs, the HPO ontology file, ACMG-endorsed severity tiers and ACOG quality-of-life criteria, with PubMed/MeSH evidence retrieved through NCBI E-utilities",
+    "outputs": "Per-term severity tiers, quality-of-life and management profiles with cited reasoning traces, LLM-based claim-support scores and gene-level severity tables",
+    "autonomy": "A3",
+    "notes": "ReAct plus retrieval-augmented agent (GPT-4o core model) from UNSW Sydney with University of Pittsburgh and other collaborators. It classified 10,211 HPO terms against ACMG and ACOG criteria, reporting 93.55% accuracy against expert-curated cohorts and 95.2% concordance with the Mackenzie's Mission gene list. Each term passes through contextualisation, query generation, PubMed retrieval, a conditional search expansion when evidence is sparse, and classification; a separate LLM agent then checks each cited claim and flagged 11.4% of classifications for human review. No experimental loop. The code is MIT-licensed and archived on Zenodo, but the public prompt is only a structural template: the production prompt is licensed to UNSW Sydney and available to reviewers or under an MTA, and the full per-term output is not redistributed, so the reported results cannot be fully reproduced from the open code.",
+    "sources": [
+      "https://arxiv.org/abs/2609.19569",
+      "https://arxiv.org/pdf/2609.19569",
+      "https://github.com/T0hid/hpo-classification-agent",
+      "https://api.github.com/repos/T0hid/hpo-classification-agent/license",
+      "https://zenodo.org/api/records/19904041",
+      "https://doi.org/10.5281/zenodo.19904041"
+    ],
+    "id": "asa-genetic-disease-severity-classification-agent",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "PaleoRigor",
+    "category": "biology",
+    "domain": "Bounded preparation of paleomicrobiome and ancient-DNA sequencing data for specialist analysis",
+    "paper_links": [
+      {
+        "label": "bioRxiv",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755547v2"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Verture-Liu/PaleoRigor"
+      },
+      {
+        "label": "Zenodo (v0.2.3)",
+        "url": "https://doi.org/10.5281/zenodo.23883541"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A natural-language research request with uploaded metadata tables, sequencing files (FASTA/FASTQ), peptide tables or public repository accessions",
+    "outputs": "A validated ordered workflow, checked and processed files, source-record comparisons, a report, and an exported run record with plan, intermediate files, checksums and any named refusal reason",
+    "autonomy": "A3",
+    "notes": "Huazhong University of Science and Technology (Ning lab) system, with University of Sydney and Yunnan University co-authors, delivered as macOS and Windows desktop applications that bundle seven local tools including Samtools, BWA and Bowtie 2. A language model (DeepSeek in the reported runs) drafts the workflow; a validator checks file references, formats and step dependencies, execution is limited to a fixed registry of local skills, and a planning contract makes the agent refuse out-of-scope requests with a named reason code. The paper describes expert checkpoints for plan review, run approval and result audit; the preregistered frozen evaluation (24 runs per model configuration, 23/24 and 24/24 passes) ran without the review step. It prepares data only: ancient-DNA authentication and biological interpretation stay with the paleobiologist. Source code is MIT; bundled third-party tools keep their own licences, several GPL-3.0.",
+    "sources": [
+      "https://www.biorxiv.org/content/10.64898/2026.09.30.755547v2",
+      "https://www.biorxiv.org/content/10.64898/2026.09.30.755547v2.full.pdf",
+      "https://github.com/Verture-Liu/PaleoRigor",
+      "https://github.com/Verture-Liu/PaleoRigor/blob/main/LICENSE",
+      "https://doi.org/10.5281/zenodo.23883541"
+    ],
+    "id": "asa-paleorigor",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "EMET",
+    "aliases": [
+      "Emet AI Research Environment",
+      "Evidence Mapping and Exploratory Tool"
+    ],
+    "category": "biology",
+    "domain": "Preclinical drug-discovery research: disease biology, target identification and target-combination hypotheses",
+    "paper_links": [
+      {
+        "label": "bioRxiv (LUSC target-combination study)",
+        "url": "https://www.biorxiv.org/content/10.64898/2026.09.04.749404v2"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "Platform (BenchSci)",
+        "url": "https://www.benchsci.com/platform"
+      },
+      {
+        "label": "EMET sign-in",
+        "url": "https://emet.benchsci.com/"
+      }
+    ],
+    "access": "platform",
+    "inputs": "Scientist research questions and disease context; the platform has a proprietary biomedical knowledge graph of more than 1.5 billion triples linked to over 100 biological databases, plus models, tools and code execution",
+    "outputs": "Ranked, mechanism-annotated target and target-combination hypotheses with retrieved evidence and provenance, kept in persistent memory across search rounds",
+    "autonomy": "A3",
+    "notes": "BenchSci's commercial, proprietary agentic research environment for preclinical R&D, offered as a hosted product with a free trial, a limited free academic tier and enterprise pilots. In a company-authored, non-peer-reviewed bioRxiv preprint, its Agentic Research Director, which BenchSci sells as the Hypothesis Generation Agent, ran multi-round graph-of-thoughts searches over the knowledge graph with link-prediction and retrieval tools and ranked two-target combinations for lung squamous cell carcinoma. The authors picked four combinations after internal vetting of the 20 top-ranked candidates. Pharmaron tested them in vitro under contract, using protocols the authors designed. Two of the four gave combination effects, including CDC7 plus PKMYT1 synergy in two cell lines. The system did not run the experiments; the lab-in-the-loop and self-driving-lab connectivity advertised on the product pages was not demonstrated in the study.",
+    "sources": [
+      "https://www.biorxiv.org/content/10.64898/2026.09.04.749404v2.full",
+      "https://www.benchsci.com/news/introducing-the-hypothesis-generation-agent",
+      "https://www.benchsci.com/platform",
+      "https://www.benchsci.com/news/the-fragmented-nightmare-of-modern-drug-discovery-ends-here-we-ve-been-building-emet-for-a",
+      "https://www.benchsci.com/pricing",
+      "https://emet.benchsci.com/",
+      "https://www.biorxiv.org/content/10.64898/2026.09.04.749404v2"
+    ],
+    "id": "asa-emet",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
+  },
+  {
+    "name": "PEN-STACK",
+    "category": "biology",
+    "domain": "Genome-writing design: insertion-site, writer-enzyme, cargo and delivery planning with off-target and biosecurity screening",
+    "paper_links": [
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2608.20412"
+      }
+    ],
+    "repo_links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmedanees-m/pen-stack"
+      },
+      {
+        "label": "PyPI",
+        "url": "https://pypi.org/project/pen-stack/"
+      }
+    ],
+    "access": "open-source",
+    "inputs": "A genome-writing goal and edit intent (free text resolved to a typed WriteSpec), target gene or locus, cell type and cargo size, sent through the CLI, Python SDK, MCP server or REST API, with any LLM as the optional driver",
+    "outputs": "Ranked, cited site, writer, cargo and delivery write plans with calibrated confidence, per-mechanism off-target screens, biosecurity verdicts, scope ledgers and draft protocols that are never auto-run",
+    "autonomy": "A2-A3",
+    "notes": "Open tool layer and co-scientist agent for genome-writing design, by Anees Ahmed Mahaboob Ali, Radhakrishnan Delhibabu and Everette Jacob Remington Nelson (all Vellore Institute of Technology). MIT-licensed, distributed on GitHub, PyPI (0.2.0) and Zenodo (concept DOI 10.5281/zenodo.21787136). It exposes ten design stages as twenty-two scope-aware tools over an SDK, an MCP server and a REST API, under an invariant that every reported quantity must come from a validated tool rather than a language model. In the preprint, three model families without tools supplied unsourced values for 90.8-98.8% of 240 required quantities, and supplied none when driving the tools; the grounded arm was only a four-goal audit, and eight of ten pre-registered claims did not pass (reported as machine-readable flags). The expression-robustness axis validated at exact-site resolution but not at the coarser default resolution. The design-build-test-learn loop runs in silico against a simulated lab and pauses for human approval at the safety, build and belief-admission gates; protocols are drafts and no physical experiment was run (autonomy level 3 on the Beal and Rogers scale, per docs/autonomy.md and the paper). The companion BioFirewall biosecurity middleware (arXiv 2608.20413; Apache-2.0 repository) is a governance component, not a separate row. Young single-group project, 3 GitHub stars at review, no external adopters reported in the paper.",
+    "sources": [
+      "https://arxiv.org/abs/2608.20412",
+      "https://arxiv.org/pdf/2608.20412v1",
+      "https://github.com/ahmedanees-m/pen-stack",
+      "https://pypi.org/project/pen-stack/",
+      "https://zenodo.org/api/records/21787137",
+      "https://arxiv.org/abs/2608.20413",
+      "https://github.com/ahmedanees-m/bio-firewall"
+    ],
+    "id": "asa-pen-stack",
+    "date_added": "2026-11-06",
+    "verified": "2026-11-06"
   }
 ]
